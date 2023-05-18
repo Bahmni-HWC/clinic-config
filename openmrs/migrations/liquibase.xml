@@ -164,11 +164,7 @@
             UPDATE concept_numeric SET units = "INR" WHERE concept_id = @reg_fees_id;
         </sql>
     </changeSet> -->
-    <include file ="addLabRoleWithPrivilege.xml"/>
     <include file ="addObsPathSplitterProperty.xml"/>
     <include file ="addMoreObsSplitterProperty.xml"/>
     <include file ="addMultiSelectObsSplitterProperty.xml"/>
-    <!-- <include file ="loginRolesAndPrivileges.xml"/>
-    <include file ="registrationAndSearchPrivileges.xml"/>
-    <include file ="clinicalPrivileges.xml"/> -->
 </databaseChangeLog>
