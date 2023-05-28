@@ -13,4 +13,5 @@ FROM
             INNER JOIN visit_type vt ON vt.visit_type_id = v.visit_type_id
         WHERE
             CONVERT_TZ(v.date_started, '+00:00', '+5:30') BETWEEN '#startDate#' AND '#endDate#'
-    ) AS raw_result;
+    ) 
+AS raw_result;

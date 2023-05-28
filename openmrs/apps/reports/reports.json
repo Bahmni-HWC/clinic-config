@@ -20,7 +20,15 @@
     "type": "MRSGeneric",
     "requiredPrivilege": "app:reports",
     "config": {
-      "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/opdVisitCountAboveThirty.sql"
+      "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/visitCountAboveThirty.sql"
+    }
+  },
+  "FemaleOPDVisitsCountAboveThirty": {
+    "name": "OPD Visit Count For Female Patients Above 30",
+    "type": "MRSGeneric",
+    "requiredPrivilege": "app:reports",
+    "config": {
+      "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/femaleVisitCountAboveThirty.sql"
     }
   },
   "RegisteredPatientReport": {
