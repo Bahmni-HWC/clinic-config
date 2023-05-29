@@ -16,7 +16,7 @@
     }
   },
   "OPDVisitsCountAboveThirty": {
-    "name": "OPD Visit Count For Patients Above 30",
+    "name": "OPD Visit Count For Patients Above The Age Of 30",
     "type": "MRSGeneric",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -24,7 +24,7 @@
     }
   },
   "FemaleOPDVisitsCountAboveThirty": {
-    "name": "OPD Visit Count For Female Patients Above 30",
+    "name": "OPD Visit Count For Female Patients Above The Age Of 30",
     "type": "MRSGeneric",
     "requiredPrivilege": "app:reports",
     "config": {
