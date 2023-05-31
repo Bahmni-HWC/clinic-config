@@ -245,19 +245,6 @@ angular.module('bahmni.common.displaycontrol.custom')
                     withCredentials: true
                 });
             };
-            var getReferralLocation = function () {
-                var params = {
-                    operator: "ALL",
-                    s: "byTags",
-                    tags: 'Referral Location',
-                    v: 'custom:(id,name)'
-                };
-                return $http.get('/openmrs/ws/rest/v1/location', {
-                    method: "GET",
-                    params: params,
-                    withCredentials: true
-                });
-            };
             var getAttributeValue = function (attributeList,attributeFieldValue) {
                  var selectedAttribute = attributeList.find(attribute =>
                                             (!attribute.voided) && attribute.attributeType.display === attributeFieldValue
@@ -286,11 +273,10 @@ angular.module('bahmni.common.displaycontrol.custom')
                                 ? 1 : ((b) > a) ? -1 : 0;
             }
 
-            $q.all([getLoggedInUser(), getVisits(), getClinicLocation(),getReferralLocation()]).then(function (response) {
+            $q.all([getLoggedInUser(), getVisits(), getClinicLocation()]).then(function (response) {
                 var data = response[0].data;
                 var observationData = response[1].data;
                 var locationsData = response[2].data;
-                var locationsReferralData = response[3].data;
                 var personDetails;
 
                if (data.results.length > 0) {
@@ -311,11 +297,16 @@ angular.module('bahmni.common.displaycontrol.custom')
                         if (observationsValue.length > 0) {
                             var formObservations = formNames.map(form => {
                                 var formObservation = {};
-                                (getLatestEncounterForForm(observationsValue.filter(item => item.formFieldPath && item.formFieldPath.includes(form)), form).forEach(eachObservation => (formObservation[eachObservation.concept.name] = (isNaN(eachObservation.valueAsString) ? eachObservation.valueAsString : parseFloat(eachObservation.valueAsString)))));
-                                return formObservation
+                                getLatestEncounterForForm(observationsValue.filter(item => item.formFieldPath && item.formFieldPath.includes(form)), form).forEach(eachObservation => {
+                                        if (eachObservation.complexData === null) {
+                                            formObservation[eachObservation.concept.name] = isNaN(eachObservation.valueAsString) ? eachObservation.valueAsString : parseFloat(eachObservation.valueAsString);
+                                        } else {
+                                            formObservation[eachObservation.concept.name] = eachObservation.complexData.display;
+                                        }
+                                    });
+                                    return formObservation;
                             });
                             $scope.formFieldValues = formObservations;
-                            $scope.formFieldValues[2]['Referred to'] = locationsReferralData.results.filter((locations) => locations.id === formObservations[2]['Referred to'])[0].name;
                         }
                     });
                 }
