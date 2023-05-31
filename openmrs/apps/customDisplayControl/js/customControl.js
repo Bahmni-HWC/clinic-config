@@ -298,10 +298,10 @@ angular.module('bahmni.common.displaycontrol.custom')
                             var formObservations = formNames.map(form => {
                                 var formObservation = {};
                                 getLatestEncounterForForm(observationsValue.filter(item => item.formFieldPath && item.formFieldPath.includes(form)), form).forEach(eachObservation => {
-                                        if (eachObservation.complexData === null) {
-                                            formObservation[eachObservation.concept.name] = isNaN(eachObservation.valueAsString) ? eachObservation.valueAsString : parseFloat(eachObservation.valueAsString);
-                                        } else {
+                                        if (eachObservation.type === "Complex") {
                                             formObservation[eachObservation.concept.name] = eachObservation.complexData.display;
+                                        } else {
+                                            formObservation[eachObservation.concept.name] = isNaN(eachObservation.valueAsString) ? eachObservation.valueAsString : parseFloat(eachObservation.valueAsString);
                                         }
                                     });
                                     return formObservation;
