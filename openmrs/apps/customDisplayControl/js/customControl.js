@@ -298,13 +298,21 @@ angular.module('bahmni.common.displaycontrol.custom')
                             var formObservations = formNames.map(form => {
                                 var formObservation = {};
                                 getLatestEncounterForForm(observationsValue.filter(item => item.formFieldPath && item.formFieldPath.includes(form)), form).forEach(eachObservation => {
-                                        if (eachObservation.type === "Complex") {
-                                            formObservation[eachObservation.concept.name] = eachObservation.complexData.display;
+                                    const processObservation = (observation) => {
+                                        if (observation.type === "Complex") {
+                                            formObservation[observation.concept.name] = observation.complexData.display;
                                         } else {
-                                            formObservation[eachObservation.concept.name] = isNaN(eachObservation.valueAsString) ? eachObservation.valueAsString : parseFloat(eachObservation.valueAsString);
+                                            formObservation[observation.concept.name] = isNaN(observation.valueAsString) ? observation.valueAsString : parseFloat(observation.valueAsString);
                                         }
-                                    });
-                                    return formObservation;
+                                    };
+                                    if (eachObservation.groupMembers.length > 0) {
+                                        eachObservation.groupMembers.forEach(eachMembers => {
+                                            processObservation(eachMembers);
+                                        });
+                                    }
+                                    processObservation(eachObservation);
+                                });
+                                return formObservation;
                             });
                             $scope.formFieldValues = formObservations;
                         }
