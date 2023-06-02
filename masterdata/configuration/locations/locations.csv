@@ -1,6 +1,6 @@
 Uuid,Void/Retire,Name,Description,Parent,Attribute|LGD Code,Attribute|Facility to be Reffered,Tags,Address 1,Address 2,Address 3,Address 4,Address 5,Address 6,City/Village,County/District,State/Province,Postal Code,Country
-,,Hosakote UPHC,,,5604,Bengaluru Rural District Hospital,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,,BENGALURU RURAL,KARNATAKA,,
-,,Hosakote Nama Clinic,,,5604,Hosakote UPHC,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,,BENGALURU RURAL,KARNATAKA,,
-,,Nandagudi SC1,,,625550,Hosakote UPHC,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,NANDAGUDI,BENGALURU RURAL,KARNATAKA,,
-,,Nandagudi SC2,,,625550,Hosakote UPHC,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,NANDAGUDI,BENGALURU RURAL,KARNATAKA,,
-,,Anupahalli SC1,,,625470,Hosakote UPHC,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,ANUPAHALLI,BENGALURU RURAL,KARNATAKA,,
+4ccfb300-009f-11ee-be56-0242ac120002,,Hosakote UPHC,,,5604,Bengaluru Rural District Hospital,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,,BENGALURU RURAL,KARNATAKA,,
+55d089fc-009f-11ee-be56-0242ac120002,,Hosakote Nama Clinic,,,5604,Hosakote UPHC,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,,BENGALURU RURAL,KARNATAKA,,
+61a5817e-009f-11ee-be56-0242ac120002,,Nandagudi SC1,,,625550,Hosakote UPHC,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,NANDAGUDI,BENGALURU RURAL,KARNATAKA,,
+6a5a392c-009f-11ee-be56-0242ac120002,,Nandagudi SC2,,,625550,Hosakote UPHC,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,NANDAGUDI,BENGALURU RURAL,KARNATAKA,,
+71d443d2-009f-11ee-be56-0242ac120002,,Anupahalli SC1,,,625470,Hosakote UPHC,Login Location; Visit Location; Facility,,,,HOSAKOTE,,,ANUPAHALLI,BENGALURU RURAL,KARNATAKA,,

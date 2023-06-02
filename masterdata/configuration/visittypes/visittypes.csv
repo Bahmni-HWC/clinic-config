@@ -2,3 +2,4 @@ Uuid,Void/Retire,Name,Description,_version:1
 ,,OPD New,New Visit for Out patient,
 ,,OPD Review,Review Visit for Out patient,
 ,True,LAB VISIT,Visits for lab visit by patient when the tests are not ordered through OpenMRS,
+d57ff862-dda2-41ff-b607-9dd97a5e3039,,Community Visit,Visits happening in Community from Avni,
