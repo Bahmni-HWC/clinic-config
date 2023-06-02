@@ -358,4 +358,21 @@
             1, now(), NULL, NULL, NULL, uuid());
         </sql>
     </changeSet>
+
+    <!-- TODO: This changeset is temporary and to be deleted when Avni Bahmni User mapping is done -->
+    <changeSet id="avni-integration-010620232152" author="Mohan">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                select count(*) from users where username='avni_integrator';
+            </sqlCheck>
+        </preConditions>
+        <comment>Adding provider to be used for Avni Integration</comment>
+        <sql>
+            SET @puuid = uuid();
+            INSERT INTO person(gender, birthdate_estimated, dead, creator, date_created, uuid) VALUES('M', 0, 0, 1, now(), @puuid);
+            SELECT person_id INTO @person_id from person where uuid = @puuid;
+            INSERT INTO person_name(person_id, preferred, given_name, family_name, creator, date_created, uuid) VALUES(@person_id, 1, 'Avni', 'Integrator', 1, now(), @puuid);
+            INSERT INTO provider (person_id, identifier, creator, date_created, uuid, name) VALUES (@person_id, 'avniintegrator', 1, now(), '36313e2c-0098-11ee-be56-0242ac120002', 'avniintegrator');
+        </sql>
+    </changeSet>
 </databaseChangeLog>

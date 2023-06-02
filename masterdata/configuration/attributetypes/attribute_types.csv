@@ -1,3 +1,5 @@
 Uuid,Void/Retire,Entity name,Name,Description,Min occurs,Max occurs,Datatype classname,Datatype config,Preferred handler classname,Handler config,_order:1000
 ,,Location,LGD Code,LGD Code of location.,0,,org.openmrs.customdatatype.datatype.FloatDatatype,,,,
 ,,Location,Facility to be Reffered,Name of the Facility to which the patients needs to be reffered to.,0,,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
+164940ee-00a4-11ee-be56-0242ac120002,,Visit,Avni UUID,Stores UUID from Avni,0,,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
+a6cfce26-00a4-11ee-be56-0242ac120002,,Visit,Avni Date,Stores date from Avni,0,,org.openmrs.customdatatype.datatype.DateDatatype,,,,
