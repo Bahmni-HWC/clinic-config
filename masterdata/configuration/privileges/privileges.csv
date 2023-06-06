@@ -1,3 +1,4 @@
 Uuid,Privilege name,Description
 ,app:atomfeed-console,Able to access atomfeed console.
 ,Send SMS,Privilege to send SMS
+,app:referrals,Able to access referral patients.

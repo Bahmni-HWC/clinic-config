@@ -25,6 +25,20 @@
     "order": 1,
     "requiredPrivilege": "app:clinical"
   },
+  "bahmniClinicalPatientsSearchAllReferredPatients": {
+    "id": "bahmni.clinical.patients.search.allReferredPatients",
+    "extensionPointId": "org.bahmni.patient.search",
+    "type": "config",
+    "extensionParams": {
+      "searchHandler": "emrapi.sqlSearch.referredPatients",
+      "translationKey": "MODULE_LABEL_REFERRAL_KEY",
+      "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard",
+      "searchColumns": ["identifier", "name", "extraIdentifierVal"]
+    },
+    "label": "Referrals",
+    "order": 6,
+    "requiredPrivilege": "app:referrals"
+  },
   "observations": {
     "id": "bahmni.clinical.consultation.observations",
     "extensionPointId": "org.bahmni.clinical.consultation.board",
