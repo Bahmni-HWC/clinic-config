@@ -89,6 +89,7 @@
   "DASHBOARD_TELECON_KEY": "Teleconsultation",
   "DASHBOARD_JOIN_TELECON_KEY": "Join teleconsultation",
   "phoneNumber": "Phone No",
+  "father/motherName":"Father/Mother's Name",
   "ABHA Address":"ABHA ID",
 
   "DASHBOARD_TAB_PRINT": "Print",
