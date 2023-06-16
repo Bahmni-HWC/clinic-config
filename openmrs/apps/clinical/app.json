@@ -22,10 +22,12 @@
         },
         "patientContext": {
             "personAttributes": [
-                "phoneNumber"
+                "phoneNumber",
+                "father/motherName"
             ],
             "additionalPatientIdentifiers": [
                 "ABHA Address"
+
             ]
         }
     }

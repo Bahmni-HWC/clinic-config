@@ -375,4 +375,51 @@
             INSERT INTO provider (person_id, identifier, creator, date_created, uuid, name) VALUES (@person_id, 'avniintegrator', 1, now(), '36313e2c-0098-11ee-be56-0242ac120002', 'avniintegrator');
         </sql>
     </changeSet>
+
+    <!--Adding RCH ID-->
+    <changeSet id="Adding-RCH-ID-IdentifierType-GOK-157"  author="Pooja">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">select count(*) from patient_identifier_type where name='RCH ID'</sqlCheck>
+        </preConditions>
+        <comment>Adding RCH ID Identifier type</comment>
+        <sql>
+            insert into patient_identifier_type( name, description,creator, uuid, uniqueness_behavior, location_behavior, date_created) Select 'RCH ID','RCH ID identifier type',creator,3766473c-0c29-11ee-be56-0242ac120002,'UNIQUE','NOT_USED',now() from users where username='admin';
+        </sql>
+    </changeSet>
+
+    <!--Adding Nikshay ID-->
+    <changeSet id="Adding-Nikshay-ID-IdentifierType-GOK-157"  author="Pooja">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">select count(*) from patient_identifier_type where name='Nikshay ID'</sqlCheck>
+        </preConditions>
+        <comment>Adding Nikshay ID Identifier type</comment>
+        <sql>
+            insert into patient_identifier_type( name, description,creator, uuid, uniqueness_behavior, location_behavior, date_created) Select 'Nikshay ID','Nikshay ID identifier type',creator,45bcdf58-0c29-11ee-be56-0242ac120002,'UNIQUE','NOT_USED',now() from users where username='admin';
+        </sql>
+    </changeSet>
+
+    <!-- Updating RCH ID-->
+    <changeSet id="updating-RCH-ID-globalProperty-GOK-157"  author="Pooja">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">select count(*) from patient_identifier_type where name='RCH ID'</sqlCheck>
+            <sqlCheck expectedResult="0">select count(*) from global_property where property = 'bahmni.extraPatientIdentifierTypes' and property_value LIKE CONCAT('%', (Select uuid from patient_identifier_type where name = 'RCH ID'))</sqlCheck>
+        </preConditions>
+        <comment>Updating global property for RCH ID</comment>
+        <sql>
+            update global_property set property_value=(SELECT CONCAT(IF(ISNULL(property_value),'',CONCAT(property_value,',')),uuid) from patient_identifier_type where name = 'RCH ID') where property = 'bahmni.extraPatientIdentifierTypes';
+        </sql>
+    </changeSet>
+
+    <!-- Updating Nikshay ID-->
+    <changeSet id="updating-Nikshay-ID-globalProperty-GOK-157"  author="Pooja">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">select count(*) from patient_identifier_type where name='Nikshay ID'</sqlCheck>
+            <sqlCheck expectedResult="0">select count(*) from global_property where property = 'bahmni.extraPatientIdentifierTypes' and property_value LIKE CONCAT('%', (Select uuid from patient_identifier_type where name = 'Nikshay ID'))</sqlCheck>
+        </preConditions>
+        <comment>Updating global property for Nikshay ID</comment>
+        <sql>
+            update global_property set property_value=(SELECT CONCAT(IF(ISNULL(property_value),'',CONCAT(property_value,',')),uuid) from patient_identifier_type where name = 'Nikshay ID') where property = 'bahmni.extraPatientIdentifierTypes';
+        </sql>
+    </changeSet>
+
 </databaseChangeLog>
