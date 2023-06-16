@@ -383,7 +383,7 @@
         </preConditions>
         <comment>Adding RCH ID Identifier type</comment>
         <sql>
-            insert into patient_identifier_type( name, description,creator, uuid, uniqueness_behavior, location_behavior, date_created) Select 'RCH ID','RCH ID identifier type',creator,uuid(),'UNIQUE','NOT_USED',now() from users where username='admin';
+            insert into patient_identifier_type( name, description,creator, uuid, uniqueness_behavior, location_behavior, date_created) Select 'RCH ID','RCH ID identifier type',creator,3766473c-0c29-11ee-be56-0242ac120002,'UNIQUE','NOT_USED',now() from users where username='admin';
         </sql>
     </changeSet>
 
@@ -394,7 +394,7 @@
         </preConditions>
         <comment>Adding Nikshay ID Identifier type</comment>
         <sql>
-            insert into patient_identifier_type( name, description,creator, uuid, uniqueness_behavior, location_behavior, date_created) Select 'Nikshay ID','Nikshay ID identifier type',creator,uuid(),'UNIQUE','NOT_USED',now() from users where username='admin';
+            insert into patient_identifier_type( name, description,creator, uuid, uniqueness_behavior, location_behavior, date_created) Select 'Nikshay ID','Nikshay ID identifier type',creator,45bcdf58-0c29-11ee-be56-0242ac120002,'UNIQUE','NOT_USED',now() from users where username='admin';
         </sql>
     </changeSet>
 
