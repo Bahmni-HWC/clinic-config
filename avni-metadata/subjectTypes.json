@@ -1,0 +1,17 @@
+[ {
+  "name" : "Patient",
+  "uuid" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "active" : true,
+  "type" : "Person",
+  "subjectSummaryRule" : "",
+  "programEligibilityCheckRule" : "",
+  "allowEmptyLocation" : false,
+  "allowMiddleName" : false,
+  "allowProfilePicture" : false,
+  "uniqueName" : false,
+  "shouldSyncByLocation" : true,
+  "group" : false,
+  "household" : false,
+  "directlyAssignable" : false,
+  "voided" : false
+} ]

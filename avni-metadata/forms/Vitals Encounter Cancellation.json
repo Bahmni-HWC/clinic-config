@@ -1,0 +1,7 @@
+{
+  "name" : "Vitals Encounter Cancellation",
+  "uuid" : "1a81bedf-902a-480d-b8ef-cc379d2da8dd",
+  "formType" : "IndividualEncounterCancellation",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

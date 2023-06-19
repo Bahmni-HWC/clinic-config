@@ -1,0 +1,43 @@
+[ {
+  "uuid" : "db9c9afc-9180-490c-bc52-7f8ea8ab19ce",
+  "name" : "KARNATAKA",
+  "level" : 1.0,
+  "type" : "State",
+  "addressLevelTypeUUID" : "cccf9d5f-7e36-4bd3-94ac-31f389998cce"
+}, {
+  "uuid" : "fe9c71da-0251-4f0b-b16e-4d9a81e6d41b",
+  "name" : "BENGALURU RURAL",
+  "level" : 2.0,
+  "parent" : {
+    "uuid" : "db9c9afc-9180-490c-bc52-7f8ea8ab19ce"
+  },
+  "type" : "District",
+  "addressLevelTypeUUID" : "0a35783c-6e42-4575-a76d-3ba479cad112"
+}, {
+  "uuid" : "7b7a587c-f9e3-4f09-b885-675e8e6bdc6a",
+  "name" : "HOSAKOTE",
+  "level" : 3.0,
+  "parent" : {
+    "uuid" : "fe9c71da-0251-4f0b-b16e-4d9a81e6d41b"
+  },
+  "type" : "Sub district",
+  "addressLevelTypeUUID" : "5a1b65a8-936b-4b1c-8287-4889ad2c8605"
+}, {
+  "uuid" : "7807c442-6b21-4bc2-b464-a6c0a6000db1",
+  "name" : "ANUPAHALLI",
+  "level" : 4.0,
+  "parent" : {
+    "uuid" : "7b7a587c-f9e3-4f09-b885-675e8e6bdc6a"
+  },
+  "type" : "City/village",
+  "addressLevelTypeUUID" : "01dab440-583d-44af-8e26-a6616dcf6801"
+}, {
+  "uuid" : "35a58d91-0075-4e6a-b9b4-9b83e7c4105d",
+  "name" : "NANDAGUDI",
+  "level" : 4.0,
+  "parent" : {
+    "uuid" : "7b7a587c-f9e3-4f09-b885-675e8e6bdc6a"
+  },
+  "type" : "City/village",
+  "addressLevelTypeUUID" : "01dab440-583d-44af-8e26-a6616dcf6801"
+} ]
