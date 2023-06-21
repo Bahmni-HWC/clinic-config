@@ -1,0 +1,88 @@
+{
+  "name" : "Referral Encounter",
+  "uuid" : "9e63bf89-9e2a-4a25-abb7-05e281a9c2ca",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "1b4cdaf3-3905-4278-8be1-8917468ac339",
+    "name" : "Referral Form",
+    "displayOrder" : 1.0,
+    "display" : "Referral Form",
+    "formElements" : [ {
+      "name" : "Referred to",
+      "uuid" : "0d5222ed-8cd8-4602-923c-ea6ecff01b0e",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Referred to",
+        "uuid" : "a7692fd5-db45-412a-b2b5-ea8f4d25e8b5",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Bengaluru Rural District Hospital",
+          "uuid" : "015f1e34-8a8c-4c1a-a54f-74722e375e35",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Hosakote UPHC",
+          "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Reason for referral",
+      "uuid" : "2f60a6dc-3585-4297-91ad-e5db05049025",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Reason for referral",
+        "uuid" : "ce3cb868-549f-44d1-b7fa-8caef03b93ab",
+        "dataType" : "Notes",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Relevant clinical history",
+      "uuid" : "4076fe44-c057-4119-aad7-f2b9cfd98177",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Relevant clinical history",
+        "uuid" : "9f05af07-930b-4d8b-ade8-5e734a1747a4",
+        "dataType" : "Notes",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Treatment provided",
+      "uuid" : "00802c2f-00a4-4622-9954-8d6e46f42c98",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Treatment provided",
+        "uuid" : "882b91df-aa41-451f-978c-a33e04943936",
+        "dataType" : "Notes",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

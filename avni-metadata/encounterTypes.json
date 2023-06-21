@@ -10,4 +10,10 @@
   "entityEligibilityCheckRule" : "",
   "active" : true,
   "immutable" : false
+}, {
+  "name" : "Referral",
+  "uuid" : "c92d0147-259a-4dca-bf58-3fe70c5edb51",
+  "entityEligibilityCheckRule" : "",
+  "active" : true,
+  "immutable" : false
 } ]

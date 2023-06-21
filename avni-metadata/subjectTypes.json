@@ -10,8 +10,8 @@
   "allowProfilePicture" : false,
   "uniqueName" : false,
   "shouldSyncByLocation" : true,
-  "group" : false,
   "household" : false,
   "directlyAssignable" : false,
+  "group" : false,
   "voided" : false
 } ]

@@ -1,0 +1,7 @@
+{
+  "name" : "Referral Encounter Cancellation",
+  "uuid" : "1b3de0c7-265e-4ee2-86fd-e6338476620d",
+  "formType" : "IndividualEncounterCancellation",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

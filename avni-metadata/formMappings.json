@@ -42,4 +42,22 @@
   "formType" : "IndividualEncounterCancellation",
   "formName" : "Bahmni Patient Registration Encounter Cancellation",
   "enableApproval" : false
+}, {
+  "uuid" : "785badd8-ddb5-4434-bb6c-b5a9bf8c891c",
+  "id" : 6,
+  "formUUID" : "9e63bf89-9e2a-4a25-abb7-05e281a9c2ca",
+  "encounterTypeUUID" : "c92d0147-259a-4dca-bf58-3fe70c5edb51",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Referral Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "83082049-fb89-4a8c-8ea3-ea6eb8e92f33",
+  "id" : 7,
+  "formUUID" : "1b3de0c7-265e-4ee2-86fd-e6338476620d",
+  "encounterTypeUUID" : "c92d0147-259a-4dca-bf58-3fe70c5edb51",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Referral Encounter Cancellation",
+  "enableApproval" : false
 } ]
