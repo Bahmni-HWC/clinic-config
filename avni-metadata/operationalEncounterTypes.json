@@ -15,5 +15,13 @@
     },
     "name" : "Bahmni Patient Registration",
     "voided" : false
+  }, {
+    "uuid" : "c8865f32-b13d-4893-b3fc-6f687c47e1a7",
+    "encounterType" : {
+      "uuid" : "c92d0147-259a-4dca-bf58-3fe70c5edb51",
+      "voided" : false
+    },
+    "name" : "Referral",
+    "voided" : false
   } ]
 }

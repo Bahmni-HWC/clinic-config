@@ -5,6 +5,11 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "Bengaluru Rural District Hospital",
+  "uuid" : "015f1e34-8a8c-4c1a-a54f-74722e375e35",
+  "dataType" : "NA",
+  "active" : true
+}, {
   "name" : "Diastolic blood pressure",
   "uuid" : "38bbf12b-0360-4558-8dfa-0bac59e3b326",
   "dataType" : "Numeric",
@@ -20,6 +25,11 @@
   "dataType" : "Text",
   "active" : true,
   "keyValues" : [ ]
+}, {
+  "name" : "Hosakote UPHC",
+  "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
+  "dataType" : "NA",
+  "active" : true
 }, {
   "name" : "Nikshay ID",
   "uuid" : "50ee923b-d2d5-42ec-874d-e3ccd9dd4895",
@@ -48,6 +58,30 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "Reason for referral",
+  "uuid" : "ce3cb868-549f-44d1-b7fa-8caef03b93ab",
+  "dataType" : "Notes",
+  "active" : true
+}, {
+  "name" : "Referred to",
+  "uuid" : "a7692fd5-db45-412a-b2b5-ea8f4d25e8b5",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Bengaluru Rural District Hospital",
+    "uuid" : "015f1e34-8a8c-4c1a-a54f-74722e375e35",
+    "order" : 0.0
+  }, {
+    "name" : "Hosakote UPHC",
+    "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Relevant clinical history",
+  "uuid" : "9f05af07-930b-4d8b-ade8-5e734a1747a4",
+  "dataType" : "Notes",
+  "active" : true
+}, {
   "name" : "Respiratory rate",
   "uuid" : "345de932-4d7d-4468-9f3d-a21171d3c8f9",
   "dataType" : "Numeric",
@@ -74,4 +108,9 @@
   "highAbsolute" : 140.0,
   "active" : true,
   "keyValues" : [ ]
+}, {
+  "name" : "Treatment provided",
+  "uuid" : "882b91df-aa41-451f-978c-a33e04943936",
+  "dataType" : "Notes",
+  "active" : true
 } ]
