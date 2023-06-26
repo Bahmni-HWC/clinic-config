@@ -1,0 +1,37 @@
+{
+  "name" : "Bahmni Patient Registration Encounter",
+  "uuid" : "738e7338-11ff-4e41-897b-db9c1e27e75e",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "006cefa2-5fd5-4ad9-be52-3f0648150a7a",
+    "name" : "Bahmni Patient Info",
+    "displayOrder" : 1.0,
+    "display" : "Bahmni Patient Info",
+    "formElements" : [ {
+      "name" : "Phone Number",
+      "uuid" : "566ceb1a-4710-4629-88c5-d2c44caa37f6",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Phone Number (voided~10)",
+        "uuid" : "799681f1-9733-4d6d-8c3b-072afa186572",
+        "dataType" : "PhoneNumber",
+        "answers" : [ ],
+        "active" : true,
+        "keyValues" : [ {
+          "key" : "verifyPhoneNumber",
+          "value" : false
+        } ],
+        "voided" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

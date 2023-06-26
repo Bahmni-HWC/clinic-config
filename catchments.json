@@ -1,0 +1,17 @@
+{
+  "catchments" : [ {
+    "name" : "Anupahalli SC1",
+    "uuid" : "268de78e-b3a4-48f8-843b-8b5530fe0183",
+    "locations" : [ {
+      "uuid" : "7807c442-6b21-4bc2-b464-a6c0a6000db1"
+    } ],
+    "voided" : false
+  }, {
+    "name" : "Nandagudi SC1",
+    "uuid" : "747e8d49-351a-434c-a347-55ddb0db4e92",
+    "locations" : [ {
+      "uuid" : "35a58d91-0075-4e6a-b9b4-9b83e7c4105d"
+    } ],
+    "voided" : false
+  } ]
+}
