@@ -1,7 +1,0 @@
-{
-  "name" : "Bahmni Patient Registration Encounter Cancellation",
-  "uuid" : "9b262744-3ba0-4ad8-a04a-47aab9a0e840",
-  "formType" : "IndividualEncounterCancellation",
-  "formElementGroups" : [ ],
-  "decisionConcepts" : [ ]
-}
