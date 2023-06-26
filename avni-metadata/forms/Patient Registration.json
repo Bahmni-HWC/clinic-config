@@ -74,15 +74,16 @@
       "concept" : {
         "name" : "Phone Number",
         "uuid" : "799681f1-9733-4d6d-8c3b-072afa186572",
-        "dataType" : "PhoneNumber",
+        "dataType" : "Text",
         "answers" : [ ],
         "active" : true,
-        "keyValues" : [ {
-          "key" : "verifyPhoneNumber",
-          "value" : false
-        } ]
+        "keyValues" : [ ]
       },
       "displayOrder" : 5.0,
+      "validFormat" : {
+        "regex" : "^([+]91[1-9]{1}[0-9]{9})$",
+        "descriptionKey" : "+91{10digitnumber}"
+      },
       "type" : "SingleSelect",
       "mandatory" : true
     } ],

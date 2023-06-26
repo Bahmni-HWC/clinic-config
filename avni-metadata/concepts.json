@@ -45,12 +45,9 @@
 }, {
   "name" : "Phone Number",
   "uuid" : "799681f1-9733-4d6d-8c3b-072afa186572",
-  "dataType" : "PhoneNumber",
+  "dataType" : "Text",
   "active" : true,
-  "keyValues" : [ {
-    "key" : "verifyPhoneNumber",
-    "value" : false
-  } ]
+  "keyValues" : [ ]
 }, {
   "name" : "RCH ID",
   "uuid" : "18298f4d-79ec-44b0-8f8b-1f1c5505effc",
