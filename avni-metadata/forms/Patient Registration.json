@@ -12,69 +12,14 @@
       "uuid" : "7930e18d-d3e7-4713-878f-5089fb706027",
       "keyValues" : [ ],
       "concept" : {
-        "name" : "Patient Identifier (voided~5)",
+        "name" : "Patient Identifier",
         "uuid" : "ffd35c7d-7414-4f0f-8fdd-7de5e48770da",
         "dataType" : "Text",
         "answers" : [ ],
         "active" : true,
-        "keyValues" : [ ],
-        "voided" : true
+        "keyValues" : [ ]
       },
       "displayOrder" : 1.0,
-      "type" : "SingleSelect",
-      "mandatory" : true,
-      "voided" : true
-    }, {
-      "name" : "Bahmni Identifier",
-      "uuid" : "2eeeb2c4-a78f-4ee5-aa55-f4d1a81d5560",
-      "keyValues" : [ {
-        "key" : "IdSourceUUID",
-        "value" : "dd1702de-b6be-4b7a-a461-cf8e27337b33"
-      } ],
-      "concept" : {
-        "name" : "Bahmni Identifier (voided~16)",
-        "uuid" : "678d4e81-563e-46aa-a32d-28f58060cbb1",
-        "dataType" : "Id",
-        "answers" : [ ],
-        "active" : true,
-        "voided" : true
-      },
-      "displayOrder" : 2.0,
-      "type" : "SingleSelect",
-      "mandatory" : true,
-      "voided" : true
-    }, {
-      "name" : "Patient Identifier",
-      "uuid" : "3766b1c2-c678-42af-8b88-ac47668882b8",
-      "keyValues" : [ {
-        "key" : "unique",
-        "value" : true
-      } ],
-      "concept" : {
-        "name" : "Patient Identifier (voided~5)",
-        "uuid" : "ffd35c7d-7414-4f0f-8fdd-7de5e48770da",
-        "dataType" : "Text",
-        "answers" : [ ],
-        "active" : true,
-        "keyValues" : [ ],
-        "voided" : true
-      },
-      "displayOrder" : 3.0,
-      "type" : "SingleSelect",
-      "mandatory" : true,
-      "voided" : true
-    }, {
-      "name" : "Patient Identifier",
-      "uuid" : "78b21718-e9fb-4fdc-add4-364523fdaefe",
-      "keyValues" : [ ],
-      "concept" : {
-        "name" : "Patient Identifier",
-        "uuid" : "59f2125e-fa7c-4cc7-a4d3-502f27252820",
-        "dataType" : "Text",
-        "answers" : [ ],
-        "active" : true
-      },
-      "displayOrder" : 4.0,
       "type" : "SingleSelect",
       "mandatory" : true
     }, {
@@ -89,7 +34,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 5.0,
+      "displayOrder" : 2.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -104,7 +49,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 6.0,
+      "displayOrder" : 3.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -119,47 +64,28 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 7.0,
+      "displayOrder" : 4.0,
       "type" : "SingleSelect",
       "mandatory" : false
-    }, {
-      "name" : "Phone Number",
-      "uuid" : "6e33e1b5-0e35-4f23-a147-097bd07bd9ec",
-      "keyValues" : [ ],
-      "concept" : {
-        "name" : "Phone Number",
-        "uuid" : "461529d2-63f0-4e40-a17d-f6009c8dd42e",
-        "dataType" : "Text",
-        "answers" : [ ],
-        "active" : true
-      },
-      "displayOrder" : 8.0,
-      "type" : "SingleSelect",
-      "validFormat" : {
-        "regex" : "^([+]91[1-9]{1}[0-9]{9})$",
-        "descriptionKey" : "+91-{10digitnumber}"
-      },
-      "mandatory" : true
     }, {
       "name" : "Phone Number",
       "uuid" : "fd2f03b9-2e46-4a8e-b9a9-68fbbcc9b9a2",
       "keyValues" : [ ],
       "concept" : {
-        "name" : "Phone Number (voided~10)",
+        "name" : "Phone Number",
         "uuid" : "799681f1-9733-4d6d-8c3b-072afa186572",
-        "dataType" : "PhoneNumber",
+        "dataType" : "Text",
         "answers" : [ ],
         "active" : true,
-        "keyValues" : [ {
-          "key" : "verifyPhoneNumber",
-          "value" : false
-        } ],
-        "voided" : true
+        "keyValues" : [ ]
       },
-      "displayOrder" : 9.0,
+      "displayOrder" : 5.0,
+      "validFormat" : {
+        "regex" : "^([+]91[1-9]{1}[0-9]{9})$",
+        "descriptionKey" : "+91{10digitnumber}"
+      },
       "type" : "SingleSelect",
-      "mandatory" : true,
-      "voided" : true
+      "mandatory" : true
     } ],
     "timed" : false
   } ],

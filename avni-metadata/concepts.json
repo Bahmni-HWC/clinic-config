@@ -1,15 +1,14 @@
 [ {
-  "name" : "Bahmni Identifier (voided~16)",
-  "uuid" : "678d4e81-563e-46aa-a32d-28f58060cbb1",
-  "dataType" : "Id",
-  "active" : true,
-  "voided" : true
-}, {
   "name" : "Bahmni_UUID",
   "uuid" : "150edb74-1972-45ad-b222-37a69bc4c34e",
   "dataType" : "Text",
   "active" : true,
   "keyValues" : [ ]
+}, {
+  "name" : "Bengaluru Rural District Hospital",
+  "uuid" : "015f1e34-8a8c-4c1a-a54f-74722e375e35",
+  "dataType" : "NA",
+  "active" : true
 }, {
   "name" : "Diastolic blood pressure",
   "uuid" : "38bbf12b-0360-4558-8dfa-0bac59e3b326",
@@ -27,6 +26,11 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "Hosakote UPHC",
+  "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
+  "dataType" : "NA",
+  "active" : true
+}, {
   "name" : "Nikshay ID",
   "uuid" : "50ee923b-d2d5-42ec-874d-e3ccd9dd4895",
   "dataType" : "Numeric",
@@ -34,37 +38,46 @@
   "keyValues" : [ ]
 }, {
   "name" : "Patient Identifier",
-  "uuid" : "59f2125e-fa7c-4cc7-a4d3-502f27252820",
-  "dataType" : "Text",
-  "active" : true
-}, {
-  "name" : "Patient Identifier (voided~5)",
   "uuid" : "ffd35c7d-7414-4f0f-8fdd-7de5e48770da",
   "dataType" : "Text",
   "active" : true,
-  "voided" : true,
   "keyValues" : [ ]
 }, {
   "name" : "Phone Number",
-  "uuid" : "461529d2-63f0-4e40-a17d-f6009c8dd42e",
-  "dataType" : "Text",
-  "active" : true
-}, {
-  "name" : "Phone Number (voided~10)",
   "uuid" : "799681f1-9733-4d6d-8c3b-072afa186572",
-  "dataType" : "PhoneNumber",
+  "dataType" : "Text",
   "active" : true,
-  "voided" : true,
-  "keyValues" : [ {
-    "key" : "verifyPhoneNumber",
-    "value" : false
-  } ]
+  "keyValues" : [ ]
 }, {
   "name" : "RCH ID",
   "uuid" : "18298f4d-79ec-44b0-8f8b-1f1c5505effc",
   "dataType" : "Numeric",
   "active" : true,
   "keyValues" : [ ]
+}, {
+  "name" : "Reason for referral",
+  "uuid" : "ce3cb868-549f-44d1-b7fa-8caef03b93ab",
+  "dataType" : "Notes",
+  "active" : true
+}, {
+  "name" : "Referred to",
+  "uuid" : "a7692fd5-db45-412a-b2b5-ea8f4d25e8b5",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Bengaluru Rural District Hospital",
+    "uuid" : "015f1e34-8a8c-4c1a-a54f-74722e375e35",
+    "order" : 0.0
+  }, {
+    "name" : "Hosakote UPHC",
+    "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Relevant clinical history",
+  "uuid" : "9f05af07-930b-4d8b-ade8-5e734a1747a4",
+  "dataType" : "Notes",
+  "active" : true
 }, {
   "name" : "Respiratory rate",
   "uuid" : "345de932-4d7d-4468-9f3d-a21171d3c8f9",
@@ -92,4 +105,9 @@
   "highAbsolute" : 140.0,
   "active" : true,
   "keyValues" : [ ]
+}, {
+  "name" : "Treatment provided",
+  "uuid" : "882b91df-aa41-451f-978c-a33e04943936",
+  "dataType" : "Notes",
+  "active" : true
 } ]
