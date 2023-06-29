@@ -113,5 +113,16 @@
     "order": 9,
     "target": "_blank",
     "requiredPrivilege": "app:abdm"
+  },
+  "inventory": {
+    "id": "bahmni.inventory",
+    "extensionPointId": "org.bahmni.home.dashboard",
+    "type": "link",
+    "translationKey": "MODULE_LABEL_INVENTORY_KEY",
+    "url": "/inventory",
+    "icon": "fa-plus-square",
+    "order": 7,
+    "target": "_blank",
+    "requiredPrivilege": "app:inventory"
   }
 }
