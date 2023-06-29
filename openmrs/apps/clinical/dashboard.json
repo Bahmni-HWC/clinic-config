@@ -57,9 +57,14 @@
           "visit",
           "registration",
           "visitAttribute",
-          "labEntry",
-          "eSanjeevani"
-        ]
+          "labEntry"
+        ],
+        "customLinks": [
+          {
+              "translationKey": "ESANJEEVANI_KEY",
+              "url": "https://uat.esanjeevani.in"
+          }
+      ]
       },
       "diagnosis": {
         "translationKey": "DASHBOARD_TITLE_DIAGNOSIS_KEY",
