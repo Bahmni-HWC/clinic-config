@@ -7,5 +7,13 @@
     },
     "name" : "Patient",
     "voided" : false
+  }, {
+    "uuid" : "0064c1e4-bd48-46ec-82a4-b4a192f74527",
+    "subjectType" : {
+      "uuid" : "15fb23d3-283e-4136-ab7f-00555ed0b8a1",
+      "voided" : false
+    },
+    "name" : "Camp Activity",
+    "voided" : false
   } ]
 }

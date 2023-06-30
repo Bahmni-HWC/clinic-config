@@ -1,0 +1,17 @@
+[ {
+  "batchGenerationSize" : 300,
+  "minimumBalance" : 50,
+  "name" : "Patient Identifier Source",
+  "options" : {
+    "prefix" : "KA"
+  },
+  "type" : "userPoolBasedIdentifierGenerator",
+  "catchmentId" : null,
+  "minLength" : 4,
+  "maxLength" : 10,
+  "voided" : false,
+  "organisationId" : 2,
+  "id" : 1,
+  "catchmentUUID" : null,
+  "uuid" : "0e58ba25-b097-461f-bba5-68c809908876"
+} ]

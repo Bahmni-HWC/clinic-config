@@ -1,0 +1,7 @@
+{
+  "name" : "History and Examination Encounter Cancellation",
+  "uuid" : "2e1e7670-d5b9-4242-a572-e1e1a4b2c2c9",
+  "formType" : "IndividualEncounterCancellation",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

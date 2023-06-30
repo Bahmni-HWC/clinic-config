@@ -10,11 +10,14 @@
     "formElements" : [ {
       "name" : "Patient Identifier",
       "uuid" : "7930e18d-d3e7-4713-878f-5089fb706027",
-      "keyValues" : [ ],
+      "keyValues" : [ {
+        "key" : "IdSourceUUID",
+        "value" : "0e58ba25-b097-461f-bba5-68c809908876"
+      } ],
       "concept" : {
         "name" : "Patient Identifier",
         "uuid" : "ffd35c7d-7414-4f0f-8fdd-7de5e48770da",
-        "dataType" : "Text",
+        "dataType" : "Id",
         "answers" : [ ],
         "active" : true,
         "keyValues" : [ ]
@@ -80,11 +83,11 @@
         "keyValues" : [ ]
       },
       "displayOrder" : 5.0,
-      "validFormat" : {
-        "regex" : "^([+]91[1-9]{1}[0-9]{9})$",
-        "descriptionKey" : "+91{10digitnumber}"
-      },
       "type" : "SingleSelect",
+      "validFormat" : {
+        "regex" : "^([1-9]{1}[0-9]{9})$",
+        "descriptionKey" : "Phone Number should be 10 digits"
+      },
       "mandatory" : true
     } ],
     "timed" : false

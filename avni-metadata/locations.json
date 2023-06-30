@@ -193,4 +193,13 @@
   },
   "type" : "City/village",
   "addressLevelTypeUUID" : "01dab440-583d-44af-8e26-a6616dcf6801"
-}]
+}, {
+  "uuid" : "708ea6e2-5e7b-4730-8d88-2070c9c0f61b",
+  "name" : "OTHER",
+  "level" : 4.0,
+  "parent" : {
+    "uuid" : "7b7a587c-f9e3-4f09-b885-675e8e6bdc6a"
+  },
+  "type" : "City/village",
+  "addressLevelTypeUUID" : "01dab440-583d-44af-8e26-a6616dcf6801"
+} ]

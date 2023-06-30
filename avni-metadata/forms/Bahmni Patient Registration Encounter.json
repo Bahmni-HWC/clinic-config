@@ -14,13 +14,10 @@
       "concept" : {
         "name" : "Phone Number",
         "uuid" : "799681f1-9733-4d6d-8c3b-072afa186572",
-        "dataType" : "PhoneNumber",
+        "dataType" : "Text",
         "answers" : [ ],
         "active" : true,
-        "keyValues" : [ {
-          "key" : "verifyPhoneNumber",
-          "value" : false
-        } ]
+        "keyValues" : [ ]
       },
       "displayOrder" : 1.0,
       "type" : "SingleSelect",

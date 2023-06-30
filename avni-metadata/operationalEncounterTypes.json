@@ -23,5 +23,13 @@
     },
     "name" : "Referral",
     "voided" : false
+  }, {
+    "uuid" : "bc546d70-f519-4f5a-9da7-de976bc4868a",
+    "encounterType" : {
+      "uuid" : "301d79f1-8dad-428d-864f-118d83bbd3f1",
+      "voided" : false
+    },
+    "name" : "History and Examination",
+    "voided" : false
   } ]
 }

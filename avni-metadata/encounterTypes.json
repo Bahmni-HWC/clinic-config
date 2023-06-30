@@ -16,4 +16,10 @@
   "entityEligibilityCheckRule" : "",
   "active" : true,
   "immutable" : false
+}, {
+  "name" : "History and Examination",
+  "uuid" : "301d79f1-8dad-428d-864f-118d83bbd3f1",
+  "entityEligibilityCheckRule" : "",
+  "active" : true,
+  "immutable" : false
 } ]
