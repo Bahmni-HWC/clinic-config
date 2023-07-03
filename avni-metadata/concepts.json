@@ -1,4 +1,49 @@
 [ {
+  "name" : "Abdominal Pain",
+  "uuid" : "954d9003-c1f5-4f46-8ab7-4cb0ebf4f525",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Activity Date",
+  "uuid" : "2d769525-e4b4-4ba7-9253-9d071b83f115",
+  "dataType" : "DateTime",
+  "active" : true
+}, {
+  "name" : "Activity Description",
+  "uuid" : "228cd385-cdf3-46cf-82d5-81a8dc948f86",
+  "dataType" : "Text",
+  "active" : true
+}, {
+  "name" : "Activity Type",
+  "uuid" : "32d31209-1888-42d4-8d7b-e3770e9e3d6e",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Yoga",
+    "uuid" : "570c9077-388e-41ef-9028-a28926a85d3d",
+    "order" : 0.0
+  }, {
+    "name" : "Health Mela",
+    "uuid" : "7d9956f1-9fff-44ae-9d98-db966acfcf91",
+    "order" : 1.0
+  }, {
+    "name" : "Training",
+    "uuid" : "a211e476-c1ed-4b16-b00e-d7992587d1c4",
+    "order" : 2.0
+  }, {
+    "name" : "Program Meetings",
+    "uuid" : "ddf5cd97-13f8-47cf-9a48-98b87577d36c",
+    "order" : 3.0
+  }, {
+    "name" : "Outreach",
+    "uuid" : "3cf0c3b5-c2d9-4638-9238-88d5866bda21",
+    "order" : 4.0
+  }, {
+    "name" : "Other",
+    "uuid" : "e3749f85-41e3-4a65-8a09-3314345521b3",
+    "order" : 5.0
+  } ]
+}, {
   "name" : "Bahmni_UUID",
   "uuid" : "150edb74-1972-45ad-b222-37a69bc4c34e",
   "dataType" : "Text",
@@ -7,6 +52,56 @@
 }, {
   "name" : "Bengaluru Rural District Hospital",
   "uuid" : "015f1e34-8a8c-4c1a-a54f-74722e375e35",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Capture Image",
+  "uuid" : "9bf4d7b5-9123-4b9e-adb6-cc1ffd8c160d",
+  "dataType" : "Image",
+  "active" : true
+}, {
+  "name" : "Chest Pain",
+  "uuid" : "51d96e3e-e8e4-4548-b624-44de8b865b2a",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Chief Complaints",
+  "uuid" : "baa36dca-475a-4889-a3c5-2c68efb16f2f",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Abdominal Pain",
+    "uuid" : "954d9003-c1f5-4f46-8ab7-4cb0ebf4f525",
+    "order" : 0.0
+  }, {
+    "name" : "Chest Pain",
+    "uuid" : "51d96e3e-e8e4-4548-b624-44de8b865b2a",
+    "order" : 1.0
+  }, {
+    "name" : "Headache",
+    "uuid" : "310bd9af-71a1-4254-a930-c01e08d6c9ce",
+    "order" : 2.0
+  }, {
+    "name" : "Cough",
+    "uuid" : "640a4673-ac5e-4742-8925-34901854c3fc",
+    "order" : 3.0
+  }, {
+    "name" : "Fever/Chills",
+    "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
+    "order" : 4.0
+  }, {
+    "name" : "Other",
+    "uuid" : "e3749f85-41e3-4a65-8a09-3314345521b3",
+    "order" : 5.0
+  } ]
+}, {
+  "name" : "Cough",
+  "uuid" : "640a4673-ac5e-4742-8925-34901854c3fc",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Days",
+  "uuid" : "83347c0f-1da0-40b1-a668-2a5722106a72",
   "dataType" : "NA",
   "active" : true
 }, {
@@ -20,6 +115,32 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "Duration Units",
+  "uuid" : "5defb45f-f4ef-4ec4-8926-b2c87821dea3",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Hours",
+    "uuid" : "ac826c66-b3e4-4de0-98b0-dfdabe2ff3b8",
+    "order" : 0.0
+  }, {
+    "name" : "Days",
+    "uuid" : "83347c0f-1da0-40b1-a668-2a5722106a72",
+    "order" : 1.0
+  }, {
+    "name" : "Weeks",
+    "uuid" : "7917bea4-4660-4d4e-8bdc-ce9be6677469",
+    "order" : 2.0
+  }, {
+    "name" : "Months",
+    "uuid" : "04ed04e3-44f4-46b7-915f-f9a4391dbd87",
+    "order" : 3.0
+  }, {
+    "name" : "Years",
+    "uuid" : "f4bb6220-5e04-4e16-a344-64eac80c016c",
+    "order" : 4.0
+  } ]
+}, {
   "name" : "Father/Mother's Name",
   "uuid" : "9092d96c-ed9e-416b-9a50-606f003a6b38",
   "dataType" : "Text",
@@ -31,8 +152,43 @@
   "dataType" : "NA",
   "active" : true
 }, {
+  "name" : "Fever/Chills",
+  "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Headache",
+  "uuid" : "310bd9af-71a1-4254-a930-c01e08d6c9ce",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Health Mela",
+  "uuid" : "7d9956f1-9fff-44ae-9d98-db966acfcf91",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "History of present illness",
+  "uuid" : "0e8a63ac-d277-47a8-a9c0-fed7990fce23",
+  "dataType" : "Text",
+  "active" : true
+}, {
   "name" : "Hosakote UPHC",
   "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Hours",
+  "uuid" : "ac826c66-b3e4-4de0-98b0-dfdabe2ff3b8",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Months",
+  "uuid" : "04ed04e3-44f4-46b7-915f-f9a4391dbd87",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Never smoker",
+  "uuid" : "3225df25-f4e3-4f59-b27b-fa9b3d95d790",
   "dataType" : "NA",
   "active" : true
 }, {
@@ -42,9 +198,29 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "Other",
+  "uuid" : "e3749f85-41e3-4a65-8a09-3314345521b3",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Other Activity Name",
+  "uuid" : "650d02a9-779b-4eab-8893-6079a57a98dc",
+  "dataType" : "Text",
+  "active" : true
+}, {
+  "name" : "Other Chief Complaint",
+  "uuid" : "66fcc30c-ab83-49d4-aa84-123152c84275",
+  "dataType" : "Text",
+  "active" : true
+}, {
+  "name" : "Outreach",
+  "uuid" : "3cf0c3b5-c2d9-4638-9238-88d5866bda21",
+  "dataType" : "NA",
+  "active" : true
+}, {
   "name" : "Patient Identifier",
   "uuid" : "ffd35c7d-7414-4f0f-8fdd-7de5e48770da",
-  "dataType" : "Text",
+  "dataType" : "Id",
   "active" : true,
   "keyValues" : [ ]
 }, {
@@ -53,6 +229,11 @@
   "dataType" : "Text",
   "active" : true,
   "keyValues" : [ ]
+}, {
+  "name" : "Program Meetings",
+  "uuid" : "ddf5cd97-13f8-47cf-9a48-98b87577d36c",
+  "dataType" : "NA",
+  "active" : true
 }, {
   "name" : "RCH ID",
   "uuid" : "18298f4d-79ec-44b0-8f8b-1f1c5505effc",
@@ -97,6 +278,30 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "Sign/symptom duration",
+  "uuid" : "52a7ea3d-062a-4be7-ae2e-47b85d9323ce",
+  "dataType" : "Numeric",
+  "active" : true
+}, {
+  "name" : "Smoker",
+  "uuid" : "1c2f1542-80e4-442a-9bf5-254ab9805a3d",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Smoking status",
+  "uuid" : "83a7ab10-8746-4d72-8a2f-54c8736ca8f5",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Smoker",
+    "uuid" : "1c2f1542-80e4-442a-9bf5-254ab9805a3d",
+    "order" : 0.0
+  }, {
+    "name" : "Never smoker",
+    "uuid" : "3225df25-f4e3-4f59-b27b-fa9b3d95d790",
+    "order" : 1.0
+  } ]
+}, {
   "name" : "Systolic blood pressure",
   "uuid" : "443c02ad-751c-4c9a-887d-824d4cd30a77",
   "dataType" : "Numeric",
@@ -115,8 +320,28 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "Training",
+  "uuid" : "a211e476-c1ed-4b16-b00e-d7992587d1c4",
+  "dataType" : "NA",
+  "active" : true
+}, {
   "name" : "Treatment provided",
   "uuid" : "882b91df-aa41-451f-978c-a33e04943936",
   "dataType" : "Notes",
+  "active" : true
+}, {
+  "name" : "Weeks",
+  "uuid" : "7917bea4-4660-4d4e-8bdc-ce9be6677469",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Years",
+  "uuid" : "f4bb6220-5e04-4e16-a344-64eac80c016c",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Yoga",
+  "uuid" : "570c9077-388e-41ef-9028-a28926a85d3d",
+  "dataType" : "NA",
   "active" : true
 } ]

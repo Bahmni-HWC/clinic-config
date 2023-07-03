@@ -11,7 +11,23 @@
   "uniqueName" : false,
   "shouldSyncByLocation" : true,
   "household" : false,
-  "directlyAssignable" : false,
   "group" : false,
+  "directlyAssignable" : false,
+  "voided" : false
+}, {
+  "name" : "Camp Activity",
+  "uuid" : "15fb23d3-283e-4136-ab7f-00555ed0b8a1",
+  "active" : true,
+  "type" : "Individual",
+  "subjectSummaryRule" : "",
+  "programEligibilityCheckRule" : "",
+  "allowEmptyLocation" : false,
+  "allowMiddleName" : false,
+  "allowProfilePicture" : false,
+  "uniqueName" : false,
+  "shouldSyncByLocation" : true,
+  "household" : false,
+  "group" : false,
+  "directlyAssignable" : false,
   "voided" : false
 } ]

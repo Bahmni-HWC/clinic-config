@@ -60,4 +60,30 @@
   "formType" : "IndividualEncounterCancellation",
   "formName" : "Referral Encounter Cancellation",
   "enableApproval" : false
+}, {
+  "uuid" : "360e7335-b66f-4934-a8e3-60c2f5b9a3fc",
+  "id" : 8,
+  "formUUID" : "e0cc7ec5-1314-4bea-a470-2b10aa60c475",
+  "subjectTypeUUID" : "15fb23d3-283e-4136-ab7f-00555ed0b8a1",
+  "formType" : "IndividualProfile",
+  "formName" : "Camp Activity Registration",
+  "enableApproval" : false
+}, {
+  "uuid" : "34e0c29d-b2f7-4ded-8c47-34752d1df18d",
+  "id" : 9,
+  "formUUID" : "3cb84579-1693-48aa-b9c5-6b19748b1831",
+  "encounterTypeUUID" : "301d79f1-8dad-428d-864f-118d83bbd3f1",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "History and Examination",
+  "enableApproval" : false
+}, {
+  "uuid" : "f65a06b0-cfe7-4e04-b954-da966d25880e",
+  "id" : 10,
+  "formUUID" : "2e1e7670-d5b9-4242-a572-e1e1a4b2c2c9",
+  "encounterTypeUUID" : "301d79f1-8dad-428d-864f-118d83bbd3f1",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "History and Examination Encounter Cancellation",
+  "enableApproval" : false
 } ]

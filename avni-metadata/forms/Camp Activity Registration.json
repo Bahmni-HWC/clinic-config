@@ -1,0 +1,162 @@
+{
+  "name" : "Camp Activity Registration",
+  "uuid" : "e0cc7ec5-1314-4bea-a470-2b10aa60c475",
+  "formType" : "IndividualProfile",
+  "formElementGroups" : [ {
+    "uuid" : "cd0f04fe-1069-4b02-99a2-b528016401c3",
+    "name" : "Camp Activity Details",
+    "displayOrder" : 1.0,
+    "display" : "Camp Activity Details",
+    "formElements" : [ {
+      "name" : "Activity Type",
+      "uuid" : "274e8ed7-3dd3-4633-ae01-f9e79a4e6ba5",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Activity Type",
+        "uuid" : "32d31209-1888-42d4-8d7b-e3770e9e3d6e",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Training",
+          "uuid" : "a211e476-c1ed-4b16-b00e-d7992587d1c4",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        }, {
+          "name" : "Program Meetings",
+          "uuid" : "ddf5cd97-13f8-47cf-9a48-98b87577d36c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 3.0,
+          "active" : true
+        }, {
+          "name" : "Yoga",
+          "uuid" : "570c9077-388e-41ef-9028-a28926a85d3d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Other",
+          "uuid" : "e3749f85-41e3-4a65-8a09-3314345521b3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 5.0,
+          "active" : true
+        }, {
+          "name" : "Outreach",
+          "uuid" : "3cf0c3b5-c2d9-4638-9238-88d5866bda21",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 4.0,
+          "active" : true
+        }, {
+          "name" : "Health Mela",
+          "uuid" : "7d9956f1-9fff-44ae-9d98-db966acfcf91",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Other Activity Name",
+      "uuid" : "15ef8b6b-bf79-49a0-bea8-591292c58e97",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Other Activity Name",
+        "uuid" : "650d02a9-779b-4eab-8893-6079a57a98dc",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "rule" : "'use strict';\n({params, imports}) => {\n  const individual = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration(\"32d31209-1888-42d4-8d7b-e3770e9e3d6e\").containsAnswerConceptName(\"e3749f85-41e3-4a65-8a09-3314345521b3\").matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
+      "declarativeRule" : [ {
+        "actions" : [ {
+          "actionType" : "showFormElement"
+        }, { } ],
+        "conditions" : [ {
+          "compoundRule" : {
+            "rules" : [ {
+              "lhs" : {
+                "type" : "concept",
+                "scope" : "registration",
+                "conceptName" : "Activity Type",
+                "conceptUuid" : "32d31209-1888-42d4-8d7b-e3770e9e3d6e",
+                "conceptDataType" : "Coded"
+              },
+              "rhs" : {
+                "type" : "answerConcept",
+                "answerConceptNames" : [ "Other" ],
+                "answerConceptUuids" : [ "e3749f85-41e3-4a65-8a09-3314345521b3" ]
+              },
+              "operator" : "containsAnswerConceptName"
+            } ],
+            "conjunction" : "and"
+          }
+        } ]
+      } ],
+      "mandatory" : false
+    }, {
+      "name" : "Activity Date",
+      "uuid" : "ee35575d-2dec-4860-ac11-701fdc224a8a",
+      "keyValues" : [ {
+        "key" : "datePickerMode",
+        "value" : "calendar"
+      } ],
+      "concept" : {
+        "name" : "Activity Date",
+        "uuid" : "2d769525-e4b4-4ba7-9253-9d071b83f115",
+        "dataType" : "DateTime",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Capture Image",
+      "uuid" : "7c16e3c4-631a-41d5-8cde-04ddf14b05b1",
+      "keyValues" : [ {
+        "key" : "imageQuality",
+        "value" : 1
+      } ],
+      "concept" : {
+        "name" : "Capture Image",
+        "uuid" : "9bf4d7b5-9123-4b9e-adb6-cc1ffd8c160d",
+        "dataType" : "Image",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "MultiSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Activity Description",
+      "uuid" : "38f4832b-158e-4707-8639-a0d2dbb5aae4",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Activity Description",
+        "uuid" : "228cd385-cdf3-46cf-82d5-81a8dc948f86",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}
