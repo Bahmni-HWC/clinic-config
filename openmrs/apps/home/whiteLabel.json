@@ -35,7 +35,7 @@
       "linkPrefix": "erp"
     },
     {
-      "enabled": true,
+      "enabled": false,
       "name": "crater",
       "title": "Payment & Billing",
       "logo": "/bahmni/images/bills.png",
@@ -56,7 +56,7 @@
       "link": "/dcm4chee-web3"
     },
     {
-      "enabled": true,
+      "enabled": false,
       "name": "metabase",
       "title": "Analytics",
       "logo": "/bahmni/images/analytics.png",
