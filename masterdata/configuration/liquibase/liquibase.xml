@@ -458,4 +458,55 @@
         </sql>
     </changeSet>
 
+    <changeSet id="GOK-193-inv-Department"  author="Inventory">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">select count(*) from inv_department where name = 'Pharmacy'</sqlCheck>
+        </preConditions>
+        <comment>Creating a Pharmacy Department in the inventory Module</comment>
+        <sql>
+            SET @puuid = uuid();
+            INSERT INTO inv_department (name, description, creator, date_created, uuid)
+            VALUES ('Pharmacy', 'Department where the entire stock is stored/distributed', 1, NOW(), @puuid);
+        </sql>
+    </changeSet>
+
+    <changeSet id="GOK-193-inv-StockRooms-2375843"  author="Inventory">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="6">select count(*) from location where name = 'Hosakote UPHC' OR name = 'Hosakote Nama Clinic' OR name = 'Nandagudi SC1' OR name = 'Nandagudi SC2' OR name = 'Anupahalli SC1' OR name = 'Bengaluru Rural District Hospital'</sqlCheck>
+        </preConditions>
+        <comment>Creating a Stock Rooms in the inventory Module</comment>
+        <sql>
+
+            select location_id  into @locationidHUPSC from location where name = 'Hosakote UPHC';
+            select location_id  into @locationidHNamaClinic from location where name = 'Hosakote Nama Clinic';
+            select location_id  into @locationidNSC from location where name = 'Nandagudi SC1';
+            select location_id  into @locationidNtwo from location where name = 'Nandagudi SC2';
+            select location_id  into @locationidASC from location where name = 'Anupahalli SC1';
+            select location_id  into @locationidBGl from location where name = 'Bengaluru Rural District Hospital';
+
+            INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
+            VALUES ('Hosakote UPHC StockRoom', 1, NOW(), @locationidHUPSC, uuid());
+            INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
+            VALUES ('Hosakote Nama Clinic StockRoom', 1, NOW(), @locationidHNamaClinic, uuid());
+            INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
+            VALUES ('Nandagudi SC1 StockRoom', 1, NOW(), @locationidNSC, uuid());
+            INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
+            VALUES ('Nandagudi SC2 StockRoom', 1, NOW(), @locationidNtwo, uuid());
+            INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
+            VALUES ('Anupahalli SC1 StockRoom', 1, NOW(), @locationidASC, uuid());
+            INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
+            VALUES ('Bengaluru Rural District Hospital StockRoom', 1, NOW(), @locationidBGl, uuid());
+        </sql>
+    </changeSet>
+    <changeSet id="Adding-InventoryID-Identifier-GOK-193"  author="Inventory">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">select count(*) from patient_identifier_type where name='Inventory Identifier'</sqlCheck>
+        </preConditions>
+        <comment>Adding Inventory Identifier type</comment>
+        <sql>
+            insert into patient_identifier_type( name, description,creator, uuid, uniqueness_behavior, location_behavior, date_created)
+            VALUES('Inventory Identifier', 'Identifier for inventory operations', 1, uuid(), 'UNIQUE', 'NOT_USED', now());
+        </sql>
+    </changeSet>
+
 </databaseChangeLog>
