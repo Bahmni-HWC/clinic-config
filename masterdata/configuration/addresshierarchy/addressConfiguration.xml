@@ -37,6 +37,12 @@
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
+    <addressComponent>
+      <field>POSTAL_CODE</field>
+      <nameMapping>Pin Code</nameMapping>
+      <sizeMapping>40</sizeMapping>
+      <requiredInHierarchy>false</requiredInHierarchy>
+    </addressComponent>
   </addressComponents>
   <addressHierarchyFile>
     <filename>addresshierarchy.csv</filename>
