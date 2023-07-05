@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>e-Sanjeevani Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        input[type="button"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function postData() {
+            //e.preventDefault(); // Prevent the form from submitting normally
+
+            // Get the input values
+            var username = document.getElementById('username').value
+            var password = document.getElementById('password').value
+
+            // Create the data object
+            var data = {
+                username: username,
+                password: password,
+                patientUuid: getPatientUuid()
+            };
+            // window.location.replace('https://uat.esanjeevani.in/');
+            const http = new XMLHttpRequest()
+            http.open('POST', '/openmrs/ws/rest/v1/esanjeevani/launch')
+            http.setRequestHeader('Content-type', 'application/json')
+            http.send(JSON.stringify(data)) // Make sure to stringify
+            http.onload = function () {
+                if (http.status == 200) {
+                    window.location.replace(http.responseText)
+                }
+                else {
+                    alert(http.responseText)
+                }
+
+            }
+
+        }
+        function getPatientUuid() {
+            // Get the current URL
+            var url = new URL(window.location.href);
+
+            // Get the search parameters from the URL
+            var searchParams = new URLSearchParams(url.search);
+
+            // Retrieve the value of the specified parameter
+            var patientUuid = searchParams.get("patientUuid");
+
+            return patientUuid;
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>e-Sanjeevani Login</h2>
+        <form id="loginForm">
+            <div>
+                <label for="username">e-Sanjeevani Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">e-Sanjeevani Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <input type="button" value="Login" onclick=postData()>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

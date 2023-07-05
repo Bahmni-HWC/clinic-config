@@ -62,7 +62,7 @@
         "customLinks": [
           {
               "translationKey": "ESANJEEVANI_KEY",
-              "url": "/openmrs/ws/rest/v1/esanjeevani/launch?patientUuid={{patientUuid}}"
+              "url": "/bahmni_config/esanjeevani?patientUuid={{patientUuid}}"
           }
       ]
       },
