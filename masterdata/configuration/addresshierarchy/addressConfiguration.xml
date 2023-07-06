@@ -41,7 +41,7 @@
       <field>POSTAL_CODE</field>
       <nameMapping>Pin Code</nameMapping>
       <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>false</requiredInHierarchy>
+      <requiredInHierarchy>true</requiredInHierarchy>
     </addressComponent>
   </addressComponents>
   <addressHierarchyFile>
