@@ -53,9 +53,29 @@
         input[type="submit"]:hover {
             background-color: #45a049;
         }
+
+        #response {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .success {
+            background-color: #a9dca9;
+            color: #155724;
+        }
+
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
     </style>
     <script>
         function postData() {
+            var responseDiv = document.getElementById('response');
+            responseDiv.textContent = "Loading...";
+            responseDiv.classList.add('success');
             //e.preventDefault(); // Prevent the form from submitting normally
 
             // Get the input values
@@ -77,8 +97,14 @@
                 if (http.status == 200) {
                     window.location.replace(http.responseText)
                 }
+                else if(http.status == 400) {
+                    var response= JSON.parse(http.responseText)
+                    var responseDiv = document.getElementById('response');
+                    responseDiv.textContent = "ERROR: "+response.message;
+                    responseDiv.classList.add('error');
+                }
                 else {
-                    alert(http.responseText)
+                    alert('Something went wrong. Please try again later.')
                 }
 
             }
@@ -116,6 +142,7 @@
                 <input type="button" value="Login" onclick=postData()>
             </div>
         </form>
+        <div id="response"></div>
     </div>
 </body>
 
