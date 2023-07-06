@@ -7,15 +7,39 @@
     "name" : "History and Examination",
     "displayOrder" : 1.0,
     "display" : "History and Examination",
-    "formElements" : [ {
+    "formElements" : [  {
+      "name" : "Chief Complaint",
+      "uuid" : "43ff843e-f9f0-4015-bb88-d4158a16f59c",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Chief Complaint",
+        "uuid" : "5d0500da-26fa-4b34-80fb-2ae781265dfe",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
       "name" : "Chief Complaints",
-      "uuid" : "8e2890e9-259c-4fd4-a1a6-895d16a038fe",
+      "uuid" : "31114d89-6d79-4320-a9bb-2991e0c24f0a",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Chief Complaints",
         "uuid" : "baa36dca-475a-4889-a3c5-2c68efb16f2f",
         "dataType" : "Coded",
         "answers" : [ {
+          "name" : "Chest Pain",
+          "uuid" : "51d96e3e-e8e4-4548-b624-44de8b865b2a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
           "name" : "Cough",
           "uuid" : "640a4673-ac5e-4742-8925-34901854c3fc",
           "dataType" : "NA",
@@ -23,18 +47,11 @@
           "order" : 3.0,
           "active" : true
         }, {
-          "name" : "Abdominal Pain",
-          "uuid" : "954d9003-c1f5-4f46-8ab7-4cb0ebf4f525",
+          "name" : "Headache",
+          "uuid" : "310bd9af-71a1-4254-a930-c01e08d6c9ce",
           "dataType" : "NA",
           "answers" : [ ],
-          "order" : 0.0,
-          "active" : true
-        }, {
-          "name" : "Chest Pain",
-          "uuid" : "51d96e3e-e8e4-4548-b624-44de8b865b2a",
-          "dataType" : "NA",
-          "answers" : [ ],
-          "order" : 1.0,
+          "order" : 2.0,
           "active" : true
         }, {
           "name" : "Other",
@@ -51,21 +68,22 @@
           "order" : 4.0,
           "active" : true
         }, {
-          "name" : "Headache",
-          "uuid" : "310bd9af-71a1-4254-a930-c01e08d6c9ce",
+          "name" : "Abdominal Pain",
+          "uuid" : "954d9003-c1f5-4f46-8ab7-4cb0ebf4f525",
           "dataType" : "NA",
           "answers" : [ ],
-          "order" : 2.0,
+          "order" : 0.0,
           "active" : true
         } ],
         "active" : true
       },
-      "displayOrder" : 1.0,
+      "displayOrder" : 3.0,
       "type" : "SingleSelect",
+      "parentFormElementUuid" : "43ff843e-f9f0-4015-bb88-d4158a16f59c",
       "mandatory" : true
     }, {
       "name" : "Other Chief Complaint",
-      "uuid" : "a76232fc-ff76-4ab1-8135-811516171f5c",
+      "uuid" : "f1afbc9b-68c3-492c-8388-d42140631e98",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Other Chief Complaint",
@@ -74,9 +92,9 @@
         "answers" : [ ],
         "active" : true
       },
-      "displayOrder" : 2.0,
+      "displayOrder" : 4.0,
       "type" : "SingleSelect",
-      "rule" : "'use strict';\n({params, imports}) => {\n  const encounter = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter(\"baa36dca-475a-4889-a3c5-2c68efb16f2f\").containsAnswerConceptName(\"e3749f85-41e3-4a65-8a09-3314345521b3\").matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
+      "rule" : "'use strict';\n({params, imports}) => {\n  const encounter = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter(\"baa36dca-475a-4889-a3c5-2c68efb16f2f\", \"5d0500da-26fa-4b34-80fb-2ae781265dfe\", params.questionGroupIndex).containsAnswerConceptName(\"e3749f85-41e3-4a65-8a09-3314345521b3\").matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
       "declarativeRule" : [ {
         "actions" : [ {
           "actionType" : "showFormElement"
@@ -89,7 +107,8 @@
                 "scope" : "encounter",
                 "conceptName" : "Chief Complaints",
                 "conceptUuid" : "baa36dca-475a-4889-a3c5-2c68efb16f2f",
-                "conceptDataType" : "Coded"
+                "conceptDataType" : "Coded",
+                "parentConceptUuid" : "5d0500da-26fa-4b34-80fb-2ae781265dfe"
               },
               "rhs" : {
                 "type" : "answerConcept",
@@ -98,14 +117,15 @@
               },
               "operator" : "containsAnswerConceptName"
             } ],
-            "conjunction" : "and"
+            "conjunction" : "or"
           }
         } ]
       } ],
+      "parentFormElementUuid" : "43ff843e-f9f0-4015-bb88-d4158a16f59c",
       "mandatory" : false
     }, {
       "name" : "Sign/symptom duration",
-      "uuid" : "02faf2ab-3a8f-4313-bd6d-452837593b4e",
+      "uuid" : "08e22da7-ee9e-4df5-8062-49e3370ef418",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Sign/symptom duration",
@@ -114,12 +134,13 @@
         "answers" : [ ],
         "active" : true
       },
-      "displayOrder" : 3.0,
+      "displayOrder" : 5.0,
       "type" : "SingleSelect",
+      "parentFormElementUuid" : "43ff843e-f9f0-4015-bb88-d4158a16f59c",
       "mandatory" : false
     }, {
       "name" : "Duration Units",
-      "uuid" : "ad468f37-79f4-4631-995e-2e71e8d7b0d5",
+      "uuid" : "05d0122e-a7d4-4702-a8a4-e8d8ed069f29",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Duration Units",
@@ -163,8 +184,9 @@
         } ],
         "active" : true
       },
-      "displayOrder" : 4.0,
+      "displayOrder" : 6.0,
       "type" : "SingleSelect",
+      "parentFormElementUuid" : "43ff843e-f9f0-4015-bb88-d4158a16f59c",
       "mandatory" : false
     }, {
       "name" : "History of present illness",

@@ -65,6 +65,11 @@
   "dataType" : "NA",
   "active" : true
 }, {
+  "name" : "Chief Complaint",
+  "uuid" : "5d0500da-26fa-4b34-80fb-2ae781265dfe",
+  "dataType" : "QuestionGroup",
+  "active" : true
+}, {
   "name" : "Chief Complaints",
   "uuid" : "baa36dca-475a-4889-a3c5-2c68efb16f2f",
   "dataType" : "Coded",
