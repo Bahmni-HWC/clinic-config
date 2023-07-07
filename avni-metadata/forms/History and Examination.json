@@ -8,6 +8,23 @@
     "displayOrder" : 1.0,
     "display" : "History and Examination",
     "formElements" : [ {
+      "name" : "Chief Complaint",
+      "uuid" : "d86e87e1-802e-479a-ae5c-d249c739597e",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Chief Complaint",
+        "uuid" : "7728ae69-32f0-43ae-8e7c-d4a1a21185b0",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
       "name" : "Chief Complaints",
       "uuid" : "8e2890e9-259c-4fd4-a1a6-895d16a038fe",
       "keyValues" : [ ],
@@ -23,20 +40,6 @@
           "order" : 3.0,
           "active" : true
         }, {
-          "name" : "Abdominal Pain",
-          "uuid" : "954d9003-c1f5-4f46-8ab7-4cb0ebf4f525",
-          "dataType" : "NA",
-          "answers" : [ ],
-          "order" : 0.0,
-          "active" : true
-        }, {
-          "name" : "Chest Pain",
-          "uuid" : "51d96e3e-e8e4-4548-b624-44de8b865b2a",
-          "dataType" : "NA",
-          "answers" : [ ],
-          "order" : 1.0,
-          "active" : true
-        }, {
           "name" : "Other",
           "uuid" : "e3749f85-41e3-4a65-8a09-3314345521b3",
           "dataType" : "NA",
@@ -44,11 +47,25 @@
           "order" : 5.0,
           "active" : true
         }, {
+          "name" : "Abdominal Pain",
+          "uuid" : "954d9003-c1f5-4f46-8ab7-4cb0ebf4f525",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
           "name" : "Fever/Chills",
           "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
           "dataType" : "NA",
           "answers" : [ ],
           "order" : 4.0,
+          "active" : true
+        }, {
+          "name" : "Chest Pain",
+          "uuid" : "51d96e3e-e8e4-4548-b624-44de8b865b2a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
           "active" : true
         }, {
           "name" : "Headache",
@@ -60,8 +77,9 @@
         } ],
         "active" : true
       },
-      "displayOrder" : 1.0,
+      "displayOrder" : 2.0,
       "type" : "SingleSelect",
+      "parentFormElementUuid" : "d86e87e1-802e-479a-ae5c-d249c739597e",
       "mandatory" : true
     }, {
       "name" : "Other Chief Complaint",
@@ -74,9 +92,9 @@
         "answers" : [ ],
         "active" : true
       },
-      "displayOrder" : 2.0,
+      "displayOrder" : 3.0,
       "type" : "SingleSelect",
-      "rule" : "'use strict';\n({params, imports}) => {\n  const encounter = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter(\"baa36dca-475a-4889-a3c5-2c68efb16f2f\").containsAnswerConceptName(\"e3749f85-41e3-4a65-8a09-3314345521b3\").matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
+      "rule" : "'use strict';\n({params, imports}) => {\n  const encounter = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter(\"baa36dca-475a-4889-a3c5-2c68efb16f2f\", \"7728ae69-32f0-43ae-8e7c-d4a1a21185b0\", params.questionGroupIndex).containsAnswerConceptName(\"e3749f85-41e3-4a65-8a09-3314345521b3\").matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
       "declarativeRule" : [ {
         "actions" : [ {
           "actionType" : "showFormElement"
@@ -89,7 +107,8 @@
                 "scope" : "encounter",
                 "conceptName" : "Chief Complaints",
                 "conceptUuid" : "baa36dca-475a-4889-a3c5-2c68efb16f2f",
-                "conceptDataType" : "Coded"
+                "conceptDataType" : "Coded",
+                "parentConceptUuid" : "7728ae69-32f0-43ae-8e7c-d4a1a21185b0"
               },
               "rhs" : {
                 "type" : "answerConcept",
@@ -98,10 +117,11 @@
               },
               "operator" : "containsAnswerConceptName"
             } ],
-            "conjunction" : "and"
+            "conjunction" : "or"
           }
         } ]
       } ],
+      "parentFormElementUuid" : "d86e87e1-802e-479a-ae5c-d249c739597e",
       "mandatory" : false
     }, {
       "name" : "Sign/symptom duration",
@@ -114,8 +134,9 @@
         "answers" : [ ],
         "active" : true
       },
-      "displayOrder" : 3.0,
+      "displayOrder" : 4.0,
       "type" : "SingleSelect",
+      "parentFormElementUuid" : "d86e87e1-802e-479a-ae5c-d249c739597e",
       "mandatory" : false
     }, {
       "name" : "Duration Units",
@@ -126,18 +147,18 @@
         "uuid" : "5defb45f-f4ef-4ec4-8926-b2c87821dea3",
         "dataType" : "Coded",
         "answers" : [ {
+          "name" : "Hours",
+          "uuid" : "ac826c66-b3e4-4de0-98b0-dfdabe2ff3b8",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
           "name" : "Years",
           "uuid" : "f4bb6220-5e04-4e16-a344-64eac80c016c",
           "dataType" : "NA",
           "answers" : [ ],
           "order" : 4.0,
-          "active" : true
-        }, {
-          "name" : "Days",
-          "uuid" : "83347c0f-1da0-40b1-a668-2a5722106a72",
-          "dataType" : "NA",
-          "answers" : [ ],
-          "order" : 1.0,
           "active" : true
         }, {
           "name" : "Weeks",
@@ -147,11 +168,11 @@
           "order" : 2.0,
           "active" : true
         }, {
-          "name" : "Hours",
-          "uuid" : "ac826c66-b3e4-4de0-98b0-dfdabe2ff3b8",
+          "name" : "Days",
+          "uuid" : "83347c0f-1da0-40b1-a668-2a5722106a72",
           "dataType" : "NA",
           "answers" : [ ],
-          "order" : 0.0,
+          "order" : 1.0,
           "active" : true
         }, {
           "name" : "Months",
@@ -163,8 +184,9 @@
         } ],
         "active" : true
       },
-      "displayOrder" : 4.0,
+      "displayOrder" : 5.0,
       "type" : "SingleSelect",
+      "parentFormElementUuid" : "d86e87e1-802e-479a-ae5c-d249c739597e",
       "mandatory" : false
     }, {
       "name" : "History of present illness",
@@ -177,7 +199,7 @@
         "answers" : [ ],
         "active" : true
       },
-      "displayOrder" : 7.0,
+      "displayOrder" : 6.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -189,23 +211,23 @@
         "uuid" : "83a7ab10-8746-4d72-8a2f-54c8736ca8f5",
         "dataType" : "Coded",
         "answers" : [ {
-          "name" : "Smoker",
-          "uuid" : "1c2f1542-80e4-442a-9bf5-254ab9805a3d",
-          "dataType" : "NA",
-          "answers" : [ ],
-          "order" : 0.0,
-          "active" : true
-        }, {
           "name" : "Never smoker",
           "uuid" : "3225df25-f4e3-4f59-b27b-fa9b3d95d790",
           "dataType" : "NA",
           "answers" : [ ],
           "order" : 1.0,
           "active" : true
+        }, {
+          "name" : "Smoker",
+          "uuid" : "1c2f1542-80e4-442a-9bf5-254ab9805a3d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
         } ],
         "active" : true
       },
-      "displayOrder" : 8.0,
+      "displayOrder" : 7.0,
       "type" : "SingleSelect",
       "mandatory" : false
     } ],
