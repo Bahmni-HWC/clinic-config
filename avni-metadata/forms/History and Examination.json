@@ -94,7 +94,7 @@
       },
       "displayOrder" : 3.0,
       "type" : "SingleSelect",
-      "rule" : "'use strict';\n({params, imports}) => {\n  const encounter = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter(\"baa36dca-475a-4889-a3c5-2c68efb16f2f\", \"7728ae69-32f0-43ae-8e7c-d4a1a21185b0\", params.questionGroupIndex).containsAnswerConceptName(\"e3749f85-41e3-4a65-8a09-3314345521b3\").matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
+      "rule" : "'use strict';\n({params, imports}) => {\n  const encounter = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.questionGroupValueInEncounter(\"baa36dca-475a-4889-a3c5-2c68efb16f2f\", \"7728ae69-32f0-43ae-8e7c-d4a1a21185b0\", params.questionGroupIndex).containsAnswerConceptName(\"e3749f85-41e3-4a65-8a09-3314345521b3\").matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
       "declarativeRule" : [ {
         "actions" : [ {
           "actionType" : "showFormElement"
@@ -104,7 +104,7 @@
             "rules" : [ {
               "lhs" : {
                 "type" : "concept",
-                "scope" : "encounter",
+                "scope" : "questionGroupEncounter",
                 "conceptName" : "Chief Complaints",
                 "conceptUuid" : "baa36dca-475a-4889-a3c5-2c68efb16f2f",
                 "conceptDataType" : "Coded",
