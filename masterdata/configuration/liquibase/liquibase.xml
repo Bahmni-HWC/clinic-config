@@ -498,15 +498,5 @@
             VALUES ('Bengaluru Rural District Hospital StockRoom', 1, NOW(), @locationidBGl, uuid());
         </sql>
     </changeSet>
-    <changeSet id="Adding-InventoryID-Identifier-GOK-193"  author="Inventory">
-        <preConditions onFail="MARK_RAN">
-            <sqlCheck expectedResult="0">select count(*) from patient_identifier_type where name='Inventory Identifier'</sqlCheck>
-        </preConditions>
-        <comment>Adding Inventory Identifier type</comment>
-        <sql>
-            insert into patient_identifier_type( name, description,creator, uuid, uniqueness_behavior, location_behavior, date_created)
-            VALUES('Inventory Identifier', 'Identifier for inventory operations', 1, uuid(), 'UNIQUE', 'NOT_USED', now());
-        </sql>
-    </changeSet>
 
 </databaseChangeLog>
