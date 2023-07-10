@@ -98,9 +98,8 @@
                     window.location.replace(http.responseText)
                 }
                 else if(http.status == 400) {
-                    var response= JSON.parse(http.responseText)
                     var responseDiv = document.getElementById('response');
-                    responseDiv.textContent = "ERROR: "+response.message;
+                    responseDiv.textContent = "ERROR: "+http.responseText;
                     responseDiv.classList.add('error');
                 }
                 else {
