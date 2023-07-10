@@ -22,4 +22,10 @@
   "entityEligibilityCheckRule" : "",
   "active" : true,
   "immutable" : false
+}, {
+  "name" : "Attendance form",
+  "uuid" : "8c1821c8-95da-45b7-9130-47fb57b773cc",
+  "entityEligibilityCheckRule" : "",
+  "active" : true,
+  "immutable" : false
 } ]

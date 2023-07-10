@@ -1,0 +1,11 @@
+[ {
+  "uuid" : "1fc7dc7e-ac7d-47f3-9cee-5c19369e4e2f",
+  "name" : "Admin",
+  "hasAllPrivileges" : true,
+  "voided" : false
+}, {
+  "uuid" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "name" : "CHO",
+  "hasAllPrivileges" : false,
+  "voided" : false
+} ]
