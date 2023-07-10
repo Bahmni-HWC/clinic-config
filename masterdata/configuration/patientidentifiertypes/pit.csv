@@ -1,0 +1,2 @@
+"Uuid","Void/Retire","Name","Description","Required","Format","Format description","Validator","Location behavior","Uniqueness behavior"
+,,"Inventory Identifier","Identifier for inventory operations",0,,,,"NOT_USED","UNIQUE"
