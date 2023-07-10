@@ -64,46 +64,6 @@
       "type" : "SingleSelect",
       "mandatory" : true
     }, {
-      "name" : "Other Activity Name",
-      "uuid" : "15ef8b6b-bf79-49a0-bea8-591292c58e97",
-      "keyValues" : [ ],
-      "concept" : {
-        "name" : "Other Activity Name",
-        "uuid" : "650d02a9-779b-4eab-8893-6079a57a98dc",
-        "dataType" : "Text",
-        "answers" : [ ],
-        "active" : true
-      },
-      "displayOrder" : 2.0,
-      "type" : "SingleSelect",
-      "rule" : "'use strict';\n({params, imports}) => {\n  const individual = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration(\"32d31209-1888-42d4-8d7b-e3770e9e3d6e\").containsAnswerConceptName(\"e3749f85-41e3-4a65-8a09-3314345521b3\").matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
-      "declarativeRule" : [ {
-        "actions" : [ {
-          "actionType" : "showFormElement"
-        }, { } ],
-        "conditions" : [ {
-          "compoundRule" : {
-            "rules" : [ {
-              "lhs" : {
-                "type" : "concept",
-                "scope" : "registration",
-                "conceptName" : "Activity Type",
-                "conceptUuid" : "32d31209-1888-42d4-8d7b-e3770e9e3d6e",
-                "conceptDataType" : "Coded"
-              },
-              "rhs" : {
-                "type" : "answerConcept",
-                "answerConceptNames" : [ "Other" ],
-                "answerConceptUuids" : [ "e3749f85-41e3-4a65-8a09-3314345521b3" ]
-              },
-              "operator" : "containsAnswerConceptName"
-            } ],
-            "conjunction" : "and"
-          }
-        } ]
-      } ],
-      "mandatory" : false
-    }, {
       "name" : "Activity Date",
       "uuid" : "ee35575d-2dec-4860-ac11-701fdc224a8a",
       "keyValues" : [ {
