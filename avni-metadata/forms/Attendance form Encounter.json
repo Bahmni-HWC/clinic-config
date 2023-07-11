@@ -1,0 +1,36 @@
+{
+  "name" : "Attendance form Encounter",
+  "uuid" : "586267be-1b8c-4322-a029-9b19c420c36d",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "e1fe529c-6562-4c7a-9246-60546c2c725e",
+    "name" : "Attendance form",
+    "displayOrder" : 1.0,
+    "display" : "Attendance form",
+    "formElements" : [ {
+      "name" : "Attendance Time",
+      "uuid" : "f4cf3bd4-f259-4bf0-8898-3c9ce54bd3d7",
+      "keyValues" : [ {
+        "key" : "editable",
+        "value" : false
+      } ],
+      "concept" : {
+        "name" : "Attendance Time",
+        "uuid" : "6cdb4ebd-c0be-4611-b7d7-2f0caf346379",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "rule" : "'use strict';\n({params, imports}) => {\n  const encounter = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const now = new Date();\n  const hours = String(now.getHours()).padStart(2, '0'); // Get the current hour and pad with leading zero if necessary\n  const minutes = String(now.getMinutes()).padStart(2, '0'); // Get the current minutes and pad with leading zero if necessary\n  const currentTime = hours + ':' + minutes; \n \n  value = currentTime;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

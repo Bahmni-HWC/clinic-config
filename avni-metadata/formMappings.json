@@ -86,4 +86,30 @@
   "formType" : "IndividualEncounterCancellation",
   "formName" : "History and Examination Encounter Cancellation",
   "enableApproval" : false
+}, {
+  "uuid" : "dc860ece-4f94-4cbb-b718-3d1117606ca7",
+  "id" : 11,
+  "formUUID" : "150810d7-84a9-43f3-a2c9-cb8643ff8205",
+  "subjectTypeUUID" : "dbe6e918-2d22-4e8f-b0d9-d52c0b741a08",
+  "formType" : "IndividualProfile",
+  "formName" : "Center Registration",
+  "enableApproval" : false
+}, {
+  "uuid" : "34d4bc7a-c768-4545-98c0-14533c8b9dcc",
+  "id" : 12,
+  "formUUID" : "586267be-1b8c-4322-a029-9b19c420c36d",
+  "encounterTypeUUID" : "8c1821c8-95da-45b7-9130-47fb57b773cc",
+  "subjectTypeUUID" : "dbe6e918-2d22-4e8f-b0d9-d52c0b741a08",
+  "formType" : "Encounter",
+  "formName" : "Attendance form Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "ff927b58-703e-4825-a59e-98135bb90da9",
+  "id" : 13,
+  "formUUID" : "b3655745-0bc8-4f28-a3b5-3650fdf52421",
+  "encounterTypeUUID" : "8c1821c8-95da-45b7-9130-47fb57b773cc",
+  "subjectTypeUUID" : "dbe6e918-2d22-4e8f-b0d9-d52c0b741a08",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Attendance form Encounter Cancellation",
+  "enableApproval" : false
 } ]

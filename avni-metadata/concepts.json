@@ -44,6 +44,11 @@
     "order" : 5.0
   } ]
 }, {
+  "name" : "Attendance Time",
+  "uuid" : "6cdb4ebd-c0be-4611-b7d7-2f0caf346379",
+  "dataType" : "Text",
+  "active" : true
+}, {
   "name" : "Bahmni_UUID",
   "uuid" : "150edb74-1972-45ad-b222-37a69bc4c34e",
   "dataType" : "Text",

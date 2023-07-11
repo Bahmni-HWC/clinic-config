@@ -15,5 +15,13 @@
     },
     "name" : "Camp Activity",
     "voided" : false
+  }, {
+    "uuid" : "68ebd99f-4ac8-49a1-a8d2-34a9bfb65dec",
+    "subjectType" : {
+      "uuid" : "dbe6e918-2d22-4e8f-b0d9-d52c0b741a08",
+      "voided" : false
+    },
+    "name" : "Center",
+    "voided" : false
   } ]
 }

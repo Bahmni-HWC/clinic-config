@@ -31,5 +31,13 @@
     },
     "name" : "History and Examination",
     "voided" : false
+  }, {
+    "uuid" : "f7314a21-748c-4dbb-adef-856f384c1bc6",
+    "encounterType" : {
+      "uuid" : "8c1821c8-95da-45b7-9130-47fb57b773cc",
+      "voided" : false
+    },
+    "name" : "Attendance form",
+    "voided" : false
   } ]
 }

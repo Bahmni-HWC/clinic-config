@@ -28,6 +28,22 @@
   "shouldSyncByLocation" : true,
   "household" : false,
   "group" : false,
+  "voided" : false
+}, {
+  "name" : "Center",
+  "uuid" : "dbe6e918-2d22-4e8f-b0d9-d52c0b741a08",
+  "active" : true,
+  "type" : "Individual",
+  "subjectSummaryRule" : "",
+  "programEligibilityCheckRule" : "",
+  "allowEmptyLocation" : false,
+  "allowMiddleName" : false,
+  "lastNameOptional" : false,
+  "allowProfilePicture" : false,
+  "uniqueName" : false,
+  "shouldSyncByLocation" : true,
   "directlyAssignable" : false,
+  "household" : false,
+  "group" : false,
   "voided" : false
 } ]
