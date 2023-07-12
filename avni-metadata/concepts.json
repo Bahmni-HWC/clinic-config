@@ -4,6 +4,18 @@
   "dataType" : "NA",
   "active" : true
 }, {
+  "name" : "ABHA Address",
+  "uuid" : "0703cc26-f951-4fad-a575-04da252ef68b",
+  "dataType" : "Text",
+  "active" : true,
+  "keyValues" : [ ]
+}, {
+  "name" : "ABHA Number",
+  "uuid" : "e47be326-fad5-46ff-a0b8-e76c393b146f",
+  "dataType" : "Numeric",
+  "active" : true,
+  "keyValues" : [ ]
+}, {
   "name" : "Activity Date",
   "uuid" : "2d769525-e4b4-4ba7-9253-9d071b83f115",
   "dataType" : "DateTime",
@@ -157,11 +169,6 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
-  "name" : "Hosakote Nama Clinic",
-  "uuid" : "2ab9170f-88e9-4300-b660-77d0bb5c9c69",
-  "dataType" : "NA",
-  "active" : true
-}, {
   "name" : "Fever/Chills",
   "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
   "dataType" : "NA",
@@ -180,6 +187,11 @@
   "name" : "History of present illness",
   "uuid" : "0e8a63ac-d277-47a8-a9c0-fed7990fce23",
   "dataType" : "Text",
+  "active" : true
+}, {
+  "name" : "Hosakote Nama Clinic",
+  "uuid" : "2ab9170f-88e9-4300-b660-77d0bb5c9c69",
+  "dataType" : "NA",
   "active" : true
 }, {
   "name" : "Hosakote UPHC",
