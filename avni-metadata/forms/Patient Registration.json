@@ -53,7 +53,7 @@
       "concept" : {
         "name" : "ABHA Number",
         "uuid" : "e47be326-fad5-46ff-a0b8-e76c393b146f",
-        "dataType" : "Numeric",
+        "dataType" : "Text",
         "answers" : [ ],
         "active" : true,
         "keyValues" : [ ]
