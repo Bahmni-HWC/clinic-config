@@ -26,6 +26,42 @@
       "type" : "SingleSelect",
       "mandatory" : true
     }, {
+      "name" : "ABHA Address",
+      "uuid" : "e492ca11-c812-4a62-bce8-544b3943921e",
+      "keyValues" : [ {
+        "key" : "editable",
+        "value" : false
+      } ],
+      "concept" : {
+        "name" : "ABHA Address",
+        "uuid" : "0703cc26-f951-4fad-a575-04da252ef68b",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true,
+        "keyValues" : [ ]
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "ABHA Number",
+      "uuid" : "a0dba349-6d09-46fb-8a30-3a60b1ddb908",
+      "keyValues" : [ {
+        "key" : "editable",
+        "value" : false
+      } ],
+      "concept" : {
+        "name" : "ABHA Number",
+        "uuid" : "e47be326-fad5-46ff-a0b8-e76c393b146f",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true,
+        "keyValues" : [ ]
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
       "name" : "RCH ID",
       "uuid" : "edde014f-568d-4971-b886-d07fef028a17",
       "keyValues" : [ ],
@@ -37,7 +73,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 2.0,
+      "displayOrder" : 4.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -52,7 +88,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 3.0,
+      "displayOrder" : 5.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -67,7 +103,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 4.0,
+      "displayOrder" : 6.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -82,7 +118,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 5.0,
+      "displayOrder" : 7.0,
       "type" : "SingleSelect",
       "validFormat" : {
         "regex" : "^([1-9]{1}[0-9]{9})$",
