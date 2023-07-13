@@ -30,7 +30,7 @@
   } ],
   "decisionRule" : "",
   "visitScheduleRule" : "",
-  "validationRule" : "",
+  "validationRule" : "'use strict';\n({ params, imports }) => {\n  const encounter = params.entity;\n  const validationResults = [];\n  const currentDate = new Date();\n  const value = encounter.encounterDateTime;\n  \n  const today = new Date(currentDate.toISOString().split('T')[0]);\n\n  value.setUTCHours(0, 0, 0, 0);\n  today.setUTCHours(0, 0, 0, 0);\n\n  if (value.getTime() !== today.getTime()) {\n    const errorMessage = 'The Visit date should be today\\'s date only';\n    validationResults.push(imports.common.createValidationError(errorMessage));\n  }\n  \n  return validationResults;\n};",
   "checklistsRule" : "",
   "decisionConcepts" : [ ]
 }
