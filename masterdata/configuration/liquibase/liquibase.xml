@@ -498,5 +498,14 @@
             VALUES ('Bengaluru Rural District Hospital StockRoom', 1, NOW(), @locationidBGl, uuid());
         </sql>
     </changeSet>
+    <changeSet id="Adding-BatchNumber-col-GOK-210"  author="Inventory">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">SELECT COUNT(*) FROM information_schema.columns WHERE table_name = 'inv_item_stock_detail' AND column_name = 'batch_number'</sqlCheck>
+        </preConditions>
+        <comment>Adding Batch Number column in inv_item_stock_detail table</comment>
+        <sql>
+            ALTER TABLE inv_item_stock_detail ADD COLUMN batch_number VARCHAR(15) AFTER batch_operation_id;
+        </sql>
+    </changeSet>
 
 </databaseChangeLog>
