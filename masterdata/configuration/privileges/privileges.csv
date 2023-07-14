@@ -3,3 +3,4 @@ Uuid,Privilege name,Description
 ,Send SMS,Privilege to send SMS
 ,app:referrals,Able to access referral patients.
 ,app:inventory,Privilege to access inventory
+,app:eSanjeevani,Privilege to access eSanjeevani
