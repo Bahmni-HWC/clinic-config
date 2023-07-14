@@ -225,11 +225,6 @@
   "dataType" : "NA",
   "active" : true
 }, {
-  "name" : "Other Activity Name",
-  "uuid" : "650d02a9-779b-4eab-8893-6079a57a98dc",
-  "dataType" : "Text",
-  "active" : true
-}, {
   "name" : "Other Chief Complaint",
   "uuid" : "66fcc30c-ab83-49d4-aa84-123152c84275",
   "dataType" : "Text",

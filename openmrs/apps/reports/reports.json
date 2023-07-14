@@ -62,5 +62,13 @@
     "config": {
       "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/diagnosisCount.sql"
     }
+  },
+  "CampActivityReport": {
+    "name": "Camp Activity Report",
+    "type": "AvniGeneric",
+    "requiredPrivilege": "app:reports",
+    "config": {
+      "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/campActivity.sql"
+    }
   }
 }
