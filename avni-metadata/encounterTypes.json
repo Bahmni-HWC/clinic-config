@@ -28,4 +28,10 @@
   "entityEligibilityCheckRule" : "",
   "active" : true,
   "immutable" : false
+}, {
+  "name" : "Prescriptions",
+  "uuid" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
+  "entityEligibilityCheckRule" : "",
+  "active" : true,
+  "immutable" : true
 } ]

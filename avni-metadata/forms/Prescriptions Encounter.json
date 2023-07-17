@@ -1,0 +1,32 @@
+{
+  "name" : "Prescriptions Encounter",
+  "uuid" : "0dcdbf90-1903-498e-901e-fb1faad2b96b",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "8a4364ca-9c29-4385-b787-25661ebc39ea",
+    "name" : "Prescription Details",
+    "displayOrder" : 1.0,
+    "display" : "Prescription Details",
+    "formElements" : [ {
+      "name" : "Prescription",
+      "uuid" : "ec16d268-ea0c-4471-9cc3-de6e23c7b5da",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Prescription",
+        "uuid" : "cc20b975-2c83-4a45-b4b6-4c59debd6a86",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

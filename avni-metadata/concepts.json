@@ -247,6 +247,11 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "Prescription",
+  "uuid" : "cc20b975-2c83-4a45-b4b6-4c59debd6a86",
+  "dataType" : "Text",
+  "active" : true
+}, {
   "name" : "Program Meetings",
   "uuid" : "ddf5cd97-13f8-47cf-9a48-98b87577d36c",
   "dataType" : "NA",
