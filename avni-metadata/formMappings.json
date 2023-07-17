@@ -112,4 +112,22 @@
   "formType" : "IndividualEncounterCancellation",
   "formName" : "Attendance form Encounter Cancellation",
   "enableApproval" : false
+}, {
+  "uuid" : "a089e0fa-f6fc-434d-b7c5-4b7325eb6bd9",
+  "id" : 14,
+  "formUUID" : "0dcdbf90-1903-498e-901e-fb1faad2b96b",
+  "encounterTypeUUID" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Prescriptions Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "31a774d0-1810-4421-8926-bc5587f0fa9b",
+  "id" : 15,
+  "formUUID" : "6c36de8d-190b-4648-aac3-4d34173fc882",
+  "encounterTypeUUID" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Prescriptions Encounter Cancellation",
+  "enableApproval" : false
 } ]

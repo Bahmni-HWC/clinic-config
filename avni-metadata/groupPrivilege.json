@@ -106,54 +106,6 @@
   "allow" : true,
   "voided" : false
 }, {
-  "uuid" : "02b520b1-9779-4d49-9de8-55176da7e5e2",
-  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
-  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
-  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
-  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
-  "allow" : true,
-  "voided" : false
-}, {
-  "uuid" : "a8e4f5c5-4f49-46c6-a13f-bae06553caf5",
-  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
-  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
-  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
-  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
-  "allow" : true,
-  "voided" : false
-}, {
-  "uuid" : "444548db-8e96-46b9-9287-c4228930e2ed",
-  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
-  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
-  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
-  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
-  "allow" : true,
-  "voided" : false
-}, {
-  "uuid" : "17a96a0b-267c-4301-9c8a-513067e3080d",
-  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
-  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
-  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
-  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
-  "allow" : true,
-  "voided" : false
-}, {
-  "uuid" : "a3f7864a-a953-4db7-b70d-2260ebf45389",
-  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
-  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
-  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
-  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
-  "allow" : true,
-  "voided" : false
-}, {
-  "uuid" : "a62b204e-f6d6-42dd-aec1-8aacdd3c438a",
-  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
-  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
-  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
-  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
-  "allow" : true,
-  "voided" : false
-}, {
   "uuid" : "ebb1dce1-b0b9-40b0-9c0c-d40534353c4a",
   "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
   "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
@@ -282,6 +234,62 @@
   "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
   "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
   "subjectTypeUUID" : "15fb23d3-283e-4136-ab7f-00555ed0b8a1",
+  "allow" : false,
+  "voided" : false
+}, {
+  "uuid" : "455a1e20-fde1-4264-804c-420691a64966",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
+  "allow" : true,
+  "voided" : false
+}, {
+  "uuid" : "02b520b1-9779-4d49-9de8-55176da7e5e2",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
+  "allow" : false,
+  "voided" : false
+}, {
+  "uuid" : "a8e4f5c5-4f49-46c6-a13f-bae06553caf5",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
+  "allow" : false,
+  "voided" : false
+}, {
+  "uuid" : "444548db-8e96-46b9-9287-c4228930e2ed",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
+  "allow" : false,
+  "voided" : false
+}, {
+  "uuid" : "17a96a0b-267c-4301-9c8a-513067e3080d",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
+  "allow" : false,
+  "voided" : false
+}, {
+  "uuid" : "a3f7864a-a953-4db7-b70d-2260ebf45389",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
+  "allow" : false,
+  "voided" : false
+}, {
+  "uuid" : "a62b204e-f6d6-42dd-aec1-8aacdd3c438a",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
   "allow" : false,
   "voided" : false
 } ]

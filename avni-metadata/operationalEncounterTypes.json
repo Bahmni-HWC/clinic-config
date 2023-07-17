@@ -39,5 +39,13 @@
     },
     "name" : "Attendance form",
     "voided" : false
+  }, {
+    "uuid" : "1e054e3a-6cc0-49af-ae27-3852cfd12d95",
+    "encounterType" : {
+      "uuid" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
+      "voided" : false
+    },
+    "name" : "Prescriptions",
+    "voided" : false
   } ]
 }
