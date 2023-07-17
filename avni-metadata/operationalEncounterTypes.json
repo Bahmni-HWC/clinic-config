@@ -47,5 +47,13 @@
     },
     "name" : "Prescriptions",
     "voided" : false
+  }, {
+    "uuid" : "6a8718eb-9676-4f5c-92b8-9237c51e0d1c",
+    "encounterType" : {
+      "uuid" : "fa7796d7-3d46-49a2-8495-55501eed7735",
+      "voided" : false
+    },
+    "name" : "Dispense Medication",
+    "voided" : false
   } ]
 }

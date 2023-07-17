@@ -56,6 +56,26 @@
     "order" : 5.0
   } ]
 }, {
+  "name" : "Albendazole suspension 200mg",
+  "uuid" : "807f9009-1e76-4055-98a7-9d3632c74fee",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Albendazole tab 400mg",
+  "uuid" : "2d2cd546-6e5e-49b3-9744-59112d01c3da",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Amlodipine tablet 10mg",
+  "uuid" : "dea2ae1f-be3c-414f-97d7-aaecfef6303b",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Amlodipine tablet 5mg",
+  "uuid" : "0cd4d34d-a664-4c41-8cc7-afc59380ab24",
+  "dataType" : "NA",
+  "active" : true
+}, {
   "name" : "Attendance Time",
   "uuid" : "6cdb4ebd-c0be-4611-b7d7-2f0caf346379",
   "dataType" : "Text",
@@ -66,6 +86,11 @@
   "dataType" : "Text",
   "active" : true,
   "keyValues" : [ ]
+}, {
+  "name" : "Batch Number",
+  "uuid" : "a17fe564-ab85-43a7-aa8c-62441081e479",
+  "dataType" : "Text",
+  "active" : true
 }, {
   "name" : "Bengaluru Rural District Hospital",
   "uuid" : "015f1e34-8a8c-4c1a-a54f-74722e375e35",
@@ -136,6 +161,39 @@
   "unit" : "mmHg",
   "active" : true,
   "keyValues" : [ ]
+}, {
+  "name" : "Dispense Medication",
+  "uuid" : "7376c674-3d92-4d0d-8b13-889246f4cc88",
+  "dataType" : "QuestionGroup",
+  "active" : true,
+  "keyValues" : [ ]
+}, {
+  "name" : "Drug Name",
+  "uuid" : "d7461859-125a-4569-b1ae-fa14722ae3ec",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Albendazole suspension 200mg",
+    "uuid" : "807f9009-1e76-4055-98a7-9d3632c74fee",
+    "order" : 0.0
+  }, {
+    "name" : "Albendazole tab 400mg",
+    "uuid" : "2d2cd546-6e5e-49b3-9744-59112d01c3da",
+    "order" : 1.0
+  }, {
+    "name" : "Amlodipine tablet 10mg",
+    "uuid" : "dea2ae1f-be3c-414f-97d7-aaecfef6303b",
+    "order" : 2.0
+  }, {
+    "name" : "Amlodipine tablet 5mg",
+    "uuid" : "0cd4d34d-a664-4c41-8cc7-afc59380ab24",
+    "order" : 3.0
+  } ]
+}, {
+  "name" : "Drug Quantity",
+  "uuid" : "a876c1b6-ca10-4b4e-88e6-72e45b58b22d",
+  "dataType" : "Numeric",
+  "active" : true
 }, {
   "name" : "Duration Units",
   "uuid" : "5defb45f-f4ef-4ec4-8926-b2c87821dea3",
