@@ -1,0 +1,139 @@
+{
+  "name" : "Dispense Medication Encounter",
+  "uuid" : "3fa6858b-56e0-4de8-8216-95c7b6f71ccd",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "5edb034e-ceef-4b77-b5a0-82436b49e43c",
+    "name" : "Dispense Medication",
+    "displayOrder" : 1.0,
+    "display" : "Dispense Medication",
+    "formElements" : [ {
+      "name" : "Dispense Medication",
+      "uuid" : "03f6c172-4bdc-4a05-b5f0-7329e05624df",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Dispense Medication",
+        "uuid" : "7376c674-3d92-4d0d-8b13-889246f4cc88",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true,
+        "keyValues" : [ ]
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Drug Quantity",
+      "uuid" : "cf39e417-9eb5-4ad5-bda0-101acbb67f59",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Drug Quantity",
+        "uuid" : "a876c1b6-ca10-4b4e-88e6-72e45b58b22d",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : true
+    }, {
+      "name" : "Batch Number",
+      "uuid" : "5d34da43-0185-42aa-8379-9a28564811ca",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Batch Number",
+        "uuid" : "a17fe564-ab85-43a7-aa8c-62441081e479",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Drug Name",
+      "uuid" : "83fa542a-5ec6-4c4f-aa64-eae649eb34ac",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Drug Name",
+        "uuid" : "d7461859-125a-4569-b1ae-fa14722ae3ec",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Amlodipine tablet 10mg",
+          "uuid" : "dea2ae1f-be3c-414f-97d7-aaecfef6303b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        }, {
+          "name" : "Albendazole suspension 200mg",
+          "uuid" : "807f9009-1e76-4055-98a7-9d3632c74fee",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Albendazole tab 400mg",
+          "uuid" : "2d2cd546-6e5e-49b3-9744-59112d01c3da",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Amlodipine tablet 5mg",
+          "uuid" : "0cd4d34d-a664-4c41-8cc7-afc59380ab24",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 3.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "03f6c172-4bdc-4a05-b5f0-7329e05624df",
+      "mandatory" : true
+    }, {
+      "name" : "Drug Quantity",
+      "uuid" : "c5aab0c3-be0b-40dc-9aed-548cb8776260",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Drug Quantity",
+        "uuid" : "a876c1b6-ca10-4b4e-88e6-72e45b58b22d",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "03f6c172-4bdc-4a05-b5f0-7329e05624df",
+      "mandatory" : true
+    }, {
+      "name" : "Batch Number",
+      "uuid" : "6b5c6a24-0085-4ad7-8ca6-59471689fde8",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Batch Number",
+        "uuid" : "a17fe564-ab85-43a7-aa8c-62441081e479",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "03f6c172-4bdc-4a05-b5f0-7329e05624df",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

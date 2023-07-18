@@ -1,0 +1,7 @@
+{
+  "name" : "Dispense Medication Encounter Cancellation",
+  "uuid" : "fbfe6538-c86a-49b5-9cec-4006909c4790",
+  "formType" : "IndividualEncounterCancellation",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}
