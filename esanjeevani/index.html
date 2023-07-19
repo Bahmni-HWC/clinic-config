@@ -110,8 +110,6 @@
             http.setRequestHeader('Content-type', 'application/json')
             http.send(JSON.stringify(data)) // Make sure to stringify
             http.onload = function () {
-                console.log(http.status);
-               
                 if (http.status == 200) {
                     window.location.replace(http.responseText)
                 }
