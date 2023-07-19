@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>e-Sanjeevani Login Form</title>
     <style>
@@ -10,7 +9,6 @@
             margin: 0;
             padding: 20px;
         }
-
         .container {
             max-width: 400px;
             margin: 0 auto;
@@ -19,16 +17,13 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-
         h2 {
             text-align: center;
         }
-
         label {
             display: block;
             margin-bottom: 5px;
         }
-
         input[type="text"],
         input[type="password"] {
             width: 100%;
@@ -38,7 +33,6 @@
             box-sizing: border-box;
             margin-bottom: 10px;
         }
-
         input[type="button"] {
             background-color: #4CAF50;
             color: white;
@@ -49,39 +43,61 @@
             font-size: 16px;
             width: 100%;
         }
-
         input[type="submit"]:hover {
             background-color: #45a049;
         }
-
-        #response {
+        #response, #postalcoderesponse {
             margin-top: 10px;
             padding: 10px;
             border-radius: 4px;
             font-weight: bold;
         }
-
         .success {
             background-color: #a9dca9;
             color: #155724;
         }
-
         .error {
             background-color: #f8d7da;
             color: #721c24;
         }
     </style>
     <script>
+        async function getpostalCode() {
+            const patientUuid = getPatientUuid();
+            try {
+                const response = await fetch(`/openmrs/ws/rest/v1/person/${patientUuid}/address`);
+                const data = await response.json();
+                const postalCode = data.results[0].postalCode;
+                return postalCode;
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                return null;
+            }
+        }
+        window.addEventListener("DOMContentLoaded", async function() {
+            var container = document.getElementById('container');
+            var responseDiv = document.getElementById('postalcoderesponse');
+            responseDiv.textContent = "Loading...";
+            const patientUuid = getPatientUuid();
+            const postalCode = await getpostalCode();
+            if (!postalCode) {
+                responseDiv.textContent = "ERROR: Postal code is empty.";
+                responseDiv.innerHTML += '<br><a href="/bahmni/registration/#/patient/' + patientUuid + '">Click here to enter Postal Code</a>';
+                responseDiv.classList.add('error');
+                container.style.display = "none"; // Hide the container if no postal code
+            } else {
+                responseDiv.style.display = "none"; // Hide the error message if postal code is present
+                container.style.display = "block"; // Show the container if postal code is present
+            }
+        });
         function postData() {
             var responseDiv = document.getElementById('response');
             responseDiv.textContent = "Loading...";
             responseDiv.classList.add('success');
             //e.preventDefault(); // Prevent the form from submitting normally
-
             // Get the input values
             var username = document.getElementById('username').value
             var password = document.getElementById('password').value
-
             // Create the data object
             var data = {
                 username: username,
@@ -105,28 +121,22 @@
                 else {
                     alert('Something went wrong. Please try again later.')
                 }
-
             }
-
         }
         function getPatientUuid() {
             // Get the current URL
             var url = new URL(window.location.href);
-
             // Get the search parameters from the URL
             var searchParams = new URLSearchParams(url.search);
-
             // Retrieve the value of the specified parameter
             var patientUuid = searchParams.get("patientUuid");
-
             return patientUuid;
         }
-
     </script>
 </head>
-
 <body>
-    <div class="container">
+    <div id="postalcoderesponse"></div>
+    <div class="container" id="container" style="display: none;">
         <h2>e-Sanjeevani Login</h2>
         <form id="loginForm">
             <div>
@@ -144,5 +154,4 @@
         <div id="response"></div>
     </div>
 </body>
-
 </html>
