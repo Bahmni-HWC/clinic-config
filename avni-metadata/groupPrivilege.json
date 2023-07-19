@@ -292,4 +292,20 @@
   "encounterTypeUUID" : "cec9d389-6c6f-460b-827c-72576d1c9e9d",
   "allow" : false,
   "voided" : false
+}, {
+  "uuid" : "d76babc3-3828-43a9-9694-e6d764627cca",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "fa7796d7-3d46-49a2-8495-55501eed7735",
+  "allow" : true,
+  "voided" : false
+}, {
+  "uuid" : "3ffdc75d-9b7a-458f-8651-ef5758f8e38f",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "fa7796d7-3d46-49a2-8495-55501eed7735",
+  "allow" : true,
+  "voided" : false
 } ]
