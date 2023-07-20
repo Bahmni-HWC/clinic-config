@@ -232,6 +232,11 @@
   "dataType" : "NA",
   "active" : true
 }, {
+  "name" : "Full Address",
+  "uuid" : "c6ad8e55-7328-48dd-8bd7-61c12f1b2d4d",
+  "dataType" : "Text",
+  "active" : true
+}, {
   "name" : "Headache",
   "uuid" : "310bd9af-71a1-4254-a930-c01e08d6c9ce",
   "dataType" : "NA",
