@@ -62,6 +62,20 @@
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
+      "name" : "Full Address",
+      "uuid" : "677a2e49-902a-4549-a6ae-4008c16331f5",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Full Address",
+        "uuid" : "c6ad8e55-7328-48dd-8bd7-61c12f1b2d4d",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
       "name" : "RCH ID",
       "uuid" : "edde014f-568d-4971-b886-d07fef028a17",
       "keyValues" : [ ],
@@ -73,7 +87,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 4.0,
+      "displayOrder" : 5.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -88,7 +102,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 5.0,
+      "displayOrder" : 6.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -103,7 +117,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 6.0,
+      "displayOrder" : 7.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -118,14 +132,14 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 7.0,
+      "displayOrder" : 8.0,
       "type" : "SingleSelect",
       "validFormat" : {
         "regex" : "^([1-9]{1}[0-9]{9})$",
         "descriptionKey" : "Phone Number should be 10 digits"
       },
       "mandatory" : true
-    } ],
+    }],
     "timed" : false
   } ],
   "decisionRule" : "",
