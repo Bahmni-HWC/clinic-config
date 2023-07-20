@@ -55,5 +55,13 @@
     },
     "name" : "Dispense Medication",
     "voided" : false
+  }, {
+    "uuid" : "9a5349af-38af-426f-869b-6c9998a515c8",
+    "encounterType" : {
+      "uuid" : "84722bf4-f72d-44a8-b881-fac99ade2811",
+      "voided" : false
+    },
+    "name" : "Hospital Diagnoses",
+    "voided" : false
   } ]
 }

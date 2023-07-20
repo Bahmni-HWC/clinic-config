@@ -1,0 +1,7 @@
+{
+  "name" : "Hospital Diagnoses Encounter Cancellation",
+  "uuid" : "b1c0ece5-d996-4a4c-bd98-4448f05fda10",
+  "formType" : "IndividualEncounterCancellation",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

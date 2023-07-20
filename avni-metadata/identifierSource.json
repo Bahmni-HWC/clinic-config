@@ -1,6 +1,6 @@
 [ {
-  "batchGenerationSize" : 300,
-  "minimumBalance" : 50,
+  "batchGenerationSize" : 50,
+  "minimumBalance" : 5,
   "name" : "Patient Identifier Source",
   "options" : {
     "prefix" : "KA"
