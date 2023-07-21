@@ -54,7 +54,7 @@
           "order" : 0.0,
           "active" : true
         }, {
-          "name" : "Fever/Chills",
+          "name" : "Fever",
           "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
           "dataType" : "NA",
           "answers" : [ ],

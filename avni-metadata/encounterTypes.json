@@ -33,11 +33,17 @@
   "uuid" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
   "entityEligibilityCheckRule" : "",
   "active" : true,
-  "immutable" : false
+  "immutable" : true
 }, {
   "name" : "Dispense Medication",
   "uuid" : "fa7796d7-3d46-49a2-8495-55501eed7735",
   "entityEligibilityCheckRule" : "",
   "active" : true,
   "immutable" : false
+}, {
+  "name" : "Hospital Diagnoses",
+  "uuid" : "84722bf4-f72d-44a8-b881-fac99ade2811",
+  "entityEligibilityCheckRule" : "",
+  "active" : true,
+  "immutable" : true
 } ]

@@ -133,7 +133,7 @@
     "uuid" : "640a4673-ac5e-4742-8925-34901854c3fc",
     "order" : 3.0
   }, {
-    "name" : "Fever/Chills",
+    "name" : "Fever",
     "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
     "order" : 4.0
   }, {
@@ -150,6 +150,11 @@
   "name" : "Days",
   "uuid" : "83347c0f-1da0-40b1-a668-2a5722106a72",
   "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Diagnoses",
+  "uuid" : "33b3a5c3-bd72-45f9-8c4a-03b3f597745c",
+  "dataType" : "Text",
   "active" : true
 }, {
   "name" : "Diastolic blood pressure",
@@ -227,7 +232,7 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
-  "name" : "Fever/Chills",
+  "name" : "Fever",
   "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
   "dataType" : "NA",
   "active" : true

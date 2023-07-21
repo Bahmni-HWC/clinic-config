@@ -148,4 +148,22 @@
   "formType" : "IndividualEncounterCancellation",
   "formName" : "Dispense Medication Encounter Cancellation",
   "enableApproval" : false
+}, {
+  "uuid" : "8f1548fa-b748-405f-8fdb-0fd8440268ca",
+  "id" : 18,
+  "formUUID" : "abb12258-ee2a-4edd-ba89-cc6cf723a4f2",
+  "encounterTypeUUID" : "84722bf4-f72d-44a8-b881-fac99ade2811",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Hospital Diagnoses Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "4ed380a4-d27b-41fa-9324-6823999a104a",
+  "id" : 19,
+  "formUUID" : "b1c0ece5-d996-4a4c-bd98-4448f05fda10",
+  "encounterTypeUUID" : "84722bf4-f72d-44a8-b881-fac99ade2811",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Hospital Diagnoses Encounter Cancellation",
+  "enableApproval" : false
 } ]
