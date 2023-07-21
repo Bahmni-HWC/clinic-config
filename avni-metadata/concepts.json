@@ -133,7 +133,7 @@
     "uuid" : "640a4673-ac5e-4742-8925-34901854c3fc",
     "order" : 3.0
   }, {
-    "name" : "Fever/Chills",
+    "name" : "Fever",
     "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
     "order" : 4.0
   }, {
@@ -232,7 +232,7 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
-  "name" : "Fever/Chills",
+  "name" : "Fever",
   "uuid" : "2af23da7-9c7b-46b8-82ce-ac745dfe82ce",
   "dataType" : "NA",
   "active" : true
