@@ -87,5 +87,4 @@
       "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/registrationCount.sql"
     }
   }
-
 }

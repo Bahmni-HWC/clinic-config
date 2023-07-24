@@ -15,4 +15,6 @@ FROM
     ) AS REG_patients ON e.patient_id = REG_patients.patient_id
 WHERE
     (et.name = "REG" OR (et.name = "Community Registration Encounter" AND REG_patients.patient_id IS NULL))
+  AND DATE(e.encounter_datetime) BETWEEN '#startDate#' AND '#endDate#'
 GROUP BY l.name;
+
