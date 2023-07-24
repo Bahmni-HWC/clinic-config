@@ -316,4 +316,12 @@
   "encounterTypeUUID" : "84722bf4-f72d-44a8-b881-fac99ade2811",
   "allow" : true,
   "voided" : false
+}, {
+  "uuid" : "911a9a63-46a0-4ba6-b1c9-54a7d6c28529",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "803a0530-969b-45d5-b96d-263bcb402c83",
+  "allow" : true,
+  "voided" : false
 } ]

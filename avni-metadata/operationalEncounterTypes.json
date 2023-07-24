@@ -63,5 +63,13 @@
     },
     "name" : "Hospital Diagnoses",
     "voided" : false
+  }, {
+    "uuid" : "bebc4f28-576f-4a83-a403-5dc58706b6d5",
+    "encounterType" : {
+      "uuid" : "803a0530-969b-45d5-b96d-263bcb402c83",
+      "voided" : false
+    },
+    "name" : "Hospital Vitals",
+    "voided" : false
   } ]
 }

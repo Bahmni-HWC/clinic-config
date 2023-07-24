@@ -407,6 +407,7 @@
   "dataType" : "Numeric",
   "lowAbsolute" : 40.0,
   "highAbsolute" : 140.0,
+   "unit" : "F",
   "active" : true,
   "keyValues" : [ ]
 }, {

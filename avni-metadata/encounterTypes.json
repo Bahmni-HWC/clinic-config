@@ -46,4 +46,10 @@
   "entityEligibilityCheckRule" : "",
   "active" : true,
   "immutable" : true
+}, {
+  "name" : "Hospital Vitals",
+  "uuid" : "803a0530-969b-45d5-b96d-263bcb402c83",
+  "entityEligibilityCheckRule" : "",
+  "active" : true,
+  "immutable" : true
 } ]

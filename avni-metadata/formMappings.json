@@ -166,4 +166,22 @@
   "formType" : "IndividualEncounterCancellation",
   "formName" : "Hospital Diagnoses Encounter Cancellation",
   "enableApproval" : false
+}, {
+  "uuid" : "e4e6f0b3-3988-4f83-89e1-f1b108c0ea7c",
+  "id" : 20,
+  "formUUID" : "0b4ad548-2c6f-4d2e-aa93-2567a1aa71bd",
+  "encounterTypeUUID" : "803a0530-969b-45d5-b96d-263bcb402c83",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Hospital Vitals Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "808d4425-742d-4e3d-9c93-654fd6839052",
+  "id" : 21,
+  "formUUID" : "2689f32d-2843-49e5-80b2-04c34b43b0d6",
+  "encounterTypeUUID" : "803a0530-969b-45d5-b96d-263bcb402c83",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Hospital Vitals Encounter Cancellation",
+  "enableApproval" : false
 } ]
