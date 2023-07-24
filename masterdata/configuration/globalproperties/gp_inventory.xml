@@ -24,8 +24,8 @@
                 join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
                 left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
                 select visit_attribute_type_id from visit_attribute_type where name="Admission Status") and va.voided = 0
-                INNER JOIN orders o ON o.patient_id = v.patient_id
-                where v.date_stopped is null AND v.voided = 0;</value>
+                INNER JOIN orders o ON o.patient_id = v.patient_id JOIN order_type ot on ot.order_type_id = o.order_type_id and ot.name = "Drug Order"
+                where v.date_stopped is null AND v.voided = 0</value>
         </globalProperty>
         <globalProperty>
             <property>eaushadha.api.baseUrl</property>
