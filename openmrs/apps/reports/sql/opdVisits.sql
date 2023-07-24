@@ -17,7 +17,7 @@ SELECT
 FROM visit v
   JOIN visit_type vt ON v.visit_type_id = vt.visit_type_id
   JOIN person p ON p.person_id = v.patient_id AND p.voided is FALSE
-  JOIN patient_identifier pi ON p.person_id = pi.patient_id AND pi.voided is FALSE
+  JOIN patient_identifier pi ON p.person_id = pi.patient_id AND pi.voided is FALSE AND pi.preferred = 1
   JOIN patient_identifier_type pit ON pi.identifier_type = pit.patient_identifier_type_id AND pit.retired is FALSE
   JOIN person_name pn ON pn.person_id = p.person_id AND pn.voided is FALSE
   LEFT OUTER JOIN person_address paddress ON p.person_id = paddress.person_id AND paddress.voided is FALSE
