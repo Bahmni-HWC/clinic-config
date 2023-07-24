@@ -78,5 +78,14 @@
     "config": {
       "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/hwcAttendance.sql"
     }
+  },
+  "OfflineOPDVisitCountReport": {
+    "name": "Offline OPD Visit Count Report",
+    "type": "AvniGeneric",
+    "requiredPrivilege": "app:reports",
+    "config": {
+      "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/offlineOPDVisitCount.sql"
+    }
   }
+
 }
