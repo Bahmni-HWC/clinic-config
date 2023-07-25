@@ -74,6 +74,26 @@
                 return null;
             }
         }
+
+        function getBahmniUser() {
+            const matches = document.cookie.match(/bahmni\.user=([^;]*)/);
+            return matches?.[1] ? decodeURIComponent(matches[1]).replace(/"/g, '') : '';
+        }
+
+        function logAuditForESanjeevaniVisit(){
+            var username = getBahmniUser();
+            const data = {
+                patientUuid: getPatientUuid(),
+                eventType: "ACCESSED_E_SANJEEVANI",
+                message: `User ${username} accessed e-Sanjeevani from Bahmni Registration`,
+                module: "E-Sanjeevani"
+            };
+            const http = new XMLHttpRequest()
+            http.open('POST', '/openmrs/ws/rest/v1/auditlog')
+            http.setRequestHeader('Content-type', 'application/json')
+            http.send(JSON.stringify(data))
+        }
+
         window.addEventListener("DOMContentLoaded", async function() {
             var container = document.getElementById('container');
             var responseDiv = document.getElementById('postalcoderesponse');
@@ -91,6 +111,7 @@
             }
         });
         function postData() {
+            logAuditForESanjeevaniVisit();
             var responseDiv = document.getElementById('response');
             responseDiv.textContent = "Loading...";
             responseDiv.classList.add('success');
