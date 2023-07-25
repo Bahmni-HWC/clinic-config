@@ -470,6 +470,32 @@
         </sql>
     </changeSet>
 
+    <!-- Updating ABHA Address UUID-->
+    <changeSet id="Updating-ABHA-Address-UUID-GOK-228"  author="Riya">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">select count(*) from patient_identifier_type where name='ABHA Address'</sqlCheck>
+        </preConditions>
+        <comment>Updating ABHA Address UUID</comment>
+        <sql>
+            UPDATE patient_identifier_type
+            SET uuid = 'ada436db-0e3e-11ee-9960-0242ac150002'
+            WHERE name = 'ABHA Address';
+        </sql>
+    </changeSet>
+
+    <!-- Updating ABHA Number UUID-->
+    <changeSet id="Updating-ABHA-Number-UUID-GOK-228"  author="Riya">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">select count(*) from patient_identifier_type where name='ABHA Number'</sqlCheck>
+        </preConditions>
+        <comment>Updating ABHA Number UUID</comment>
+        <sql>
+            UPDATE patient_identifier_type
+            SET uuid = 'ada0b55b-0e3e-11ee-9960-0242ac150002'
+            WHERE name = 'ABHA Number';
+        </sql>
+    </changeSet>
+
     <changeSet id="GOK-193-inv-StockRooms-2375843"  author="Inventory">
         <preConditions onFail="MARK_RAN">
             <sqlCheck expectedResult="6">select count(*) from location where name = 'Hosakote UPHC' OR name = 'Hosakote Nama Clinic' OR name = 'Nandagudi SC1' OR name = 'Nandagudi SC2' OR name = 'Anupahalli SC1' OR name = 'Bengaluru Rural District Hospital'</sqlCheck>
