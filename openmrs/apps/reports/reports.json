@@ -87,5 +87,13 @@
     "config": {
       "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/hwcAttendance.sql"
     }
+  },
+  "ESanjeevaniTeleconsultationReport": {
+    "name": "E-Sanjevani Teleconsultation Report",
+    "type": "MRSGeneric",
+    "requiredPrivilege": "app:reports",
+    "config": {
+      "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/esanjeevaniVisitCount.sql"
+    }
   }
 }
