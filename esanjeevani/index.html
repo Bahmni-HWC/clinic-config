@@ -111,7 +111,6 @@
             }
         });
         function postData() {
-            logAuditForESanjeevaniVisit();
             var responseDiv = document.getElementById('response');
             responseDiv.textContent = "Loading...";
             responseDiv.classList.add('success');
@@ -132,6 +131,7 @@
             http.send(JSON.stringify(data)) // Make sure to stringify
             http.onload = function () {
                 if (http.status == 200) {
+                    logAuditForESanjeevaniVisit();
                     window.location.replace(http.responseText)
                 }
                 else if(http.status == 400 || http.status == 401) {
