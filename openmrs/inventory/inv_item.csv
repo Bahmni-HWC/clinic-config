@@ -1,2 +1,487 @@
 uuid,name,description,department_id,default_item_price,has_expiration,concept_name,creator,date_created,changed_by,date_changed,retired,retired_by,date_retired,retire_reason,has_physical_inventory,default_expiration_period,concept_accepted,minimum_quantity,buying_price,drugName,eAushadhaID
-b8252de7-81f6-4379-bdc2-27b3c29b0512,Meftal 500mg,,1,1,false,Aceclofenac,4,,4,2023-05-28 14:17:12,false,,,,yes,,false,20,10,Paracetamol 500 mg,1.2.1
+ff8bda9f-9972-4eb0-8cee-098a640eed93,"Absorbable Surgical suture Antibacterial Coated Polyglactin 1/2 Circle RB CC/Taper Point 36MM Needle, length 90 cm NA 1/0 12 Foils",,1,1,false,,1,,1,,0,,,,1,,0,,,"Absorbable Surgical suture Antibacterial Coated Polyglactin 1/2 Circle RB CC/Taper Point 36MM Needle, length 90 cm NA 1/0 12 Foils",28.24.31
+bffee1aa-9f01-49cb-ba45-f2965ab7195d,"ABSORBABLE SURGICAL SUTURES CHROMIC CATGUT SIZE 1-0(1/2 CIRCLE ROUND BODY NEEDLE 45MM,LENGTH 100CM)(4229) NA SIZE 1-0 1x12",,1,1,false,,1,,1,,0,,,,1,,0,,,"ABSORBABLE SURGICAL SUTURES CHROMIC CATGUT SIZE 1-0(1/2 CIRCLE ROUND BODY NEEDLE 45MM,LENGTH 100CM)(4229) NA SIZE 1-0 1x12",28.3.22
+73db3564-f9b7-4759-b446-6ca854dcc542,ABSORBABLE SURGICAL SUTURES CHROMIC CATGUT SIZE 2(1/2 CIRCLE ROUND BODY NEEDLE 45MM)LENGTH 100CM(4228) NA SIZE 2 1x12,,1,1,false,,1,,1,,0,,,,1,,0,,,ABSORBABLE SURGICAL SUTURES CHROMIC CATGUT SIZE 2(1/2 CIRCLE ROUND BODY NEEDLE 45MM)LENGTH 100CM(4228) NA SIZE 2 1x12,28.3.21
+4d8090aa-e8d2-4171-9e41-c72a12f427aa,Absorbent cotton wool NA 500 GM 1x500gm,,1,1,false,,1,,1,,0,,,,1,,0,,,Absorbent cotton wool NA 500 GM 1x500gm,28.5.1
+5a555f3c-236e-4a72-951b-b40151537d78,Aceclofenac Tablet 100mg 1x10x10,,1,1,false,Aceclofenac,1,,1,,0,,,,1,,0,,,Aceclofenac Tablet 100mg 1x10x10,1.3.1
+289c6433-9380-44ef-a3bf-9b33ac7d9329,Acenocoumarol Tablet 1mg 1x10x10,,1,1,false,Acenocoumarol,1,,1,,0,,,,1,,0,,,Acenocoumarol Tablet 1mg 1x10x10,20.2.15
+a3e108f9-70ca-43c2-8f30-bdeff6e0489c,Acenocoumarol Tablet 4mg 1x10x10,,1,1,false,Acenocoumarol,1,,1,,0,,,,1,,0,,,Acenocoumarol Tablet 4mg 1x10x10,20.2.16
+8bef3c83-45d2-48c1-9904-dd0cc1b5ca75,Acetyl Salicylic Acid Dispersible Tablet 150mg 1x10x10,,1,1,false,Acetylsalicylic Acid,1,,1,,0,,,,1,,0,,,Acetyl Salicylic Acid Dispersible Tablet 150mg 1x10x10,1.3.2
+6c0ea83f-2545-4660-8cbb-c5b22d6a91c2,Acetyl Salicylic Acid Dispersible Tablet 75mg 1x10x10,,1,1,false,Acetylsalicylic Acid,1,,1,,0,,,,1,,0,,,Acetyl Salicylic Acid Dispersible Tablet 75mg 1x10x10,11.1.2
+b83b9b84-45eb-4f75-8327-e5f8de97b22d,Acetyl Salicylic Acid EC Tablet 150mg 1x10x10,,1,1,false,Acetylsalicylic Acid,1,,1,,0,,,,1,,0,,,Acetyl Salicylic Acid EC Tablet 150mg 1x10x10,1.3.3
+598d4327-d570-4ce1-b12d-6403495c63f7,Acetyl Salicylic Acid(Entric Coated) Tablet 350mg 1x10x10,,1,1,false,Acetylsalicylic Acid,1,,1,,0,,,,1,,0,,,Acetyl Salicylic Acid(Entric Coated) Tablet 350mg 1x10x10,1.3.32
+c7ab88e5-def7-427e-9bf1-20152f847677,Acyclovir Cream 5% 1x5g,,1,1,false,Acyclovir,1,,1,,0,,,,1,,0,,,Acyclovir Cream 5% 1x5g,12.1.1
+c22e50a1-95c0-47c8-b999-f3e4630b6cd4,Acyclovir Ointment 3% 1x10g,,1,1,false,Acyclovir,1,,1,,0,,,,1,,0,,,Acyclovir Ointment 3% 1x10g,6.11.17
+4480b9c6-7711-49e4-89e0-52e66add8f76,Acyclovir Ointment 5% 1x10g,,1,1,false,Acyclovir,1,,1,,0,,,,1,,0,,,Acyclovir Ointment 5% 1x10g,6.11.1
+59c667b2-c0b9-4c72-80fb-7e8a0003daa0,Acyclovir Suspension 400mg/5ml 1x60ml,,1,1,false,Acyclovir,1,,1,,0,,,,1,,0,,,Acyclovir Suspension 400mg/5ml 1x60ml,6.14.3
+4b696d7b-94ba-419b-8c5f-451e17de1603,Acyclovir Tablet 200mg 1x10x10,,1,1,false,Acyclovir,1,,1,,0,,,,1,,0,,,Acyclovir Tablet 200mg 1x10x10,6.14.4
+48804073-bca6-4049-bd64-5b06a27ba68b,Acyclovir Tablet 400mg 1x10x10,,1,1,false,Acyclovir,1,,1,,0,,,,1,,0,,,Acyclovir Tablet 400mg 1x10x10,6.14.5
+befb8f08-2dff-4276-b331-55954aa9e3b9,Acyclovir Tablet 800mg 1x10x10,,1,1,false,Acyclovir,1,,1,,0,,,,1,,0,,,Acyclovir Tablet 800mg 1x10x10,6.14.6
+a1cf3697-140f-4469-bf2d-4f8850a67d5c,Adhesive tape NA 10cmx10mts 1x3rolls,,1,1,false,,1,,1,,0,,,,1,,0,,,Adhesive tape NA 10cmx10mts 1x3rolls,28.23.1
+3eac3914-ab97-4bad-ac4e-4cdf0a555bb0,Adrenaline Bitartrate Injection 1mg/ml 1x1ml,,1,1,false,Adrenaline bitartrate,1,,1,,0,,,,1,,0,,,Adrenaline Bitartrate Injection 1mg/ml 1x1ml,3.1.1
+03fe8c07-31b6-4928-88b3-2f38391b9f4d,Albendazole Suspension 200mg/5ml 1x10ml,,1,1,false,Albendazole,1,,1,,0,,,,1,,0,,,Albendazole Suspension 200mg/5ml 1x10ml,6.3.1
+bfe6077f-dfef-4cb1-92f1-4bdf7e02a7fe,Albendazole Tablet 400mg 1x10x10,,1,1,false,Albendazole,1,,1,,0,,,,1,,0,,,Albendazole Tablet 400mg 1x10x10,6.3.2
+0d8178c3-46b7-4b7f-8b68-96b3972b9528,"Alcoholic hand disinfectant with skin protection factor, 2-propanol 44.0gms,1-propanol 30.0g, mecetronium ethylsulfate 02.gms Solution 44.0gms+30.0g+02.gms 1x500ml",,1,1,false,,1,,1,,0,,,,1,,0,,,"Alcoholic hand disinfectant with skin protection factor, 2-propanol 44.0gms,1-propanol 30.0g, mecetronium ethylsulfate 02.gms Solution 44.0gms+30.0g+02.gms 1x500ml",14.1.17
+7257847a-6eec-4e4f-8532-3a5230c8e936,Allopurinol Tablet 100mg 1x10x10,,1,1,false,Allopurinol,1,,1,,0,,,,1,,0,,,Allopurinol Tablet 100mg 1x10x10,1.2.1
+1157ac3d-f04b-420b-a7b5-90d5fa2b988a,"Aluminium Hydroxide 250mg, Magnesium Hydroxide 250mg, Activated Dimethicone 50mg, Oxethazine 10mg Suspension 250mg+250mg+50mg+10mg 1x200ml",,1,1,false,Aluminium Hydroxide/Magnesium Hydroxide/Activated Dimethicone/Oxethazine,1,,1,,0,,,,1,,0,,,"Aluminium Hydroxide 250mg, Magnesium Hydroxide 250mg, Activated Dimethicone 50mg, Oxethazine 10mg Suspension 250mg+250mg+50mg+10mg 1x200ml",16.1.20
+4356cdf2-b175-49b1-aa6c-26422cf4de1f,Ambroxol Hydrocloride and N-Acetyl-L-Cysteine Tablet 200mg+30mg 1x10x10,,1,1,false,Ambroxol Hydrocloride and N-Acetyl-L-Cysteine,1,,1,,0,,,,1,,0,,,Ambroxol Hydrocloride and N-Acetyl-L-Cysteine Tablet 200mg+30mg 1x10x10,19.1.26
+52b6a45a-357e-4617-9c46-fe114df2ece3,Ambroxol Syrup 30mg/5ml 1x100ml,,1,1,false,Ambroxol,1,,1,,0,,,,1,,0,,,Ambroxol Syrup 30mg/5ml 1x100ml,19.1.1
+011e0227-a966-49f5-bbc4-96a128f67aa8,Amikacin Injection 100mg/2ml 1x1Vial,,1,1,false,Amikacin,1,,1,,0,,,,1,,0,,,Amikacin Injection 100mg/2ml 1x1Vial,6.7.1
+b1e9ab4d-c997-4e97-ab58-5f38275a834a,Amikacin Injection 250mg/2ml 1x1Vial,,1,1,false,Amikacin,1,,1,,0,,,,1,,0,,,Amikacin Injection 250mg/2ml 1x1Vial,6.7.2
+172a8c05-b58c-4dc2-840e-a322d11421e8,Amikacin Injection 500mg/2ml 1x1Vial,,1,1,false,Amikacin,1,,1,,0,,,,1,,0,,,Amikacin Injection 500mg/2ml 1x1Vial,6.7.3
+98fee746-ba8c-4888-9c0c-8cd33f40be95,Amitriptyline Tablet 25mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Amitriptyline,1,,1,,0,,,,1,,0,,,Amitriptyline Tablet 25mg 1 X 10 X 10 IP/BP/USP,25.3.1
+37d4b9c8-635c-4de8-8929-805d3101232b,Amlodipine Tablet 10mg 1x10x10,,1,1,false,Amlodipine,1,,1,,0,,,,1,,0,,,Amlodipine Tablet 10mg 1x10x10,11.3.1
+547c55d8-5490-47e5-82d4-c39e787bbcf9,Amoxicillin Capsule 250mg 1x10x10,,1,1,false,Amoxicillin,1,,1,,0,,,,1,,0,,,Amoxicillin Capsule 250mg 1x10x10,6.6.1
+dacb9078-071a-45d9-9b1c-ccce10092d03,Amoxicillin Capsule 500mg 1x10x10,,1,1,false,Amoxicillin,1,,1,,0,,,,1,,0,,,Amoxicillin Capsule 500mg 1x10x10,6.6.2
+438b30e1-9e79-4769-88f4-cbf27b740db4,Amoxicillin Dispersible Tablet 125mg 1x10x10,,1,1,false,Amoxicillin,1,,1,,0,,,,1,,0,,,Amoxicillin Dispersible Tablet 125mg 1x10x10,6.6.3
+278c6d85-171d-4ecf-b2af-98038e5bce73,Amoxicillin+Clavulinic acid Injection 1.2gm 1x1Vial,,1,1,false,Amoxicillin and clavulanic acid,1,,1,,0,,,,1,,0,,,Amoxicillin+Clavulinic acid Injection 1.2gm 1x1Vial,6.6.5
+8aa5d223-df55-4622-83c9-866b3d91e6ae,Amoxicillin+Clavulinic acid Injection 600mg 1x1Vial,,1,1,false,Amoxicillin and clavulanic acid,1,,1,,0,,,,1,,0,,,Amoxicillin+Clavulinic acid Injection 600mg 1x1Vial,6.6.6
+dcee9b45-e4c6-42a9-ae21-d383bf2b54e3,Amoxicillin+Clavulinic acid Powder for suspension 200mg + 28.5mg/5ml 1x30ml,,1,1,false,Amoxicillin and clavulanic acid,1,,1,,0,,,,1,,0,,,Amoxicillin+Clavulinic acid Powder for suspension 200mg + 28.5mg/5ml 1x30ml,6.6.7
+e0e5939e-9cd3-4a7e-8073-36ff785bd4b8,Amoxicillin+Clavulinic acid Tablet 625mg 1x10x10,,1,1,false,Amoxicillin and clavulanic acid,1,,1,,0,,,,1,,0,,,Amoxicillin+Clavulinic acid Tablet 625mg 1x10x10,6.6.8
+bb88857f-29ab-45ce-81bb-a50af2e09cee,Amoxycillin 125mg + Clavulanic Acid 31.25mg / 5ml Suspension 125mg+31.25mg/5ml 1x30ml,,1,1,false,Amoxicillin and clavulanic acid,1,,1,,0,,,,1,,0,,,Amoxycillin 125mg + Clavulanic Acid 31.25mg / 5ml Suspension 125mg+31.25mg/5ml 1x30ml,6.6.50
+af5b7acf-bb82-44a4-8792-8757b6eab889,Amoxycillin Oral Liquid 250mg/5ml 1x60ml,,1,1,false,Amoxicillin,1,,1,,0,,,,1,,0,,,Amoxycillin Oral Liquid 250mg/5ml 1x60ml,6.6.42
+3218a115-4600-4d28-ac97-f650c4e3a501,Amoxycillin Powder Suspension 125mg/5ml 1x60ml,,1,1,false,Amoxicillin,1,,1,,0,,,,1,,0,,,Amoxycillin Powder Suspension 125mg/5ml 1x60ml,6.6.39
+82b90525-52d9-4bcb-971f-bbb4b134e449,Ampicillin Capsule 250mg 1x10x10,,1,1,false,Ampicillin,1,,1,,0,,,,1,,0,,,Ampicillin Capsule 250mg 1x10x10,6.6.9
+997d1339-c70e-4c30-8229-438472af5642,Ampicillin Capsule 500mg 1x10x10,,1,1,false,Ampicillin,1,,1,,0,,,,1,,0,,,Ampicillin Capsule 500mg 1x10x10,6.6.10
+783db91b-0d52-4541-995e-831ceb8511df,Ampicillin Injection 500mg 1x1Vial,,1,1,false,Ampicillin,1,,1,,0,,,,1,,0,,,Ampicillin Injection 500mg 1x1Vial,6.6.11
+0225fe36-aa81-43d4-995e-7ccc52485f2a,Ampicillin Powder for Injection. 1g 1x1,,1,1,false,Ampicillin,1,,1,,0,,,,1,,0,,,Ampicillin Powder for Injection. 1g 1x1,6.6.43
+a65aa570-4ca7-4233-b879-4dc3870f83e2,Ampicillin Powder for suspension 125mg/5ml 1x30ml,,1,1,false,Ampicillin,1,,1,,0,,,,1,,0,,,Ampicillin Powder for suspension 125mg/5ml 1x30ml,6.6.12
+d0764e52-3c9f-49ca-87aa-cbd4ea131b67,Anti-D immunoglobin (human) Injection 300mcg 1x1Vial,,1,1,false,"Immunoglobulins, intravenous",1,,1,,0,,,,1,,0,,,Anti-D immunoglobin (human) Injection 300mcg 1x1Vial,18.2.1
+a9be9305-20fd-47a0-8c57-97c69724f6a0,Antiseptic Handwash - Isopropyl Alcohol Spray NA 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Antiseptic Handwash - Isopropyl Alcohol Spray NA 1x500ml,14.2.1
+467af2c0-adff-4848-a173-d26ee78e33e1,Antiseptic Liquid Hand Wash 500ml Liquid NA 1x200ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Antiseptic Liquid Hand Wash 500ml Liquid NA 1x200ml,14.1.15
+2d787d5c-10ca-4878-96f0-c8d1bc39b5ef,Antisnake Venom (Polyvalent Lyophilized) Powder for Infusion NA 1x1Vial,,1,1,false,"Snake antivenom, polyvalent",1,,1,,0,,,,1,,0,,,Antisnake Venom (Polyvalent Lyophilized) Powder for Infusion NA 1x1Vial,5.2.1
+67ca4a17-3bcf-43fc-8d34-652e2651fd39,Artesunate (To be used only in combination with Sulfadoxine +Pyrimethamine) Tablet 50mg 1x10x10,,1,1,false,Artesunate,1,,1,,0,,,,1,,0,,,Artesunate (To be used only in combination with Sulfadoxine +Pyrimethamine) Tablet 50mg 1x10x10,6.11.3
+e7427501-13f9-4875-9d25-00d084c7c0cd,Atenolol Tablet 25mg 1x14x10,,1,1,false,Atenolol,1,,1,,0,,,,1,,0,,,Atenolol Tablet 25mg 1x14x10,11.3.5
+3093c9da-b362-473f-b699-05e7fdb52506,Atenolol Tablet 50mg 1x14x10,,1,1,false,Atenolol,1,,1,,0,,,,1,,0,,,Atenolol Tablet 50mg 1x14x10,11.3.6
+b2c24445-b21c-4c60-bec4-fc27830f79a9,Atorvastatin Tablet 10mg 1x10x10,,1,1,false,Atorvastatin,1,,1,,0,,,,1,,0,,,Atorvastatin Tablet 10mg 1x10x10,11.5.2
+44182755-61c2-4601-be7d-3a438f83cdd7,Atorvastatin Tablet 20mg 1x10x10,,1,1,false,Atorvastatin,1,,1,,0,,,,1,,0,,,Atorvastatin Tablet 20mg 1x10x10,11.5.5
+eecac2f1-4fa9-4288-914a-d61069c6de4f,Atracurium Besilate 1x2.5ml Amp/Vial Injection 10mg/ml 1x1Vial,,1,1,false,Atracurium,1,,1,,0,,,,1,,0,,,Atracurium Besilate 1x2.5ml Amp/Vial Injection 10mg/ml 1x1Vial,21.1.1
+f558d125-0e50-4712-b209-6f45f13b472c,Atropine Sulphate Injection 0.6mg/ml 1x1ml Amp,,1,1,false,Atropine,1,,1,,0,,,,1,,0,,,Atropine Sulphate Injection 0.6mg/ml 1x1ml Amp,2.3.1
+a6c21c30-a5a9-4cec-9487-4ad084bc14ab,Atropine Sulphate Injection 1mg/ml 1x1ml,,1,1,false,Atropine,1,,1,,0,,,,1,,0,,,Atropine Sulphate Injection 1mg/ml 1x1ml,5.2.2
+ddf738e6-b24e-4f67-8a2d-a154ecb2ac6e,Azithromycin Dispersible Tablet 100mg 1x10x10,,1,1,false,Azithromycin,1,,1,,0,,,,1,,0,,,Azithromycin Dispersible Tablet 100mg 1x10x10,6.7.6
+3494c68f-52e8-4460-9f48-d689dbcc8586,Azithromycin Oral Liquid 200mg/5ml 1x30ml,,1,1,false,Azithromycin,1,,1,,0,,,,1,,0,,,Azithromycin Oral Liquid 200mg/5ml 1x30ml,6.7.50
+1ed4b614-b415-4d10-86bb-e3c64c4cabcd,Azithromycin Tablet 250mg 1x10x10,,1,1,false,Azithromycin,1,,1,,0,,,,1,,0,,,Azithromycin Tablet 250mg 1x10x10,6.7.7
+b7434db8-a2cc-452f-82c8-3da21d3c5bcf,Azithromycin Tablet 500mg 1x10x10,,1,1,false,Azithromycin,1,,1,,0,,,,1,,0,,,Azithromycin Tablet 500mg 1x10x10,6.7.8
+27738320-877e-4f84-8293-0462ced068e6,Baclofen Suspension 5mg/ml 1x100ml,,1,1,false,Baclofen,1,,1,,0,,,,1,,0,,,Baclofen Suspension 5mg/ml 1x100ml,25.6.2
+4f711c39-cadb-42bd-b15a-f83677e3038c,Baclofen Tablet 20mg 1x10x10,,1,1,false,Baclofen,1,,1,,0,,,,1,,0,,,Baclofen Tablet 20mg 1x10x10,25.6.1
+86448601-d25a-4d2a-b4c3-440e7daf2024,Bandage cloth individually packed in poly-pack NA 20 Mtrs. 1x20mtrs,,1,1,false,,1,,1,,0,,,,1,,0,,,Bandage cloth individually packed in poly-pack NA 20 Mtrs. 1x20mtrs,28.1.1
+948eaab3-cbc6-4829-9752-24940859b0e9,Beclomethasone Dipropionate Inhalation 200mcg/metered dose 1x1,,1,1,false,Beclomethasone dipropionate,1,,1,,0,,,,1,,0,,,Beclomethasone Dipropionate Inhalation 200mcg/metered dose 1x1,19.1.2
+63583317-93d6-4390-a9eb-e3aaa45b9e3d,Beclomethasone Dipropionate Inhalation 50mcg/dose 1x1,,1,1,false,Beclomethasone dipropionate,1,,1,,0,,,,1,,0,,,Beclomethasone Dipropionate Inhalation 50mcg/dose 1x1,19.1.3
+89688059-beef-4ddf-b5f0-5014c7dc2f3e,Benzathine penicillin Injection 12lacs 1x1Vial,,1,1,false,penicillin G,1,,1,,0,,,,1,,0,,,Benzathine penicillin Injection 12lacs 1x1Vial,6.6.13
+7ff37c8e-e7dd-4bb5-a4fe-8dbe8d13449d,Benzathine penicillin Injection 6lacs 1x1Vial,,1,1,false,penicillin G,1,,1,,0,,,,1,,0,,,Benzathine penicillin Injection 6lacs 1x1Vial,6.6.14
+44db9f03-a79a-492f-9263-b68b25272946,Benzoic Acid+Salicylic Acid Ointment 6%w/w+3%w/w 1x30g,,1,1,false,Benzoic acid / salicylic acid,1,,1,,0,,,,1,,0,,,Benzoic Acid+Salicylic Acid Ointment 6%w/w+3%w/w 1x30g,12.5.1
+6bf34d87-190d-44f6-985b-0bd8f025ee75,Benzoin Compound Tincture As per IP 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Benzoin Compound Tincture As per IP 1x500ml,14.1.2
+8444e951-936a-4438-afc7-61435b8cf604,Benzoyl peroxide Gel 2.5% 1x20g,,1,1,false,Benzoyl peroxide,1,,1,,0,,,,1,,0,,,Benzoyl peroxide Gel 2.5% 1x20g,12.1.11
+906bdc4d-a737-4a38-a969-058f97069025,Benzyl benzoate Lotion 25% 1x100ml,,1,1,false,Benzyl benzoate,1,,1,,0,,,,1,,0,,,Benzyl benzoate Lotion 25% 1x100ml,12.5.2
+4ae96deb-708e-4897-8aaa-3800801b6931,Benzyl Penicillin Injection 10lacs 1x1Vial,,1,1,false,Penicillin G,1,,1,,0,,,,1,,0,,,Benzyl Penicillin Injection 10lacs 1x1Vial,6.6.15
+53f7453c-e7da-4839-acc1-7ac989d2364c,Betamethasone Dipropionate Ointment 0.05%w/w 1x15g,,1,1,false,betamethasone dipropionate,1,,1,,0,,,,1,,0,,,Betamethasone Dipropionate Ointment 0.05%w/w 1x15g,12.2.1
+aedbd18a-e70c-4694-bcda-ee9f839450a3,Betamethasone Dipropionate Ointment 0.1%w/w 1x15g,,1,1,false,betamethasone dipropionate,1,,1,,0,,,,1,,0,,,Betamethasone Dipropionate Ointment 0.1%w/w 1x15g,12.2.2
+6f592deb-f79e-4022-b356-57680f7bb05b,Betamethasone Injection 4mg/ml 1x1Vial,,1,1,false,Betamethasone,1,,1,,0,,,,1,,0,,,Betamethasone Injection 4mg/ml 1x1Vial,23.1.1
+a9067c43-367c-4cf1-888a-bdd3b522d227,Bisacodyl Suppository 5mg 1x1,,1,1,false,Bisacodyl,1,,1,,0,,,,1,,0,,,Bisacodyl Suppository 5mg 1x1,16.6.1
+b1f6caab-1af0-4075-bd55-14a7b5c79b1d,Bisacodyl Tablet 5mg 1x10x10,,1,1,false,Bisacodyl,1,,1,,0,,,,1,,0,,,Bisacodyl Tablet 5mg 1x10x10,16.6.2
+29c30674-1596-47a7-8163-64fd568dd9e2,Black Disinfectant Fluid Grade III (Virgin HDPE Can) Solution 5Ltr 1x5Ltr,,1,1,false,,1,,1,,0,,,,1,,0,,,Black Disinfectant Fluid Grade III (Virgin HDPE Can) Solution 5Ltr 1x5Ltr,14.2.2
+eb30a490-b7bf-4dd0-9fca-22532f113d08,Bleaching Powder Powder Contains not less than 30 % w/w of available chlorine (as per I.P) 1x5kg,,1,1,false,,1,,1,,0,,,,1,,0,,,Bleaching Powder Powder Contains not less than 30 % w/w of available chlorine (as per I.P) 1x5kg,14.2.3
+88d5fe5a-37d7-4aa5-9e7e-75c84ddd05ab,Blood Grouping Kit 10ml (ABD Grouping 7 RH Typing) KIT NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Blood Grouping Kit 10ml (ABD Grouping 7 RH Typing) KIT NA 1x1,28.15.1
+6023e186-a73e-4dd9-9bf8-5ea8088b8012,Blood Sugar Testing Strip NA NA 1x50,,1,1,false,,1,,1,,0,,,,1,,0,,,Blood Sugar Testing Strip NA NA 1x50,28.15.2
+0e555588-3fc0-4019-a54a-d88cb7bcda4b,Blood transfusion set NA NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Blood transfusion set NA NA 1x1,28.26.1
+88a27f2f-4d54-4562-8ede-c38106cd9830,Bovine Lipid Extract Surfactant Suspension 5ml-Each ML Contains Phospholipid Surfactant Suspension 27mg 1x5ml,,1,1,false,Bovine Lipid Extract Surfactant,1,,1,,0,,,,1,,0,,,Bovine Lipid Extract Surfactant Suspension 5ml-Each ML Contains Phospholipid Surfactant Suspension 27mg 1x5ml,19.3.1
+34378a1e-1595-40ae-ae9c-78d9c102b397,Bromhexine Syrup 4mg/5ml 1x100ml,,1,1,false,Bromhexine,1,,1,,0,,,,1,,0,,,Bromhexine Syrup 4mg/5ml 1x100ml,19.1.4
+082fd302-72c8-4d07-9035-bd664164c0a1,Budesonide Inhalation 100mcg 1x1,,1,1,false,Budesonide,1,,1,,0,,,,1,,0,,,Budesonide Inhalation 100mcg 1x1,19.1.5
+5c35c150-774a-47ad-b44b-fe0ccae98057,Bupivacaine Hydrochloride (5mg Bupivacaine and 80 mg Dextrose anhydrous) Injection 5% heavy 1x4ml,,1,1,false,Bupivacaine hydrochloride,1,,1,,0,,,,1,,0,,,Bupivacaine Hydrochloride (5mg Bupivacaine and 80 mg Dextrose anhydrous) Injection 5% heavy 1x4ml,2.2.4
+f9486aae-bb01-4f0f-bf8b-6ca7ca5e5420,Calamine Lotion As per IP 1x50ml,,1,1,false,Calamine,1,,1,,0,,,,1,,0,,,Calamine Lotion As per IP 1x50ml,12.2.3
+00cc34b1-dddd-49e8-bd8e-67d5653faa81,Calcium carbonate with Vitamin D3 Syrup 125mg/5ml 1x150ml,,1,1,false,Calcium carbonate / vitamin D3,1,,1,,0,,,,1,,0,,,Calcium carbonate with Vitamin D3 Syrup 125mg/5ml 1x150ml,27.1.6
+f710becf-4d65-4906-8d25-4c3efd27a0d1,Calcium carbonate with Vitamin D3 Tablet 250mg+125IU 1x10x10,,1,1,false,Calcium carbonate / vitamin D3,1,,1,,0,,,,1,,0,,,Calcium carbonate with Vitamin D3 Tablet 250mg+125IU 1x10x10,27.1.7
+99baa89c-9fe8-4361-a037-a0003114824a,Calcium carbonate with Vitamin D3 Tablet 500MG+250IU 1x10x10,,1,1,false,Calcium carbonate / vitamin D3,1,,1,,0,,,,1,,0,,,Calcium carbonate with Vitamin D3 Tablet 500MG+250IU 1x10x10,27.1.8
+e305fb40-c3a4-4986-823d-b3d56c516e6a,"Calcium Dobesilate 0.25%w/w+Zinc 5%w/w,Hydrocortisone 0.25%w/w+Lignocaine 3%w/w Cream 0.25% w/w + 5% w/w,0.25% w/w + 3% w/w 1x30gm",,1,1,false,"Calcium dobesilate/Hydrocortisone/Lignocaine ",1,,1,,0,,,,1,,0,,,"Calcium Dobesilate 0.25%w/w+Zinc 5%w/w,Hydrocortisone 0.25%w/w+Lignocaine 3%w/w Cream 0.25% w/w + 5% w/w,0.25% w/w + 3% w/w 1x30gm",1.6.1
+23e1b259-5ecd-4ea2-87f4-62eb95116d6f,Calcium Gluconate Injection 100mg/ml 1x10ml,,1,1,false,Calcium gluconate,1,,1,,0,,,,1,,0,,,Calcium Gluconate Injection 100mg/ml 1x10ml,27.1.9
+86537eaa-eb42-4e75-9345-9494ea0ab2bb,Carbamazepine CR Tablet 200mg 1x10x10,,1,1,false,Carbamazepine,1,,1,,0,,,,1,,0,,,Carbamazepine CR Tablet 200mg 1x10x10,4.1.29
+13e896d9-7772-4370-9b82-1f20d872cccc,Carbamazepine CR Tablet 400mg 1x10x10,,1,1,false,Carbamazepine,1,,1,,0,,,,1,,0,,,Carbamazepine CR Tablet 400mg 1x10x10,4.1.26
+563c221a-5b99-47b3-a376-2bf82ec39adb,Carbamazepine Oral Liquid 200mg/5ml 1x1,,1,1,false,Carbamazepine,1,,1,,0,,,,1,,0,,,Carbamazepine Oral Liquid 200mg/5ml 1x1,4.1.27
+65482bee-854d-4a8b-927c-2ad8dd564cbc,Carbamazepine Syrup 100mg/5ml 1x100ml,,1,1,false,Carbamazepine,1,,1,,0,,,,1,,0,,,Carbamazepine Syrup 100mg/5ml 1x100ml,4.1.1
+121bdcee-51da-4aac-89c2-b7577684da0a,Carbamazepine Tablet 100mg 1x10x10,,1,1,false,Carbamazepine,1,,1,,0,,,,1,,0,,,Carbamazepine Tablet 100mg 1x10x10,4.1.2
+7f344595-abf0-4289-98d4-140320f40bb0,Carboprost Tromethamine Injection 125mcg/0.5ml 1x0.5ml,,1,1,false,Carboprost tromethamine,1,,1,,0,,,,1,,0,,,Carboprost Tromethamine Injection 125mcg/0.5ml 1x0.5ml,23.2.13
+7f18f487-cc78-4059-8116-0b84963bc9b5,Cefadroxil Dispersible Tablet 250mg 1x10x10,,1,1,false,Cefadroxil,1,,1,,0,,,,1,,0,,,Cefadroxil Dispersible Tablet 250mg 1x10x10,6.7.9
+daeed9d2-8881-4e63-a41c-74eefcb9a032,Cefadroxil Syrup 125mg/5ml 1x30ml,,1,1,false,Cefadroxil,1,,1,,0,,,,1,,0,,,Cefadroxil Syrup 125mg/5ml 1x30ml,6.7.10
+56c8f000-b6d5-4409-a1e9-a51684c32393,Cefadroxil Tablet 500mg 1x10x10,,1,1,false,Cefadroxil,1,,1,,0,,,,1,,0,,,Cefadroxil Tablet 500mg 1x10x10,6.7.11
+3ae8d776-2205-421d-97b0-0c0bb48e2ef7,Cefixime Oral Liquid 100mg/5ml 1x30ml,,1,1,false,Cefixime,1,,1,,0,,,,1,,0,,,Cefixime Oral Liquid 100mg/5ml 1x30ml,6.6.45
+39aab665-f3cb-4286-b85a-4390f1896944,Cefixime Powder 50mg/5ml 1x30ml,,1,1,false,Cefixime,1,,1,,0,,,,1,,0,,,Cefixime Powder 50mg/5ml 1x30ml,6.6.44
+8264cab8-3253-44fa-a84c-432aeab42704,Cefixime Tablet 100mg 1x10x10,,1,1,false,Cefixime,1,,1,,0,,,,1,,0,,,Cefixime Tablet 100mg 1x10x10,6.6.16
+4b967ecb-f431-4efe-b5e1-34652daac13d,Cefixime Tablet 200mg 1x3x10,,1,1,false,Cefixime,1,,1,,0,,,,1,,0,,,Cefixime Tablet 200mg 1x3x10,6.6.38
+c4daecec-7e79-4c34-9abd-f6d7b1d3d2d9,Cefotaxime Injection 1 gm IP/BP/USP 1x1Vial,,1,1,false,Cefotaxime,1,,1,,0,,,,1,,0,,,Cefotaxime Injection 1 gm IP/BP/USP 1x1Vial,6.6.19
+2e94bf53-7b0a-4fd2-b455-546e9ba6abbc,Cefotaxime Injection 125mg 1x1Vial,,1,1,false,Cefotaxime,1,,1,,0,,,,1,,0,,,Cefotaxime Injection 125mg 1x1Vial,6.6.18
+d88a5889-386f-41b9-9f4c-9afbf7153fa6,Cefotaxime Injection 250mg 1x1Vial,,1,1,false,Cefotaxime,1,,1,,0,,,,1,,0,,,Cefotaxime Injection 250mg 1x1Vial,6.6.20
+99658533-4a3f-4dfd-9289-8bbe553a549e,Cefotaxime Injection 500mg 1x1Vial,,1,1,false,Cefotaxime,1,,1,,0,,,,1,,0,,,Cefotaxime Injection 500mg 1x1Vial,6.6.21
+b843e1af-adae-43f7-a1cd-fcd0189e2d1c,Ceftriaxone Injection 1 gm IP/BP/USP 1x1Vial,,1,1,false,Ceftriaxone,1,,1,,0,,,,1,,0,,,Ceftriaxone Injection 1 gm IP/BP/USP 1x1Vial,6.6.24
+7c3b3d1f-7baa-4d25-b2ac-38de0be35b76,Ceftriaxone Injection 250mg 1x1Vial,,1,1,false,Ceftriaxone,1,,1,,0,,,,1,,0,,,Ceftriaxone Injection 250mg 1x1Vial,6.6.25
+36fa57a7-277e-4dd1-878e-f5e8c1833873,Ceftriaxone Powder for Injection. 500mg IP/BP/USP 1x1,,1,1,false,Ceftriaxone,1,,1,,0,,,,1,,0,,,Ceftriaxone Powder for Injection. 500mg IP/BP/USP 1x1,6.6.46
+ae6d8e03-85fb-4331-ac6e-39daacdc0d88,Ceftriaxone with Salbactum Injection 1gm+500mg 1x1,,1,1,false,Ceftriaxone/Salbactum,1,,1,,0,,,,1,,0,,,Ceftriaxone with Salbactum Injection 1gm+500mg 1x1,6.6.48
+36a94e6a-d9a1-4a5a-9ca2-da957f04e832,Cephalexin Capsule 250mg 1x10x10,,1,1,false,Cephalexin,1,,1,,0,,,,1,,0,,,Cephalexin Capsule 250mg 1x10x10,6.6.26
+f1ab8c87-9db8-49ee-ae2d-81a746925b37,Cephalexin Capsule 500mg 1x10x10,,1,1,false,Cephalexin,1,,1,,0,,,,1,,0,,,Cephalexin Capsule 500mg 1x10x10,6.6.27
+fbd5b3f6-036f-4e3d-9df9-01183397abcb,Cephalexin Syrup 125mg/5ml 1x30ml,,1,1,false,Cephalexin,1,,1,,0,,,,1,,0,,,Cephalexin Syrup 125mg/5ml 1x30ml,6.6.28
+37ee9e20-ed6c-4a88-8aa8-8afe05441bbd,Cetrimide Solution 20% (conc. for dilution) 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Cetrimide Solution 20% (conc. for dilution) 1x500ml,14.1.3
+39f66cbe-d6b2-4d99-ab37-d3c6c923208c,Cetrizine Hydrochloride Tablet 10mg 1x10x10,,1,1,false,cetirizine dihydrochloride,1,,1,,0,,,,1,,0,,,Cetrizine Hydrochloride Tablet 10mg 1x10x10,3.1.2
+6136ae98-3ffb-4a40-ab93-f0a07b525a17,Cetrizine Oral Liquid 5mg/5ml 1x60ml,,1,1,false,"cetirizine ",1,,1,,0,,,,1,,0,,,Cetrizine Oral Liquid 5mg/5ml 1x60ml,3.1.19
+c10f73cc-51ef-427b-bc60-30159e7307fc,Chlorhexidine Gluconate + Cetrimide Solution + Isopropyle Alcohol Solution 7.5%w/v + 15%w/v + 6 to 8%v/v 1x500ml,,1,1,false,Chlorhexidine Gluconate/Cetrimide Solution/Isopropyle Alcohol Solution,1,,1,,0,,,,1,,0,,,Chlorhexidine Gluconate + Cetrimide Solution + Isopropyle Alcohol Solution 7.5%w/v + 15%w/v + 6 to 8%v/v 1x500ml,14.1.5
+a08f6e55-ed6e-402f-a089-60c86adcbedd,Chlorhexidine mouth wash Solution 0.20% 1x100ml,,1,1,false,Chlorhexidine,1,,1,,0,,,,1,,0,,,Chlorhexidine mouth wash Solution 0.20% 1x100ml,14.1.19
+c22eee3e-ab7a-4a09-81a2-85f9fe0b6e3b,Chlorhexidine Solution 0.5% W/V (conc. for dilution) 1x500ml,,1,1,false,Chlorhexidine,1,,1,,0,,,,1,,0,,,Chlorhexidine Solution 0.5% W/V (conc. for dilution) 1x500ml,14.1.4
+7ba46c7d-cd33-49e4-a296-afb2a3ff57fd,Chloroquine phosphate Syrup 50mg/5ml 1x60ml,,1,1,false,Chloroquine diphosphate,1,,1,,0,,,,1,,0,,,Chloroquine phosphate Syrup 50mg/5ml 1x60ml,6.11.5
+0bf12d7c-38b4-447f-8d6a-3985a33724bc,Chlorpheniramine Maleate Tablet 4mg 1x10x10,,1,1,false,Chlorpheniramine maleate,1,,1,,0,,,,1,,0,,,Chlorpheniramine Maleate Tablet 4mg 1x10x10,3.1.4
+f458e405-b5e1-4120-babd-d22a3f00d0e4,Chlorzoxazone Tablet 200mg 1x10x10,,1,1,false,Chlorzoxazone,1,,1,,0,,,,1,,0,,,Chlorzoxazone Tablet 200mg 1x10x10,21.1.14
+cfb7bdaa-2054-4c71-b836-b16cdb135459,Cholecalciferol Oral Liquid 400IU/ml 1x1,,1,1,false,Cholecalciferol,1,,1,,0,,,,1,,0,,,Cholecalciferol Oral Liquid 400IU/ml 1x1,27.1.36
+9edb8187-82da-44e7-a0ea-6d6251bccdcd,Ciprofloxacin Hydrochloride Eye/Ear Drops 0.3%w/v 1x5ml,,1,1,false,Ciprofloxacin,1,,1,,0,,,,1,,0,,,Ciprofloxacin Hydrochloride Eye/Ear Drops 0.3%w/v 1x5ml,22.2.3
+485d00bd-f6c6-4ba7-a29b-b1abc4957463,Ciprofloxacin Hydrochloride Injection 200mg/100 ml 1x100ml,,1,1,false,Ciprofloxacin,1,,1,,0,,,,1,,0,,,Ciprofloxacin Hydrochloride Injection 200mg/100 ml 1x100ml,6.7.12
+d3fbc3df-b666-4673-a4fc-da8a4cd4f217,Ciprofloxacin Hydrochloride Tablet 250mg 1x10x10,,1,1,false,Ciprofloxacin,1,,1,,0,,,,1,,0,,,Ciprofloxacin Hydrochloride Tablet 250mg 1x10x10,6.7.13
+a7bf067b-5bfb-4208-b667-f6ae2c6cb63d,Ciprofloxacin Hydrochloride Tablet 500mg 1x10x10,,1,1,false,Ciprofloxacin,1,,1,,0,,,,1,,0,,,Ciprofloxacin Hydrochloride Tablet 500mg 1x10x10,6.7.14
+39d3d95e-ab14-4bb3-bb63-b3fb34073f56,Ciprofloxacin Ointment 0.30% 1x1,,1,1,false,Ciprofloxacin,1,,1,,0,,,,1,,0,,,Ciprofloxacin Ointment 0.30% 1x1,22.2.11
+be85f47e-2a63-49ed-a69e-e0c4a93c614d,Clobetasol Propionate + Salicylic Acid Cream 0.05%+3%w/w 1x30g,,1,1,false,Clobetasol propionate/Salicylic Acid,1,,1,,0,,,,1,,0,,,Clobetasol Propionate + Salicylic Acid Cream 0.05%+3%w/w 1x30g,12.5.3
+364be194-785b-450a-8a3a-37db9cacff94,Clonazepam Tablet 0.5mg 1x10x10,,1,1,false,Clonazepam,1,,1,,0,,,,1,,0,,,Clonazepam Tablet 0.5mg 1x10x10,25.2.7
+531d0aa4-a715-4bfd-bb1e-420a4d167330,Clopidogrel Tablet 75mg 1x10x10,,1,1,false,Clopidogrel,1,,1,,0,,,,1,,0,,,Clopidogrel Tablet 75mg 1x10x10,11.1.3
+58c706f4-cfa6-4935-9680-97068579c266,Clotrimazole (Dusting) Powder 1%w/w 1x30g,,1,1,false,Clotrimazole,1,,1,,0,,,,1,,0,,,Clotrimazole (Dusting) Powder 1%w/w 1x30g,6.8.7
+5cbbe70c-8e05-4fdd-9a9c-2489c2b9eac8,Clotrimazole Cream 1% 1x15gm,,1,1,false,Clotrimazole,1,,1,,0,,,,1,,0,,,Clotrimazole Cream 1% 1x15gm,6.8.16
+2221d89a-bf9b-46ef-a9a6-81155e5c742f,Clotrimazole Ear Drops 1%w/v 1x10ml,,1,1,false,Clotrimazole,1,,1,,0,,,,1,,0,,,Clotrimazole Ear Drops 1%w/v 1x10ml,6.8.3
+9671d78e-f260-4a5e-800a-cc3ee91d5a3a,Clotrimazole Gel 2%w/w 1x15g,,1,1,false,Clotrimazole,1,,1,,0,,,,1,,0,,,Clotrimazole Gel 2%w/w 1x15g,6.8.4
+5f3201e9-1b4e-47c1-84c7-47bf74897bd1,Clotrimazole Pessaries 100mg 1x6x10,,1,1,false,Clotrimazole,1,,1,,0,,,,1,,0,,,Clotrimazole Pessaries 100mg 1x6x10,6.8.5
+91cd85d6-4ad5-4cd1-ad09-fbfdb90b0648,Clozapine Tablet 100mg 1x10x10,,1,1,false,Clozapine,1,,1,,0,,,,1,,0,,,Clozapine Tablet 100mg 1x10x10,25.3.2
+bece1b0d-5181-4fad-923d-da9f35af7b79,Clozapine Tablet 25mg 1x10x10,,1,1,false,Clozapine,1,,1,,0,,,,1,,0,,,Clozapine Tablet 25mg 1x10x10,25.3.3
+72042f92-7edd-489e-b188-06e6d00cbe38,Co-Trimoxazole (Trimethoprim + Sulphamethoxazole) Suspension 40+200mg/5ml 1x60ml,,1,1,false,Sulfamethoxazole / trimethoprim,1,,1,,0,,,,1,,0,,,Co-Trimoxazole (Trimethoprim + Sulphamethoxazole) Suspension 40+200mg/5ml 1x60ml,6.7.15
+dd7e7b4e-d3fe-4796-99a2-0121d65faef2,Co-Trimoxazole (Trimethoprim + Sulphamethoxazole) Tablet 160+800mg 1x10x10,,1,1,false,Sulfamethoxazole / trimethoprim,1,,1,,0,,,,1,,0,,,Co-Trimoxazole (Trimethoprim + Sulphamethoxazole) Tablet 160+800mg 1x10x10,6.7.16
+b4cbfd2e-0f57-4cc9-b521-b2c8942c0909,COTRIMOXAZOLE SS Tablet 80MG TRIMETHOPRIM AND 400MG OF SULFAMETHOXAZOLE 1x10x10,,1,1,false,Sulfamethoxazole / trimethoprim,1,,1,,0,,,,1,,0,,,COTRIMOXAZOLE SS Tablet 80MG TRIMETHOPRIM AND 400MG OF SULFAMETHOXAZOLE 1x10x10,6.3.6
+b2e5674c-00fe-4543-bfba-bf92aec7c87a,Cotton Crepe bandage Miscellaneous 6 Cm X 4 m IP/BP/USP 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Cotton Crepe bandage Miscellaneous 6 Cm X 4 m IP/BP/USP 1x1,28.15.60
+52794ea7-a6c6-4f93-925b-0c8565b4ab21,Dabigatran Tablet 110 mg IP/BP/USP 1x10x10,,1,1,false,Dabigatran etexilate,1,,1,,0,,,,1,,0,,,Dabigatran Tablet 110 mg IP/BP/USP 1x10x10,20.2.22
+6e33c2ef-a72a-43d0-8fcc-2720cffd50d3,Dexamethasone Injection 4mg/ml 1x2ml,,1,1,false,Dexamethasone,1,,1,,0,,,,1,,0,,,Dexamethasone Injection 4mg/ml 1x2ml,3.1.5
+eab56c82-0eca-46a7-b944-02cbfd535954,Dexamethasone Tablet 0.5mg 1x10x10,,1,1,false,Dexamethasone,1,,1,,0,,,,1,,0,,,Dexamethasone Tablet 0.5mg 1x10x10,3.1.6
+94ec0e98-39fd-4388-bf03-bdb307562f3c,Dextrose Injection 25% 1x100ml,,1,1,false,"Dextrose, anhydrous",1,,1,,0,,,,1,,0,,,Dextrose Injection 25% 1x100ml,17.8.1
+c59b5135-9dc6-49c5-b273-5cecadfcd502,Dextrose Injection 25% 1x25ml,,1,1,false,"Dextrose, anhydrous",1,,1,,0,,,,1,,0,,,Dextrose Injection 25% 1x25ml,17.8.3
+c5387694-42d8-4eb5-b31f-5e068621ce98,Dextrose Injection 5% 1x500ml,,1,1,false,"Dextrose, anhydrous",1,,1,,0,,,,1,,0,,,Dextrose Injection 5% 1x500ml,26.2.1
+598bc41e-a844-41a4-b801-48cc0b366f56,Dextrose with sodium chloride Infusion 5% + 0.9% 1x500ml,,1,1,false,Dextrose 5% in normal saline,1,,1,,0,,,,1,,0,,,Dextrose with sodium chloride Infusion 5% + 0.9% 1x500ml,26.2.4
+a3ab219f-d040-4de8-9f87-67b6ea0430d0,Dextrose with Sodium Cloride Infusion 5% + 0.45% 1x500ml,,1,1,false,Dextrose 5% NaCl 0.45%,1,,1,,0,,,,1,,0,,,Dextrose with Sodium Cloride Infusion 5% + 0.45% 1x500ml,26.2.5
+cab82c58-bcaa-4607-83bf-c36986ba7943,Diazepam Injection 5mg/ml 1x2ml,,1,1,false,Diazepam,1,,1,,0,,,,1,,0,,,Diazepam Injection 5mg/ml 1x2ml,2.3.2
+157e0fd4-468f-4d42-8ce5-3c28bb4a3efc,Diazepam Tablet 5mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Diazepam,1,,1,,0,,,,1,,0,,,Diazepam Tablet 5mg 1 X 10 X 10 IP/BP/USP,2.3.6
+0fb82f8a-e8ab-4adb-8993-e368f8ad8123,Dichlorometaxylenol 1.5% Solution 1ltr 1x1,,1,1,false,Dichlorometaxylenol,1,,1,,0,,,,1,,0,,,Dichlorometaxylenol 1.5% Solution 1ltr 1x1,14.1.14
+4e05302f-84b1-4c64-a54a-33f2e078f006,Diclofenac Injection 25mg/ml 1x3ml,,1,1,false,Diclofenac,1,,1,,0,,,,1,,0,,,Diclofenac Injection 25mg/ml 1x3ml,1.3.6
+181d2344-df1c-4ea9-b021-f67e8d40cf56,Diclofenac Injection 75mg/ml 1x1,,1,1,false,Diclofenac,1,,1,,0,,,,1,,0,,,Diclofenac Injection 75mg/ml 1x1,1.3.33
+a5f95660-2bce-4e34-ba98-07ea3f01b5ba,Diclofenac Tablet 50mg 1x10x10,,1,1,false,Diclofenac,1,,1,,0,,,,1,,0,,,Diclofenac Tablet 50mg 1x10x10,1.3.7
+9bf1ceed-1080-4551-bea7-914e166a8971,Diclofenac Topical Form 1% 1x30gm,,1,1,false,Diclofenac,1,,1,,0,,,,1,,0,,,Diclofenac Topical Form 1% 1x30gm,1.3.8
+4b33360b-06e8-4387-abaf-1422d437f3e2,Diclofenac+Linesed oil+methyl Salicylate + menthol Ointment NA 1x1,,1,1,false,Diclofenac/Linesed oil/methyl Salicylate/menthol,1,,1,,0,,,,1,,0,,,Diclofenac+Linesed oil+methyl Salicylate + menthol Ointment NA 1x1,1.3.50
+14ce01a4-bd87-4894-ad18-1598ca479d1c,Dicyclomine Hydrochloride Drops 10mg/5ml 1x10ml,,1,1,false,Dicyclomine hydrochloride,1,,1,,0,,,,1,,0,,,Dicyclomine Hydrochloride Drops 10mg/5ml 1x10ml,16.5.1
+3acd1978-01c4-4c3a-aeaa-47eaca9b2f0a,Dicyclomine Hydrochloride Injection 10mg/ml 1x2ml Amp,,1,1,false,Dicyclomine hydrochloride,1,,1,,0,,,,1,,0,,,Dicyclomine Hydrochloride Injection 10mg/ml 1x2ml Amp,16.5.2
+374fca3e-e106-414a-932b-62b82e7b5aee,Dicyclomine Hydrochloride Tablet 10mg 1x10x10,,1,1,false,Dicyclomine hydrochloride,1,,1,,0,,,,1,,0,,,Dicyclomine Hydrochloride Tablet 10mg 1x10x10,16.5.4
+a540b08f-1ec1-430f-931b-337d4c3c5277,Diethylcarbamazin (antifilarial) Oral Liquid 120mg/5ml 1x1,,1,1,false,Diethylcarbamazine,1,,1,,0,,,,1,,0,,,Diethylcarbamazin (antifilarial) Oral Liquid 120mg/5ml 1x1,6.1.2
+47d88e46-00ad-4a91-b5e2-7cea82cc8865,Diethylcarbamazin(Antifilarials) Tablet 50mg 1x10x10,,1,1,false,Diethylcarbamazine,1,,1,,0,,,,1,,0,,,Diethylcarbamazin(Antifilarials) Tablet 50mg 1x10x10,6.1.3
+601f19ce-ec65-4838-a69e-dd253b0e1b58,Diethylcarbamazine Citrate Tablet 100mg 1x3x10,,1,1,false,Diethylcarbamazine,1,,1,,0,,,,1,,0,,,Diethylcarbamazine Citrate Tablet 100mg 1x3x10,6.1.1
+6c5c3dcc-c8f4-43c0-935e-a0485824c601,Digoxin Tablet 0.25mg 1x10x10,,1,1,false,Digoxin,1,,1,,0,,,,1,,0,,,Digoxin Tablet 0.25mg 1x10x10,11.6.3
+2b5c8227-fdfe-4fd2-baf3-9c3ce3d9f76e,Dinoprostone Gel 0.5mg 1x3gm,,1,1,false,Dinoprostone,1,,1,,0,,,,1,,0,,,Dinoprostone Gel 0.5mg 1x3gm,23.2.3
+385b5123-ad8b-4c97-8711-5e52f033a025,Dinoprostone Tablet 0.5mg 1x4x10,,1,1,false,Dinoprostone,1,,1,,0,,,,1,,0,,,Dinoprostone Tablet 0.5mg 1x4x10,23.2.12
+440d4153-001f-47d7-bd61-7973391c30f9,Diptheria and Tetanus Vaccine .5ML Vaccine NA 1x1,,1,1,false,Diphtheria toxoid / tetanus toxoid,1,,1,,0,,,,1,,0,,,Diptheria and Tetanus Vaccine .5ML Vaccine NA 1x1,18.4.8
+8f519070-31b5-4788-a966-7e00258d74b7,Disposable CAP NA NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Disposable CAP NA NA 1x1,28.23.6
+72a89edd-2d7e-4a16-941a-a7a84e427ae3,Disposable Mask Triple Layer Elastic type NA NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Disposable Mask Triple Layer Elastic type NA NA 1x1,28.23.9
+05a744df-4841-4a1b-b856-7bec665e50d4,Disposable needle NA 23G 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Disposable needle NA 23G 1x100,28.16.4
+a5db5757-e6fb-40ec-8b0a-e39513157278,Dobutamine Injection 50mg/ml 1x5ml,,1,1,false,Dobutamine,1,,1,,0,,,,1,,0,,,Dobutamine Injection 50mg/ml 1x5ml,11.6.4
+e9542cab-be1f-47b4-a174-d6f4a650f481,Domperidone Syrup 1mg/ml 1x30ml,,1,1,false,Domperidone,1,,1,,0,,,,1,,0,,,Domperidone Syrup 1mg/ml 1x30ml,16.3.1
+2469df9c-e17b-4ca4-adb8-c3f037017121,Domperidone Tablet 10mg 1x10x10,,1,1,false,Domperidone,1,,1,,0,,,,1,,0,,,Domperidone Tablet 10mg 1x10x10,16.3.2
+31aa5ffa-29a9-4b2f-892e-7f138c0adc45,Dopamine Hydrochloride Injection 40mg/ml 1x5ml,,1,1,false,Dopamine hydrochloride,1,,1,,0,,,,1,,0,,,Dopamine Hydrochloride Injection 40mg/ml 1x5ml,11.6.5
+23a1db39-c5c0-47b2-b9df-a7bd325380c0,Doxilamine Tablet 10mg 1x10x10,,1,1,false,Doxylamine,1,,1,,0,,,,1,,0,,,Doxilamine Tablet 10mg 1x10x10,16.3.13
+aac42e25-6246-48eb-82c1-aff0733d0a9c,Doxycycline Capsule 100mg 1x10x10,,1,1,false,Doxycycline,1,,1,,0,,,,1,,0,,,Doxycycline Capsule 100mg 1x10x10,6.7.18
+9319b021-1da2-4539-9984-b90e27e97b15,ECG Gel NA 250 ml 1x250ml,,1,1,false,,1,,1,,0,,,,1,,0,,,ECG Gel NA 250 ml 1x250ml,28.10.1
+6ed915c2-0055-4b80-8e14-e4aae9d0cb9c,Endotracheal tubes with cuff [pvc] [sterile] NA 7 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Endotracheal tubes with cuff [pvc] [sterile] NA 7 1x1,28.8.8
+2df0c164-acc1-41a9-88a0-0dd95a70ca16,Endotracheal tubes with cuff [pvc] [sterile] NA 8 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Endotracheal tubes with cuff [pvc] [sterile] NA 8 1x1,28.8.9
+c6f85442-5235-4d71-820c-a9d710348d04,Endotracheal tubes with cuff[pvc][Sterile] NA 6.5 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Endotracheal tubes with cuff[pvc][Sterile] NA 6.5 1x1,28.8.19
+7a4f27c8-c895-459c-818c-16075ab02051,Endotracheal tubes with out cuff[pvc][Sterile] NA 2.5 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Endotracheal tubes with out cuff[pvc][Sterile] NA 2.5 1x1,28.8.14
+526fe331-845d-4ada-bc63-b20df2c37b97,Endotracheal tubes with out cuff[pvc][Sterile] NA 3 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Endotracheal tubes with out cuff[pvc][Sterile] NA 3 1x1,28.8.15
+ce600555-9525-41f2-afc1-ff6418607268,Endotracheal tubes with out cuff[pvc][Sterile] NA 3.5 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Endotracheal tubes with out cuff[pvc][Sterile] NA 3.5 1x1,28.8.16
+1c99c4bc-2f23-4ba8-9273-73a2848faf6f,Endotracheal tubes with out cuff[pvc][Sterile] NA 4 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Endotracheal tubes with out cuff[pvc][Sterile] NA 4 1x1,28.8.17
+9bd7b04d-61b3-4871-bd15-c28f733111f3,Endotracheal tubes with out cuff[pvc][Sterile] NA 4.5 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Endotracheal tubes with out cuff[pvc][Sterile] NA 4.5 1x1,28.8.18
+328fb920-3bdc-44e1-9e88-a6fb16f130f9,"Enema Solution PVC Squeezed Pouch Sodium Acid Phosphate 16%, Sodium Phosphate 6%, Purified water 100ml Solution 16%+6%+100ml 1x100ml",,1,1,false,,1,,1,,0,,,,1,,0,,,"Enema Solution PVC Squeezed Pouch Sodium Acid Phosphate 16%, Sodium Phosphate 6%, Purified water 100ml Solution 16%+6%+100ml 1x100ml",28.15.19
+389604d9-d4c7-41ed-a5ef-df928f9c2a19,Enoxaparin Injection 40mg Nil,,1,1,false,Enoxaparin,1,,1,,0,,,,1,,0,,,Enoxaparin Injection 40mg Nil,20.2.9
+e3e9b193-31ff-49ac-994f-45e7e32eb9b6,Erythromycin Estolate Syrup 125mg/5ml 1x60ml,,1,1,false,Erythromycin estolate,1,,1,,0,,,,1,,0,,,Erythromycin Estolate Syrup 125mg/5ml 1x60ml,6.7.19
+2177c6ac-1a02-4fd9-b6dc-374453ce86c9,Erythromycin Estolate Tablet 250mg 1x10x10,,1,1,false,Erythromycin estolate,1,,1,,0,,,,1,,0,,,Erythromycin Estolate Tablet 250mg 1x10x10,6.7.20
+2af947a3-ac72-4516-9b4d-f8cbac341548,Erythromycin Stearate Tablet 500mg 1x10x10,,1,1,false,Erythromycin stearate,1,,1,,0,,,,1,,0,,,Erythromycin Stearate Tablet 500mg 1x10x10,6.7.21
+edc01b2f-0353-43ef-a955-9b26f3e76519,Escitalopram Tablet 10mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Escitalopram,1,,1,,0,,,,1,,0,,,Escitalopram Tablet 10mg 1 X 10 X 10 IP/BP/USP,25.4.7
+3834ad12-0061-47e8-91cf-29a19e650fed,Escitalopram Tablet 5mg 1x10x10,,1,1,false,Escitalopram,1,,1,,0,,,,1,,0,,,Escitalopram Tablet 5mg 1x10x10,25.4.16
+078a1b1a-4fa2-442e-8b00-8dbbdd14e5f9,Ethamsylate Tablet 250mg 1x10x10,,1,1,false,Ethamsylate,1,,1,,0,,,,1,,0,,,Ethamsylate Tablet 250mg 1x10x10,20.2.20
+fb821089-a945-481d-9cab-b8e5833021ef,Fentanyl Injection 50mcg/ml 1x2ml,,1,1,false,Fentanyl,1,,1,,0,,,,1,,0,,,Fentanyl Injection 50mcg/ml 1x2ml,1.4.1
+0976afb5-7cbe-49c8-be66-e9b6ed0d113b,Ferrous salts (A) +Folic acid (B) 20mg elemental iron (A) +100mcg (B) Syrup 20 mg + 100 mcg IP/BP/USP 1x100ml,,1,1,false,Iron/Folic acid,1,,1,,0,,,,1,,0,,,Ferrous salts (A) +Folic acid (B) 20mg elemental iron (A) +100mcg (B) Syrup 20 mg + 100 mcg IP/BP/USP 1x100ml,20.1.29
+ab6f9d78-de11-41a5-9bdf-eb38768ae189,Ferrous salts (A) +Folic acid (B)45mg elemental iron (A) +400mcg (B) PINK Tablet 45mg + 400mcg 1x10x10,,1,1,false,Iron/Folic acid,1,,1,,0,,,,1,,0,,,Ferrous salts (A) +Folic acid (B)45mg elemental iron (A) +400mcg (B) PINK Tablet 45mg + 400mcg 1x10x10,20.1.20
+12643ca2-9d4b-428e-ba89-ca5fa9b84942,Ferrous salts equivalent to 60mg of elemental iron Tablet 60mg 1x10x10,,1,1,false,Iron,1,,1,,0,,,,1,,0,,,Ferrous salts equivalent to 60mg of elemental iron Tablet 60mg 1x10x10,20.1.19
+0da3f7f8-ad35-4766-8abb-a482a395a2bd,Ferrous Sulphate/Fumrate Tablet Iron equivalent to 20mg elemental iron & folic acid 0.1mg 1x10x10,,1,1,false,Iron,1,,1,,0,,,,1,,0,,,Ferrous Sulphate/Fumrate Tablet Iron equivalent to 20mg elemental iron & folic acid 0.1mg 1x10x10,20.1.5
+c2b3860c-4b37-4856-a269-4b8880f0a78a,Fluconazole Capsule 100mg 1x10x10,,1,1,false,Fluconazole,1,,1,,0,,,,1,,0,,,Fluconazole Capsule 100mg 1x10x10,6.8.8
+1b6f9bed-f583-4f07-b840-b4eb0f8d364a,Fluconazole Capsule 150mg 1x10x10,,1,1,false,Fluconazole,1,,1,,0,,,,1,,0,,,Fluconazole Capsule 150mg 1x10x10,6.8.9
+39901f72-128f-4cc7-b706-a4d063e50d05,Fluconazole Capsule 50mg 1x10x10,,1,1,false,Fluconazole,1,,1,,0,,,,1,,0,,,Fluconazole Capsule 50mg 1x10x10,6.8.11
+b066e1c4-eca1-4443-9494-75c3455c6803,Flunarizine Tablet 10mg 1x10x10,,1,1,false,Flunarizine,1,,1,,0,,,,1,,0,,,Flunarizine Tablet 10mg 1x10x10,16.3.12
+ade3cf84-172b-42fe-b29d-f32a727c27c3,Flunarizine Tablet 5mg 1x10x10,,1,1,false,Flunarizine,1,,1,,0,,,,1,,0,,,Flunarizine Tablet 5mg 1x10x10,6.12.3
+cb8271bd-f07f-439b-b13f-dbeaaced4344,Fluoxetine hydrochloride Capsule 20mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Fluoxetine,1,,1,,0,,,,1,,0,,,Fluoxetine hydrochloride Capsule 20mg 1 X 10 X 10 IP/BP/USP,25.3.4
+7192bc03-04ad-4bec-8c3a-03186b070d29,Fluphenazine Injection 25mg/ml 1x1ml,,1,1,false,Fluphenazine,1,,1,,0,,,,1,,0,,,Fluphenazine Injection 25mg/ml 1x1ml,25.3.5
+7c8c7481-2197-4024-b22d-c69df54f3621,Folic Acid Tablet 400mcg 1x10x10,,1,1,false,Folic acid,1,,1,,0,,,,1,,0,,,Folic Acid Tablet 400mcg 1x10x10,20.1.25
+0f80df4e-2943-4ef5-980c-f8d425b1ccbc,Folly's catheters with bulb [sterile] 30ml NA 16F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Folly's catheters with bulb [sterile] 30ml NA 16F 1x1,28.4.1
+4dba444b-d81a-4afe-ae60-e83f779e8918,Folly's catheters with bulb [sterile] 30ml NA 18F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Folly's catheters with bulb [sterile] 30ml NA 18F 1x1,28.4.2
+bdaa47a2-2e48-40f8-a394-c1078d82c82a,Formaldehyde Solution Solution Dilute 34 ml of formaldehyde solution with water to produce 100 ml (As per I.P) 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Formaldehyde Solution Solution Dilute 34 ml of formaldehyde solution with water to produce 100 ml (As per I.P) 1x500ml,14.2.4
+4cf48f84-8b7d-4a9d-a486-cbca6dafd129,Fortified Procaine Penicillin Injection 4lacs 1x1Vial,,1,1,false,"Penicillin G, procaine",1,,1,,0,,,,1,,0,,,Fortified Procaine Penicillin Injection 4lacs 1x1Vial,6.6.33
+48e30dbe-c986-4c50-b575-e413c3f7f6c9,Frusemide Injection 10mg/ml 1x2ml,,1,1,false,Furosemide,1,,1,,0,,,,1,,0,,,Frusemide Injection 10mg/ml 1x2ml,15.1.1
+c0d71b34-5a85-4607-9a4c-9a654d4f24b3,Frusemide Tablet 40mg 1x10x10,,1,1,false,Furosemide,1,,1,,0,,,,1,,0,,,Frusemide Tablet 40mg 1x10x10,15.1.2
+186e3feb-2bea-46e5-92dc-faf90aef59db,Gamma Benzene Hexachloride Solution 1% w/v IP/BP/USP 1x100ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Gamma Benzene Hexachloride Solution 1% w/v IP/BP/USP 1x100ml,12.5.7
+2ab79224-3112-48cc-b692-4213919a3f9a,Gentamicin Injection 40mg/ml 1x2ml,,1,1,false,Gentamicin,1,,1,,0,,,,1,,0,,,Gentamicin Injection 40mg/ml 1x2ml,6.7.23
+b89d52e0-7699-4b2b-83d9-9074e677f640,Gentamycin Eye/Ear Drops 0.30% 1x5ml,,1,1,false,Gentamicin,1,,1,,0,,,,1,,0,,,Gentamycin Eye/Ear Drops 0.30% 1x5ml,22.2.4
+e8b7feca-523e-49fd-8e80-16a0621a60d2,Gentian Violet Paint 1% 1x10ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Gentian Violet Paint 1% 1x10ml,14.1.7
+b1492413-d8c5-490f-ab6d-830bf33e8426,Glimepiride Tablet 2mg 1x10x10,,1,1,false,Glimepiride,1,,1,,0,,,,1,,0,,,Glimepiride Tablet 2mg 1x10x10,17.7.6
+aba99246-b9cc-4485-9867-1d5c35417558,Glutaraldehyde Solution 2% 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Glutaraldehyde Solution 2% 1x500ml,14.2.6
+23f96db4-4e27-4c9c-9956-73a3462351d8,Glutaraldehyde Solution 2% w/v 1x5Ltr,,1,1,false,,1,,1,,0,,,,1,,0,,,Glutaraldehyde Solution 2% w/v 1x5Ltr,14.2.16
+df6cb40a-4540-4335-9980-d3f48a4a8d0f,Glycerin Solution NA 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Glycerin Solution NA 1x500ml,12.4.4
+fedb3f99-4308-4868-b2f0-2c9cdd9a41eb,Glyceryl Trinitrate (Sublingual) Tablet 0.5mg 1x10x10,,1,1,false,Nitroglycerin,1,,1,,0,,,,1,,0,,,Glyceryl Trinitrate (Sublingual) Tablet 0.5mg 1x10x10,11.1.7
+d4293b4d-bec4-4028-a7a8-64f002d71f0f,Glycopyrolate Injection 0.2mg 1x1ml,,1,1,false,Glycopyrrolate,1,,1,,0,,,,1,,0,,,Glycopyrolate Injection 0.2mg 1x1ml,2.2.7
+6731335d-90f2-41aa-96ee-e5c0e928257a,Glycopyrolate Tablet 1mg 1x10x10,,1,1,false,Glycopyrrolate,1,,1,,0,,,,1,,0,,,Glycopyrolate Tablet 1mg 1x10x10,2.2.26
+64024134-0c68-41d1-a08d-9f8eee69b6c3,Halazon(Chlorine) Tablet 4mg 1x1000,,1,1,false,Halazone,1,,1,,0,,,,1,,0,,,Halazon(Chlorine) Tablet 4mg 1x1000,14.2.12
+c10fea7e-45b6-4ad1-afd2-c80324e6fc49,Haloperidol Injection 5mg/ml 1x1Vial,,1,1,false,Haloperidol,1,,1,,0,,,,1,,0,,,Haloperidol Injection 5mg/ml 1x1Vial,25.4.9
+c5fafac1-05fa-441f-b607-15a24d6b9acd,Haloperidol Tablet 5mg 1x10x10,,1,1,false,Haloperidol,1,,1,,0,,,,1,,0,,,Haloperidol Tablet 5mg 1x10x10,25.4.10
+0d352079-26da-4cd5-98f0-a9266c7249b9,Halothane with Vaporizer Inhalation 100%w/v 1x250ml,,1,1,false,Halothane,1,,1,,0,,,,1,,0,,,Halothane with Vaporizer Inhalation 100%w/v 1x250ml,2.1.2
+5a413eb5-fe9a-4f5b-ac72-c2103115cfd0,HBSAG KIT NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,HBSAG KIT NA 1x1,28.15.4
+e183fd14-c3c9-4eaa-b918-780ade9965a4,"Heparin Sodium Injection 1,000IU/ml 1x5ml Vial",,1,1,false,Heparin sodium,1,,1,,0,,,,1,,0,,,"Heparin Sodium Injection 1,000IU/ml 1x5ml Vial",20.2.3
+c426da1a-cb00-4dbf-aef2-bbf0f60141ae,Heparin Sodium Injection 5000 IU/1ml IP/BP/USP 1x1,,1,1,false,Heparin sodium,1,,1,,0,,,,1,,0,,,Heparin Sodium Injection 5000 IU/1ml IP/BP/USP 1x1,11.4.13
+c383e2fb-5bf4-477c-bdec-c070a6b96443,Hepatitis-B Vaccine Adult 1x10ml,,1,1,false,Hepatitis B vaccine,1,,1,,0,,,,1,,0,,,Hepatitis-B Vaccine Adult 1x10ml,18.3.12
+25f6e5f3-b09b-452e-b4ed-7093e28f1f1e,Hydrochlorothiazide Tablet 12.5mg 1x10x10,,1,1,false,Hydrochlorothiazide,1,,1,,0,,,,1,,0,,,Hydrochlorothiazide Tablet 12.5mg 1x10x10,11.3.14
+893fd8f2-30c6-450a-9b82-d381d1f51d7e,Hydrocortisone Sodium Succinate Injection 100mg 1x1Vial,,1,1,false,Hydrochlorothiazide,1,,1,,0,,,,1,,0,,,Hydrocortisone Sodium Succinate Injection 100mg 1x1Vial,17.1.3
+1a1d4689-406f-41bc-b84d-a85aaf012b9c,Hydrogen Peroxide Solution 6% 1x100ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Hydrogen Peroxide Solution 6% 1x100ml,14.1.9
+399b5006-62c0-4c73-91d2-7c0966aca1cf,Hyoscine Butyl Bromide Tablet 10mg 1x10x10,,1,1,false,Hyoscine butylbromide,1,,1,,0,,,,1,,0,,,Hyoscine Butyl Bromide Tablet 10mg 1x10x10,16.5.6
+1ee45e17-7081-4c54-9275-260440b6fd89,Hypo allergenic tape micropore NA 1cmx9.1mts 1x24rolls,,1,1,false,,1,,1,,0,,,,1,,0,,,Hypo allergenic tape micropore NA 1cmx9.1mts 1x24rolls,28.23.7
+a276e059-8170-4f1a-93b3-f0ec53ec1868,Hypo allergenic tape micropore NA 7.5cmx9.1mts 1x4rolls,,1,1,false,,1,,1,,0,,,,1,,0,,,Hypo allergenic tape micropore NA 7.5cmx9.1mts 1x4rolls,28.23.2
+b736b674-f927-42bd-806e-fbeb93229a3a,Hypo allergenic tape Transpore NA 2.5cmx9.1mts 1x12rolls,,1,1,false,,1,,1,,0,,,,1,,0,,,Hypo allergenic tape Transpore NA 2.5cmx9.1mts 1x12rolls,28.23.8
+61cdcb96-0e4a-42c9-a88a-5f0bd67a5d68,Ibuprofen Syrup 100mg/5ml 1x60ml,,1,1,false,Ibuprofen,1,,1,,0,,,,1,,0,,,Ibuprofen Syrup 100mg/5ml 1x60ml,1.3.9
+d98857ed-5186-4c08-a7b7-14ff8e0ec2cc,Ibuprofen Tablet 200mg 1x10x10,,1,1,false,Ibuprofen,1,,1,,0,,,,1,,0,,,Ibuprofen Tablet 200mg 1x10x10,1.3.10
+abb44782-a072-49b9-a7ff-1af5037cb658,Ibuprofen Tablet 400mg 1x10x10,,1,1,false,Ibuprofen,1,,1,,0,,,,1,,0,,,Ibuprofen Tablet 400mg 1x10x10,1.3.11
+a9b19b44-c4b1-4c66-9915-e1636b65d4f7,Infant feeding tube NA 5F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Infant feeding tube NA 5F 1x1,28.9.1
+ed69cb82-8573-4203-9bd8-c6c94336404c,Infant feeding tube NA 6F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Infant feeding tube NA 6F 1x1,28.9.2
+2b06d7c7-0e4b-45e4-9f6b-7a6dbbd6a27a,Infant feeding tube NA 7F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Infant feeding tube NA 7F 1x1,28.9.3
+c492af56-ab9e-4a30-8822-6aa924862caf,Insulin Injection (Soluble) (Specification as per NCD) Injection 40IU/ml 1x10ml Vial,,1,1,false,Insulin,1,,1,,0,,,,1,,0,,,Insulin Injection (Soluble) (Specification as per NCD) Injection 40IU/ml 1x10ml Vial,17.7.7
+a2751725-7ffc-4c86-9a30-9b4507b62aa8,IRON and FOLIC ACID Tablets Large(Each sugar coated Tablet)contains dried ferrous sulphate IP (Eq to 60 mg of Elemental Iron and folic acid 500mcg(sugar coated and RED colour) Tablet 60mg + 500mcg 1x10x10,,1,1,false,Iron/Folic acid,1,,1,,0,,,,1,,0,,,IRON and FOLIC ACID Tablets Large(Each sugar coated Tablet)contains dried ferrous sulphate IP (Eq to 60 mg of Elemental Iron and folic acid 500mcg(sugar coated and RED colour) Tablet 60mg + 500mcg 1x10x10,20.1.24
+8269991d-f045-4c28-aa64-ae88003d75ac,Iron Sucrose Injection 100mg/5ml 1x5ml,,1,1,false,Iron,1,,1,,0,,,,1,,0,,,Iron Sucrose Injection 100mg/5ml 1x5ml,20.1.9
+38e2b040-560f-469b-a234-8d94fbeeb69f,Isosorbide 5 Mononitrate/ Dinitrate Tablet 10mg 1x10x10,,1,1,false,Isosorbide,1,,1,,0,,,,1,,0,,,Isosorbide 5 Mononitrate/ Dinitrate Tablet 10mg 1x10x10,11.1.8
+fe36751c-f3e9-45cd-8910-0935924c1668,Isoxsuprine Tablet 20mg 1x10x10,,1,1,false,Isoxsuprine,1,,1,,0,,,,1,,0,,,Isoxsuprine Tablet 20mg 1x10x10,11.3.16
+b9c5022a-aedf-427f-a9bf-8ca71a880393,IV Cannula (two way) NA 20G 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,IV Cannula (two way) NA 20G 1x1,28.2.2
+1b789254-af8c-47e9-b75e-ea0c0d54e9dd,Ketaconazole Tablet 200mg 1x10x10,,1,1,false,Ketoconazole,1,,1,,0,,,,1,,0,,,Ketaconazole Tablet 200mg 1x10x10,6.7.24
+5b4add7b-0f89-420f-bf63-09b50ceb2323,Ketamine Hydrochloride Injection 10mg/ml 1x10ml,,1,1,false,Ketamine hydrochloride,1,,1,,0,,,,1,,0,,,Ketamine Hydrochloride Injection 10mg/ml 1x10ml,2.1.4
+491e7461-29b3-4ba1-99ac-f11422aff37d,Ketamine Hydrochloride Injection 50mg/ml 1x2ml,,1,1,false,Ketamine hydrochloride,1,,1,,0,,,,1,,0,,,Ketamine Hydrochloride Injection 50mg/ml 1x2ml,2.1.5
+83d068a5-afed-4d62-a852-3363e188fa1f,Labetolol Injection 5mg/ml 1x4ml,,1,1,false,Labetalol,1,,1,,0,,,,1,,0,,,Labetolol Injection 5mg/ml 1x4ml,11.3.29
+d5949fb3-4f4f-4295-8619-ef6a09350012,Labetolol Tablet 100mg 1x10x10,,1,1,false,Labetalol,1,,1,,0,,,,1,,0,,,Labetolol Tablet 100mg 1x10x10,11.3.17
+673794c6-0581-4972-bbdf-5bcb794ffa1e,Lactobacillus rhamnosus GR-1 & lactobacillus Reuteri RC Capsule 14 Billion CFU IP/BP/USP 1x10,,1,1,false,Lactobacillus rhamnosus GR-1/lactobacillus Reuteri RC,1,,1,,0,,,,1,,0,,,Lactobacillus rhamnosus GR-1 & lactobacillus Reuteri RC Capsule 14 Billion CFU IP/BP/USP 1x10,27.1.57
+62155fcc-4f8a-49c8-8b6d-a5dafbc2a1d9,Lactobacilus Dispersible Tablet 10Million 1x10x10,,1,1,false,Lactase / lactobacillus acidophilus,1,,1,,0,,,,1,,0,,,Lactobacilus Dispersible Tablet 10Million 1x10x10,27.1.10
+82334de7-ef51-47af-a6c2-c838ffc17f86,Lactulose Oral Liquid 10g/15ml 1x100ml,,1,1,false,Lactulose,1,,1,,0,,,,1,,0,,,Lactulose Oral Liquid 10g/15ml 1x100ml,8.3.8
+299f862d-c2b0-4310-9a0c-4c4af06edf39,Levo Cetrizine Tablet 5mg 1x10x10,,1,1,false,Levocetirizine,1,,1,,0,,,,1,,0,,,Levo Cetrizine Tablet 5mg 1x10x10,3.1.22
+fd197b7b-de2e-47fe-b85f-34f2ba4ae2a9,Levothyroxine Tablet 25mcg 100x1bottle,,1,1,false,Levothyroxine / liothyronine,1,,1,,0,,,,1,,0,,,Levothyroxine Tablet 25mcg 100x1bottle,17.11.5
+1bda1204-3812-4b51-bb82-a4f541f270d3,Levothyroxine Tablet 50mcg 100x1bottle,,1,1,false,Levothyroxine / liothyronine,1,,1,,0,,,,1,,0,,,Levothyroxine Tablet 50mcg 100x1bottle,17.11.6
+9bc6531e-4e51-4f1a-9b1b-a167d9c59f63,Lignocaine Eye Drop 4% 1x5ml,,1,1,false,Lidocaine,1,,1,,0,,,,1,,0,,,Lignocaine Eye Drop 4% 1x5ml,13.1.2
+d0fc3f5a-225b-41b8-b1da-ddbe7eea1174,Lignocaine Hydrochloride + Adrenaline Injection 2%w/v + 0.009mg 1x30ml,,1,1,false,Epinephrine / lidocaine,1,,1,,0,,,,1,,0,,,Lignocaine Hydrochloride + Adrenaline Injection 2%w/v + 0.009mg 1x30ml,2.2.16
+79465237-7b16-4d51-a42a-f7bc1f454545,Lignocaine Hydrochloride Injection 4% 1x30ml,,1,1,false,Lidocaine,1,,1,,0,,,,1,,0,,,Lignocaine Hydrochloride Injection 4% 1x30ml,2.2.8
+564e57fc-6c08-4260-80f9-5cb795429342,Lignocaine Hydrochloride Jelly 2% 1x30gm,,1,1,false,Lidocaine,1,,1,,0,,,,1,,0,,,Lignocaine Hydrochloride Jelly 2% 1x30gm,2.2.9
+b1bbcfe4-7e6c-4399-912a-e263380033bf,Lignocaine Hydrochloride Spray 2% 1x100ml,,1,1,false,Lidocaine,1,,1,,0,,,,1,,0,,,Lignocaine Hydrochloride Spray 2% 1x100ml,2.2.11
+a1e48310-e0cd-4ba9-9edd-709bc4d264f5,Lignocaine Hydrochloride(1x30ml) Injection 2% w/v 1x1,,1,1,false,Lidocaine,1,,1,,0,,,,1,,0,,,Lignocaine Hydrochloride(1x30ml) Injection 2% w/v 1x1,2.2.20
+431c3c23-1b5c-4e3e-8545-3ff7eaa8f137,Liquid Paraffin Solution 60ml 1x60ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Liquid Paraffin Solution 60ml 1x60ml,16.1.5
+bfc2f6e3-129f-4071-aefd-e3f5313838ea,Lithium Carbonate Tablet 300mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Lithium carbonate,1,,1,,0,,,,1,,0,,,Lithium Carbonate Tablet 300mg 1 X 10 X 10 IP/BP/USP,25.3.8
+61421278-62f7-4640-820f-40c7bbc83429,Lorazepam Injection 2mg/ml 1x2ml,,1,1,false,Lorazepam,1,,1,,0,,,,1,,0,,,Lorazepam Injection 2mg/ml 1x2ml,4.1.5
+9940aefe-b5ab-49ac-9a63-f4a1b6cc7aa2,Lorazepam Tablet 2mg 1x10x10,,1,1,false,Lorazepam,1,,1,,0,,,,1,,0,,,Lorazepam Tablet 2mg 1x10x10,25.2.3
+434435a1-8b0a-4643-9fed-82642cea92c6,Magnesium sulphate Injection 500mg/ml 1x2ml,,1,1,false,Magnesium sulfate,1,,1,,0,,,,1,,0,,,Magnesium sulphate Injection 500mg/ml 1x2ml,4.1.6
+3086b56c-66cc-4be8-a598-975d90fa281d,Mebendazole Tablet 100mg 1x6,,1,1,false,Mebendazole,1,,1,,0,,,,1,,0,,,Mebendazole Tablet 100mg 1x6,6.3.7
+97c649e5-e120-418b-a70b-6debd76a3709,Medroxy Progesterone Acetate Tablet 10mg 1x10x10,,1,1,false,Medroxyprogesterone acetate,1,,1,,0,,,,1,,0,,,Medroxy Progesterone Acetate Tablet 10mg 1x10x10,17.1.5
+b887aca4-9da9-46c6-8aad-254b4249b407,Medroxy Progesterone Acetate Tablet 5mg 1x10x10,,1,1,false,Medroxyprogesterone acetate,1,,1,,0,,,,1,,0,,,Medroxy Progesterone Acetate Tablet 5mg 1x10x10,17.1.6
+7768ab8c-36fa-4473-91fb-0fdf9b7fe209,Mefenamic Acid + Dicyclomine Tablet 250mg + 10mg 1x10x10,,1,1,false,Mefenamic Acid/Dicyclomine,1,,1,,0,,,,1,,0,,,Mefenamic Acid + Dicyclomine Tablet 250mg + 10mg 1x10x10,16.5.7
+289f9b6c-904c-4332-91c9-5cc3a5f3d21e,Mefenamic acid Tablet 500mg 1x10x10,,1,1,false,Mefenamic acid,1,,1,,0,,,,1,,0,,,Mefenamic acid Tablet 500mg 1x10x10,16.5.8
+77ba1ab3-d570-4e2b-b42c-e055bec9d134,Mephentermine Injection 30mg/ml 1x10ml,,1,1,false,Mephentermine,1,,1,,0,,,,1,,0,,,Mephentermine Injection 30mg/ml 1x10ml,11.6.7
+9902ddec-cfe3-474b-bf15-29112f9c3078,Methyl Ergometrine Injection 0.2mg/ml 1x1,,1,1,false,Methylergonovine,1,,1,,0,,,,1,,0,,,Methyl Ergometrine Injection 0.2mg/ml 1x1,23.2.4
+00e34f06-6b2c-43f4-97d0-7e7d387a42fc,Methyl Ergometrine Tablet 0.125mg 1x10x10,,1,1,false,Methylergonovine,1,,1,,0,,,,1,,0,,,Methyl Ergometrine Tablet 0.125mg 1x10x10,23.2.5
+34a400f3-5b0c-4dd1-adf7-e70c5138f21c,Methylcellulose Drops PLAIN 1x1,,1,1,false,Methylcellulose,1,,1,,0,,,,1,,0,,,Methylcellulose Drops PLAIN 1x1,22.1.8
+c98756e2-491c-45ea-9fff-9139ccd83b24,Methylcobalamin Injection 1500mcg 1x1ml,,1,1,false,Methylcobalamin / pregabalin,1,,1,,0,,,,1,,0,,,Methylcobalamin Injection 1500mcg 1x1ml,20.1.10
+9573a941-8d79-4f8a-8d68-add4312b8434,Methylcobalamin Tablet 1500mcg 1x10x10,,1,1,false,Methylcobalamin / pregabalin,1,,1,,0,,,,1,,0,,,Methylcobalamin Tablet 1500mcg 1x10x10,20.1.11
+62473f7e-e423-4c0e-b869-8e610090c491,Methyldopa Tablet 250mg 1x10x10,,1,1,false,Methyldopa,1,,1,,0,,,,1,,0,,,Methyldopa Tablet 250mg 1x10x10,11.3.20
+cde4be21-2d67-49d3-9151-5680c1939468,Methylprednisolone Tablet 8mg 1x10x10,,1,1,false,Methylprednisolone,1,,1,,0,,,,1,,0,,,Methylprednisolone Tablet 8mg 1x10x10,25.1.4
+e2ad255e-84f1-42b5-a666-b679ab141c45,Methylrosanilinium Chloride (Gentian Violet) Aqueous solution 0.50% 1x10ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Methylrosanilinium Chloride (Gentian Violet) Aqueous solution 0.50% 1x10ml,12.1.3
+414fc232-ba0a-4804-b0a5-29f9e7282e84,Methylrosanilinium Chloride(Gentian Violet) Topical Form 0.25% to 2% 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Methylrosanilinium Chloride(Gentian Violet) Topical Form 0.25% to 2% 1x1,12.1.15
+c6c73898-60fb-41f8-ab72-0e83c29e745d,Metoclopramide Injection 5mg/ml 1x2ml,,1,1,false,Metoclopramide,1,,1,,0,,,,1,,0,,,Metoclopramide Injection 5mg/ml 1x2ml,16.3.3
+ac6f4f54-9530-4c69-ad14-d110c9ec72bf,Metoclopramide Tablet 10mg 1x10x10,,1,1,false,Metoclopramide,1,,1,,0,,,,1,,0,,,Metoclopramide Tablet 10mg 1x10x10,16.3.5
+1af42cfd-ab5b-478a-b7a0-f53182020f4f,Metoprolol Tablet 25mg 1x10x10,,1,1,false,Metoprolol,1,,1,,0,,,,1,,0,,,Metoprolol Tablet 25mg 1x10x10,11.1.11
+bf7a0c84-651b-4634-b9fe-24336be9a083,Metronidazole 2% Gel 10mg/gm 1x20g,,1,1,false,Metronidazole,1,,1,,0,,,,1,,0,,,Metronidazole 2% Gel 10mg/gm 1x20g,6.7.59
+b6970e2c-c4dd-4a21-9682-41925dc65aa8,Metronidazole Infusion 500mg/100ml 1x100ml,,1,1,false,Metronidazole,1,,1,,0,,,,1,,0,,,Metronidazole Infusion 500mg/100ml 1x100ml,6.7.27
+d13ed0e5-2814-4e5b-a8bb-6afadc606b08,Metronidazole Syrup 200mg/5ml 1x60ml,,1,1,false,Metronidazole,1,,1,,0,,,,1,,0,,,Metronidazole Syrup 200mg/5ml 1x60ml,6.7.29
+de268ffd-1e87-464f-8ab1-098f02ed8d55,Metronidazole Tablet 400mg 1x10x10,,1,1,false,Metronidazole,1,,1,,0,,,,1,,0,,,Metronidazole Tablet 400mg 1x10x10,6.7.31
+58a2c2a8-a24a-4cf6-bc29-71a4fc60fe58,Mifepristone Tablet 200mg 1x1,,1,1,false,Mifepristone,1,,1,,0,,,,1,,0,,,Mifepristone Tablet 200mg 1x1,23.2.6
+62831e8a-ced8-4e7e-9c33-bb645cd3e650,Misoprostol Tablet 200mcg 1x10x10,,1,1,false,Misoprostol,1,,1,,0,,,,1,,0,,,Misoprostol Tablet 200mcg 1x10x10,23.2.14
+a1c2cbba-42ad-41dd-97b9-f8ea7bacdb63,Mometasone(Nasal) Spray 50mcg 1X12ml,,1,1,false,Mometasone,1,,1,,0,,,,1,,0,,,Mometasone(Nasal) Spray 50mcg 1X12ml,22.6.7
+29da5689-286a-499f-9f4d-6515853a69c3,Montelukast Tablet 5mg 1x10x10,,1,1,false,Montelukast,1,,1,,0,,,,1,,0,,,Montelukast Tablet 5mg 1x10x10,19.2.4
+dea294ee-c6cb-4fb0-9665-a9ab805fd9a6,Multivitamins Injection vitamin A 10000 IU+Thiamine hydrochloride 50mg+Riboflavin sodium phosphate 10mg+Nicotinamide 100mg+D-Panthenol 25mg+Pyridoxine Hydrochloride 15mg+Alpha-atocopherol acetate 5mg with excepients 1x10ml,,1,1,false,vitamin A/Thiamine hydrochloride/Riboflavin sodium phosphate/Nicotinamide/D-Panthenol/Pyridoxine Hydrochloride/Alpha-atocopherol acetate,1,,1,,0,,,,1,,0,,,Multivitamins Injection vitamin A 10000 IU+Thiamine hydrochloride 50mg+Riboflavin sodium phosphate 10mg+Nicotinamide 100mg+D-Panthenol 25mg+Pyridoxine Hydrochloride 15mg+Alpha-atocopherol acetate 5mg with excepients 1x10ml,27.1.52
+f8d1f5c7-8dd2-41cc-8b58-bdd194565a34,Mupirocin Ointment 2%w/w 1x5g,,1,1,false,Mupirocin,1,,1,,0,,,,1,,0,,,Mupirocin Ointment 2%w/w 1x5g,12.1.9
+8ffa35dd-68eb-4ea1-a7c0-99e651cd7d73,Neomycin+Bacitracin Ointment 5mg+250IU/g 1x30g,,1,1,false,Bacitracin / neomycin,1,,1,,0,,,,1,,0,,,Neomycin+Bacitracin Ointment 5mg+250IU/g 1x30g,12.1.4
+45fb3fc6-fb24-4b05-b204-7ea1c23228f6,Noradrenaline Injection 2mg/ml 1x1,,1,1,false,Noradrenaline,1,,1,,0,,,,1,,0,,,Noradrenaline Injection 2mg/ml 1x1,11.3.36
+f7d92ec9-95d0-4554-9cc6-a15cc4ac6937,Norethisterone Tablet 5mg 1x10x10,,1,1,false,Norethindrone,1,,1,,0,,,,1,,0,,,Norethisterone Tablet 5mg 1x10x10,17.1.7
+18432cfc-23e6-4129-9316-df825c6d2e96,Norfloxacin (Film Coated) Tablet 400mg 1x10x10,,1,1,false,Norfloxacin,1,,1,,0,,,,1,,0,,,Norfloxacin (Film Coated) Tablet 400mg 1x10x10,6.7.33
+0d8428fe-3b12-48f2-9ab5-4150a69e3e58,NSI Dengue Antigen Kit NA Card / Strip / Cassette 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,NSI Dengue Antigen Kit NA Card / Strip / Cassette 1x1,28.15.6
+ee49d8b3-d773-4acf-87e8-e38dcc02fd49,Ofloxacin + dexamethasone phosphate Drops 0.3 + 0.1%w/v 1x5ml,,1,1,false,Ofloxacin/dexamethasone phosphate,1,,1,,0,,,,1,,0,,,Ofloxacin + dexamethasone phosphate Drops 0.3 + 0.1%w/v 1x5ml,22.2.8
+12ed5536-b6dc-41a5-abcd-1bcf3022f6f4,Ofloxacin Drops 3mg/ml 1x10ml,,1,1,false,Ofloxacin,1,,1,,0,,,,1,,0,,,Ofloxacin Drops 3mg/ml 1x10ml,22.2.7
+0d50ec50-339f-45b3-a133-a85904a22797,Ofloxacin Syrup 50mg/5ml 1x100ml,,1,1,false,Ofloxacin,1,,1,,0,,,,1,,0,,,Ofloxacin Syrup 50mg/5ml 1x100ml,6.5.10
+d82b7b66-9dbb-44df-aa04-61bd502c5604,Ofloxacin Tablet 200mg 1x10x10,,1,1,false,Ofloxacin,1,,1,,0,,,,1,,0,,,Ofloxacin Tablet 200mg 1x10x10,6.5.12
+5268b2df-ca9e-4f74-bb59-6ab07578495a,Omeprazole Capsule 20mg 1x10x10,,1,1,false,Omeprazole,1,,1,,0,,,,1,,0,,,Omeprazole Capsule 20mg 1x10x10,16.1.7
+6c43c13d-726b-4b3f-92f3-28d688a46ad4,Ondansetron Injection 2mg/ml 1x2ml,,1,1,false,Ondansetron,1,,1,,0,,,,1,,0,,,Ondansetron Injection 2mg/ml 1x2ml,16.3.6
+99c0a863-6e5b-4666-82f5-6e74446494c1,Ondansetron Syrup 2mg/5ml 1x30ml,,1,1,false,Ondansetron,1,,1,,0,,,,1,,0,,,Ondansetron Syrup 2mg/5ml 1x30ml,16.3.7
+f494a53c-66e9-4fd9-a260-6c17f107b454,Ondansetron Tablet 4mg 1x10x10,,1,1,false,Ondansetron,1,,1,,0,,,,1,,0,,,Ondansetron Tablet 4mg 1x10x10,16.3.8
+ae48832b-942d-4f6c-b50f-e92c63fd380c,"Oral Rehydration Salts Powder for solution Sodium Cloride 2.6,Glucose Anhydrous 13.5,Potassium Cloride 1.5,Trisodium Citrate Dihydrate 2.9 1x20.5g",,1,1,false,Oral rehydration salts,1,,1,,0,,,,1,,0,,,"Oral Rehydration Salts Powder for solution Sodium Cloride 2.6,Glucose Anhydrous 13.5,Potassium Cloride 1.5,Trisodium Citrate Dihydrate 2.9 1x20.5g",26.1.2
+1fee9b10-e597-459e-b515-7cf80f837785,Ornidazole Tablet 500mg 1x10x10,,1,1,false,Ornidazole,1,,1,,0,,,,1,,0,,,Ornidazole Tablet 500mg 1x10x10,6.9.5
+868f6799-6dc5-4c71-b340-0ac3d336f22f,Oseltamavir Capsule 30mg 1x10x10,,1,1,false,Oseltamivir,1,,1,,0,,,,1,,0,,,Oseltamavir Capsule 30mg 1x10x10,6.7.55
+3f7b593a-1e65-4cd9-ae4a-181188c92ff2,Oseltamavir Capsule 45mg 1x10x10,,1,1,false,Oseltamivir,1,,1,,0,,,,1,,0,,,Oseltamavir Capsule 45mg 1x10x10,6.7.54
+58514875-dfe9-4ae6-8d18-a307f9f5ba20,Oseltamavir Capsule 75mg 1x10x10,,1,1,false,Oseltamivir,1,,1,,0,,,,1,,0,,,Oseltamavir Capsule 75mg 1x10x10,6.7.53
+567b75e5-a408-4b44-8cd8-0fcec1ce8e25,Oseltamavir Syrup 12mg/ml 1x60ml,,1,1,false,Oseltamivir,1,,1,,0,,,,1,,0,,,Oseltamavir Syrup 12mg/ml 1x60ml,6.7.56
+9de23c0e-143f-4729-9e5c-bb9a5631f782,Oxymetazoline (Nasal) Drops 0.5mg/ml 1x10ml,,1,1,false,Oxymetazoline,1,,1,,0,,,,1,,0,,,Oxymetazoline (Nasal) Drops 0.5mg/ml 1x10ml,22.6.1
+f044c887-24ad-4656-8713-51cc314c7c62,Oxymetazoline Paediatric(Nasal) Drops 0.25mg/ml 1x10ml,,1,1,false,Oxymetazoline,1,,1,,0,,,,1,,0,,,Oxymetazoline Paediatric(Nasal) Drops 0.25mg/ml 1x10ml,22.6.6
+f2ef2bbd-e23c-4734-a92a-aa06f84c23f7,Oxytocin Injection 5IU/ml 1x1ml,,1,1,false,Oxytocin,1,,1,,0,,,,1,,0,,,Oxytocin Injection 5IU/ml 1x1ml,23.2.11
+a2bf24a9-3429-41b5-9355-51ad7976fef1,Pantoprazole Injection 40mg 1x1Vial,,1,1,false,Pantoprazole,1,,1,,0,,,,1,,0,,,Pantoprazole Injection 40mg 1x1Vial,16.1.9
+11adfa44-b198-4f9e-9e5e-b52bfc6b2fcf,Pantoprazole Tablet 40mg 1x10x10,,1,1,false,Pantoprazole,1,,1,,0,,,,1,,0,,,Pantoprazole Tablet 40mg 1x10x10,16.1.10
+9abc248f-eb22-4210-b49d-9d1b84d73900,Paracetamol Drops 100mg/ml 1x15g,,1,1,false,Acetaminophen,1,,1,,0,,,,1,,0,,,Paracetamol Drops 100mg/ml 1x15g,1.3.34
+e1367bab-f517-4b23-9dbb-fbefa776d704,Paracetamol Suppository 170mg 1x5,,1,1,false,Acetaminophen,1,,1,,0,,,,1,,0,,,Paracetamol Suppository 170mg 1x5,1.3.30
+aeac2d23-16be-45a8-8938-cb7ffa9bdfee,Paracetamol Suppository 80mg 1x1,,1,1,false,Acetaminophen,1,,1,,0,,,,1,,0,,,Paracetamol Suppository 80mg 1x1,1.3.17
+7dae30a2-5533-4d33-a9d6-269ef5e8a112,Paracetamol Syrup 125mg/5ml 1x60ml,,1,1,false,Acetaminophen,1,,1,,0,,,,1,,0,,,Paracetamol Syrup 125mg/5ml 1x60ml,1.3.18
+d2bc50bc-6a28-431e-8ae3-f7cef55f2f8a,Paracetamol Syrup 250mg/5ml 1x60ml,,1,1,false,Acetaminophen,1,,1,,0,,,,1,,0,,,Paracetamol Syrup 250mg/5ml 1x60ml,1.3.48
+d1877b86-2a7b-4c77-841f-22d9b2de23ac,Paracetamol Tablet 500mg 1x10x10,,1,1,false,Acetaminophen,1,,1,,0,,,,1,,0,,,Paracetamol Tablet 500mg 1x10x10,1.3.19
+f7c20aaa-2d4a-423d-873f-c79576387da0,Paracetamol Tablet 650mg 1x10x10,,1,1,false,Acetaminophen,1,,1,,0,,,,1,,0,,,Paracetamol Tablet 650mg 1x10x10,1.3.20
+ef34ccc5-f86a-40fc-a3bc-2f38961af132,Pentazocine Injection 30mg/ml 1x1ml,,1,1,false,Pentazocine,1,,1,,0,,,,1,,0,,,Pentazocine Injection 30mg/ml 1x1ml,1.4.4
+f245dd16-313f-4b2f-9f5d-ec69ad461243,Permethrin Cream 5% 1x30gm,,1,1,false,Permethrin,1,,1,,0,,,,1,,0,,,Permethrin Cream 5% 1x30gm,12.1.14
+086b8d67-776f-4eb0-8f3c-60509b615a7b,Permethrin Lotion 1% 1x1,,1,1,false,Permethrin,1,,1,,0,,,,1,,0,,,Permethrin Lotion 1% 1x1,12.1.13
+728b2ce9-0541-42d9-a6bf-f1cc2e1144e9,Pheniramine Maleate Injection 22.75 mg/ml 1x2ml,,1,1,false,Pheniramine,1,,1,,0,,,,1,,0,,,Pheniramine Maleate Injection 22.75 mg/ml 1x2ml,3.1.10
+ebc1f7b5-4191-4954-82f2-ab71903ec6be,Phenobarbitone Syrup 20mg/5ml 1x60ml,,1,1,false,Phenobarbital,1,,1,,0,,,,1,,0,,,Phenobarbitone Syrup 20mg/5ml 1x60ml,4.1.8
+7c031463-d2f1-45b8-88c1-ad9b5b02350a,Phenobarbitone Tablet 30mg 1x10x10,,1,1,false,Phenobarbital,1,,1,,0,,,,1,,0,,,Phenobarbitone Tablet 30mg 1x10x10,4.1.9
+19adf0d6-8067-4de7-a81f-ddc4ebeaed13,Phenobarbitone Tablet 60mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Phenobarbital,1,,1,,0,,,,1,,0,,,Phenobarbitone Tablet 60mg 1 X 10 X 10 IP/BP/USP,4.1.10
+3faf1ce4-ca81-41e5-acc7-f9ebec87b316,Phenytoin Sodium Injection 50mg/ml 1x2ml,,1,1,false,Phenytoin sodium,1,,1,,0,,,,1,,0,,,Phenytoin Sodium Injection 50mg/ml 1x2ml,4.1.12
+c6806212-5f14-4367-ba7c-d9344ad1398d,Phenytoin Sodium Suspension 25mg/ml 1x100ml,,1,1,false,Phenytoin sodium,1,,1,,0,,,,1,,0,,,Phenytoin Sodium Suspension 25mg/ml 1x100ml,4.1.13
+54b572c5-f78c-44e7-a530-da18fabeaf5e,Phenytoin Sodium Tablet 100mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Phenytoin sodium,1,,1,,0,,,,1,,0,,,Phenytoin Sodium Tablet 100mg 1 X 10 X 10 IP/BP/USP,4.1.14
+bbcf3deb-7c20-4553-80ad-cec2e638e260,Phytomenadione (Vitamin K1) Injection 1mg/ml 1x1,,1,1,false,Vitamin K,1,,1,,0,,,,1,,0,,,Phytomenadione (Vitamin K1) Injection 1mg/ml 1x1,20.2.14
+5ba6fc98-ce84-4651-b284-1329a96ef607,Pioglitazone Tablet 15mg 1x10x10,,1,1,false,Pioglitazone,1,,1,,0,,,,1,,0,,,Pioglitazone Tablet 15mg 1x10x10,17.7.10
+a2c1cb52-685a-422c-b107-eec3d95daadc,Piperacillin + Tazobactam Powder for Injection. 4g + 500mg 1x1 Vial,,1,1,false,Piperacillin / tazobactam,1,,1,,0,,,,1,,0,,,Piperacillin + Tazobactam Powder for Injection. 4g + 500mg 1x1 Vial,6.6.36
+3b67926f-7d2d-4854-a58a-dd998b426f40,Piroxicam Dispersible Tablet 20mg 1x10x10,,1,1,false,Piroxicam,1,,1,,0,,,,1,,0,,,Piroxicam Dispersible Tablet 20mg 1x10x10,1.3.21
+600dd3ae-3b3a-4a04-852d-c3902991b3a6,Plasma Expander Injection 6% 1x500ml,,1,1,false,Plasma Expander,1,,1,,0,,,,1,,0,,,Plasma Expander Injection 6% 1x500ml,10.1.8
+56e220a0-ba5b-4718-bc87-c2c0f5b1db7f,Potassium Permanganate Crystals for solution 400g 1x400g,,1,1,false,,1,,1,,0,,,,1,,0,,,Potassium Permanganate Crystals for solution 400g 1x400g,14.2.7
+571d2111-e089-46e9-a6bc-e3a91cdd4619,Povidone Iodine Ointment 5% 1x125g,,1,1,false,Povidone-iodine,1,,1,,0,,,,1,,0,,,Povidone Iodine Ointment 5% 1x125g,12.1.5
+daf47e2e-df38-4a30-a9f0-6ee37e11434d,Povidone Iodine Ointment 5% 1x15g,,1,1,false,Povidone-iodine,1,,1,,0,,,,1,,0,,,Povidone Iodine Ointment 5% 1x15g,12.1.6
+0eb8c0af-4ffc-437a-a403-f8e1f21206d8,Povidone Iodine Scrub Solution 7.5%W/V 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Povidone Iodine Scrub Solution 7.5%W/V 1x500ml,12.1.17
+562996c9-2165-4570-899b-bfb04970e002,Povidone Iodine Solution 10% 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Povidone Iodine Solution 10% 1x500ml,14.1.11
+e9a71852-b5a7-4c72-abd0-9a611a66f3dd,Povidone Iodine Solution 5% 1x500ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Povidone Iodine Solution 5% 1x500ml,12.1.16
+40130516-1d28-4618-a282-1036ffbdfcf9,Pralidoxime Chloride(2- PAM) Injection 1g 1x1Vial,,1,1,false,Pralidoxime chloride,1,,1,,0,,,,1,,0,,,Pralidoxime Chloride(2- PAM) Injection 1g 1x1Vial,5.2.11
+53dae49a-c162-48ac-bd28-468074c462d0,Prednisolone Tablet 10mg 1x10x10,,1,1,false,Prednisolone,1,,1,,0,,,,1,,0,,,Prednisolone Tablet 10mg 1x10x10,3.1.11
+caf9ac44-fab7-4c67-8353-2a849638ba8e,Prednisolone Tablet 20mg 1x10x10,,1,1,false,Prednisolone,1,,1,,0,,,,1,,0,,,Prednisolone Tablet 20mg 1x10x10,3.1.12
+4ecfc494-6831-444a-939e-0b08e34b01a5,Premix Insulin 30:70 1x10ml Injection 40IU/ml 1x1Vial,,1,1,false,Insulin 70/30,1,,1,,0,,,,1,,0,,,Premix Insulin 30:70 1x10ml Injection 40IU/ml 1x1Vial,17.7.12
+32c54706-8886-4100-9a83-3f6e20e780ec,Primaquine Tablet 2.5mg 1x10x10,,1,1,false,Primaquine,1,,1,,0,,,,1,,0,,,Primaquine Tablet 2.5mg 1x10x10,6.11.9
+39fb0cbd-70ce-4045-a5a6-0a67bd89b773,Primaquine Tablet 7.5mg 1x10x10,,1,1,false,Primaquine,1,,1,,0,,,,1,,0,,,Primaquine Tablet 7.5mg 1x10x10,6.11.10
+8dd99c2c-f764-41c8-a808-8bfbc4a6ffe9,Probiotic Capsule 60 Million 1x10x10,,1,1,false,Probiotic,1,,1,,0,,,,1,,0,,,Probiotic Capsule 60 Million 1x10x10,6.9.11
+58377363-e79b-4848-a154-89f5e906e68b,Probiotic each 5 ml Suspension 2 Million Spores 1x50ml,,1,1,false,Probiotic,1,,1,,0,,,,1,,0,,,Probiotic each 5 ml Suspension 2 Million Spores 1x50ml,6.9.10
+8030319c-00dc-41f9-9c32-ffff7fd38e1a,Propranolol hydrochloride Tablet 40mg 1x10x10,,1,1,false,Propranolol hydrochloride,1,,1,,0,,,,1,,0,,,Propranolol hydrochloride Tablet 40mg 1x10x10,7.1.2
+b4ff8522-8647-468a-b92f-44581ecd6530,Pyridoxine Tablet 10mg 1x10x10,,1,1,false,Pyridoxine,1,,1,,0,,,,1,,0,,,Pyridoxine Tablet 10mg 1x10x10,20.1.12
+fabff5be-d3cb-405b-a04d-6866f4611c42,Pyridoxine Tablet 25mg 1x10x10,,1,1,false,Pyridoxine,1,,1,,0,,,,1,,0,,,Pyridoxine Tablet 25mg 1x10x10,27.1.16
+2290d4ee-56fb-4749-bbd6-3bab72557d5c,Rabies Immunoglobin 1x2ml Injection 150 IU/ml 1x1Vial,,1,1,false,"Rabies immune globulin, human",1,,1,,0,,,,1,,0,,,Rabies Immunoglobin 1x2ml Injection 150 IU/ml 1x1Vial,18.2.7
+f3d6b8b9-cc4f-4ac5-aa6f-138386b6758a,Rabies Vaccine Injection 2.5IU 1x1ml,,1,1,false,Rabies vaccines,1,,1,,0,,,,1,,0,,,Rabies Vaccine Injection 2.5IU 1x1ml,18.3.1
+addcaea9-7144-4c61-9f0f-5d0eb74bb553,Ranitidine Injection 25mg/ml 1x2ml,,1,1,false,Ranitidine,1,,1,,0,,,,1,,0,,,Ranitidine Injection 25mg/ml 1x2ml,16.1.11
+052c0f3c-53af-4f91-84b8-9126a195c285,Ranitidine Tablet 150mg 1x10x10,,1,1,false,Ranitidine,1,,1,,0,,,,1,,0,,,Ranitidine Tablet 150mg 1x10x10,16.1.12
+1e816033-5814-4906-af4e-575e85c840dc,Reagent Sticks for Urine Analysis (Glucose + Ketone bodies) | NA | NA | 1x50 NA NA 1x50,,1,1,false,,1,,1,,0,,,,1,,0,,,Reagent Sticks for Urine Analysis (Glucose + Ketone bodies) | NA | NA | 1x50 NA NA 1x50,28.15.18
+289aa82c-8d8f-4470-94ad-6709893843d5,Reagent Sticks for Urine Analysis (Glucose) NA NA 1x50,,1,1,false,,1,,1,,0,,,,1,,0,,,Reagent Sticks for Urine Analysis (Glucose) NA NA 1x50,28.15.8
+d7beaa11-42da-49a7-8237-3a6e8e5cbd0b,Riboflavin Tablet 5mg 1x10x10,,1,1,false,Riboflavin,1,,1,,0,,,,1,,0,,,Riboflavin Tablet 5mg 1x10x10,27.1.17
+f7a4b092-c5d4-4afc-aaee-e1dc0d89f465,Ringer Lactate Infusion FFS As per IP 1x500ml,,1,1,false,Lactated ringer's solution,1,,1,,0,,,,1,,0,,,Ringer Lactate Infusion FFS As per IP 1x500ml,26.2.9
+07a34071-419c-4b3e-87e1-2953d40ba291,Risperiddone Tablet 2mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Risperidone,1,,1,,0,,,,1,,0,,,Risperiddone Tablet 2mg 1 X 10 X 10 IP/BP/USP,25.4.14
+e3189919-d21a-4044-bc91-6ba037afcd25,Risperiddone Tablet 4mg 1x10x10,,1,1,false,Risperidone,1,,1,,0,,,,1,,0,,,Risperiddone Tablet 4mg 1x10x10,25.4.15
+ab7e6601-4da9-4374-8d9a-bece8bdda2ea,Risperidone Suspension 1mg 1x50ml,,1,1,false,Risperidone,1,,1,,0,,,,1,,0,,,Risperidone Suspension 1mg 1x50ml,25.4.22
+a082d58e-75bb-4b13-a13a-d1f0e73cdd27,Ryleâ€™s tubes NA 14F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Ryleâ€™s tubes NA 14F 1x1,28.18.1
+186d038b-9216-44b3-aa90-ffa06054f3f2,Ryleâ€™s tubes NA 16F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Ryleâ€™s tubes NA 16F 1x1,28.18.2
+7713535a-ec08-495f-800c-d0320dfca468,Ryleâ€™s tubes NA 18F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Ryleâ€™s tubes NA 18F 1x1,28.18.3
+973286b1-8e69-4dd5-a669-f947790a9673,Salbutamol nebuliser Solution 5mg/ml 1x15ml,,1,1,false,Salbutamol,1,,1,,0,,,,1,,0,,,Salbutamol nebuliser Solution 5mg/ml 1x15ml,19.1.12
+686dc064-b9be-489a-b8f1-7fc29a5a0007,Salbutamol sulphate Inhalation 100mcg/dose 1x1,,1,1,false,Albuterol sulfate,1,,1,,0,,,,1,,0,,,Salbutamol sulphate Inhalation 100mcg/dose 1x1,19.1.13
+f2063254-4daf-4448-adb2-e30f9f38a087,Salbutamol sulphate Syrup 2mg/5ml 1x100ml,,1,1,false,Albuterol sulfate,1,,1,,0,,,,1,,0,,,Salbutamol sulphate Syrup 2mg/5ml 1x100ml,19.1.14
+463f30e9-d9b5-433d-aef9-931e2fdb08e6,Salbutamol sulphate Tablet 2mg 1x10x10,,1,1,false,Albuterol sulfate,1,,1,,0,,,,1,,0,,,Salbutamol sulphate Tablet 2mg 1x10x10,19.1.15
+87b34b14-b0e8-4774-8b01-9eb11c56d3d5,Salbutamol sulphate Tablet 4mg 1x10x10,,1,1,false,Albuterol sulfate,1,,1,,0,,,,1,,0,,,Salbutamol sulphate Tablet 4mg 1x10x10,19.1.16
+90801e30-e79c-4a89-b9bb-a817163990bd,Salicylic Acid Ointment 6% 1x20g,,1,1,false,Salicylic acid,1,,1,,0,,,,1,,0,,,Salicylic Acid Ointment 6% 1x20g,12.4.5
+b952647f-381e-40cb-9b04-e9b3083eebb0,Saline for Injection Injection 0.9%w/v 1x10ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Saline for Injection Injection 0.9%w/v 1x10ml,26.1.3
+a20d0e29-2a45-4cb3-9cd0-c2d77624feca,Saline for Injection Injection 5ml 1x5ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Saline for Injection Injection 5ml 1x5ml,26.1.5
+2c372433-db11-44a5-9627-b13bc51337d1,Secnidazole Tablet 1g 1x2x10,,1,1,false,Secnidazole,1,,1,,0,,,,1,,0,,,Secnidazole Tablet 1g 1x2x10,6.7.37
+43979ccd-277e-4ad3-9dd2-50de3cae471e,Serratiopeptidase Tablet 10mg 1x10x10,,1,1,false,Serratiopeptidase,1,,1,,0,,,,1,,0,,,Serratiopeptidase Tablet 10mg 1x10x10,1.3.22
+2229a543-2e80-4b33-a768-d017d3f8b311,Silver Sulphadiazine Cream 1% 1x25g,,1,1,false,Silver sulfadiazine,1,,1,,0,,,,1,,0,,,Silver Sulphadiazine Cream 1% 1x25g,12.1.7
+18f33013-4450-4fcd-811e-bf5237970d8d,Silver Sulphadiazine Cream 125g 1x125g,,1,1,false,Silver sulfadiazine,1,,1,,0,,,,1,,0,,,Silver Sulphadiazine Cream 125g 1x125g,12.1.10
+056b03cf-94f7-4bc3-a13a-2c561994b344,Sodium Chloride (Nasal) Drops 0.65%w/v 1x15ml,,1,1,false,	Sodium chloride,1,,1,,0,,,,1,,0,,,Sodium Chloride (Nasal) Drops 0.65%w/v 1x15ml,22.6.2
+7fec69d3-6ad7-4e5c-acb8-386f6e4aeb6d,Sodium Chloride (Normal Saline) Injection FFS 0.9%w/v 1x500ml,,1,1,false,	Sodium chloride,1,,1,,0,,,,1,,0,,,Sodium Chloride (Normal Saline) Injection FFS 0.9%w/v 1x500ml,26.2.12
+a7ac4329-0a67-4b9e-a3be-c396baafff0b,Sodium Chloride(Normal Saline) Infusion FFS 0.9%w/v 1x100ml,,1,1,false,	Sodium chloride,1,,1,,0,,,,1,,0,,,Sodium Chloride(Normal Saline) Infusion FFS 0.9%w/v 1x100ml,26.2.13
+637fba28-ab74-4db6-8f4a-be5d093eb657,Sodium hypochlorite solution NA 0.05 1x1Litre,,1,1,false,,1,,1,,0,,,,1,,0,,,Sodium hypochlorite solution NA 0.05 1x1Litre,14.2.8
+56b117d5-cfbe-421f-96ed-e5b345724c4a,Sodium Valproate CR Tablet 500mg 1x10x10,,1,1,false,Sodium valproate,1,,1,,0,,,,1,,0,,,Sodium Valproate CR Tablet 500mg 1x10x10,4.1.30
+8f51a9bc-3797-47d4-badf-b9750976c964,Sodium Valproate Injection 100mg/ml 1x5ml,,1,1,false,Sodium valproate,1,,1,,0,,,,1,,0,,,Sodium Valproate Injection 100mg/ml 1x5ml,4.1.16
+bd448d85-1a61-4087-9b78-313b0b1c2ba7,Sodium Valproate Syrup 200mg/5ml 1x100ml,,1,1,false,Sodium valproate,1,,1,,0,,,,1,,0,,,Sodium Valproate Syrup 200mg/5ml 1x100ml,4.1.17
+392e3662-b986-49d5-9127-cb209fddfecc,Sodium Valproate Tablet 200mg 1x10x10,,1,1,false,Sodium valproate,1,,1,,0,,,,1,,0,,,Sodium Valproate Tablet 200mg 1x10x10,4.1.18
+801a70b5-a126-47bb-a2c9-cf8c0d1a0ba6,"Spinal needle(lumbar puncture) needle disposable,color coded transparent hubce certified NA 25G 1x1",,1,1,false,,1,,1,,0,,,,1,,0,,,"Spinal needle(lumbar puncture) needle disposable,color coded transparent hubce certified NA 25G 1x1",28.20.3
+5c326695-6782-4ac1-8653-0ad0c6b693fa,Spironolactone Tablet 50mg 1x10x10,,1,1,false,Spironolactone,1,,1,,0,,,,1,,0,,,Spironolactone Tablet 50mg 1x10x10,15.1.8
+8977c89b-f5ba-4422-9f02-d522c51d85f8,Sterile Blood Lancets (Pricking Needles) Each Lancet Packed in Sterile pack with 200 such lancets in each box. NA NA 12Nos,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile Blood Lancets (Pricking Needles) Each Lancet Packed in Sterile pack with 200 such lancets in each box. NA NA 12Nos,28.13.2
+4abf91d1-f3b9-44f5-8a47-861611f09f77,Sterile disposable insulin syringe with needle NA 26G 1x10,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable insulin syringe with needle NA 26G 1x10,28.25.1
+9d31b6e6-7c78-44c4-b076-2dbf824fbcdd,Sterile disposable IV cannula with inj port NA 18G 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable IV cannula with inj port NA 18G 1x1,28.2.3
+38b842c4-6509-4e59-b80b-1d0ce00a3f8c,Sterile disposable IV cannula with inj port NA 20G 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable IV cannula with inj port NA 20G 1x1,28.2.4
+0a8be12a-3361-4a5e-b795-4ab9b75aafe4,Sterile disposable IV cannula with inj port NA 22G 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable IV cannula with inj port NA 22G 1x1,28.2.5
+4cc01587-bd62-4e8f-83b6-657d982d9f06,Sterile disposable IV cannula with inj port NA 24G 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable IV cannula with inj port NA 24G 1x1,28.2.6
+ff43d2f4-49e8-4c6b-a841-40fc49e3b89f,Sterile disposable IV cannula with inj port NA 26G 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable IV cannula with inj port NA 26G 1x1,28.2.8
+2869fe64-3aa1-4397-8258-765fb5fe359a,Sterile disposable perfusion (infusion) sets with filter NA Adult 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable perfusion (infusion) sets with filter NA Adult 1x1,28.12.1
+75dbc2b3-905f-4264-86aa-76f5becd04d4,Sterile disposable perfusion (infusion) sets with filter NA Paediatric 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable perfusion (infusion) sets with filter NA Paediatric 1x1,28.12.2
+396aff6c-3e78-49b9-816f-4e91667ba332,Sterile disposable syringe with hypodermic needle | NA | 10ml-20G| 1 1/2 needle NA 10ml-20G| 1 1/2 needle 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable syringe with hypodermic needle | NA | 10ml-20G| 1 1/2 needle NA 10ml-20G| 1 1/2 needle 1x1,28.25.10
+1756053a-5c12-4b17-acb7-a2a4a640e578,Sterile disposable syringe with hypodermic needle | NA | 1ml -26G| 1/2 needle NA 1ml-26G| 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable syringe with hypodermic needle | NA | 1ml -26G| 1/2 needle NA 1ml-26G| 1x1,28.25.11
+6a9cb6c3-9424-49fc-887f-4c3eb83c9158,Sterile disposable syringe with hypodermic needle 1Â½ NA 10ml-18G 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable syringe with hypodermic needle 1Â½ NA 10ml-18G 1x1,28.25.9
+d3366173-5f4f-4b3c-9a11-67696d8d6018,Sterile disposable syringe with hypodermic needle NA 2ml-22G 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable syringe with hypodermic needle NA 2ml-22G 1x100,28.25.2
+1279e7f0-cde3-457f-b898-3d2594253ca3,Sterile disposable syringe with hypodermic needle NA 2ml-23G 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable syringe with hypodermic needle NA 2ml-23G 1x100,28.25.3
+33c63f9f-7360-494b-9d1b-4e548adb65dc,Sterile disposable syringe with hypodermic needle NA 5ml-22G 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable syringe with hypodermic needle NA 5ml-22G 1x100,28.25.4
+97ea6ac4-079f-4936-9304-05a738956546,Sterile disposable syringe with hypodermic needle NA 5ml-23G 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile disposable syringe with hypodermic needle NA 5ml-23G 1x100,28.25.5
+be03691e-4938-4619-83bd-3c2c71b4a9f4,Sterile Disposable Umbilical Cord Clamp NA NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile Disposable Umbilical Cord Clamp NA NA 1x1,28.23.4
+dc373ca8-53da-4a39-a301-f72591d9a872,Sterile surgical gloves (latex) NA 6 1x10pairs,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile surgical gloves (latex) NA 6 1x10pairs,28.11.1
+ba82f264-3e06-413a-8783-6c818c28a76a,Sterile surgical gloves (latex) NA 6.5 1x10pairs,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile surgical gloves (latex) NA 6.5 1x10pairs,28.11.3
+615dcb1e-ba41-4e3b-9d15-e2c82db3f051,Sterile surgical gloves (latex) NA 7 1x10pairs,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile surgical gloves (latex) NA 7 1x10pairs,28.11.2
+9ddf9ee7-26ca-4fc2-8493-81ccc0891ee6,Sterile surgical gloves (latex) NA 7.5 1x10pairs,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile surgical gloves (latex) NA 7.5 1x10pairs,28.11.4
+380f0a94-102c-4978-b142-553ea59ebe3c,Sterile water for Injection Water for injection 100ml IP/BP/USP 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Sterile water for Injection Water for injection 100ml IP/BP/USP 1x1,26.1.12
+97d41fa5-e8d3-4d5c-9c7a-6ac7bce2d42b,Succinyl choline chloride Injection 50mg/ml 1x1Vial,,1,1,false,Succinylcholine,1,,1,,0,,,,1,,0,,,Succinyl choline chloride Injection 50mg/ml 1x1Vial,21.1.7
+0be8b3a5-04d9-4e6e-b630-ef128811e4c9,Suction catheter NA 10 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Suction catheter NA 10 1x1,28.4.10
+f1c2c64f-ef55-483e-8356-b7c5b9e35e27,Suction catheter NA 12 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Suction catheter NA 12 1x1,28.4.11
+1b73ff5f-11e8-4ae5-8cd8-dfa3e9dcc058,Suction catheter NA 14 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Suction catheter NA 14 1x1,28.4.12
+f3e1719f-7f46-4018-90b1-63d2573162f6,Suction catheter NA 6F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Suction catheter NA 6F 1x1,28.4.8
+cd71694e-00a5-405f-834f-7f5fd5daa790,Suction catheter NA 8F 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Suction catheter NA 8F 1x1,28.4.9
+624a0dff-3d9f-4740-ac0a-f1d18ea04ef4,Surgical blade NA 10 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Surgical blade NA 10 1x100,28.22.1
+21fd375d-8349-4bdc-8d95-a11be164951c,Surgical blade NA 11 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Surgical blade NA 11 1x100,28.22.2
+dc17233b-8c9e-474b-a836-696b44e9610c,Surgical blade NA 15 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Surgical blade NA 15 1x100,28.22.3
+19905248-e976-470c-aede-46438346f51c,Surgical blade NA 22 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Surgical blade NA 22 1x100,28.22.4
+ebfc1408-9225-4f98-b4f0-0fecdeaca2a0,Surgical blade NA 23 1x100,,1,1,false,,1,,1,,0,,,,1,,0,,,Surgical blade NA 23 1x100,28.22.5
+f9889722-ae28-4475-a851-4e0adea1eccf,Surgical gloves (reusable) NA 6 1x10,,1,1,false,,1,,1,,0,,,,1,,0,,,Surgical gloves (reusable) NA 6 1x10,28.11.11
+14926de9-d635-4c69-924b-2045d5e536f6,Surgical gloves (reusable) NA 7.5 1x10pairs,,1,1,false,,1,,1,,0,,,,1,,0,,,Surgical gloves (reusable) NA 7.5 1x10pairs,28.11.6
+0309b9f1-121e-48c5-8853-a176e144c59c,Terbinafine Cream 1%w/w 1x10g,,1,1,false,Terbinafine,1,,1,,0,,,,1,,0,,,Terbinafine Cream 1%w/w 1x10g,6.8.22
+05764d90-1de8-4bc1-bed3-22af4e7fd64f,Terbutalin dexamethasone dipropionate Inhalation 200mcg 1x1,,1,1,false,Terbutaline,1,,1,,0,,,,1,,0,,,Terbutalin dexamethasone dipropionate Inhalation 200mcg 1x1,19.1.17
+01738b5e-65f0-45cf-9b35-0080f1115603,Theophylline + Etophylline Injection 50.6mg+169.4mg/2ml 1x2ml,,1,1,false,Etophylline / Theophylline,1,,1,,0,,,,1,,0,,,Theophylline + Etophylline Injection 50.6mg+169.4mg/2ml 1x2ml,19.1.19
+3831f750-8b89-4258-a673-ded5eaa065ab,Theophylline + Etophylline Syrup 23mg+77mg 1x60ml,,1,1,false,Etophylline / Theophylline,1,,1,,0,,,,1,,0,,,Theophylline + Etophylline Syrup 23mg+77mg 1x60ml,19.1.20
+7de7d3f9-66a0-47b1-89b5-c0d25871bfef,Theophylline + Etophylline Tablet 23mg+77mg 1x10x10,,1,1,false,Etophylline / Theophylline,1,,1,,0,,,,1,,0,,,Theophylline + Etophylline Tablet 23mg+77mg 1x10x10,19.1.21
+9d908241-438a-4735-a8a9-ef12a3fbd927,Thiamine Injection 100mg/ml 1x10ml,,1,1,false,Thiamine,1,,1,,0,,,,1,,0,,,Thiamine Injection 100mg/ml 1x10ml,27.1.18
+fab165c9-ae15-4515-ad6b-584a5b931bd5,Thiamine Tablet 100mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Thiamine,1,,1,,0,,,,1,,0,,,Thiamine Tablet 100mg 1 X 10 X 10 IP/BP/USP,27.1.19
+0bda6cdf-834c-4934-b1a5-a3cccb5ae276,Thiopentone Sodium Injection (Powder) 1gm 1x1Vial,,1,1,false,Thiopental sodium,1,,1,,0,,,,1,,0,,,Thiopentone Sodium Injection (Powder) 1gm 1x1Vial,2.1.11
+f0b4cdd9-dcbf-4758-a4bb-9c7c4913256a,Tinidazole Tablet 300mg 1x10x10,,1,1,false,Tinidazole,1,,1,,0,,,,1,,0,,,Tinidazole Tablet 300mg 1x10x10,6.9.7
+4288fb87-470a-42fe-bb09-90102ba47e74,Tobramycin Eye Drops 0.30% 1x1,,1,1,false,Tobramycin,1,,1,,0,,,,1,,0,,,Tobramycin Eye Drops 0.30% 1x1,22.2.13
+0347ab8f-5bbe-4977-89b8-a2d592aab54d,Tramadol Capsule 100mg 1x10x10,,1,1,false,Tramadol,1,,1,,0,,,,1,,0,,,Tramadol Capsule 100mg 1x10x10,1.4.5
+133d028a-5c1a-49c6-b54b-60120b8bbde8,Tramadol Capsule 50mg 1x10x10,,1,1,false,Tramadol,1,,1,,0,,,,1,,0,,,Tramadol Capsule 50mg 1x10x10,1.4.6
+493f1b51-8e55-4184-89f4-3961eaffb5cc,Tramadol Injection 50mg/ml 1x2ml,,1,1,false,Tramadol,1,,1,,0,,,,1,,0,,,Tramadol Injection 50mg/ml 1x2ml,1.4.7
+fba55cce-3722-4ecf-b576-37e17f2df060,Triamcinolone Injection 10mg/ml 1x1Vial,,1,1,false,Triamcinolone,1,,1,,0,,,,1,,0,,,Triamcinolone Injection 10mg/ml 1x1Vial,3.1.17
+6742ffa1-31bd-4816-81b0-b760b1935938,Trihexyphenidyl Hydrochloride Tablet 2mg 1 X 10 X 10 IP/BP/USP,,1,1,false,Trihexyphenidyl hydrochloride,1,,1,,0,,,,1,,0,,,Trihexyphenidyl Hydrochloride Tablet 2mg 1 X 10 X 10 IP/BP/USP,9.1.6
+9ebb9442-faef-4c98-9111-2925751ec027,Tropicamide Eye Drop 0.50% 1x5ml,,1,1,false,Tropicamide,1,,1,,0,,,,1,,0,,,Tropicamide Eye Drop 0.50% 1x5ml,13.1.3
+9656f495-1c39-495d-8e92-35b1a8b68432,Tropicamide Eye Drop 1% 1x5ml,,1,1,false,Tropicamide,1,,1,,0,,,,1,,0,,,Tropicamide Eye Drop 1% 1x5ml,13.1.4
+d01144ea-bb01-4187-926f-88857804b614,Ultrasound Gel NA 250ml 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Ultrasound Gel NA 250ml 1x1,28.10.2
+e4e80172-edc8-41f9-9d1b-4da637aaf827,Urine collection bag with valve out-let. NA 1.5litre 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Urine collection bag with valve out-let. NA 1.5litre 1x1,28.21.1
+8c93289e-e28a-4f9f-b7c5-ba4c423749a4,Urine Pregnancy Test Kit 50 Strips NA NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,Urine Pregnancy Test Kit 50 Strips NA NA 1x1,28.15.9
+6da4f460-b348-48df-a221-d95ca29b231e,Valathamate Bromide Injection 8mg/ml 1x1Vial,,1,1,false,Valathamate Bromide,1,,1,,0,,,,1,,0,,,Valathamate Bromide Injection 8mg/ml 1x1Vial,16.1.13
+baab6a96-6022-4afe-a651-76abb9f894e2,VDRL KIT KIT NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,VDRL KIT KIT NA 1x1,28.15.10
+061a0a21-f0ca-44df-984c-963bc439ed17,Vecuronium Powder for Injection. 4mg 1x1Vial,,1,1,false,Vecuronium,1,,1,,0,,,,1,,0,,,Vecuronium Powder for Injection. 4mg 1x1Vial,21.1.11
+2cbcc60c-1dea-4c6b-8834-a7fefc79c39d,Vildagliptin Tablet 50mg 2x14,,1,1,false,Vildagliptin,1,,1,,0,,,,1,,0,,,Vildagliptin Tablet 50mg 2x14,17.7.23
+b05928a5-d86d-439d-905f-64f1989cda4c,"Vitamin A + D Capsule 6,000IU + 1,000IU 1x10x10",,1,1,false,Vitamin A / vitamin D,1,,1,,0,,,,1,,0,,,"Vitamin A + D Capsule 6,000IU + 1,000IU 1x10x10",27.1.26
+31c75d69-909c-4394-8a3c-69087ab776e7,Vitamin A Capsule 100000 IU 1x10x10,,1,1,false,Vitamin A,1,,1,,0,,,,1,,0,,,Vitamin A Capsule 100000 IU 1x10x10,27.1.32
+9e61e757-7269-40a5-86ba-85f0d2a40c98,"Vitamin A Capsule 50,000IU 1x10x10",,1,1,false,Vitamin A,1,,1,,0,,,,1,,0,,,"Vitamin A Capsule 50,000IU 1x10x10",27.1.22
+dee04d07-0ed2-4adb-bbd1-3bb81256025b,Vitamin A Capsule 5000 IU 1x10x10,,1,1,false,Vitamin A,1,,1,,0,,,,1,,0,,,Vitamin A Capsule 5000 IU 1x10x10,27.1.33
+a692312c-c2bb-474c-b441-7a817c5ad948,"Vitamin A Injection 50,000IU/ml 1x2ml",,1,1,false,Vitamin A,1,,1,,0,,,,1,,0,,,"Vitamin A Injection 50,000IU/ml 1x2ml",27.1.23
+95259da7-044e-4dc7-b787-6fcab1274c22,"Vitamin A Pediatric(Concentrated) Solution 1,00,000IU/ml 1x100ml",,1,1,false,Vitamin A,1,,1,,0,,,,1,,0,,,"Vitamin A Pediatric(Concentrated) Solution 1,00,000IU/ml 1x100ml",27.1.25
+b6c3cd97-a8d3-4597-8969-32888a8ac721,Vitamin C Chewable (Ascorbic Acid) Tablet 500mg 1x10x10,,1,1,false,Ascorbic acid,1,,1,,0,,,,1,,0,,,Vitamin C Chewable (Ascorbic Acid) Tablet 500mg 1x10x10,27.1.30
+7e37db4b-8959-4635-94d8-030631cdf379,"Vitamin D (Ergocalciferol) Capsule 60,000 Units 1x10x10",,1,1,false,VITAMIN D,1,,1,,0,,,,1,,0,,,"Vitamin D (Ergocalciferol) Capsule 60,000 Units 1x10x10",27.1.31
+ee49e667-9eb5-4e06-b48f-0cb6fb8a36fb,Vitamin D3 Oral Solution 400IU/0.5ml(Nano Droplet Form) NA,,1,1,false,Vitamin D3,1,,1,,0,,,,1,,0,,,Vitamin D3 Oral Solution 400IU/0.5ml(Nano Droplet Form) NA,27.1.53
+530d8085-618c-4fdd-bb17-7d73a65b300f,Vitamin K IV Injection 1mg/0.5ml 1x0.5ml Amp,,1,1,false,Vitamin K,1,,1,,0,,,,1,,0,,,Vitamin K IV Injection 1mg/0.5ml 1x0.5ml Amp,20.2.18
+c0f4e2c1-36a3-4ef6-b075-07c63e7877a3,Water for Injection Injection 10ml 1x10ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Water for Injection Injection 10ml 1x10ml,26.1.6
+a1df8521-e3df-4646-90bf-5889a8732b1a,Water for Injection Injection 2ml 1x2ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Water for Injection Injection 2ml 1x2ml,26.1.7
+197a53f9-e4c6-4a9a-91db-baa328303135,Water for Injection Injection 5ml 1x5ml,,1,1,false,,1,,1,,0,,,,1,,0,,,Water for Injection Injection 5ml 1x5ml,26.1.8
+9662f664-6cc6-4e00-aa0b-dc2672fbe07f,"Wax dissolving solution Solution Contains parachloro benzene 2%w/v, benzocaine i.p.7w/v, chlorbutol 5%. turpentine oil Nil",,1,1,false,Wax dissolving solution,1,,1,,0,,,,1,,0,,,"Wax dissolving solution Solution Contains parachloro benzene 2%w/v, benzocaine i.p.7w/v, chlorbutol 5%. turpentine oil Nil",22.5.1
+3255505d-f620-4122-8506-40a7fc009d0a,White Petroleum 50g Bottle Jelly 1 1x50g,,1,1,false,,1,,1,,0,,,,1,,0,,,White Petroleum 50g Bottle Jelly 1 1x50g,12.5.5
+08362e77-d99f-4ed5-b136-84f3edc2dba0,WIDAL KIT KIT NA 1x1,,1,1,false,,1,,1,,0,,,,1,,0,,,WIDAL KIT KIT NA 1x1,28.15.11
+37b0102a-ce2e-4c14-9265-628f126df63f,XYLOMETAZOLINE NASAL DROPS Drops 0.10% 1x10ml,,1,1,false,Xylometazoline,1,,1,,0,,,,1,,0,,,XYLOMETAZOLINE NASAL DROPS Drops 0.10% 1x10ml,22.6.3
+8c9b6f37-b638-48dd-b0c8-8a02e7af02f7,Xylometazoline(Nasal) Drops 0.5%w/v 1x1,,1,1,false,Xylometazoline,1,,1,,0,,,,1,,0,,,Xylometazoline(Nasal) Drops 0.5%w/v 1x1,22.6.5
+975c7f04-94b5-4177-8484-3181b874f7f4,Zinc Sulfate Drops 20mg/ml 1x15ml,,1,1,false,Zinc sulfate,1,,1,,0,,,,1,,0,,,Zinc Sulfate Drops 20mg/ml 1x15ml,16.2.7
+4043c7a9-9517-4db3-9e99-470d5e36906a,Zinc Sulfate Syrup 20mg/5ml 1x60ml,,1,1,false,Zinc sulfate,1,,1,,0,,,,1,,0,,,Zinc Sulfate Syrup 20mg/5ml 1x60ml,16.2.8
+9132f334-108b-4d55-b807-38b3b75d3bd2,Zinc sulphate Dispersible Tablet 20mg 1x10x10,,1,1,false,Zinc sulfate,1,,1,,0,,,,1,,0,,,Zinc sulphate Dispersible Tablet 20mg 1x10x10,16.2.5
