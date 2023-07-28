@@ -1,178 +1,193 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>e-Sanjeevani Login Form</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 20px;
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+      }
+      .parent-container {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 20px;
+        width: auto;
+
+        @media screen and (min-width: 440px) {
+          margin: 0 auto;
+          width: 400px;
         }
-        .container {
-            max-width: 400px;
-            margin: 0 auto;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            text-align: center;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-bottom: 10px;
-        }
-        input[type="button"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            width: 100%;
-        }
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-        #response, #postalcoderesponse {
-            margin-top: 10px;
-            padding: 10px;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-        .success {
-            background-color: #a9dca9;
-            color: #155724;
-        }
-        .error {
-            background-color: #f8d7da;
-            color: #721c24;
-        }
+      }
+      .container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        text-align: center;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type='text'],
+      input[type='password'] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+      input[type='button'] {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+      }
+      input[type='submit']:hover {
+        background-color: #45a049;
+      }
+      #response,
+      #postalcoderesponse {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+      .success {
+        background-color: #a9dca9;
+        color: #155724;
+      }
+      .error {
+        background-color: #f8d7da;
+        color: #721c24;
+      }
     </style>
     <script>
-        async function getpostalCode() {
-            const patientUuid = getPatientUuid();
-            try {
-                const response = await fetch(`/openmrs/ws/rest/v1/person/${patientUuid}/address`);
-                const data = await response.json();
-                const postalCode = data.results[0].postalCode;
-                return postalCode;
-            } catch (error) {
-                console.error('Error fetching data:', error);
-                return null;
-            }
+      async function getpostalCode() {
+        const patientUuid = getPatientUuid();
+        try {
+          const response = await fetch(`/openmrs/ws/rest/v1/person/${patientUuid}/address`);
+          const data = await response.json();
+          const postalCode = data.results[0].postalCode;
+          return postalCode;
+        } catch (error) {
+          console.error('Error fetching data:', error);
+          return null;
         }
+      }
 
-        function getBahmniUser() {
-            const matches = document.cookie.match(/bahmni\.user=([^;]*)/);
-            return matches?.[1] ? decodeURIComponent(matches[1]).replace(/"/g, '') : '';
+      function getBahmniUser() {
+        const matches = document.cookie.match(/bahmni\.user=([^;]*)/);
+        return matches?.[1] ? decodeURIComponent(matches[1]).replace(/"/g, '') : '';
+      }
+
+      function logAuditForESanjeevaniVisit() {
+        var username = getBahmniUser();
+        const data = {
+          patientUuid: getPatientUuid(),
+          eventType: 'ACCESSED_E_SANJEEVANI',
+          message: `User ${username} accessed e-Sanjeevani from Bahmni Registration`,
+          module: 'E-Sanjeevani',
+        };
+        const http = new XMLHttpRequest();
+        http.open('POST', '/openmrs/ws/rest/v1/auditlog');
+        http.setRequestHeader('Content-type', 'application/json');
+        http.send(JSON.stringify(data));
+      }
+
+      window.addEventListener('DOMContentLoaded', async function () {
+        var container = document.getElementById('container');
+        var responseDiv = document.getElementById('postalcoderesponse');
+        responseDiv.textContent = 'Loading...';
+        const patientUuid = getPatientUuid();
+        const postalCode = await getpostalCode();
+        if (!postalCode) {
+          responseDiv.textContent = 'ERROR: Postal code is empty.';
+          responseDiv.innerHTML +=
+            '<br><a href="/bahmni/registration/#/patient/' +
+            patientUuid +
+            '">Click here to enter Postal Code</a>';
+          responseDiv.classList.add('error');
+          container.style.display = 'none'; // Hide the container if no postal code
+        } else {
+          responseDiv.style.display = 'none'; // Hide the error message if postal code is present
+          container.style.display = 'block'; // Show the container if postal code is present
         }
-
-        function logAuditForESanjeevaniVisit(){
-            var username = getBahmniUser();
-            const data = {
-                patientUuid: getPatientUuid(),
-                eventType: "ACCESSED_E_SANJEEVANI",
-                message: `User ${username} accessed e-Sanjeevani from Bahmni Registration`,
-                module: "E-Sanjeevani"
-            };
-            const http = new XMLHttpRequest()
-            http.open('POST', '/openmrs/ws/rest/v1/auditlog')
-            http.setRequestHeader('Content-type', 'application/json')
-            http.send(JSON.stringify(data))
-        }
-
-        window.addEventListener("DOMContentLoaded", async function() {
-            var container = document.getElementById('container');
-            var responseDiv = document.getElementById('postalcoderesponse');
-            responseDiv.textContent = "Loading...";
-            const patientUuid = getPatientUuid();
-            const postalCode = await getpostalCode();
-            if (!postalCode) {
-                responseDiv.textContent = "ERROR: Postal code is empty.";
-                responseDiv.innerHTML += '<br><a href="/bahmni/registration/#/patient/' + patientUuid + '">Click here to enter Postal Code</a>';
-                responseDiv.classList.add('error');
-                container.style.display = "none"; // Hide the container if no postal code
-            } else {
-                responseDiv.style.display = "none"; // Hide the error message if postal code is present
-                container.style.display = "block"; // Show the container if postal code is present
-            }
-        });
-        function postData() {
+      });
+      function postData() {
+        var responseDiv = document.getElementById('response');
+        responseDiv.textContent = 'Loading...';
+        responseDiv.classList.add('success');
+        //e.preventDefault(); // Prevent the form from submitting normally
+        // Get the input values
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+        // Create the data object
+        var data = {
+          username: username,
+          password: password,
+          patientUuid: getPatientUuid(),
+        };
+        // window.location.replace('https://uat.esanjeevani.in/');
+        const http = new XMLHttpRequest();
+        http.open('POST', '/openmrs/ws/rest/v1/esanjeevani/launch');
+        http.setRequestHeader('Content-type', 'application/json');
+        http.send(JSON.stringify(data)); // Make sure to stringify
+        http.onload = function () {
+          if (http.status == 200) {
+            logAuditForESanjeevaniVisit();
+            window.location.replace(http.responseText);
+          } else if (http.status == 400 || http.status == 401) {
             var responseDiv = document.getElementById('response');
-            responseDiv.textContent = "Loading...";
-            responseDiv.classList.add('success');
-            //e.preventDefault(); // Prevent the form from submitting normally
-            // Get the input values
-            var username = document.getElementById('username').value
-            var password = document.getElementById('password').value
-            // Create the data object
-            var data = {
-                username: username,
-                password: password,
-                patientUuid: getPatientUuid()
-            };
-            // window.location.replace('https://uat.esanjeevani.in/');
-            const http = new XMLHttpRequest()
-            http.open('POST', '/openmrs/ws/rest/v1/esanjeevani/launch')
-            http.setRequestHeader('Content-type', 'application/json')
-            http.send(JSON.stringify(data)) // Make sure to stringify
-            http.onload = function () {
-                if (http.status == 200) {
-                    logAuditForESanjeevaniVisit();
-                    window.location.replace(http.responseText)
-                }
-                else if(http.status == 400 || http.status == 401) {
-                    var responseDiv = document.getElementById('response');
-                    responseDiv.textContent = "ERROR: "+http.responseText;
-                    responseDiv.classList.add('error');
-                }
-                else {
-                    alert('Something went wrong. Please try again later.')
-                }
-            }
-        }
-        function getPatientUuid() {
-            // Get the current URL
-            var url = new URL(window.location.href);
-            // Get the search parameters from the URL
-            var searchParams = new URLSearchParams(url.search);
-            // Retrieve the value of the specified parameter
-            var patientUuid = searchParams.get("patientUuid");
-            return patientUuid;
-        }
+            responseDiv.textContent = 'ERROR: ' + http.responseText;
+            responseDiv.classList.add('error');
+          } else {
+            alert('Something went wrong. Please try again later.');
+          }
+        };
+      }
+      function getPatientUuid() {
+        // Get the current URL
+        var url = new URL(window.location.href);
+        // Get the search parameters from the URL
+        var searchParams = new URLSearchParams(url.search);
+        // Retrieve the value of the specified parameter
+        var patientUuid = searchParams.get('patientUuid');
+        return patientUuid;
+      }
     </script>
-</head>
-<body>
-    <div id="postalcoderesponse"></div>
-    <div class="container" id="container" style="display: none;">
+  </head>
+  <body>
+    <div class="parent-container">
+      <div id="postalcoderesponse"></div>
+      <div class="container" id="container" style="display: none">
         <h2>e-Sanjeevani Login</h2>
         <form id="loginForm">
-            <div>
-                <label for="username">e-Sanjeevani Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div>
-                <label for="password">e-Sanjeevani Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div>
-                <input type="button" value="Login" onclick=postData()>
-            </div>
+          <div>
+            <label for="username">e-Sanjeevani Username:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div>
+            <label for="password">e-Sanjeevani Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div>
+            <input type="button" value="Login" onclick="postData()" />
+          </div>
         </form>
         <div id="response"></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
