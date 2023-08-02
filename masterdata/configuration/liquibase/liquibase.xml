@@ -478,7 +478,7 @@
         <sql>
 
             select location_id  into @locationidHUPSC from location where name = 'Hosakote UPHC';
-            select location_id  into @locationidHNammaClinic from location where name = 'Hosakote Nama Clinic';
+            select location_id  into @locationidHNamaClinic from location where name = 'Hosakote Nama Clinic';
             select location_id  into @locationidNSC from location where name = 'Nandagudi SC1';
             select location_id  into @locationidNtwo from location where name = 'Nandagudi SC2';
             select location_id  into @locationidASC from location where name = 'Anupahalli SC1';
@@ -487,7 +487,7 @@
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
             VALUES ('Hosakote UPHC StockRoom', 1, NOW(), @locationidHUPSC, uuid());
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
-            VALUES ('Hosakote Nama Clinic StockRoom', 1, NOW(), @locationidHNammaClinic, uuid());
+            VALUES ('Hosakote Nama Clinic StockRoom', 1, NOW(), @locationidHNamaClinic, uuid());
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
             VALUES ('Nandagudi SC1 StockRoom', 1, NOW(), @locationidNSC, uuid());
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
