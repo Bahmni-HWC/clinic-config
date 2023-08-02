@@ -478,7 +478,7 @@
         <sql>
 
             select location_id  into @locationidHUPSC from location where name = 'Hosakote UPHC';
-            select location_id  into @locationidHNammaClinic from location where name = 'Hosakote Namma Clinic';
+            select location_id  into @locationidHNammaClinic from location where name = 'Hosakote Nama Clinic';
             select location_id  into @locationidNSC from location where name = 'Nandagudi SC1';
             select location_id  into @locationidNtwo from location where name = 'Nandagudi SC2';
             select location_id  into @locationidASC from location where name = 'Anupahalli SC1';
@@ -487,7 +487,7 @@
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
             VALUES ('Hosakote UPHC StockRoom', 1, NOW(), @locationidHUPSC, uuid());
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
-            VALUES ('Hosakote Namma Clinic StockRoom', 1, NOW(), @locationidHNammaClinic, uuid());
+            VALUES ('Hosakote Nama Clinic StockRoom', 1, NOW(), @locationidHNammaClinic, uuid());
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
             VALUES ('Nandagudi SC1 StockRoom', 1, NOW(), @locationidNSC, uuid());
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
@@ -496,6 +496,20 @@
             VALUES ('Anupahalli SC1 StockRoom', 1, NOW(), @locationidASC, uuid());
             INSERT INTO inv_stockroom (name, creator, date_created, location_id, uuid)
             VALUES ('Bengaluru Rural District Hospital StockRoom', 1, NOW(), @locationidBGl, uuid());
+        </sql>
+    </changeSet>
+
+    <changeSet id="GOK-236-update-inv-StockRooms"  author="Inventory">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">select count(*) from location where name = 'Hosakote Namma Clinic'</sqlCheck>
+        </preConditions>
+        <comment>Updating a Stock Rooms in the inventory Module</comment>
+        <sql>
+            select location_id  into @locationidHNamaClinic from location where name = 'Hosakote Namma Clinic';
+
+            UPDATE inv_stockroom
+            SET name = 'Hosakote Namma Clinic StockRoom'
+            WHERE name = 'Hosakote Nama Clinic StockRoom';
         </sql>
     </changeSet>
 
