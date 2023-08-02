@@ -2732,7 +2732,7 @@
   "dataType" : "Text",
   "active" : true
 }, {
-  "name" : "Hosakote Nama Clinic",
+  "name" : "Hosakote Namma Clinic",
   "uuid" : "2ab9170f-88e9-4300-b660-77d0bb5c9c69",
   "dataType" : "NA",
   "active" : true
@@ -3424,7 +3424,7 @@
     "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
     "order" : 1.0
   }, {
-    "name" : "Hosakote Nama Clinic",
+    "name" : "Hosakote Namma Clinic",
     "uuid" : "2ab9170f-88e9-4300-b660-77d0bb5c9c69",
     "order" : 2.0
   } ]
