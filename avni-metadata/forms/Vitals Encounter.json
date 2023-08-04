@@ -43,6 +43,121 @@
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
+      "name" : "Blood Pressure",
+      "uuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      }, {
+        "key" : "disableManualActions",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Blood Pressure",
+        "uuid" : "f9e70a28-ba10-4102-b9b3-aad76ef07da6",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Systolic blood pressure",
+      "uuid" : "3149b483-d0f3-475e-8e60-51e713bdc735",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Systolic blood pressure",
+        "uuid" : "443c02ad-751c-4c9a-887d-824d4cd30a77",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "highAbsolute" : 250.0,
+        "lowNormal" : 100.0,
+        "highNormal" : 140.0,
+        "active" : true,
+        "keyValues" : [ ]
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
+      "mandatory" : false
+    }, {
+      "name" : "Diastolic blood pressure",
+      "uuid" : "df733be0-4313-4ebe-8bf4-ddbf326990f5",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Diastolic blood pressure",
+        "uuid" : "38bbf12b-0360-4558-8dfa-0bac59e3b326",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "highAbsolute" : 150.0,
+        "lowNormal" : 60.0,
+        "highNormal" : 90.0,
+        "active" : true,
+        "keyValues" : [ ]
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
+      "mandatory" : false
+    }, {
+      "name" : "Body Position",
+      "uuid" : "bcc3f961-e689-46c8-9ba0-bb5ecf60932c",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Body Position",
+        "uuid" : "d04dc9bb-8c9b-4a39-9c6f-411ebc09daa0",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "standing",
+          "uuid" : "24a9bfa9-73a3-45e9-9eaa-59e0c5227a04",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "sitting",
+          "uuid" : "7a60fc71-eade-4f52-9927-655bb21e66ea",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "recumbent",
+          "uuid" : "6548ede8-4a79-48ea-9c13-27015d4a0463",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        }, {
+          "name" : "Other body position",
+          "uuid" : "3e3666b8-e6fe-432b-8a12-3a7e10013a46",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 6.0,
+          "active" : true
+        }, {
+          "name" : "Unknown",
+          "uuid" : "b9344ca9-7dd5-485d-93a5-e9e980b97891",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 4.0,
+          "active" : true
+        }, {
+          "name" : "Fowler's position",
+          "uuid" : "f2986de0-ae0f-4118-892c-633f7b06b646",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 3.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
+      "mandatory" : false
+    }, {
       "name" : "Diastolic blood pressure",
       "uuid" : "31ee8409-20e4-4b64-8bb6-9157f4c3c7bc",
       "keyValues" : [ ],
@@ -57,9 +172,10 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 3.0,
+      "displayOrder" : 7.0,
       "type" : "SingleSelect",
-      "mandatory" : false
+      "mandatory" : false,
+      "voided" : true
     }, {
       "name" : "Systolic blood pressure",
       "uuid" : "31010a2c-e4e8-4cb4-87d3-56316112cd7f",
@@ -75,9 +191,10 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 4.0,
+      "displayOrder" : 8.0,
       "type" : "SingleSelect",
-      "mandatory" : false
+      "mandatory" : false,
+      "voided" : true
     } ],
     "timed" : false
   } ],
