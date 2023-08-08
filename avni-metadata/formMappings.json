@@ -112,4 +112,76 @@
   "formType" : "IndividualEncounterCancellation",
   "formName" : "Attendance form Encounter Cancellation",
   "enableApproval" : false
+}, {
+  "uuid" : "a089e0fa-f6fc-434d-b7c5-4b7325eb6bd9",
+  "id" : 14,
+  "formUUID" : "0dcdbf90-1903-498e-901e-fb1faad2b96b",
+  "encounterTypeUUID" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Prescriptions Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "31a774d0-1810-4421-8926-bc5587f0fa9b",
+  "id" : 15,
+  "formUUID" : "6c36de8d-190b-4648-aac3-4d34173fc882",
+  "encounterTypeUUID" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Prescriptions Encounter Cancellation",
+  "enableApproval" : false
+}, {
+  "uuid" : "bd38478c-b232-4dbf-a45f-044710f45589",
+  "id" : 16,
+  "formUUID" : "3fa6858b-56e0-4de8-8216-95c7b6f71ccd",
+  "encounterTypeUUID" : "fa7796d7-3d46-49a2-8495-55501eed7735",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Dispense Medication Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "2398bfce-bbca-4d87-ae24-0561e7c7084f",
+  "id" : 17,
+  "formUUID" : "fbfe6538-c86a-49b5-9cec-4006909c4790",
+  "encounterTypeUUID" : "fa7796d7-3d46-49a2-8495-55501eed7735",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Dispense Medication Encounter Cancellation",
+  "enableApproval" : false
+}, {
+  "uuid" : "8f1548fa-b748-405f-8fdb-0fd8440268ca",
+  "id" : 18,
+  "formUUID" : "abb12258-ee2a-4edd-ba89-cc6cf723a4f2",
+  "encounterTypeUUID" : "84722bf4-f72d-44a8-b881-fac99ade2811",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Hospital Diagnoses Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "4ed380a4-d27b-41fa-9324-6823999a104a",
+  "id" : 19,
+  "formUUID" : "b1c0ece5-d996-4a4c-bd98-4448f05fda10",
+  "encounterTypeUUID" : "84722bf4-f72d-44a8-b881-fac99ade2811",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Hospital Diagnoses Encounter Cancellation",
+  "enableApproval" : false
+}, {
+  "uuid" : "e4e6f0b3-3988-4f83-89e1-f1b108c0ea7c",
+  "id" : 20,
+  "formUUID" : "0b4ad548-2c6f-4d2e-aa93-2567a1aa71bd",
+  "encounterTypeUUID" : "803a0530-969b-45d5-b96d-263bcb402c83",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Hospital Vitals Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "808d4425-742d-4e3d-9c93-654fd6839052",
+  "id" : 21,
+  "formUUID" : "2689f32d-2843-49e5-80b2-04c34b43b0d6",
+  "encounterTypeUUID" : "803a0530-969b-45d5-b96d-263bcb402c83",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Hospital Vitals Encounter Cancellation",
+  "enableApproval" : false
 } ]

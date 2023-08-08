@@ -1,0 +1,7 @@
+{
+  "name" : "Hospital Vitals Encounter Cancellation",
+  "uuid" : "2689f32d-2843-49e5-80b2-04c34b43b0d6",
+  "formType" : "IndividualEncounterCancellation",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

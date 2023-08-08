@@ -1,0 +1,2764 @@
+{
+  "name" : "Dispense Medication Encounter",
+  "uuid" : "3fa6858b-56e0-4de8-8216-95c7b6f71ccd",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "5edb034e-ceef-4b77-b5a0-82436b49e43c",
+    "name" : "Dispense Medication",
+    "displayOrder" : 1.0,
+    "display" : "Dispense Medication",
+    "formElements" : [ {
+      "name" : "Dispense Medication",
+      "uuid" : "03f6c172-4bdc-4a05-b5f0-7329e05624df",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Dispense Medication",
+        "uuid" : "7376c674-3d92-4d0d-8b13-889246f4cc88",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true,
+        "keyValues" : [ ]
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Drug Quantity",
+      "uuid" : "cf39e417-9eb5-4ad5-bda0-101acbb67f59",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Drug Quantity",
+        "uuid" : "a876c1b6-ca10-4b4e-88e6-72e45b58b22d",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : true
+    }, {
+      "name" : "Batch Number",
+      "uuid" : "5d34da43-0185-42aa-8379-9a28564811ca",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Batch Number",
+        "uuid" : "a17fe564-ab85-43a7-aa8c-62441081e479",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Drug Name",
+      "uuid" : "83fa542a-5ec6-4c4f-aa64-eae649eb34ac",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Drug Name",
+        "uuid" : "d7461859-125a-4569-b1ae-fa14722ae3ec",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "XYLOMETAZOLINE NASAL DROPS Drops 0.10% 1x10ml",
+          "uuid" : "37b0102a-ce2e-4c14-9265-628f126df63f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 375.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin A Capsule 50,000IU 1x10x10",
+          "uuid" : "9e61e757-7269-40a5-86ba-85f0d2a40c98",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 366.0,
+          "active" : true
+        }, {
+          "name" : "Ondansetron Syrup 2mg/5ml 1x30ml",
+          "uuid" : "99c0a863-6e5b-4666-82f5-6e74446494c1",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 268.0,
+          "active" : true
+        }, {
+          "name" : "Methylcellulose Drops PLAIN 1x1",
+          "uuid" : "34a400f3-5b0c-4dd1-adf7-e70c5138f21c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 240.0,
+          "active" : true
+        }, {
+          "name" : "Folic Acid Tablet 400mcg 1x10x10",
+          "uuid" : "7c8c7481-2197-4024-b22d-c69df54f3621",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 183.0,
+          "active" : true
+        }, {
+          "name" : "Diazepam Injection 5mg/ml 1x2ml",
+          "uuid" : "cab82c58-bcaa-4607-83bf-c36986ba7943",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 140.0,
+          "active" : true
+        }, {
+          "name" : "Cholecalciferol Oral Liquid 400IU/ml 1x1",
+          "uuid" : "cfb7bdaa-2054-4c71-b836-b16cdb135459",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 113.0,
+          "active" : true
+        }, {
+          "name" : "Diclofenac+Linesed oil+methyl Salicylate + menthol Ointment NA 1x1",
+          "uuid" : "4b33360b-06e8-4387-abaf-1422d437f3e2",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 147.0,
+          "active" : true
+        }, {
+          "name" : "Glycopyrolate Injection 0.2mg 1x1ml",
+          "uuid" : "d4293b4d-bec4-4028-a7a8-64f002d71f0f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 191.0,
+          "active" : true
+        }, {
+          "name" : "Acyclovir Tablet 200mg 1x10x10",
+          "uuid" : "4b696d7b-94ba-419b-8c5f-451e17de1603",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 12.0,
+          "active" : true
+        }, {
+          "name" : "Dicyclomine Hydrochloride Tablet 10mg 1x10x10",
+          "uuid" : "374fca3e-e106-414a-932b-62b82e7b5aee",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 150.0,
+          "active" : true
+        }, {
+          "name" : "Vecuronium Powder for Injection. 4mg 1x1Vial",
+          "uuid" : "061a0a21-f0ca-44df-984c-963bc439ed17",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 362.0,
+          "active" : true
+        }, {
+          "name" : "Amoxicillin+Clavulinic acid Tablet 625mg 1x10x10",
+          "uuid" : "e0e5939e-9cd3-4a7e-8073-36ff785bd4b8",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 33.0,
+          "active" : true
+        }, {
+          "name" : "Atropine Sulphate Injection 0.6mg/ml 1x1ml Amp",
+          "uuid" : "f558d125-0e50-4712-b209-6f45f13b472c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 50.0,
+          "active" : true
+        }, {
+          "name" : "COTRIMOXAZOLE SS Tablet 80MG TRIMETHOPRIM AND 400MG OF SULFAMETHOXAZOLE 1x10x10",
+          "uuid" : "b4cbfd2e-0f57-4cc9-b521-b2c8942c0909",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 131.0,
+          "active" : true
+        }, {
+          "name" : "Neomycin+Bacitracin Ointment 5mg+250IU/g 1x30g",
+          "uuid" : "8ffa35dd-68eb-4ea1-a7c0-99e651cd7d73",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 258.0,
+          "active" : true
+        }, {
+          "name" : "Diazepam Tablet 5mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "157e0fd4-468f-4d42-8ce5-3c28bb4a3efc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 141.0,
+          "active" : true
+        }, {
+          "name" : "Dicyclomine Hydrochloride Drops 10mg/5ml 1x10ml",
+          "uuid" : "14ce01a4-bd87-4894-ad18-1598ca479d1c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 148.0,
+          "active" : true
+        }, {
+          "name" : "Oseltamavir Capsule 75mg 1x10x10",
+          "uuid" : "58514875-dfe9-4ae6-8d18-a307f9f5ba20",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 274.0,
+          "active" : true
+        }, {
+          "name" : "Salbutamol sulphate Syrup 2mg/5ml 1x100ml",
+          "uuid" : "f2063254-4daf-4448-adb2-e30f9f38a087",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 327.0,
+          "active" : true
+        }, {
+          "name" : "Xylometazoline(Nasal) Drops 0.5%w/v 1x1",
+          "uuid" : "8c9b6f37-b638-48dd-b0c8-8a02e7af02f7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 376.0,
+          "active" : true
+        }, {
+          "name" : "Ranitidine Tablet 150mg 1x10x10",
+          "uuid" : "052c0f3c-53af-4f91-84b8-9126a195c285",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 319.0,
+          "active" : true
+        }, {
+          "name" : "Lactobacilus Dispersible Tablet 10Million 1x10x10",
+          "uuid" : "62155fcc-4f8a-49c8-8b6d-a5dafbc2a1d9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 217.0,
+          "active" : true
+        }, {
+          "name" : "Cetrizine Oral Liquid 5mg/5ml 1x60ml",
+          "uuid" : "6136ae98-3ffb-4a40-ab93-f0a07b525a17",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 106.0,
+          "active" : true
+        }, {
+          "name" : "Calcium carbonate with Vitamin D3 Tablet 250mg+125IU 1x10x10",
+          "uuid" : "f710becf-4d65-4906-8d25-4c3efd27a0d1",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 77.0,
+          "active" : true
+        }, {
+          "name" : "Methylprednisolone Tablet 8mg 1x10x10",
+          "uuid" : "cde4be21-2d67-49d3-9151-5680c1939468",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 244.0,
+          "active" : true
+        }, {
+          "name" : "Thiopentone Sodium Injection (Powder) 1gm 1x1Vial",
+          "uuid" : "0bda6cdf-834c-4934-b1a5-a3cccb5ae276",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 351.0,
+          "active" : true
+        }, {
+          "name" : "Plasma Expander Injection 6% 1x500ml",
+          "uuid" : "600dd3ae-3b3a-4a04-852d-c3902991b3a6",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 302.0,
+          "active" : true
+        }, {
+          "name" : "Montelukast Tablet 5mg 1x10x10",
+          "uuid" : "29da5689-286a-499f-9f4d-6515853a69c3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 255.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin A + D Capsule 6,000IU + 1,000IU 1x10x10",
+          "uuid" : "b05928a5-d86d-439d-905f-64f1989cda4c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 364.0,
+          "active" : true
+        }, {
+          "name" : "Calcium carbonate with Vitamin D3 Syrup 125mg/5ml 1x150ml",
+          "uuid" : "00cc34b1-dddd-49e8-bd8e-67d5653faa81",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 76.0,
+          "active" : true
+        }, {
+          "name" : "Halothane with Vaporizer Inhalation 100%w/v 1x250ml",
+          "uuid" : "0d352079-26da-4cd5-98f0-a9266c7249b9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 196.0,
+          "active" : true
+        }, {
+          "name" : "Paracetamol Syrup 125mg/5ml 1x60ml",
+          "uuid" : "7dae30a2-5533-4d33-a9d6-269ef5e8a112",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 284.0,
+          "active" : true
+        }, {
+          "name" : "Bromhexine Syrup 4mg/5ml 1x100ml",
+          "uuid" : "34378a1e-1595-40ae-ae9c-78d9c102b397",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 72.0,
+          "active" : true
+        }, {
+          "name" : "Oxytocin Injection 5IU/ml 1x1ml",
+          "uuid" : "f2ef2bbd-e23c-4734-a92a-aa06f84c23f7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 278.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin C Chewable (Ascorbic Acid) Tablet 500mg 1x10x10",
+          "uuid" : "b6c3cd97-a8d3-4597-8969-32888a8ac721",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 370.0,
+          "active" : true
+        }, {
+          "name" : "Carboprost Tromethamine Injection 125mcg/0.5ml 1x0.5ml",
+          "uuid" : "7f344595-abf0-4289-98d4-140320f40bb0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 86.0,
+          "active" : true
+        }, {
+          "name" : "Tropicamide Eye Drop 0.50% 1x5ml",
+          "uuid" : "9ebb9442-faef-4c98-9111-2925751ec027",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 359.0,
+          "active" : true
+        }, {
+          "name" : "Beclomethasone Dipropionate Inhalation 200mcg/metered dose 1x1",
+          "uuid" : "948eaab3-cbc6-4829-9752-24940859b0e9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 58.0,
+          "active" : true
+        }, {
+          "name" : "Piperacillin + Tazobactam Powder for Injection. 4g + 500mg 1x1 Vial",
+          "uuid" : "a2c1cb52-685a-422c-b107-eec3d95daadc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 300.0,
+          "active" : true
+        }, {
+          "name" : "Theophylline + Etophylline Injection 50.6mg+169.4mg/2ml 1x2ml",
+          "uuid" : "01738b5e-65f0-45cf-9b35-0080f1115603",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 346.0,
+          "active" : true
+        }, {
+          "name" : "Mupirocin Ointment 2%w/w 1x5g",
+          "uuid" : "f8d1f5c7-8dd2-41cc-8b58-bdd194565a34",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 257.0,
+          "active" : true
+        }, {
+          "name" : "Fluphenazine Injection 25mg/ml 1x1ml",
+          "uuid" : "7192bc03-04ad-4bec-8c3a-03186b070d29",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 182.0,
+          "active" : true
+        }, {
+          "name" : "Risperiddone Tablet 2mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "07a34071-419c-4b3e-87e1-2953d40ba291",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 322.0,
+          "active" : true
+        }, {
+          "name" : "Ceftriaxone Injection 1 gm IP/BP/USP 1x1Vial",
+          "uuid" : "b843e1af-adae-43f7-a1cd-fcd0189e2d1c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 98.0,
+          "active" : true
+        }, {
+          "name" : "Atorvastatin Tablet 20mg 1x10x10",
+          "uuid" : "44182755-61c2-4601-be7d-3a438f83cdd7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 48.0,
+          "active" : true
+        }, {
+          "name" : "Acyclovir Suspension 400mg/5ml 1x60ml",
+          "uuid" : "59c667b2-c0b9-4c72-80fb-7e8a0003daa0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 11.0,
+          "active" : true
+        }, {
+          "name" : "Phenobarbitone Tablet 60mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "19adf0d6-8067-4de7-a81f-ddc4ebeaed13",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 294.0,
+          "active" : true
+        }, {
+          "name" : "Dextrose with Sodium Cloride Infusion 5% + 0.45% 1x500ml",
+          "uuid" : "a3ab219f-d040-4de8-9f87-67b6ea0430d0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 139.0,
+          "active" : true
+        }, {
+          "name" : "Pantoprazole Injection 40mg 1x1Vial",
+          "uuid" : "a2bf24a9-3429-41b5-9355-51ad7976fef1",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 279.0,
+          "active" : true
+        }, {
+          "name" : "Lithium Carbonate Tablet 300mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "bfc2f6e3-129f-4071-aefd-e3f5313838ea",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 228.0,
+          "active" : true
+        }, {
+          "name" : "Dexamethasone Tablet 0.5mg 1x10x10",
+          "uuid" : "eab56c82-0eca-46a7-b944-02cbfd535954",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 134.0,
+          "active" : true
+        }, {
+          "name" : "Ceftriaxone Injection 250mg 1x1Vial",
+          "uuid" : "7c3b3d1f-7baa-4d25-b2ac-38de0be35b76",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 99.0,
+          "active" : true
+        }, {
+          "name" : "Fluconazole Capsule 50mg 1x10x10",
+          "uuid" : "39901f72-128f-4cc7-b706-a4d063e50d05",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 178.0,
+          "active" : true
+        }, {
+          "name" : "Secnidazole Tablet 1g 1x2x10",
+          "uuid" : "2c372433-db11-44a5-9627-b13bc51337d1",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 331.0,
+          "active" : true
+        }, {
+          "name" : "Amikacin Injection 100mg/2ml 1x1Vial",
+          "uuid" : "011e0227-a966-49f5-bbc4-96a128f67aa8",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 22.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin A Capsule 5000 IU 1x10x10",
+          "uuid" : "dee04d07-0ed2-4adb-bbd1-3bb81256025b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 367.0,
+          "active" : true
+        }, {
+          "name" : "Cefixime Powder 50mg/5ml 1x30ml",
+          "uuid" : "39aab665-f3cb-4286-b85a-4390f1896944",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 91.0,
+          "active" : true
+        }, {
+          "name" : "Ciprofloxacin Ointment 0.30% 1x1",
+          "uuid" : "39d3d95e-ab14-4bb3-bb63-b3fb34073f56",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 118.0,
+          "active" : true
+        }, {
+          "name" : "Azithromycin Tablet 500mg 1x10x10",
+          "uuid" : "b7434db8-a2cc-452f-82c8-3da21d3c5bcf",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 55.0,
+          "active" : true
+        }, {
+          "name" : "Omeprazole Capsule 20mg 1x10x10",
+          "uuid" : "5268b2df-ca9e-4f74-bb59-6ab07578495a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 266.0,
+          "active" : true
+        }, {
+          "name" : "Lignocaine Hydrochloride(1x30ml) Injection 2% w/v 1x1",
+          "uuid" : "a1e48310-e0cd-4ba9-9edd-709bc4d264f5",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 227.0,
+          "active" : true
+        }, {
+          "name" : "Diethylcarbamazin(Antifilarials) Tablet 50mg 1x10x10",
+          "uuid" : "47d88e46-00ad-4a91-b5e2-7cea82cc8865",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 152.0,
+          "active" : true
+        }, {
+          "name" : "Acyclovir Tablet 400mg 1x10x10",
+          "uuid" : "48804073-bca6-4049-bd64-5b06a27ba68b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 13.0,
+          "active" : true
+        }, {
+          "name" : "Acyclovir Cream 5% 1x5g",
+          "uuid" : "c7ab88e5-def7-427e-9bf1-20152f847677",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 8.0,
+          "active" : true
+        }, {
+          "name" : "Haloperidol Injection 5mg/ml 1x1Vial",
+          "uuid" : "c10fea7e-45b6-4ad1-afd2-c80324e6fc49",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 194.0,
+          "active" : true
+        }, {
+          "name" : "Ornidazole Tablet 500mg 1x10x10",
+          "uuid" : "1fee9b10-e597-459e-b515-7cf80f837785",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 271.0,
+          "active" : true
+        }, {
+          "name" : "Theophylline + Etophylline Tablet 23mg+77mg 1x10x10",
+          "uuid" : "7de7d3f9-66a0-47b1-89b5-c0d25871bfef",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 348.0,
+          "active" : true
+        }, {
+          "name" : "Isosorbide 5 Mononitrate/ Dinitrate Tablet 10mg 1x10x10",
+          "uuid" : "38e2b040-560f-469b-a234-8d94fbeeb69f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 209.0,
+          "active" : true
+        }, {
+          "name" : "Tramadol Capsule 50mg 1x10x10",
+          "uuid" : "133d028a-5c1a-49c6-b54b-60120b8bbde8",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 355.0,
+          "active" : true
+        }, {
+          "name" : "Erythromycin Stearate Tablet 500mg 1x10x10",
+          "uuid" : "2af947a3-ac72-4516-9b4d-f8cbac341548",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 167.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin K IV Injection 1mg/0.5ml 1x0.5ml Amp",
+          "uuid" : "530d8085-618c-4fdd-bb17-7d73a65b300f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 373.0,
+          "active" : true
+        }, {
+          "name" : "Methylcobalamin Tablet 1500mcg 1x10x10",
+          "uuid" : "9573a941-8d79-4f8a-8d68-add4312b8434",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 242.0,
+          "active" : true
+        }, {
+          "name" : "Noradrenaline Injection 2mg/ml 1x1",
+          "uuid" : "45fb3fc6-fb24-4b05-b204-7ea1c23228f6",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 259.0,
+          "active" : true
+        }, {
+          "name" : "Lignocaine Hydrochloride + Adrenaline Injection 2%w/v + 0.009mg 1x30ml",
+          "uuid" : "d0fc3f5a-225b-41b8-b1da-ddbe7eea1174",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 223.0,
+          "active" : true
+        }, {
+          "name" : "Lignocaine Hydrochloride Jelly 2% 1x30gm",
+          "uuid" : "564e57fc-6c08-4260-80f9-5cb795429342",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 225.0,
+          "active" : true
+        }, {
+          "name" : "Pyridoxine Tablet 25mg 1x10x10",
+          "uuid" : "fabff5be-d3cb-405b-a04d-6866f4611c42",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 315.0,
+          "active" : true
+        }, {
+          "name" : "Labetolol Injection 5mg/ml 1x4ml",
+          "uuid" : "83d068a5-afed-4d62-a852-3363e188fa1f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 214.0,
+          "active" : true
+        }, {
+          "name" : "Ciprofloxacin Hydrochloride Eye/Ear Drops 0.3%w/v 1x5ml",
+          "uuid" : "9edb8187-82da-44e7-a0ea-6d6251bccdcd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 114.0,
+          "active" : true
+        }, {
+          "name" : "Metronidazole 2% Gel 10mg/gm 1x20g",
+          "uuid" : "bf7a0c84-651b-4634-b9fe-24336be9a083",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 248.0,
+          "active" : true
+        }, {
+          "name" : "Co-Trimoxazole (Trimethoprim + Sulphamethoxazole) Tablet 160+800mg 1x10x10",
+          "uuid" : "dd7e7b4e-d3fe-4796-99a2-0121d65faef2",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 130.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin D (Ergocalciferol) Capsule 60,000 Units 1x10x10",
+          "uuid" : "7e37db4b-8959-4635-94d8-030631cdf379",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 371.0,
+          "active" : true
+        }, {
+          "name" : "Paracetamol Tablet 500mg 1x10x10",
+          "uuid" : "d1877b86-2a7b-4c77-841f-22d9b2de23ac",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 286.0,
+          "active" : true
+        }, {
+          "name" : "Cefotaxime Injection 250mg 1x1Vial",
+          "uuid" : "d88a5889-386f-41b9-9f4c-9afbf7153fa6",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 96.0,
+          "active" : true
+        }, {
+          "name" : "Cefotaxime Injection 500mg 1x1Vial",
+          "uuid" : "99658533-4a3f-4dfd-9289-8bbe553a549e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 97.0,
+          "active" : true
+        }, {
+          "name" : "Bupivacaine Hydrochloride (5mg Bupivacaine and 80 mg Dextrose anhydrous) Injection 5% heavy 1x4ml",
+          "uuid" : "5c35c150-774a-47ad-b44b-fe0ccae98057",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 74.0,
+          "active" : true
+        }, {
+          "name" : "Haloperidol Tablet 5mg 1x10x10",
+          "uuid" : "c5fafac1-05fa-441f-b607-15a24d6b9acd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 195.0,
+          "active" : true
+        }, {
+          "name" : "Amitriptyline Tablet 25mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "98fee746-ba8c-4888-9c0c-8cd33f40be95",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 25.0,
+          "active" : true
+        }, {
+          "name" : "Serratiopeptidase Tablet 10mg 1x10x10",
+          "uuid" : "43979ccd-277e-4ad3-9dd2-50de3cae471e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 332.0,
+          "active" : true
+        }, {
+          "name" : "Lignocaine Hydrochloride Injection 4% 1x30ml",
+          "uuid" : "79465237-7b16-4d51-a42a-f7bc1f454545",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 224.0,
+          "active" : true
+        }, {
+          "name" : "Ambroxol Hydrocloride and N-Acetyl-L-Cysteine Tablet 200mg+30mg 1x10x10",
+          "uuid" : "4356cdf2-b175-49b1-aa6c-26422cf4de1f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 20.0,
+          "active" : true
+        }, {
+          "name" : "Ofloxacin Tablet 200mg 1x10x10",
+          "uuid" : "d82b7b66-9dbb-44df-aa04-61bd502c5604",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 265.0,
+          "active" : true
+        }, {
+          "name" : "Salbutamol nebuliser Solution 5mg/ml 1x15ml",
+          "uuid" : "973286b1-8e69-4dd5-a669-f947790a9673",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 325.0,
+          "active" : true
+        }, {
+          "name" : "Salbutamol sulphate Tablet 2mg 1x10x10",
+          "uuid" : "463f30e9-d9b5-433d-aef9-931e2fdb08e6",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 328.0,
+          "active" : true
+        }, {
+          "name" : "Doxilamine Tablet 10mg 1x10x10",
+          "uuid" : "23a1db39-c5c0-47b2-b9df-a7bd325380c0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 162.0,
+          "active" : true
+        }, {
+          "name" : "Aluminium Hydroxide 250mg, Magnesium Hydroxide 250mg, Activated Dimethicone 50mg, Oxethazine 10mg Suspension 250mg+250mg+50mg+10mg 1x200ml",
+          "uuid" : "1157ac3d-f04b-420b-a7b5-90d5fa2b988a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 19.0,
+          "active" : true
+        }, {
+          "name" : "Allopurinol Tablet 100mg 1x10x10",
+          "uuid" : "7257847a-6eec-4e4f-8532-3a5230c8e936",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 18.0,
+          "active" : true
+        }, {
+          "name" : "Amikacin Injection 500mg/2ml 1x1Vial",
+          "uuid" : "172a8c05-b58c-4dc2-840e-a322d11421e8",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 24.0,
+          "active" : true
+        }, {
+          "name" : "Norfloxacin (Film Coated) Tablet 400mg 1x10x10",
+          "uuid" : "18432cfc-23e6-4129-9316-df825c6d2e96",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 261.0,
+          "active" : true
+        }, {
+          "name" : "Ofloxacin Drops 3mg/ml 1x10ml",
+          "uuid" : "12ed5536-b6dc-41a5-abcd-1bcf3022f6f4",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 263.0,
+          "active" : true
+        }, {
+          "name" : "Vildagliptin Tablet 50mg 2x14",
+          "uuid" : "2cbcc60c-1dea-4c6b-8834-a7fefc79c39d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 363.0,
+          "active" : true
+        }, {
+          "name" : "Salicylic Acid Ointment 6% 1x20g",
+          "uuid" : "90801e30-e79c-4a89-b9bb-a817163990bd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 330.0,
+          "active" : true
+        }, {
+          "name" : "Mefenamic acid Tablet 500mg 1x10x10",
+          "uuid" : "289f9b6c-904c-4332-91c9-5cc3a5f3d21e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 236.0,
+          "active" : true
+        }, {
+          "name" : "Flunarizine Tablet 5mg 1x10x10",
+          "uuid" : "ade3cf84-172b-42fe-b29d-f32a727c27c3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 180.0,
+          "active" : true
+        }, {
+          "name" : "Chlorhexidine Solution 0.5% W/V (conc. for dilution) 1x500ml",
+          "uuid" : "c22eee3e-ab7a-4a09-81a2-85f9fe0b6e3b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 109.0,
+          "active" : true
+        }, {
+          "name" : "Dichlorometaxylenol 1.5% Solution 1ltr 1x1",
+          "uuid" : "0fb82f8a-e8ab-4adb-8993-e368f8ad8123",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 142.0,
+          "active" : true
+        }, {
+          "name" : "Zinc Sulfate Drops 20mg/ml 1x15ml",
+          "uuid" : "975c7f04-94b5-4177-8484-3181b874f7f4",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 377.0,
+          "active" : true
+        }, {
+          "name" : "Azithromycin Oral Liquid 200mg/5ml 1x30ml",
+          "uuid" : "3494c68f-52e8-4460-9f48-d689dbcc8586",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 53.0,
+          "active" : true
+        }, {
+          "name" : "Acetyl Salicylic Acid EC Tablet 150mg 1x10x10",
+          "uuid" : "b83b9b84-45eb-4f75-8327-e5f8de97b22d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 6.0,
+          "active" : true
+        }, {
+          "name" : "Hydrocortisone Sodium Succinate Injection 100mg 1x1Vial",
+          "uuid" : "893fd8f2-30c6-450a-9b82-d381d1f51d7e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 201.0,
+          "active" : true
+        }, {
+          "name" : "Clotrimazole Gel 2%w/w 1x15g",
+          "uuid" : "9671d78e-f260-4a5e-800a-cc3ee91d5a3a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 125.0,
+          "active" : true
+        }, {
+          "name" : "Risperiddone Tablet 4mg 1x10x10",
+          "uuid" : "e3189919-d21a-4044-bc91-6ba037afcd25",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 323.0,
+          "active" : true
+        }, {
+          "name" : "Escitalopram Tablet 5mg 1x10x10",
+          "uuid" : "3834ad12-0061-47e8-91cf-29a19e650fed",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 169.0,
+          "active" : true
+        }, {
+          "name" : "Albendazole Suspension 200mg/5ml 1x10ml",
+          "uuid" : "03fe8c07-31b6-4928-88b3-2f38391b9f4d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 16.0,
+          "active" : true
+        }, {
+          "name" : "Atenolol Tablet 50mg 1x14x10",
+          "uuid" : "3093c9da-b362-473f-b699-05e7fdb52506",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 46.0,
+          "active" : true
+        }, {
+          "name" : "Iron Sucrose Injection 100mg/5ml 1x5ml",
+          "uuid" : "8269991d-f045-4c28-aa64-ae88003d75ac",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 208.0,
+          "active" : true
+        }, {
+          "name" : "Benzathine penicillin Injection 6lacs 1x1Vial",
+          "uuid" : "7ff37c8e-e7dd-4bb5-a4fe-8dbe8d13449d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 61.0,
+          "active" : true
+        }, {
+          "name" : "Dicyclomine Hydrochloride Injection 10mg/ml 1x2ml Amp",
+          "uuid" : "3acd1978-01c4-4c3a-aeaa-47eaca9b2f0a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 149.0,
+          "active" : true
+        }, {
+          "name" : "Anti-D immunoglobin (human) Injection 300mcg 1x1Vial",
+          "uuid" : "d0764e52-3c9f-49ca-87aa-cbd4ea131b67",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 42.0,
+          "active" : true
+        }, {
+          "name" : "Halazon(Chlorine) Tablet 4mg 1x1000",
+          "uuid" : "64024134-0c68-41d1-a08d-9f8eee69b6c3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 193.0,
+          "active" : true
+        }, {
+          "name" : "Frusemide Injection 10mg/ml 1x2ml",
+          "uuid" : "48e30dbe-c986-4c50-b575-e413c3f7f6c9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 185.0,
+          "active" : true
+        }, {
+          "name" : "Norethisterone Tablet 5mg 1x10x10",
+          "uuid" : "f7d92ec9-95d0-4554-9cc6-a15cc4ac6937",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 260.0,
+          "active" : true
+        }, {
+          "name" : "Zinc sulphate Dispersible Tablet 20mg 1x10x10",
+          "uuid" : "9132f334-108b-4d55-b807-38b3b75d3bd2",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 379.0,
+          "active" : true
+        }, {
+          "name" : "Hydrochlorothiazide Tablet 12.5mg 1x10x10",
+          "uuid" : "25f6e5f3-b09b-452e-b4ed-7093e28f1f1e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 200.0,
+          "active" : true
+        }, {
+          "name" : "Sodium Chloride (Nasal) Drops 0.65%w/v 1x15ml",
+          "uuid" : "056b03cf-94f7-4bc3-a13a-2c561994b344",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 335.0,
+          "active" : true
+        }, {
+          "name" : "Oseltamavir Capsule 30mg 1x10x10",
+          "uuid" : "868f6799-6dc5-4c71-b340-0ac3d336f22f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 272.0,
+          "active" : true
+        }, {
+          "name" : "Benzoic Acid+Salicylic Acid Ointment 6%w/w+3%w/w 1x30g",
+          "uuid" : "44db9f03-a79a-492f-9263-b68b25272946",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 62.0,
+          "active" : true
+        }, {
+          "name" : "Multivitamins Injection vitamin A 10000 IU+Thiamine hydrochloride 50mg+Riboflavin sodium phosphate 10mg+Nicotinamide 100mg+D-Panthenol 25mg+Pyridoxine Hydrochloride 15mg+Alpha-atocopherol acetate 5mg with excepients 1x10ml",
+          "uuid" : "dea294ee-c6cb-4fb0-9665-a9ab805fd9a6",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 256.0,
+          "active" : true
+        }, {
+          "name" : "Medroxy Progesterone Acetate Tablet 5mg 1x10x10",
+          "uuid" : "b887aca4-9da9-46c6-8aad-254b4249b407",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 234.0,
+          "active" : true
+        }, {
+          "name" : "Ranitidine Injection 25mg/ml 1x2ml",
+          "uuid" : "addcaea9-7144-4c61-9f0f-5d0eb74bb553",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 318.0,
+          "active" : true
+        }, {
+          "name" : "Rabies Immunoglobin 1x2ml Injection 150 IU/ml 1x1Vial",
+          "uuid" : "2290d4ee-56fb-4749-bbd6-3bab72557d5c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 316.0,
+          "active" : true
+        }, {
+          "name" : "Ferrous salts (A) +Folic acid (B) 20mg elemental iron (A) +100mcg (B) Syrup 20 mg + 100 mcg IP/BP/USP 1x100ml",
+          "uuid" : "0976afb5-7cbe-49c8-be66-e9b6ed0d113b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 172.0,
+          "active" : true
+        }, {
+          "name" : "Oseltamavir Syrup 12mg/ml 1x60ml",
+          "uuid" : "567b75e5-a408-4b44-8cd8-0fcec1ce8e25",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 275.0,
+          "active" : true
+        }, {
+          "name" : "Ondansetron Injection 2mg/ml 1x2ml",
+          "uuid" : "6c43c13d-726b-4b3f-92f3-28d688a46ad4",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 267.0,
+          "active" : true
+        }, {
+          "name" : "Ethamsylate Tablet 250mg 1x10x10",
+          "uuid" : "078a1b1a-4fa2-442e-8b00-8dbbdd14e5f9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 170.0,
+          "active" : true
+        }, {
+          "name" : "Chlorpheniramine Maleate Tablet 4mg 1x10x10",
+          "uuid" : "0bf12d7c-38b4-447f-8d6a-3985a33724bc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 111.0,
+          "active" : true
+        }, {
+          "name" : "Betamethasone Injection 4mg/ml 1x1Vial",
+          "uuid" : "6f592deb-f79e-4022-b356-57680f7bb05b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 68.0,
+          "active" : true
+        }, {
+          "name" : "Cefixime Tablet 100mg 1x10x10",
+          "uuid" : "8264cab8-3253-44fa-a84c-432aeab42704",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 92.0,
+          "active" : true
+        }, {
+          "name" : "Triamcinolone Injection 10mg/ml 1x1Vial",
+          "uuid" : "fba55cce-3722-4ecf-b576-37e17f2df060",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 357.0,
+          "active" : true
+        }, {
+          "name" : "Mebendazole Tablet 100mg 1x6",
+          "uuid" : "3086b56c-66cc-4be8-a598-975d90fa281d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 232.0,
+          "active" : true
+        }, {
+          "name" : "Bisacodyl Tablet 5mg 1x10x10",
+          "uuid" : "b1f6caab-1af0-4075-bd55-14a7b5c79b1d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 70.0,
+          "active" : true
+        }, {
+          "name" : "Pheniramine Maleate Injection 22.75 mg/ml 1x2ml",
+          "uuid" : "728b2ce9-0541-42d9-a6bf-f1cc2e1144e9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 291.0,
+          "active" : true
+        }, {
+          "name" : "Sodium Valproate Tablet 200mg 1x10x10",
+          "uuid" : "392e3662-b986-49d5-9127-cb209fddfecc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 341.0,
+          "active" : true
+        }, {
+          "name" : "Clozapine Tablet 25mg 1x10x10",
+          "uuid" : "bece1b0d-5181-4fad-923d-da9f35af7b79",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 128.0,
+          "active" : true
+        }, {
+          "name" : "Clonazepam Tablet 0.5mg 1x10x10",
+          "uuid" : "364be194-785b-450a-8a3a-37db9cacff94",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 120.0,
+          "active" : true
+        }, {
+          "name" : "Benzyl Penicillin Injection 10lacs 1x1Vial",
+          "uuid" : "4ae96deb-708e-4897-8aaa-3800801b6931",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 65.0,
+          "active" : true
+        }, {
+          "name" : "Silver Sulphadiazine Cream 125g 1x125g",
+          "uuid" : "18f33013-4450-4fcd-811e-bf5237970d8d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 334.0,
+          "active" : true
+        }, {
+          "name" : "Pantoprazole Tablet 40mg 1x10x10",
+          "uuid" : "11adfa44-b198-4f9e-9e5e-b52bfc6b2fcf",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 280.0,
+          "active" : true
+        }, {
+          "name" : "Azithromycin Tablet 250mg 1x10x10",
+          "uuid" : "1ed4b614-b415-4d10-86bb-e3c64c4cabcd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 54.0,
+          "active" : true
+        }, {
+          "name" : "Mephentermine Injection 30mg/ml 1x10ml",
+          "uuid" : "77ba1ab3-d570-4e2b-b42c-e055bec9d134",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 237.0,
+          "active" : true
+        }, {
+          "name" : "Artesunate (To be used only in combination with Sulfadoxine +Pyrimethamine) Tablet 50mg 1x10x10",
+          "uuid" : "67ca4a17-3bcf-43fc-8d34-652e2651fd39",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 44.0,
+          "active" : true
+        }, {
+          "name" : "Atorvastatin Tablet 10mg 1x10x10",
+          "uuid" : "b2c24445-b21c-4c60-bec4-fc27830f79a9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 47.0,
+          "active" : true
+        }, {
+          "name" : "Ampicillin Capsule 250mg 1x10x10",
+          "uuid" : "82b90525-52d9-4bcb-971f-bbb4b134e449",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 37.0,
+          "active" : true
+        }, {
+          "name" : "Sodium Valproate CR Tablet 500mg 1x10x10",
+          "uuid" : "56b117d5-cfbe-421f-96ed-e5b345724c4a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 338.0,
+          "active" : true
+        }, {
+          "name" : "Ferrous salts equivalent to 60mg of elemental iron Tablet 60mg 1x10x10",
+          "uuid" : "12643ca2-9d4b-428e-ba89-ca5fa9b84942",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 174.0,
+          "active" : true
+        }, {
+          "name" : "Chlorzoxazone Tablet 200mg 1x10x10",
+          "uuid" : "f458e405-b5e1-4120-babd-d22a3f00d0e4",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 112.0,
+          "active" : true
+        }, {
+          "name" : "Diclofenac Tablet 50mg 1x10x10",
+          "uuid" : "a5f95660-2bce-4e34-ba98-07ea3f01b5ba",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 145.0,
+          "active" : true
+        }, {
+          "name" : "Ferrous salts (A) +Folic acid (B)45mg elemental iron (A) +400mcg (B) PINK Tablet 45mg + 400mcg 1x10x10",
+          "uuid" : "ab6f9d78-de11-41a5-9bdf-eb38768ae189",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 173.0,
+          "active" : true
+        }, {
+          "name" : "Thiamine Tablet 100mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "fab165c9-ae15-4515-ad6b-584a5b931bd5",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 350.0,
+          "active" : true
+        }, {
+          "name" : "Zinc Sulfate Syrup 20mg/5ml 1x60ml",
+          "uuid" : "4043c7a9-9517-4db3-9e99-470d5e36906a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 378.0,
+          "active" : true
+        }, {
+          "name" : "Oral Rehydration Salts Powder for solution Sodium Cloride 2.6,Glucose Anhydrous 13.5,Potassium Cloride 1.5,Trisodium Citrate Dihydrate 2.9 1x20.5g",
+          "uuid" : "ae48832b-942d-4f6c-b50f-e92c63fd380c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 270.0,
+          "active" : true
+        }, {
+          "name" : "Mometasone(Nasal) Spray 50mcg 1X12ml",
+          "uuid" : "a1c2cbba-42ad-41dd-97b9-f8ea7bacdb63",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 254.0,
+          "active" : true
+        }, {
+          "name" : "Salbutamol sulphate Inhalation 100mcg/dose 1x1",
+          "uuid" : "686dc064-b9be-489a-b8f1-7fc29a5a0007",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 326.0,
+          "active" : true
+        }, {
+          "name" : "Oxymetazoline (Nasal) Drops 0.5mg/ml 1x10ml",
+          "uuid" : "9de23c0e-143f-4729-9e5c-bb9a5631f782",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 276.0,
+          "active" : true
+        }, {
+          "name" : "Baclofen Suspension 5mg/ml 1x100ml",
+          "uuid" : "27738320-877e-4f84-8293-0462ced068e6",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 56.0,
+          "active" : true
+        }, {
+          "name" : "Metronidazole Tablet 400mg 1x10x10",
+          "uuid" : "de268ffd-1e87-464f-8ab1-098f02ed8d55",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 251.0,
+          "active" : true
+        }, {
+          "name" : "Prednisolone Tablet 20mg 1x10x10",
+          "uuid" : "caf9ac44-fab7-4c67-8353-2a849638ba8e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 307.0,
+          "active" : true
+        }, {
+          "name" : "Acyclovir Ointment 5% 1x10g",
+          "uuid" : "4480b9c6-7711-49e4-89e0-52e66add8f76",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 10.0,
+          "active" : true
+        }, {
+          "name" : "Fentanyl Injection 50mcg/ml 1x2ml",
+          "uuid" : "fb821089-a945-481d-9cab-b8e5833021ef",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 171.0,
+          "active" : true
+        }, {
+          "name" : "Thiamine Injection 100mg/ml 1x10ml",
+          "uuid" : "9d908241-438a-4735-a8a9-ef12a3fbd927",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 349.0,
+          "active" : true
+        }, {
+          "name" : "Diethylcarbamazine Citrate Tablet 100mg 1x3x10",
+          "uuid" : "601f19ce-ec65-4838-a69e-dd253b0e1b58",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 153.0,
+          "active" : true
+        }, {
+          "name" : "Premix Insulin 30:70 1x10ml Injection 40IU/ml 1x1Vial",
+          "uuid" : "4ecfc494-6831-444a-939e-0b08e34b01a5",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 308.0,
+          "active" : true
+        }, {
+          "name" : "Methyldopa Tablet 250mg 1x10x10",
+          "uuid" : "62473f7e-e423-4c0e-b869-8e610090c491",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 243.0,
+          "active" : true
+        }, {
+          "name" : "Phenytoin Sodium Tablet 100mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "54b572c5-f78c-44e7-a530-da18fabeaf5e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 297.0,
+          "active" : true
+        }, {
+          "name" : "Acyclovir Ointment 3% 1x10g",
+          "uuid" : "c22e50a1-95c0-47c8-b999-f3e4630b6cd4",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 9.0,
+          "active" : true
+        }, {
+          "name" : "Risperidone Suspension 1mg 1x50ml",
+          "uuid" : "ab7e6601-4da9-4374-8d9a-bece8bdda2ea",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 324.0,
+          "active" : true
+        }, {
+          "name" : "Digoxin Tablet 0.25mg 1x10x10",
+          "uuid" : "6c5c3dcc-c8f4-43c0-935e-a0485824c601",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 154.0,
+          "active" : true
+        }, {
+          "name" : "Amoxycillin Oral Liquid 250mg/5ml 1x60ml",
+          "uuid" : "af5b7acf-bb82-44a4-8792-8757b6eab889",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 35.0,
+          "active" : true
+        }, {
+          "name" : "Ketamine Hydrochloride Injection 50mg/ml 1x2ml",
+          "uuid" : "491e7461-29b3-4ba1-99ac-f11422aff37d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 213.0,
+          "active" : true
+        }, {
+          "name" : "Cetrizine Hydrochloride Tablet 10mg 1x10x10",
+          "uuid" : "39f66cbe-d6b2-4d99-ab37-d3c6c923208c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 105.0,
+          "active" : true
+        }, {
+          "name" : "Oseltamavir Capsule 45mg 1x10x10",
+          "uuid" : "3f7b593a-1e65-4cd9-ae4a-181188c92ff2",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 273.0,
+          "active" : true
+        }, {
+          "name" : "Terbutalin dexamethasone dipropionate Inhalation 200mcg 1x1",
+          "uuid" : "05764d90-1de8-4bc1-bed3-22af4e7fd64f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 345.0,
+          "active" : true
+        }, {
+          "name" : "Glycopyrolate Tablet 1mg 1x10x10",
+          "uuid" : "6731335d-90f2-41aa-96ee-e5c0e928257a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 192.0,
+          "active" : true
+        }, {
+          "name" : "Pentazocine Injection 30mg/ml 1x1ml",
+          "uuid" : "ef34ccc5-f86a-40fc-a3bc-2f38961af132",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 288.0,
+          "active" : true
+        }, {
+          "name" : "Ketamine Hydrochloride Injection 10mg/ml 1x10ml",
+          "uuid" : "5b4add7b-0f89-420f-bf63-09b50ceb2323",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 212.0,
+          "active" : true
+        }, {
+          "name" : "Calamine Lotion As per IP 1x50ml",
+          "uuid" : "f9486aae-bb01-4f0f-bf8b-6ca7ca5e5420",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 75.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin D3 Oral Solution 400IU/0.5ml(Nano Droplet Form) NA",
+          "uuid" : "ee49e667-9eb5-4e06-b48f-0cb6fb8a36fb",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 372.0,
+          "active" : true
+        }, {
+          "name" : "Levothyroxine Tablet 25mcg 100x1bottle",
+          "uuid" : "fd197b7b-de2e-47fe-b85f-34f2ba4ae2a9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 220.0,
+          "active" : true
+        }, {
+          "name" : "Enoxaparin Injection 40mg Nil",
+          "uuid" : "389604d9-d4c7-41ed-a5ef-df928f9c2a19",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 164.0,
+          "active" : true
+        }, {
+          "name" : "Fluoxetine hydrochloride Capsule 20mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "cb8271bd-f07f-439b-b13f-dbeaaced4344",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 181.0,
+          "active" : true
+        }, {
+          "name" : "Cefotaxime Injection 125mg 1x1Vial",
+          "uuid" : "2e94bf53-7b0a-4fd2-b455-546e9ba6abbc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 95.0,
+          "active" : true
+        }, {
+          "name" : "Amoxicillin+Clavulinic acid Injection 1.2gm 1x1Vial",
+          "uuid" : "278c6d85-171d-4ecf-b2af-98038e5bce73",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 30.0,
+          "active" : true
+        }, {
+          "name" : "Probiotic Capsule 60 Million 1x10x10",
+          "uuid" : "8dd99c2c-f764-41c8-a808-8bfbc4a6ffe9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 311.0,
+          "active" : true
+        }, {
+          "name" : "Amikacin Injection 250mg/2ml 1x1Vial",
+          "uuid" : "b1e9ab4d-c997-4e97-ab58-5f38275a834a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 23.0,
+          "active" : true
+        }, {
+          "name" : "Cephalexin Syrup 125mg/5ml 1x30ml",
+          "uuid" : "fbd5b3f6-036f-4e3d-9df9-01183397abcb",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 104.0,
+          "active" : true
+        }, {
+          "name" : "Tinidazole Tablet 300mg 1x10x10",
+          "uuid" : "f0b4cdd9-dcbf-4758-a4bb-9c7c4913256a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 352.0,
+          "active" : true
+        }, {
+          "name" : "Misoprostol Tablet 200mcg 1x10x10",
+          "uuid" : "62831e8a-ced8-4e7e-9c33-bb645cd3e650",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 253.0,
+          "active" : true
+        }, {
+          "name" : "Pralidoxime Chloride(2- PAM) Injection 1g 1x1Vial",
+          "uuid" : "40130516-1d28-4618-a282-1036ffbdfcf9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 305.0,
+          "active" : true
+        }, {
+          "name" : "Domperidone Tablet 10mg 1x10x10",
+          "uuid" : "2469df9c-e17b-4ca4-adb8-c3f037017121",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 160.0,
+          "active" : true
+        }, {
+          "name" : "Metoprolol Tablet 25mg 1x10x10",
+          "uuid" : "1af42cfd-ab5b-478a-b7a0-f53182020f4f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 247.0,
+          "active" : true
+        }, {
+          "name" : "Clotrimazole Ear Drops 1%w/v 1x10ml",
+          "uuid" : "2221d89a-bf9b-46ef-a9a6-81155e5c742f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 124.0,
+          "active" : true
+        }, {
+          "name" : "Primaquine Tablet 2.5mg 1x10x10",
+          "uuid" : "32c54706-8886-4100-9a83-3f6e20e780ec",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 309.0,
+          "active" : true
+        }, {
+          "name" : "Povidone Iodine Ointment 5% 1x15g",
+          "uuid" : "daf47e2e-df38-4a30-a9f0-6ee37e11434d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 304.0,
+          "active" : true
+        }, {
+          "name" : "Baclofen Tablet 20mg 1x10x10",
+          "uuid" : "4f711c39-cadb-42bd-b15a-f83677e3038c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 57.0,
+          "active" : true
+        }, {
+          "name" : "Dobutamine Injection 50mg/ml 1x5ml",
+          "uuid" : "a5db5757-e6fb-40ec-8b0a-e39513157278",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 158.0,
+          "active" : true
+        }, {
+          "name" : "Aceclofenac Tablet 100mg 1x10x10",
+          "uuid" : "5a555f3c-236e-4a72-951b-b40151537d78",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Carbamazepine Oral Liquid 200mg/5ml 1x1",
+          "uuid" : "563c221a-5b99-47b3-a376-2bf82ec39adb",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 83.0,
+          "active" : true
+        }, {
+          "name" : "Ketaconazole Tablet 200mg 1x10x10",
+          "uuid" : "1b789254-af8c-47e9-b75e-ea0c0d54e9dd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 211.0,
+          "active" : true
+        }, {
+          "name" : "Diethylcarbamazin (antifilarial) Oral Liquid 120mg/5ml 1x1",
+          "uuid" : "a540b08f-1ec1-430f-931b-337d4c3c5277",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 151.0,
+          "active" : true
+        }, {
+          "name" : "Amoxicillin Capsule 250mg 1x10x10",
+          "uuid" : "547c55d8-5490-47e5-82d4-c39e787bbcf9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 27.0,
+          "active" : true
+        }, {
+          "name" : "Hyoscine Butyl Bromide Tablet 10mg 1x10x10",
+          "uuid" : "399b5006-62c0-4c73-91d2-7c0966aca1cf",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 202.0,
+          "active" : true
+        }, {
+          "name" : "Prednisolone Tablet 10mg 1x10x10",
+          "uuid" : "53dae49a-c162-48ac-bd28-468074c462d0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 306.0,
+          "active" : true
+        }, {
+          "name" : "Clobetasol Propionate + Salicylic Acid Cream 0.05%+3%w/w 1x30g",
+          "uuid" : "be85f47e-2a63-49ed-a69e-e0c4a93c614d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 119.0,
+          "active" : true
+        }, {
+          "name" : "Metoclopramide Injection 5mg/ml 1x2ml",
+          "uuid" : "c6c73898-60fb-41f8-ab72-0e83c29e745d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 245.0,
+          "active" : true
+        }, {
+          "name" : "Carbamazepine CR Tablet 400mg 1x10x10",
+          "uuid" : "13e896d9-7772-4370-9b82-1f20d872cccc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 82.0,
+          "active" : true
+        }, {
+          "name" : "Tramadol Injection 50mg/ml 1x2ml",
+          "uuid" : "493f1b51-8e55-4184-89f4-3961eaffb5cc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 356.0,
+          "active" : true
+        }, {
+          "name" : "Fortified Procaine Penicillin Injection 4lacs 1x1Vial",
+          "uuid" : "4cf48f84-8b7d-4a9d-a486-cbca6dafd129",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 184.0,
+          "active" : true
+        }, {
+          "name" : "Glyceryl Trinitrate (Sublingual) Tablet 0.5mg 1x10x10",
+          "uuid" : "fedb3f99-4308-4868-b2f0-2c9cdd9a41eb",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 190.0,
+          "active" : true
+        }, {
+          "name" : "Cefadroxil Dispersible Tablet 250mg 1x10x10",
+          "uuid" : "7f18f487-cc78-4059-8116-0b84963bc9b5",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 87.0,
+          "active" : true
+        }, {
+          "name" : "Lorazepam Injection 2mg/ml 1x2ml",
+          "uuid" : "61421278-62f7-4640-820f-40c7bbc83429",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 229.0,
+          "active" : true
+        }, {
+          "name" : "Chlorhexidine Gluconate + Cetrimide Solution + Isopropyle Alcohol Solution 7.5%w/v + 15%w/v + 6 to 8%v/v 1x500ml",
+          "uuid" : "c10f73cc-51ef-427b-bc60-30159e7307fc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 107.0,
+          "active" : true
+        }, {
+          "name" : "Lignocaine Hydrochloride Spray 2% 1x100ml",
+          "uuid" : "b1bbcfe4-7e6c-4399-912a-e263380033bf",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 226.0,
+          "active" : true
+        }, {
+          "name" : "Cefixime Tablet 200mg 1x3x10",
+          "uuid" : "4b967ecb-f431-4efe-b5e1-34652daac13d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 93.0,
+          "active" : true
+        }, {
+          "name" : "Sodium Valproate Injection 100mg/ml 1x5ml",
+          "uuid" : "8f51a9bc-3797-47d4-badf-b9750976c964",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 339.0,
+          "active" : true
+        }, {
+          "name" : "Ampicillin Injection 500mg 1x1Vial",
+          "uuid" : "783db91b-0d52-4541-995e-831ceb8511df",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 39.0,
+          "active" : true
+        }, {
+          "name" : "Hepatitis-B Vaccine Adult 1x10ml",
+          "uuid" : "c383e2fb-5bf4-477c-bdec-c070a6b96443",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 199.0,
+          "active" : true
+        }, {
+          "name" : "Acetyl Salicylic Acid Dispersible Tablet 150mg 1x10x10",
+          "uuid" : "8bef3c83-45d2-48c1-9904-dd0cc1b5ca75",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 4.0,
+          "active" : true
+        }, {
+          "name" : "Budesonide Inhalation 100mcg 1x1",
+          "uuid" : "082fd302-72c8-4d07-9035-bd664164c0a1",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 73.0,
+          "active" : true
+        }, {
+          "name" : "Paracetamol Suppository 80mg 1x1",
+          "uuid" : "aeac2d23-16be-45a8-8938-cb7ffa9bdfee",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 283.0,
+          "active" : true
+        }, {
+          "name" : "Chlorhexidine mouth wash Solution 0.20% 1x100ml",
+          "uuid" : "a08f6e55-ed6e-402f-a089-60c86adcbedd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 108.0,
+          "active" : true
+        }, {
+          "name" : "Escitalopram Tablet 10mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "edc01b2f-0353-43ef-a955-9b26f3e76519",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 168.0,
+          "active" : true
+        }, {
+          "name" : "Heparin Sodium Injection 5000 IU/1ml IP/BP/USP 1x1",
+          "uuid" : "c426da1a-cb00-4dbf-aef2-bbf0f60141ae",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 198.0,
+          "active" : true
+        }, {
+          "name" : "Levothyroxine Tablet 50mcg 100x1bottle",
+          "uuid" : "1bda1204-3812-4b51-bb82-a4f541f270d3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 221.0,
+          "active" : true
+        }, {
+          "name" : "Clotrimazole Cream 1% 1x15gm",
+          "uuid" : "5cbbe70c-8e05-4fdd-9a9c-2489c2b9eac8",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 123.0,
+          "active" : true
+        }, {
+          "name" : "Adrenaline Bitartrate Injection 1mg/ml 1x1ml",
+          "uuid" : "3eac3914-ab97-4bad-ac4e-4cdf0a555bb0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 15.0,
+          "active" : true
+        }, {
+          "name" : "Levo Cetrizine Tablet 5mg 1x10x10",
+          "uuid" : "299f862d-c2b0-4310-9a0c-4c4af06edf39",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 219.0,
+          "active" : true
+        }, {
+          "name" : "Primaquine Tablet 7.5mg 1x10x10",
+          "uuid" : "39fb0cbd-70ce-4045-a5a6-0a67bd89b773",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 310.0,
+          "active" : true
+        }, {
+          "name" : "Sodium Chloride(Normal Saline) Infusion FFS 0.9%w/v 1x100ml",
+          "uuid" : "a7ac4329-0a67-4b9e-a3be-c396baafff0b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 337.0,
+          "active" : true
+        }, {
+          "name" : "Clotrimazole Pessaries 100mg 1x6x10",
+          "uuid" : "5f3201e9-1b4e-47c1-84c7-47bf74897bd1",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 126.0,
+          "active" : true
+        }, {
+          "name" : "Ibuprofen Syrup 100mg/5ml 1x60ml",
+          "uuid" : "61cdcb96-0e4a-42c9-a88a-5f0bd67a5d68",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 203.0,
+          "active" : true
+        }, {
+          "name" : "Ceftriaxone Powder for Injection. 500mg IP/BP/USP 1x1",
+          "uuid" : "36fa57a7-277e-4dd1-878e-f5e8c1833873",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 100.0,
+          "active" : true
+        }, {
+          "name" : "Ferrous Sulphate/Fumrate Tablet Iron equivalent to 20mg elemental iron & folic acid 0.1mg 1x10x10",
+          "uuid" : "0da3f7f8-ad35-4766-8abb-a482a395a2bd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 175.0,
+          "active" : true
+        }, {
+          "name" : "Acenocoumarol Tablet 1mg 1x10x10",
+          "uuid" : "289c6433-9380-44ef-a3bf-9b33ac7d9329",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        }, {
+          "name" : "Erythromycin Estolate Tablet 250mg 1x10x10",
+          "uuid" : "2177c6ac-1a02-4fd9-b6dc-374453ce86c9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 166.0,
+          "active" : true
+        }, {
+          "name" : "Carbamazepine Tablet 100mg 1x10x10",
+          "uuid" : "121bdcee-51da-4aac-89c2-b7577684da0a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 85.0,
+          "active" : true
+        }, {
+          "name" : "Permethrin Lotion 1% 1x1",
+          "uuid" : "086b8d67-776f-4eb0-8f3c-60509b615a7b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 290.0,
+          "active" : true
+        }, {
+          "name" : "Dextrose Injection 5% 1x500ml",
+          "uuid" : "c5387694-42d8-4eb5-b31f-5e068621ce98",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 137.0,
+          "active" : true
+        }, {
+          "name" : "Amoxycillin 125mg + Clavulanic Acid 31.25mg / 5ml Suspension 125mg+31.25mg/5ml 1x30ml",
+          "uuid" : "bb88857f-29ab-45ce-81bb-a50af2e09cee",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 34.0,
+          "active" : true
+        }, {
+          "name" : "Paracetamol Tablet 650mg 1x10x10",
+          "uuid" : "f7c20aaa-2d4a-423d-873f-c79576387da0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 287.0,
+          "active" : true
+        }, {
+          "name" : "Methylcobalamin Injection 1500mcg 1x1ml",
+          "uuid" : "c98756e2-491c-45ea-9fff-9139ccd83b24",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 241.0,
+          "active" : true
+        }, {
+          "name" : "Ciprofloxacin Hydrochloride Tablet 250mg 1x10x10",
+          "uuid" : "d3fbc3df-b666-4673-a4fc-da8a4cd4f217",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 116.0,
+          "active" : true
+        }, {
+          "name" : "Sodium Valproate Syrup 200mg/5ml 1x100ml",
+          "uuid" : "bd448d85-1a61-4087-9b78-313b0b1c2ba7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 340.0,
+          "active" : true
+        }, {
+          "name" : "Terbinafine Cream 1%w/w 1x10g",
+          "uuid" : "0309b9f1-121e-48c5-8853-a176e144c59c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 344.0,
+          "active" : true
+        }, {
+          "name" : "Calcium carbonate with Vitamin D3 Tablet 500MG+250IU 1x10x10",
+          "uuid" : "99baa89c-9fe8-4361-a037-a0003114824a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 78.0,
+          "active" : true
+        }, {
+          "name" : "Valathamate Bromide Injection 8mg/ml 1x1Vial",
+          "uuid" : "6da4f460-b348-48df-a221-d95ca29b231e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 361.0,
+          "active" : true
+        }, {
+          "name" : "Betamethasone Dipropionate Ointment 0.05%w/w 1x15g",
+          "uuid" : "53f7453c-e7da-4839-acc1-7ac989d2364c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 66.0,
+          "active" : true
+        }, {
+          "name" : "Acenocoumarol Tablet 4mg 1x10x10",
+          "uuid" : "a3e108f9-70ca-43c2-8f30-bdeff6e0489c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 3.0,
+          "active" : true
+        }, {
+          "name" : "Cephalexin Capsule 250mg 1x10x10",
+          "uuid" : "36a94e6a-d9a1-4a5a-9ca2-da957f04e832",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 102.0,
+          "active" : true
+        }, {
+          "name" : "Sodium Chloride (Normal Saline) Injection FFS 0.9%w/v 1x500ml",
+          "uuid" : "7fec69d3-6ad7-4e5c-acb8-386f6e4aeb6d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 336.0,
+          "active" : true
+        }, {
+          "name" : "Metronidazole Infusion 500mg/100ml 1x100ml",
+          "uuid" : "b6970e2c-c4dd-4a21-9682-41925dc65aa8",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 249.0,
+          "active" : true
+        }, {
+          "name" : "Diclofenac Injection 75mg/ml 1x1",
+          "uuid" : "181d2344-df1c-4ea9-b021-f67e8d40cf56",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 144.0,
+          "active" : true
+        }, {
+          "name" : "Paracetamol Drops 100mg/ml 1x15g",
+          "uuid" : "9abc248f-eb22-4210-b49d-9d1b84d73900",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 281.0,
+          "active" : true
+        }, {
+          "name" : "Ibuprofen Tablet 400mg 1x10x10",
+          "uuid" : "abb44782-a072-49b9-a7ff-1af5037cb658",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 205.0,
+          "active" : true
+        }, {
+          "name" : "Ceftriaxone with Salbactum Injection 1gm+500mg 1x1",
+          "uuid" : "ae6d8e03-85fb-4331-ac6e-39daacdc0d88",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 101.0,
+          "active" : true
+        }, {
+          "name" : "Benzyl benzoate Lotion 25% 1x100ml",
+          "uuid" : "906bdc4d-a737-4a38-a969-058f97069025",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 64.0,
+          "active" : true
+        }, {
+          "name" : "Atropine Sulphate Injection 1mg/ml 1x1ml",
+          "uuid" : "a6c21c30-a5a9-4cec-9487-4ad084bc14ab",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 51.0,
+          "active" : true
+        }, {
+          "name" : "Phenytoin Sodium Injection 50mg/ml 1x2ml",
+          "uuid" : "3faf1ce4-ca81-41e5-acc7-f9ebec87b316",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 295.0,
+          "active" : true
+        }, {
+          "name" : "Carbamazepine Syrup 100mg/5ml 1x100ml",
+          "uuid" : "65482bee-854d-4a8b-927c-2ad8dd564cbc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 84.0,
+          "active" : true
+        }, {
+          "name" : "Flunarizine Tablet 10mg 1x10x10",
+          "uuid" : "b066e1c4-eca1-4443-9494-75c3455c6803",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 179.0,
+          "active" : true
+        }, {
+          "name" : "Antisnake Venom (Polyvalent Lyophilized) Powder for Infusion NA 1x1Vial",
+          "uuid" : "2d787d5c-10ca-4878-96f0-c8d1bc39b5ef",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 43.0,
+          "active" : true
+        }, {
+          "name" : "Dinoprostone Gel 0.5mg 1x3gm",
+          "uuid" : "2b5c8227-fdfe-4fd2-baf3-9c3ce3d9f76e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 155.0,
+          "active" : true
+        }, {
+          "name" : "Silver Sulphadiazine Cream 1% 1x25g",
+          "uuid" : "2229a543-2e80-4b33-a768-d017d3f8b311",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 333.0,
+          "active" : true
+        }, {
+          "name" : "Domperidone Syrup 1mg/ml 1x30ml",
+          "uuid" : "e9542cab-be1f-47b4-a174-d6f4a650f481",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 159.0,
+          "active" : true
+        }, {
+          "name" : "Metoclopramide Tablet 10mg 1x10x10",
+          "uuid" : "ac6f4f54-9530-4c69-ad14-d110c9ec72bf",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 246.0,
+          "active" : true
+        }, {
+          "name" : "Phytomenadione (Vitamin K1) Injection 1mg/ml 1x1",
+          "uuid" : "bbcf3deb-7c20-4553-80ad-cec2e638e260",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 298.0,
+          "active" : true
+        }, {
+          "name" : "Phenobarbitone Tablet 30mg 1x10x10",
+          "uuid" : "7c031463-d2f1-45b8-88c1-ad9b5b02350a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 293.0,
+          "active" : true
+        }, {
+          "name" : "Metronidazole Syrup 200mg/5ml 1x60ml",
+          "uuid" : "d13ed0e5-2814-4e5b-a8bb-6afadc606b08",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 250.0,
+          "active" : true
+        }, {
+          "name" : "Pyridoxine Tablet 10mg 1x10x10",
+          "uuid" : "b4ff8522-8647-468a-b92f-44581ecd6530",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 314.0,
+          "active" : true
+        }, {
+          "name" : "Cefadroxil Syrup 125mg/5ml 1x30ml",
+          "uuid" : "daeed9d2-8881-4e63-a41c-74eefcb9a032",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 88.0,
+          "active" : true
+        }, {
+          "name" : "Dextrose with sodium chloride Infusion 5% + 0.9% 1x500ml",
+          "uuid" : "598bc41e-a844-41a4-b801-48cc0b366f56",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 138.0,
+          "active" : true
+        }, {
+          "name" : "Atracurium Besilate 1x2.5ml Amp/Vial Injection 10mg/ml 1x1Vial",
+          "uuid" : "eecac2f1-4fa9-4288-914a-d61069c6de4f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 49.0,
+          "active" : true
+        }, {
+          "name" : "Acetyl Salicylic Acid Dispersible Tablet 75mg 1x10x10",
+          "uuid" : "6c0ea83f-2545-4660-8cbb-c5b22d6a91c2",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 5.0,
+          "active" : true
+        }, {
+          "name" : "Paracetamol Suppository 170mg 1x5",
+          "uuid" : "e1367bab-f517-4b23-9dbb-fbefa776d704",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 282.0,
+          "active" : true
+        }, {
+          "name" : "Glimepiride Tablet 2mg 1x10x10",
+          "uuid" : "b1492413-d8c5-490f-ab6d-830bf33e8426",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 189.0,
+          "active" : true
+        }, {
+          "name" : "Acyclovir Tablet 800mg 1x10x10",
+          "uuid" : "befb8f08-2dff-4276-b331-55954aa9e3b9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 14.0,
+          "active" : true
+        }, {
+          "name" : "Amoxicillin Dispersible Tablet 125mg 1x10x10",
+          "uuid" : "438b30e1-9e79-4769-88f4-cbf27b740db4",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 29.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin A Pediatric(Concentrated) Solution 1,00,000IU/ml 1x100ml",
+          "uuid" : "95259da7-044e-4dc7-b787-6fcab1274c22",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 369.0,
+          "active" : true
+        }, {
+          "name" : "Isoxsuprine Tablet 20mg 1x10x10",
+          "uuid" : "fe36751c-f3e9-45cd-8910-0935924c1668",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 210.0,
+          "active" : true
+        }, {
+          "name" : "Azithromycin Dispersible Tablet 100mg 1x10x10",
+          "uuid" : "ddf738e6-b24e-4f67-8a2d-a154ecb2ac6e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 52.0,
+          "active" : true
+        }, {
+          "name" : "Rabies Vaccine Injection 2.5IU 1x1ml",
+          "uuid" : "f3d6b8b9-cc4f-4ac5-aa6f-138386b6758a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 317.0,
+          "active" : true
+        }, {
+          "name" : "Diclofenac Topical Form 1% 1x30gm",
+          "uuid" : "9bf1ceed-1080-4551-bea7-914e166a8971",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 146.0,
+          "active" : true
+        }, {
+          "name" : "Tramadol Capsule 100mg 1x10x10",
+          "uuid" : "0347ab8f-5bbe-4977-89b8-a2d592aab54d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 354.0,
+          "active" : true
+        }, {
+          "name" : "Permethrin Cream 5% 1x30gm",
+          "uuid" : "f245dd16-313f-4b2f-9f5d-ec69ad461243",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 289.0,
+          "active" : true
+        }, {
+          "name" : "Dopamine Hydrochloride Injection 40mg/ml 1x5ml",
+          "uuid" : "31aa5ffa-29a9-4b2f-892e-7f138c0adc45",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 161.0,
+          "active" : true
+        }, {
+          "name" : "Magnesium sulphate Injection 500mg/ml 1x2ml",
+          "uuid" : "434435a1-8b0a-4643-9fed-82642cea92c6",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 231.0,
+          "active" : true
+        }, {
+          "name" : "Paracetamol Syrup 250mg/5ml 1x60ml",
+          "uuid" : "d2bc50bc-6a28-431e-8ae3-f7cef55f2f8a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 285.0,
+          "active" : true
+        }, {
+          "name" : "Cefixime Oral Liquid 100mg/5ml 1x30ml",
+          "uuid" : "3ae8d776-2205-421d-97b0-0c0bb48e2ef7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 90.0,
+          "active" : true
+        }, {
+          "name" : "Carbamazepine CR Tablet 200mg 1x10x10",
+          "uuid" : "86537eaa-eb42-4e75-9345-9494ea0ab2bb",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 81.0,
+          "active" : true
+        }, {
+          "name" : "Phenobarbitone Syrup 20mg/5ml 1x60ml",
+          "uuid" : "ebc1f7b5-4191-4954-82f2-ab71903ec6be",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 292.0,
+          "active" : true
+        }, {
+          "name" : "Probiotic each 5 ml Suspension 2 Million Spores 1x50ml",
+          "uuid" : "58377363-e79b-4848-a154-89f5e906e68b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 312.0,
+          "active" : true
+        }, {
+          "name" : "Dexamethasone Injection 4mg/ml 1x2ml",
+          "uuid" : "6e33c2ef-a72a-43d0-8fcc-2720cffd50d3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 133.0,
+          "active" : true
+        }, {
+          "name" : "Lorazepam Tablet 2mg 1x10x10",
+          "uuid" : "9940aefe-b5ab-49ac-9a63-f4a1b6cc7aa2",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 230.0,
+          "active" : true
+        }, {
+          "name" : "Insulin Injection (Soluble) (Specification as per NCD) Injection 40IU/ml 1x10ml Vial",
+          "uuid" : "c492af56-ab9e-4a30-8822-6aa924862caf",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 206.0,
+          "active" : true
+        }, {
+          "name" : "Diclofenac Injection 25mg/ml 1x3ml",
+          "uuid" : "4e05302f-84b1-4c64-a54a-33f2e078f006",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 143.0,
+          "active" : true
+        }, {
+          "name" : "Piroxicam Dispersible Tablet 20mg 1x10x10",
+          "uuid" : "3b67926f-7d2d-4854-a58a-dd998b426f40",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 301.0,
+          "active" : true
+        }, {
+          "name" : "Methyl Ergometrine Tablet 0.125mg 1x10x10",
+          "uuid" : "00e34f06-6b2c-43f4-97d0-7e7d387a42fc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 239.0,
+          "active" : true
+        }, {
+          "name" : "Mefenamic Acid + Dicyclomine Tablet 250mg + 10mg 1x10x10",
+          "uuid" : "7768ab8c-36fa-4473-91fb-0fdf9b7fe209",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 235.0,
+          "active" : true
+        }, {
+          "name" : "Amlodipine Tablet 10mg 1x10x10",
+          "uuid" : "37d4b9c8-635c-4de8-8929-805d3101232b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 26.0,
+          "active" : true
+        }, {
+          "name" : "Doxycycline Capsule 100mg 1x10x10",
+          "uuid" : "aac42e25-6246-48eb-82c1-aff0733d0a9c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 163.0,
+          "active" : true
+        }, {
+          "name" : "Fluconazole Capsule 100mg 1x10x10",
+          "uuid" : "c2b3860c-4b37-4856-a269-4b8880f0a78a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 176.0,
+          "active" : true
+        }, {
+          "name" : "Methyl Ergometrine Injection 0.2mg/ml 1x1",
+          "uuid" : "9902ddec-cfe3-474b-bf15-29112f9c3078",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 238.0,
+          "active" : true
+        }, {
+          "name" : "Betamethasone Dipropionate Ointment 0.1%w/w 1x15g",
+          "uuid" : "aedbd18a-e70c-4694-bcda-ee9f839450a3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 67.0,
+          "active" : true
+        }, {
+          "name" : "Co-Trimoxazole (Trimethoprim + Sulphamethoxazole) Suspension 40+200mg/5ml 1x60ml",
+          "uuid" : "72042f92-7edd-489e-b188-06e6d00cbe38",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 129.0,
+          "active" : true
+        }, {
+          "name" : "Dextrose Injection 25% 1x25ml",
+          "uuid" : "c59b5135-9dc6-49c5-b273-5cecadfcd502",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 136.0,
+          "active" : true
+        }, {
+          "name" : "Oxymetazoline Paediatric(Nasal) Drops 0.25mg/ml 1x10ml",
+          "uuid" : "f044c887-24ad-4656-8713-51cc314c7c62",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 277.0,
+          "active" : true
+        }, {
+          "name" : "Ringer Lactate Infusion FFS As per IP 1x500ml",
+          "uuid" : "f7a4b092-c5d4-4afc-aaee-e1dc0d89f465",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 321.0,
+          "active" : true
+        }, {
+          "name" : "Lactulose Oral Liquid 10g/15ml 1x100ml",
+          "uuid" : "82334de7-ef51-47af-a6c2-c838ffc17f86",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 218.0,
+          "active" : true
+        }, {
+          "name" : "Salbutamol sulphate Tablet 4mg 1x10x10",
+          "uuid" : "87b34b14-b0e8-4774-8b01-9eb11c56d3d5",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 329.0,
+          "active" : true
+        }, {
+          "name" : "Pioglitazone Tablet 15mg 1x10x10",
+          "uuid" : "5ba6fc98-ce84-4651-b284-1329a96ef607",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 299.0,
+          "active" : true
+        }, {
+          "name" : "Beclomethasone Dipropionate Inhalation 50mcg/dose 1x1",
+          "uuid" : "63583317-93d6-4390-a9eb-e3aaa45b9e3d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 59.0,
+          "active" : true
+        }, {
+          "name" : "Amoxycillin Powder Suspension 125mg/5ml 1x60ml",
+          "uuid" : "3218a115-4600-4d28-ac97-f650c4e3a501",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 36.0,
+          "active" : true
+        }, {
+          "name" : "Ibuprofen Tablet 200mg 1x10x10",
+          "uuid" : "d98857ed-5186-4c08-a7b7-14ff8e0ec2cc",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 204.0,
+          "active" : true
+        }, {
+          "name" : "Ampicillin Capsule 500mg 1x10x10",
+          "uuid" : "997d1339-c70e-4c30-8229-438472af5642",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 38.0,
+          "active" : true
+        }, {
+          "name" : "Cephalexin Capsule 500mg 1x10x10",
+          "uuid" : "f1ab8c87-9db8-49ee-ae2d-81a746925b37",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 103.0,
+          "active" : true
+        }, {
+          "name" : "Ofloxacin Syrup 50mg/5ml 1x100ml",
+          "uuid" : "0d50ec50-339f-45b3-a133-a85904a22797",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 264.0,
+          "active" : true
+        }, {
+          "name" : "Atenolol Tablet 25mg 1x14x10",
+          "uuid" : "e7427501-13f9-4875-9d25-00d084c7c0cd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 45.0,
+          "active" : true
+        }, {
+          "name" : "Bisacodyl Suppository 5mg 1x1",
+          "uuid" : "a9067c43-367c-4cf1-888a-bdd3b522d227",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 69.0,
+          "active" : true
+        }, {
+          "name" : "Heparin Sodium Injection 1,000IU/ml 1x5ml Vial",
+          "uuid" : "e183fd14-c3c9-4eaa-b918-780ade9965a4",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 197.0,
+          "active" : true
+        }, {
+          "name" : "Amoxicillin Capsule 500mg 1x10x10",
+          "uuid" : "dacb9078-071a-45d9-9b1c-ccce10092d03",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 28.0,
+          "active" : true
+        }, {
+          "name" : "Povidone Iodine Ointment 5% 1x125g",
+          "uuid" : "571d2111-e089-46e9-a6bc-e3a91cdd4619",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 303.0,
+          "active" : true
+        }, {
+          "name" : "Albendazole Tablet 400mg 1x10x10",
+          "uuid" : "bfe6077f-dfef-4cb1-92f1-4bdf7e02a7fe",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 17.0,
+          "active" : true
+        }, {
+          "name" : "Tropicamide Eye Drop 1% 1x5ml",
+          "uuid" : "9656f495-1c39-495d-8e92-35b1a8b68432",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 360.0,
+          "active" : true
+        }, {
+          "name" : "Amoxicillin+Clavulinic acid Injection 600mg 1x1Vial",
+          "uuid" : "8aa5d223-df55-4622-83c9-866b3d91e6ae",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 31.0,
+          "active" : true
+        }, {
+          "name" : "Ampicillin Powder for suspension 125mg/5ml 1x30ml",
+          "uuid" : "a65aa570-4ca7-4233-b879-4dc3870f83e2",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 41.0,
+          "active" : true
+        }, {
+          "name" : "Acetyl Salicylic Acid(Entric Coated) Tablet 350mg 1x10x10",
+          "uuid" : "598d4327-d570-4ce1-b12d-6403495c63f7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 7.0,
+          "active" : true
+        }, {
+          "name" : "Medroxy Progesterone Acetate Tablet 10mg 1x10x10",
+          "uuid" : "97c649e5-e120-418b-a70b-6debd76a3709",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 233.0,
+          "active" : true
+        }, {
+          "name" : "Ondansetron Tablet 4mg 1x10x10",
+          "uuid" : "f494a53c-66e9-4fd9-a260-6c17f107b454",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 269.0,
+          "active" : true
+        }, {
+          "name" : "Benzathine penicillin Injection 12lacs 1x1Vial",
+          "uuid" : "89688059-beef-4ddf-b5f0-5014c7dc2f3e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 60.0,
+          "active" : true
+        }, {
+          "name" : "Cefadroxil Tablet 500mg 1x10x10",
+          "uuid" : "56c8f000-b6d5-4409-a1e9-a51684c32393",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 89.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin A Capsule 100000 IU 1x10x10",
+          "uuid" : "31c75d69-909c-4394-8a3c-69087ab776e7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 365.0,
+          "active" : true
+        }, {
+          "name" : "Ciprofloxacin Hydrochloride Tablet 500mg 1x10x10",
+          "uuid" : "a7bf067b-5bfb-4208-b667-f6ae2c6cb63d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 117.0,
+          "active" : true
+        }, {
+          "name" : "Ampicillin Powder for Injection. 1g 1x1",
+          "uuid" : "0225fe36-aa81-43d4-995e-7ccc52485f2a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 40.0,
+          "active" : true
+        }, {
+          "name" : "Dinoprostone Tablet 0.5mg 1x4x10",
+          "uuid" : "385b5123-ad8b-4c97-8711-5e52f033a025",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 156.0,
+          "active" : true
+        }, {
+          "name" : "Calcium Dobesilate 0.25%w/w+Zinc 5%w/w,Hydrocortisone 0.25%w/w+Lignocaine 3%w/w Cream 0.25% w/w + 5% w/w,0.25% w/w + 3% w/w 1x30gm",
+          "uuid" : "e305fb40-c3a4-4986-823d-b3d56c516e6a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 79.0,
+          "active" : true
+        }, {
+          "name" : "Dextrose Injection 25% 1x100ml",
+          "uuid" : "94ec0e98-39fd-4388-bf03-bdb307562f3c",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 135.0,
+          "active" : true
+        }, {
+          "name" : "Ambroxol Syrup 30mg/5ml 1x100ml",
+          "uuid" : "52b6a45a-357e-4617-9c46-fe114df2ece3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 21.0,
+          "active" : true
+        }, {
+          "name" : "Ofloxacin + dexamethasone phosphate Drops 0.3 + 0.1%w/v 1x5ml",
+          "uuid" : "ee49d8b3-d773-4acf-87e8-e38dcc02fd49",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 262.0,
+          "active" : true
+        }, {
+          "name" : "Chloroquine phosphate Syrup 50mg/5ml 1x60ml",
+          "uuid" : "7ba46c7d-cd33-49e4-a296-afb2a3ff57fd",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 110.0,
+          "active" : true
+        }, {
+          "name" : "Propranolol hydrochloride Tablet 40mg 1x10x10",
+          "uuid" : "8030319c-00dc-41f9-9c32-ffff7fd38e1a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 313.0,
+          "active" : true
+        }, {
+          "name" : "Gentamycin Eye/Ear Drops 0.30% 1x5ml",
+          "uuid" : "b89d52e0-7699-4b2b-83d9-9074e677f640",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 188.0,
+          "active" : true
+        }, {
+          "name" : "Clotrimazole (Dusting) Powder 1%w/w 1x30g",
+          "uuid" : "58c706f4-cfa6-4935-9680-97068579c266",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 122.0,
+          "active" : true
+        }, {
+          "name" : "Tobramycin Eye Drops 0.30% 1x1",
+          "uuid" : "4288fb87-470a-42fe-bb09-90102ba47e74",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 353.0,
+          "active" : true
+        }, {
+          "name" : "Wax dissolving solution Solution Contains parachloro benzene 2%w/v, benzocaine i.p.7w/v, chlorbutol 5%. turpentine oil Nil",
+          "uuid" : "9662f664-6cc6-4e00-aa0b-dc2672fbe07f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 374.0,
+          "active" : true
+        }, {
+          "name" : "Benzoyl peroxide Gel 2.5% 1x20g",
+          "uuid" : "8444e951-936a-4438-afc7-61435b8cf604",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 63.0,
+          "active" : true
+        }, {
+          "name" : "Clopidogrel Tablet 75mg 1x10x10",
+          "uuid" : "531d0aa4-a715-4bfd-bb1e-420a4d167330",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 121.0,
+          "active" : true
+        }, {
+          "name" : "Riboflavin Tablet 5mg 1x10x10",
+          "uuid" : "d7beaa11-42da-49a7-8237-3a6e8e5cbd0b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 320.0,
+          "active" : true
+        }, {
+          "name" : "Fluconazole Capsule 150mg 1x10x10",
+          "uuid" : "1b6f9bed-f583-4f07-b840-b4eb0f8d364a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 177.0,
+          "active" : true
+        }, {
+          "name" : "Succinyl choline chloride Injection 50mg/ml 1x1Vial",
+          "uuid" : "97d41fa5-e8d3-4d5c-9c7a-6ac7bce2d42b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 343.0,
+          "active" : true
+        }, {
+          "name" : "Trihexyphenidyl Hydrochloride Tablet 2mg 1 X 10 X 10 IP/BP/USP",
+          "uuid" : "6742ffa1-31bd-4816-81b0-b760b1935938",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 358.0,
+          "active" : true
+        }, {
+          "name" : "Frusemide Tablet 40mg 1x10x10",
+          "uuid" : "c0d71b34-5a85-4607-9a4c-9a654d4f24b3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 186.0,
+          "active" : true
+        }, {
+          "name" : "Mifepristone Tablet 200mg 1x1",
+          "uuid" : "58a2c2a8-a24a-4cf6-bc29-71a4fc60fe58",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 252.0,
+          "active" : true
+        }, {
+          "name" : "Labetolol Tablet 100mg 1x10x10",
+          "uuid" : "d5949fb3-4f4f-4295-8619-ef6a09350012",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 215.0,
+          "active" : true
+        }, {
+          "name" : "Cefotaxime Injection 1 gm IP/BP/USP 1x1Vial",
+          "uuid" : "c4daecec-7e79-4c34-9abd-f6d7b1d3d2d9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 94.0,
+          "active" : true
+        }, {
+          "name" : "Phenytoin Sodium Suspension 25mg/ml 1x100ml",
+          "uuid" : "c6806212-5f14-4367-ba7c-d9344ad1398d",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 296.0,
+          "active" : true
+        }, {
+          "name" : "Lignocaine Eye Drop 4% 1x5ml",
+          "uuid" : "9bc6531e-4e51-4f1a-9b1b-a167d9c59f63",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 222.0,
+          "active" : true
+        }, {
+          "name" : "Theophylline + Etophylline Syrup 23mg+77mg 1x60ml",
+          "uuid" : "3831f750-8b89-4258-a673-ded5eaa065ab",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 347.0,
+          "active" : true
+        }, {
+          "name" : "Spironolactone Tablet 50mg 1x10x10",
+          "uuid" : "5c326695-6782-4ac1-8653-0ad0c6b693fa",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 342.0,
+          "active" : true
+        }, {
+          "name" : "Lactobacillus rhamnosus GR-1 & lactobacillus Reuteri RC Capsule 14 Billion CFU IP/BP/USP 1x10",
+          "uuid" : "673794c6-0581-4972-bbdf-5bcb794ffa1e",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 216.0,
+          "active" : true
+        }, {
+          "name" : "Ciprofloxacin Hydrochloride Injection 200mg/100 ml 1x100ml",
+          "uuid" : "485d00bd-f6c6-4ba7-a29b-b1abc4957463",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 115.0,
+          "active" : true
+        }, {
+          "name" : "Clozapine Tablet 100mg 1x10x10",
+          "uuid" : "91cd85d6-4ad5-4cd1-ad09-fbfdb90b0648",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 127.0,
+          "active" : true
+        }, {
+          "name" : "Amoxicillin+Clavulinic acid Powder for suspension 200mg + 28.5mg/5ml 1x30ml",
+          "uuid" : "dcee9b45-e4c6-42a9-ae21-d383bf2b54e3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 32.0,
+          "active" : true
+        }, {
+          "name" : "Gentamicin Injection 40mg/ml 1x2ml",
+          "uuid" : "2ab79224-3112-48cc-b692-4213919a3f9a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 187.0,
+          "active" : true
+        }, {
+          "name" : "Diptheria and Tetanus Vaccine .5ML Vaccine NA 1x1",
+          "uuid" : "440d4153-001f-47d7-bd61-7973391c30f9",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 157.0,
+          "active" : true
+        }, {
+          "name" : "Bovine Lipid Extract Surfactant Suspension 5ml-Each ML Contains Phospholipid Surfactant Suspension 27mg 1x5ml",
+          "uuid" : "88a27f2f-4d54-4562-8ede-c38106cd9830",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 71.0,
+          "active" : true
+        }, {
+          "name" : "Erythromycin Estolate Syrup 125mg/5ml 1x60ml",
+          "uuid" : "e3e9b193-31ff-49ac-994f-45e7e32eb9b6",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 165.0,
+          "active" : true
+        }, {
+          "name" : "Calcium Gluconate Injection 100mg/ml 1x10ml",
+          "uuid" : "23e1b259-5ecd-4ea2-87f4-62eb95116d6f",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 80.0,
+          "active" : true
+        }, {
+          "name" : "IRON and FOLIC ACID Tablets Large(Each sugar coated Tablet)contains dried ferrous sulphate IP (Eq to 60 mg of Elemental Iron and folic acid 500mcg(sugar coated and RED colour) Tablet 60mg + 500mcg 1x10x10",
+          "uuid" : "a2751725-7ffc-4c86-9a30-9b4507b62aa8",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 207.0,
+          "active" : true
+        }, {
+          "name" : "Dabigatran Tablet 110 mg IP/BP/USP 1x10x10",
+          "uuid" : "52794ea7-a6c6-4f93-925b-0c8565b4ab21",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 132.0,
+          "active" : true
+        }, {
+          "name" : "Vitamin A Injection 50,000IU/ml 1x2ml",
+          "uuid" : "a692312c-c2bb-474c-b441-7a817c5ad948",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 368.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "03f6c172-4bdc-4a05-b5f0-7329e05624df",
+      "mandatory" : true
+    }, {
+      "name" : "Drug Quantity",
+      "uuid" : "c5aab0c3-be0b-40dc-9aed-548cb8776260",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Drug Quantity",
+        "uuid" : "a876c1b6-ca10-4b4e-88e6-72e45b58b22d",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "03f6c172-4bdc-4a05-b5f0-7329e05624df",
+      "mandatory" : true
+    }, {
+      "name" : "Batch Number",
+      "uuid" : "6b5c6a24-0085-4ad7-8ca6-59471689fde8",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Batch Number",
+        "uuid" : "a17fe564-ab85-43a7-aa8c-62441081e479",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "03f6c172-4bdc-4a05-b5f0-7329e05624df",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

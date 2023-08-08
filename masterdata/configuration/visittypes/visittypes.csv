@@ -1,5 +1,5 @@
 Uuid,Void/Retire,Name,Description,_version:1
-,,OPD New,New Visit for Out patient,
-,,OPD Review,Review Visit for Out patient,
-,True,LAB VISIT,Visits for lab visit by patient when the tests are not ordered through OpenMRS,
-d57ff862-dda2-41ff-b607-9dd97a5e3039,,Community Visit,Visits happening in Community from Offline App,
+75ca880b-2c26-435c-868a-b294ffcfad39,,OPD New,New Visit for Out patient,
+bdd4d8cd-4fe1-445f-a980-a0eaf45903f4,,OPD Review,Review Visit for Out patient,
+23c204b1-068e-44d9-8bfa-a753e05d14f5,True,LAB VISIT,Visits for lab visit by patient when the tests are not ordered through OpenMRS,
+d57ff862-dda2-41ff-b607-9dd97a5e3039,True,Community Visit,Visits happening in Community from Offline App,

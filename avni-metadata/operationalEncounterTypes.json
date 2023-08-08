@@ -39,5 +39,37 @@
     },
     "name" : "Attendance form",
     "voided" : false
+  }, {
+    "uuid" : "1e054e3a-6cc0-49af-ae27-3852cfd12d95",
+    "encounterType" : {
+      "uuid" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
+      "voided" : false
+    },
+    "name" : "Prescriptions",
+    "voided" : false
+  }, {
+    "uuid" : "6a8718eb-9676-4f5c-92b8-9237c51e0d1c",
+    "encounterType" : {
+      "uuid" : "fa7796d7-3d46-49a2-8495-55501eed7735",
+      "voided" : false
+    },
+    "name" : "Dispense Medication",
+    "voided" : false
+  }, {
+    "uuid" : "9a5349af-38af-426f-869b-6c9998a515c8",
+    "encounterType" : {
+      "uuid" : "84722bf4-f72d-44a8-b881-fac99ade2811",
+      "voided" : false
+    },
+    "name" : "Hospital Diagnoses",
+    "voided" : false
+  }, {
+    "uuid" : "bebc4f28-576f-4a83-a403-5dc58706b6d5",
+    "encounterType" : {
+      "uuid" : "803a0530-969b-45d5-b96d-263bcb402c83",
+      "voided" : false
+    },
+    "name" : "Hospital Vitals",
+    "voided" : false
   } ]
 }

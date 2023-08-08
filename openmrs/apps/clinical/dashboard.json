@@ -62,7 +62,7 @@
         "customLinks": [
           {
               "translationKey": "ESANJEEVANI_KEY",
-              "url": "https://uat.esanjeevani.in"
+              "url": "/bahmni_config/esanjeevani?patientUuid={{patientUuid}}"
           }
       ]
       },
@@ -144,6 +144,7 @@
         "dashboardConfig": {
           "showDetailsButton": true,
           "conceptNames": [
+            "Chief Complaint Record",
             "Chief Complaint Data",
             "History of present illness",
             "Smoking status",
@@ -154,6 +155,7 @@
         },
         "expandedViewConfig": {
           "conceptNames": [
+            "Chief Complaint Record",
             "Chief Complaint Data",
             "History of present illness",
             "Smoking status",

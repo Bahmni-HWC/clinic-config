@@ -1,0 +1,32 @@
+{
+  "name" : "Hospital Diagnoses Encounter",
+  "uuid" : "abb12258-ee2a-4edd-ba89-cc6cf723a4f2",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "fa89b9bd-8c54-470d-a01e-8f0d595e2fb9",
+    "name" : "Diagnoses Details",
+    "displayOrder" : 1.0,
+    "display" : "Diagnoses Details",
+    "formElements" : [ {
+      "name" : "Diagnoses",
+      "uuid" : "4811f4e8-0919-42e7-a162-3c5a61e011c7",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Diagnoses",
+        "uuid" : "33b3a5c3-bd72-45f9-8c4a-03b3f597745c",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

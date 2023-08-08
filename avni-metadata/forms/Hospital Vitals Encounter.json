@@ -1,15 +1,15 @@
 {
-  "name" : "Vitals Encounter",
-  "uuid" : "61f36d5c-ebca-4a0f-bf9d-ca37750f7d35",
+  "name" : "Hospital Vitals Encounter",
+  "uuid" : "0b4ad548-2c6f-4d2e-aa93-2567a1aa71bd",
   "formType" : "Encounter",
   "formElementGroups" : [ {
-    "uuid" : "040bc268-9982-4bdf-9c4a-71e5e860305a",
+    "uuid" : "1af20d75-95e5-49ac-975e-00bb3c187418",
     "name" : "Vitals",
     "displayOrder" : 1.0,
     "display" : "Vitals",
     "formElements" : [ {
       "name" : "Temperature",
-      "uuid" : "fb5ab0cb-3360-40b2-9974-e9f2829791c5",
+      "uuid" : "6cf90f2a-1599-4a01-b438-46104a1acb2a",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Temperature",
@@ -26,7 +26,7 @@
       "mandatory" : false
     }, {
       "name" : "Respiratory rate",
-      "uuid" : "4fa008b5-b4b7-48de-a458-122a33e7197b",
+      "uuid" : "a7fa95af-704f-44c6-9953-32d521b1f483",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Respiratory rate",
@@ -44,7 +44,7 @@
       "mandatory" : false
     }, {
       "name" : "Blood Pressure",
-      "uuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
+      "uuid" : "18004865-29ad-4c8e-8d73-7030ac5b83e6",
       "keyValues" : [ {
         "key" : "repeatable",
         "value" : true
@@ -64,7 +64,7 @@
       "mandatory" : false
     }, {
       "name" : "Systolic blood pressure",
-      "uuid" : "3149b483-d0f3-475e-8e60-51e713bdc735",
+      "uuid" : "784536d9-c6a5-4086-b21f-d26d68e2482e",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Systolic blood pressure",
@@ -79,11 +79,11 @@
       },
       "displayOrder" : 4.0,
       "type" : "SingleSelect",
-      "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
+      "parentFormElementUuid" : "18004865-29ad-4c8e-8d73-7030ac5b83e6",
       "mandatory" : false
     }, {
       "name" : "Diastolic blood pressure",
-      "uuid" : "df733be0-4313-4ebe-8bf4-ddbf326990f5",
+      "uuid" : "956f2160-7915-4e7b-ac66-823c5b1a8f2c",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Diastolic blood pressure",
@@ -98,11 +98,11 @@
       },
       "displayOrder" : 5.0,
       "type" : "SingleSelect",
-      "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
+      "parentFormElementUuid" : "18004865-29ad-4c8e-8d73-7030ac5b83e6",
       "mandatory" : false
     }, {
       "name" : "Body Position",
-      "uuid" : "bcc3f961-e689-46c8-9ba0-bb5ecf60932c",
+      "uuid" : "bd3444e5-9b2c-44a1-8703-a4f9ca94c255",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Body Position",
@@ -155,30 +155,11 @@
       },
       "displayOrder" : 6.0,
       "type" : "SingleSelect",
-      "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
+      "parentFormElementUuid" : "18004865-29ad-4c8e-8d73-7030ac5b83e6",
       "mandatory" : false
     }, {
-      "name" : "Diastolic blood pressure",
-      "uuid" : "31ee8409-20e4-4b64-8bb6-9157f4c3c7bc",
-      "keyValues" : [ ],
-      "concept" : {
-        "name" : "Diastolic blood pressure",
-        "uuid" : "38bbf12b-0360-4558-8dfa-0bac59e3b326",
-        "dataType" : "Numeric",
-        "answers" : [ ],
-        "highAbsolute" : 150.0,
-        "lowNormal" : 60.0,
-        "highNormal" : 90.0,
-        "active" : true,
-        "keyValues" : [ ]
-      },
-      "displayOrder" : 7.0,
-      "type" : "SingleSelect",
-      "mandatory" : false,
-      "voided" : true
-    }, {
       "name" : "Systolic blood pressure",
-      "uuid" : "31010a2c-e4e8-4cb4-87d3-56316112cd7f",
+      "uuid" : "0f8c2ebe-708c-416f-96d8-70c6b23b4187",
       "keyValues" : [ ],
       "concept" : {
         "name" : "Systolic blood pressure",
@@ -188,6 +169,25 @@
         "highAbsolute" : 250.0,
         "lowNormal" : 100.0,
         "highNormal" : 140.0,
+        "active" : true,
+        "keyValues" : [ ]
+      },
+      "displayOrder" : 7.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Diastolic blood pressure",
+      "uuid" : "a9c92367-fad7-43ce-9901-b4a1981a7da2",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Diastolic blood pressure",
+        "uuid" : "38bbf12b-0360-4558-8dfa-0bac59e3b326",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "highAbsolute" : 150.0,
+        "lowNormal" : 60.0,
+        "highNormal" : 90.0,
         "active" : true,
         "keyValues" : [ ]
       },
