@@ -499,14 +499,12 @@
         </sql>
     </changeSet>
 
-    <changeSet id="GOK-236-update-inv-StockRooms"  author="Inventory">
+    <changeSet id="GOK-263-update-inv-StockRooms"  author="Inventory">
         <preConditions onFail="MARK_RAN">
-            <sqlCheck expectedResult="1">select count(*) from location where name = 'Hosakote Namma Clinic'</sqlCheck>
+            <sqlCheck expectedResult="1">select count(*) from inv_stockroom where name = 'Hosakote Nama Clinic StockRoom'</sqlCheck>
         </preConditions>
         <comment>Updating a Stock Rooms in the inventory Module</comment>
         <sql>
-            select location_id  into @locationidHNamaClinic from location where name = 'Hosakote Namma Clinic';
-
             UPDATE inv_stockroom
             SET name = 'Hosakote Namma Clinic StockRoom'
             WHERE name = 'Hosakote Nama Clinic StockRoom';
