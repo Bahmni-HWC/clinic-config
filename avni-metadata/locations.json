@@ -202,4 +202,22 @@
   },
   "type" : "City/village",
   "addressLevelTypeUUID" : "01dab440-583d-44af-8e26-a6616dcf6801"
+}, {
+  "uuid" : "4b7a142e-e075-44a4-84e8-6800e8bb07a3",
+  "name" : "DINNENAHALLI",
+  "level" : 4.0,
+  "parent" : {
+    "uuid" : "7b7a587c-f9e3-4f09-b885-675e8e6bdc6a"
+  },
+  "type" : "City/village",
+  "addressLevelTypeUUID" : "01dab440-583d-44af-8e26-a6616dcf6801"
+}, {
+  "uuid" : "86a9e073-6c17-460b-b564-d774bec5a4fe",
+  "name" : "GEDDALAHALLIPURA",
+  "level" : 4.0,
+  "parent" : {
+    "uuid" : "7b7a587c-f9e3-4f09-b885-675e8e6bdc6a"
+  },
+  "type" : "City/village",
+  "addressLevelTypeUUID" : "01dab440-583d-44af-8e26-a6616dcf6801"
 } ]
