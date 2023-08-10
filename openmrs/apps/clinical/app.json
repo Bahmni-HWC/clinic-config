@@ -18,13 +18,6 @@
                 "nonCodedConceptName":"Non-Coded Chief Complaint",
                 "durationRequired": false,
                 "allowAddMore": true
-            },
-            "Chief Complaint Record": {
-                "autocomplete":true,
-                "codedConceptName":"Chief Complaint Coded",
-                "nonCodedConceptName":"Chief complaint (text)",
-                "durationRequired": false,
-                "allowAddMore": true
             }
         },
         "patientContext": {
