@@ -434,6 +434,28 @@
         </sql>
     </changeSet>
 
+    <!--Updating RCH ID to make it NON_UNIQUE -->
+    <changeSet id="Updating-RCH-ID-IdentifierType-GOK-296"  author="Deepti">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">select count(*) from patient_identifier_type where name='RCH ID' AND uniqueness_behavior='UNIQUE'</sqlCheck>
+        </preConditions>
+        <comment>Updating RCH ID to make it NON_UNIQUE</comment>
+        <sql>
+            UPDATE patient_identifier_type SET uniqueness_behavior = 'NON_UNIQUE' WHERE name = 'RCH ID';
+        </sql>
+    </changeSet>
+
+        <!--Updating Nikshay ID to make it NON_UNIQUE -->
+    <changeSet id="Updating-Nikshay-ID-IdentifierType-GOK-296"  author="Deepti">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">select count(*) from patient_identifier_type where name='Nikshay ID' AND uniqueness_behavior='UNIQUE'</sqlCheck>
+        </preConditions>
+        <comment>Updating Nikshay ID to make it NON_UNIQUE</comment>
+        <sql>
+            UPDATE patient_identifier_type SET uniqueness_behavior = 'NON_UNIQUE' WHERE name = 'Nikshay ID';
+        </sql>
+    </changeSet>
+
     <!-- Updating RCH ID-->
     <changeSet id="updating-RCH-ID-globalProperty-GOK-157"  author="Pooja">
         <preConditions onFail="MARK_RAN">
@@ -457,6 +479,8 @@
             update global_property set property_value=(SELECT CONCAT(IF(ISNULL(property_value),'',CONCAT(property_value,',')),uuid) from patient_identifier_type where name = 'Nikshay ID') where property = 'bahmni.extraPatientIdentifierTypes';
         </sql>
     </changeSet>
+
+
 
     <changeSet id="GOK-193-inv-Department"  author="Inventory">
         <preConditions onFail="MARK_RAN">
