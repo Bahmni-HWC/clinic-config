@@ -1,5 +1,24 @@
 {
   "catchments" : [ {
+    "name" : "Anupahalli SC1",
+    "uuid" : "268de78e-b3a4-48f8-843b-8b5530fe0183",
+    "locations" : [ {
+      "uuid" : "2ccaf715-6d4f-4221-b771-ff8dc3d18c8f"
+    }, {
+      "uuid" : "9abd5d01-95f2-4abd-aa2d-c405960ecb49"
+    }, {
+      "uuid" : "7807c442-6b21-4bc2-b464-a6c0a6000db1"
+    }, {
+      "uuid" : "cf693c77-da53-4c08-8f8b-6346e234cbaf"
+    }, {
+      "uuid" : "59e25052-39df-40d5-b1ec-e66d11160c71"
+    }, {
+      "uuid" : "2849c893-1964-43a2-9c77-8edaae967fae"
+    }, {
+      "uuid" : "2b0fa200-a86f-4e65-89e1-5a999d1c32b7"
+    } ],
+    "voided" : false
+  }, {
     "name" : "Nandagudi SC1",
     "uuid" : "747e8d49-351a-434c-a347-55ddb0db4e92",
     "locations" : [ {
@@ -14,42 +33,27 @@
     "name" : "Nandagudi SC2",
     "uuid" : "dfea2dc2-5cef-4edb-9262-bc3ad6b79ca7",
     "locations" : [ {
-      "uuid" : "e1907943-f45b-404d-86c7-d46dd9e93289"
-    }, {
-      "uuid" : "48f2ea78-e1ce-4404-ade4-b059731955d9"
-    }, {
-      "uuid" : "4cb51178-c508-4351-8044-c0d5cffb2f4d"
-    }, {
       "uuid" : "a68210a0-2177-4b0f-880c-51d7b8c996d2"
+    }, {
+      "uuid" : "e1907943-f45b-404d-86c7-d46dd9e93289"
     }, {
       "uuid" : "965be66c-67a4-4341-abc7-73ba03f2d75c"
     }, {
+      "uuid" : "003a96c1-6cf5-4705-8f7a-76670b6115d4"
+    }, {
       "uuid" : "5d15822e-fcf0-438a-988e-1d739b21d02a"
     }, {
-      "uuid" : "418177ef-2645-4189-89e7-d952216b396f"
+      "uuid" : "48f2ea78-e1ce-4404-ade4-b059731955d9"
     }, {
       "uuid" : "a94d40f2-91cb-46d6-b878-64ac1478256e"
     }, {
-      "uuid" : "003a96c1-6cf5-4705-8f7a-76670b6115d4"
-    } ],
-    "voided" : false
-  }, {
-    "name" : "Anupahalli SC1",
-    "uuid" : "268de78e-b3a4-48f8-843b-8b5530fe0183",
-    "locations" : [ {
-      "uuid" : "59e25052-39df-40d5-b1ec-e66d11160c71"
+      "uuid" : "86a9e073-6c17-460b-b564-d774bec5a4fe"
     }, {
-      "uuid" : "2b0fa200-a86f-4e65-89e1-5a999d1c32b7"
+      "uuid" : "4b7a142e-e075-44a4-84e8-6800e8bb07a3"
     }, {
-      "uuid" : "7807c442-6b21-4bc2-b464-a6c0a6000db1"
+      "uuid" : "418177ef-2645-4189-89e7-d952216b396f"
     }, {
-      "uuid" : "2849c893-1964-43a2-9c77-8edaae967fae"
-    }, {
-      "uuid" : "2ccaf715-6d4f-4221-b771-ff8dc3d18c8f"
-    }, {
-      "uuid" : "9abd5d01-95f2-4abd-aa2d-c405960ecb49"
-    }, {
-      "uuid" : "cf693c77-da53-4c08-8f8b-6346e234cbaf"
+      "uuid" : "4cb51178-c508-4351-8044-c0d5cffb2f4d"
     } ],
     "voided" : false
   } ]
