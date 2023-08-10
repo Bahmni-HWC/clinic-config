@@ -7,7 +7,7 @@
         }
     ],
     "config": {
-		"preferExtraIdInSearchResults": true,
+		"preferExtraIdInSearchResults": false,
         "allowAdhocTeleConsultation": false,
         "defaultVisitType":"OPD New",
         "teleConsultationDomain": "meet.jit.si",
