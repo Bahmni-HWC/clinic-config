@@ -99,6 +99,7 @@
                 "displayOrder":2,
                 "config":{
                     "conceptNames":[
+                        "Chief Complaint Record",
                         "Chief Complaint Data",
                         "History of present illness",
                         "Smoking status",
