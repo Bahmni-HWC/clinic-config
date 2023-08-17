@@ -3,42 +3,66 @@
   	<globalProperty>
       <property>emrapi.sqlSearch.referredPatients</property>
       <value>
-        SELECT CONCAT(pn.given_name, ' ', IFNULL(pn.middle_name, ''), ' ', IFNULL(pn.family_name, '')) AS "name",
-            primaryIdentifier.identifier AS identifier,
-            IF(extraIdentifier.identifier IS NULL OR extraIdentifier.identifier = '', primaryIdentifier.identifier, extraIdentifier.identifier) AS "extraIdentifierVal",
-            CONCAT("", p.uuid) AS uuid
-        FROM person_name pn
-        JOIN person p ON p.person_id = pn.person_id
-        JOIN (
-            SELECT pri.patient_id, pri.identifier 
-            FROM patient_identifier pri 
-            JOIN patient_identifier_type pit ON pri.identifier_type = pit.patient_identifier_type_id 
-            JOIN global_property gp ON gp.property = "bahmni.primaryIdentifierType" AND gp.property_value = pit.uuid
-        ) primaryIdentifier ON pn.person_id = primaryIdentifier.patient_id 
-        LEFT OUTER JOIN (
-            SELECT ei.patient_id, ei.identifier 
-            FROM patient_identifier ei 
-            JOIN patient_identifier_type pit ON ei.identifier_type = pit.patient_identifier_type_id 
-            JOIN global_property gp ON gp.property = "bahmni.extraPatientIdentifierTypes" AND pit.uuid = LEFT(gp.property_value, 36)
-        ) extraIdentifier ON pn.person_id = extraIdentifier.patient_id 
-        JOIN (
-            SELECT person_id, MAX(obs_datetime) AS latest_obs_datetime
-            FROM obs
-            WHERE concept_id = (
-                SELECT concept_id
-                FROM concept_name
-                WHERE name LIKE 'Referred to'
-                LIMIT 1
+            SELECT CONCAT(pn.given_name, ' ', IFNULL(pn.middle_name, ''), ' ', IFNULL(pn.family_name, '')) AS "name",
+                primaryIdentifier.identifier AS identifier,
+                IF(extraIdentifier.identifier IS NULL OR extraIdentifier.identifier = '', primaryIdentifier.identifier, extraIdentifier.identifier) AS "extraIdentifierVal",
+                CONCAT("", p.uuid) AS uuid
+            FROM person_name pn
+            JOIN person p ON p.person_id = pn.person_id
+            JOIN (
+                SELECT pri.patient_id, pri.identifier 
+                FROM patient_identifier pri 
+                JOIN patient_identifier_type pit ON pri.identifier_type = pit.patient_identifier_type_id 
+                JOIN global_property gp ON gp.property = "bahmni.primaryIdentifierType" AND gp.property_value = pit.uuid
+            ) primaryIdentifier ON pn.person_id = primaryIdentifier.patient_id 
+            LEFT OUTER JOIN (
+                SELECT ei.patient_id, ei.identifier 
+                FROM patient_identifier ei 
+                JOIN patient_identifier_type pit ON ei.identifier_type = pit.patient_identifier_type_id 
+                JOIN global_property gp ON gp.property = "bahmni.extraPatientIdentifierTypes" AND pit.uuid = LEFT(gp.property_value, 36)
+            ) extraIdentifier ON pn.person_id = extraIdentifier.patient_id 
+            WHERE pn.person_id IN (
+                SELECT person_id
+                FROM obs
+                WHERE concept_id = (
+                    SELECT concept_id
+                    FROM concept_name
+                    WHERE name LIKE 'Referred to'
+                    LIMIT 1
+                )
+                AND value_complex = (
+                    SELECT location_id
+                    FROM location l
+                    WHERE l.uuid = ${visit_location_uuid}
+                )
+                AND person_id NOT IN (
+                    SELECT patient_id
+                    FROM encounter en
+                    WHERE en.location_id = (
+                        SELECT location_id
+                        FROM location l
+                        WHERE l.uuid = ${visit_location_uuid}
+                    )
+                    AND en.encounter_datetime > obs.obs_datetime
+                )
+                AND obs_datetime > DATE_SUB(NOW(), INTERVAL 1 WEEK) 
             )
-            AND value_complex = (
-                SELECT location_id
-                FROM location l
-                WHERE l.uuid = ${visit_location_uuid}
-            )
-            AND obs_datetime > DATE_SUB(NOW(), INTERVAL 1 WEEK) 
-            GROUP BY person_id
-        ) latestReferral ON pn.person_id = latestReferral.person_id
-        ORDER BY latestReferral.latest_obs_datetime DESC;
+            ORDER BY (
+                SELECT MAX(obs_datetime)
+                FROM obs o
+                WHERE o.person_id = pn.person_id
+                AND o.concept_id = (
+                    SELECT cn.concept_id
+                    FROM concept_name cn
+                    WHERE cn.name LIKE 'Referred to'
+                    LIMIT 1
+                )
+                AND o.value_complex = (
+                    SELECT l.location_id
+                    FROM location l
+                    WHERE l.uuid = ${visit_location_uuid}
+                )
+            ) DESC;
       </value>
     </globalProperty>
   </globalProperties>
