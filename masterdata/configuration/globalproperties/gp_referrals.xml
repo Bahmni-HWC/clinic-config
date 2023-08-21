@@ -46,7 +46,23 @@
                     AND en.encounter_datetime > obs.obs_datetime
                 )
                 AND obs_datetime > DATE_SUB(NOW(), INTERVAL 1 WEEK) 
-            );
+            )
+            ORDER BY (
+                SELECT MAX(obs_datetime)
+                FROM obs o
+                WHERE o.person_id = pn.person_id
+                AND o.concept_id = (
+                    SELECT cn.concept_id
+                    FROM concept_name cn
+                    WHERE cn.name LIKE 'Referred to'
+                    LIMIT 1
+                )
+                AND o.value_complex = (
+                    SELECT l.location_id
+                    FROM location l
+                    WHERE l.uuid = ${visit_location_uuid}
+                )
+            ) DESC;
       </value>
     </globalProperty>
   </globalProperties>
