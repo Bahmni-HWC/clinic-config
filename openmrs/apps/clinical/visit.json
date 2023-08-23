@@ -50,6 +50,16 @@
                     "numberOfVisits":5,
                     "showOtherActive":true
                 }
+            },
+            "Observations": {
+                "type": "observation",
+                "translationKey": "VISIT_TITLE_OBSERVATIONS_KEY",
+                "displayOrder": 2,
+                "config": {
+                    "numberOfVisits": 1,
+                    "conceptNames": ["History of present illness","Chief Complaint Record","Smoking status","Temperature","Respiratory rate","Diastolic blood pressure","Systolic blood pressure","Return visit date","Reason for visit"],
+                    "showDetailsButton": true
+                }
             }
         },
         "encounterContext": {
