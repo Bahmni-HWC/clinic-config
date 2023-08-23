@@ -122,7 +122,6 @@
     "url": "/inventory",
     "icon": "fa-plus-square",
     "order": 7,
-    "target": "_blank",
     "requiredPrivilege": "app:inventory"
   }
 }
