@@ -31,7 +31,8 @@
             "Temperature",
             "Systolic blood pressure",
             "Diastolic blood pressure",
-            "Body position"
+            "Body position",
+            "Serum glucose"
           ]
         },
         "allFlowSheetDetails": {
