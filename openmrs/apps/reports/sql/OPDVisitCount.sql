@@ -1,7 +1,9 @@
 SELECT
     location,
     IFNULL(SUM(IF(visit_type_name = 'OPD New', 1, 0)), 0) AS OPD,
-    IFNULL(SUM(IF(visit_type_name = 'OPD Review', 1, 0)), 0) AS Review
+    IFNULL(SUM(IF(visit_type_name = 'OPD Review', 1, 0)), 0) AS Review,
+    IFNULL(SUM(IF(visit_type_name = 'Community Visit', 1, 0)), 0) AS Community
+
 FROM
     (
         SELECT
