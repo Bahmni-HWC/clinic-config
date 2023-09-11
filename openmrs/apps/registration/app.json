@@ -35,9 +35,9 @@
         ],
         "fieldValidation" : {
             "email" : {"pattern" : "^(?=.{1,40}$)(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,4})$", "errorMessage" : "Should be a valid email address"},
-            "familyName" : {"pattern" : "[a-zA-Z. ]{0,}", "errorMessage" : "The last name should contain only alphabets without space."},
-            "givenName" : {"pattern" : "[a-zA-Z. ]{0,}", "errorMessage" : "The first name should contain only alphabets without space."},
-            "middleName" : {"pattern" : "[a-zA-Z. ]{0,}", "errorMessage" : "The Middle name should contain only alphabets without space."},
+            "familyName" : {"pattern" : "[a-zA-Z. ]{0,}", "errorMessage" : "The last name should contain only alphabets, space and dot(.)."},
+            "givenName" : {"pattern" : "[a-zA-Z. ]{0,}", "errorMessage" : "The first name should contain only alphabets, space and dot(.)"},
+            "middleName" : {"pattern" : "[a-zA-Z. ]{0,}", "errorMessage" : "The Middle name should contain only alphabets, space and dot(.)"},
             "phoneNumber" : {"pattern" : "^([1-9]{1}[0-9]{9})$", "errorMessage" : "Phone Number should be 10 digits"},
             "alternatePhoneNumber" : {"pattern" : "^([1-9]{1}[0-9]{9})$", "errorMessage" : "Phone Number should be 10 digits"},
             "address1":{"pattern":"^[a-zA-Z0-9\\s'\\-\\/]{1,}", "errorMessage":"Only Alphanumerics and following special characters are allowed. Special characters - [ '-/]"},
