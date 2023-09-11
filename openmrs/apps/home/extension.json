@@ -54,14 +54,14 @@
   },
   "ndhmHIU": {
   "id": "bahmni.ndhm.hiu",
-  "extensionPointId": "org.bahmni.home.dashboard",
+  "extensionPointId": "",
   "type": "link",
   "translationKey": "MODULE_LABEL_NDHMHIU_KEY",
   "url": "/hiuser",
   "icon": "fa fa-hospital-o",
   "order": 6,
   "requiredPrivilege": "app:abdm"
-},
+  },
   "labLite": {
     "id": "bahmni.lab",
     "extensionPointId": "org.bahmni.home.dashboard",
