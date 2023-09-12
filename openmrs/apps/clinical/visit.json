@@ -25,7 +25,8 @@
                         "Arterial blood oxygen saturation (pulse oximeter)",
                         "Height (cm)",
                         "Weight (kg)",
-                        "M/C Days"
+                        "M/C Days",
+                        "Serum glucose"
                     ],
                     "labConcepts": ""
                 }
@@ -98,7 +99,8 @@
                         "Temperature",
                         "Systolic blood pressure",
                         "Diastolic blood pressure",
-                        "Body position"
+                        "Body position",
+                        "Serum glucose"
                     ],
                     "numberOfVisits":1
                 }
