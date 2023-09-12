@@ -2692,6 +2692,12 @@
   "dataType" : "Text",
   "active" : true
 }, {
+  "name" : "General Random Blood Sugar",
+  "uuid" : "b105cfc3-96e8-410d-ba48-942b45a3c20c",
+  "dataType" : "Numeric",
+  "unit" : "mg/dl",
+  "active" : true
+}, {
   "name" : "Gentamicin Injection 40mg/ml 1x2ml",
   "uuid" : "2ab79224-3112-48cc-b692-4213919a3f9a",
   "dataType" : "NA",

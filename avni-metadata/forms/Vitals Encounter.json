@@ -63,6 +63,20 @@
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
+      "name" : "General Random Blood Sugar(GRBS)",
+      "uuid" : "9fc264d9-1974-4d3e-a2d8-612343cb792b",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "General Random Blood Sugar",
+        "uuid" : "b105cfc3-96e8-410d-ba48-942b45a3c20c",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
       "name" : "Systolic blood pressure",
       "uuid" : "3149b483-d0f3-475e-8e60-51e713bdc735",
       "keyValues" : [ ],
@@ -77,7 +91,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 4.0,
+      "displayOrder" : 5.0,
       "type" : "SingleSelect",
       "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
       "mandatory" : false
@@ -96,7 +110,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 5.0,
+      "displayOrder" : 6.0,
       "type" : "SingleSelect",
       "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
       "mandatory" : false
@@ -116,11 +130,18 @@
           "order" : 1.0,
           "active" : true
         }, {
-          "name" : "sitting",
-          "uuid" : "7a60fc71-eade-4f52-9927-655bb21e66ea",
+          "name" : "Other body position",
+          "uuid" : "3e3666b8-e6fe-432b-8a12-3a7e10013a46",
           "dataType" : "NA",
           "answers" : [ ],
-          "order" : 0.0,
+          "order" : 6.0,
+          "active" : true
+        }, {
+          "name" : "Fowler's position",
+          "uuid" : "f2986de0-ae0f-4118-892c-633f7b06b646",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 3.0,
           "active" : true
         }, {
           "name" : "recumbent",
@@ -130,11 +151,11 @@
           "order" : 2.0,
           "active" : true
         }, {
-          "name" : "Other body position",
-          "uuid" : "3e3666b8-e6fe-432b-8a12-3a7e10013a46",
+          "name" : "sitting",
+          "uuid" : "7a60fc71-eade-4f52-9927-655bb21e66ea",
           "dataType" : "NA",
           "answers" : [ ],
-          "order" : 6.0,
+          "order" : 0.0,
           "active" : true
         }, {
           "name" : "Unknown",
@@ -143,17 +164,10 @@
           "answers" : [ ],
           "order" : 4.0,
           "active" : true
-        }, {
-          "name" : "Fowler's position",
-          "uuid" : "f2986de0-ae0f-4118-892c-633f7b06b646",
-          "dataType" : "NA",
-          "answers" : [ ],
-          "order" : 3.0,
-          "active" : true
         } ],
         "active" : true
       },
-      "displayOrder" : 6.0,
+      "displayOrder" : 7.0,
       "type" : "SingleSelect",
       "parentFormElementUuid" : "92b6ce5a-7a9e-4bd7-b391-fdfb94dc360b",
       "mandatory" : false
@@ -172,7 +186,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 7.0,
+      "displayOrder" : 8.0,
       "type" : "SingleSelect",
       "mandatory" : false,
       "voided" : true
@@ -191,7 +205,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 8.0,
+      "displayOrder" : 9.0,
       "type" : "SingleSelect",
       "mandatory" : false,
       "voided" : true
