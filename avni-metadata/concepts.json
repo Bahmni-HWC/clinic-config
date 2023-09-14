@@ -2783,7 +2783,7 @@
   "dataType" : "NA",
   "active" : true
 }, {
-  "name" : "Hosakote UPHC",
+  "name" : "Nandagudi PHC",
   "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
   "dataType" : "NA",
   "active" : true
@@ -3476,7 +3476,7 @@
     "uuid" : "015f1e34-8a8c-4c1a-a54f-74722e375e35",
     "order" : 0.0
   }, {
-    "name" : "Hosakote UPHC",
+    "name" : "Nandagudi PHC",
     "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
     "order" : 1.0
   } ]
