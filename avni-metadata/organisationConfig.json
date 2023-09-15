@@ -4,6 +4,7 @@
     "useMinioForStorage" : "true",
     "languages" : [ "en" ],
     "customRegistrationLocations" : [ ],
+    "enableMobileAppDbEncryption" : true,
     "useKeycloakAsIDP" : true
   },
   "worklistUpdationRule" : null
