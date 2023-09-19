@@ -24,4 +24,5 @@ CROSS JOIN (SELECT @rownum := 0) AS dummy
 LEFT JOIN encounter e ON e.patient_id = pt.patient_id 
 LEFT JOIN location loc ON e.location_id = loc.location_id
 WHERE pt.voided is FALSE
-AND cast(CONVERT_TZ(pt.date_created,'+00:00','+5:30') AS DATE) BETWEEN '#startDate#' AND '#endDate#';
+AND cast(CONVERT_TZ(pt.date_created,'+00:00','+5:30') AS DATE) BETWEEN '#startDate#' AND '#endDate#'
+GROUP BY pt.patient_id;
