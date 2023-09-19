@@ -1,0 +1,7 @@
+{
+  "name" : "Rapid Lab Test Encounter Cancellation",
+  "uuid" : "681e8508-b711-482e-8fda-f3a4c447eaa8",
+  "formType" : "IndividualEncounterCancellation",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

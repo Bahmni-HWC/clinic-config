@@ -324,4 +324,52 @@
   "encounterTypeUUID" : "803a0530-969b-45d5-b96d-263bcb402c83",
   "allow" : true,
   "voided" : false
+}, {
+  "uuid" : "2b264c3d-d5de-401b-95f6-50bf7eb7e1ef",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "allow" : true,
+  "voided" : false
+}, {
+  "uuid" : "7efd7de2-7b82-4ae6-ac2b-e4efcf654b05",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "allow" : true,
+  "voided" : false
+}, {
+  "uuid" : "440360d2-7028-4ad5-98ff-cb3d0661bf8f",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "allow" : true,
+  "voided" : false
+}, {
+  "uuid" : "38567a86-a618-431d-b207-4c2c5c42179a",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "allow" : true,
+  "voided" : false
+}, {
+  "uuid" : "c7acce2c-77fc-44df-a5a5-8fe8e0ecfc20",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "allow" : true,
+  "voided" : false
+}, {
+  "uuid" : "b51b9158-9ce0-4f77-a953-3cdb25ef84a3",
+  "groupUUID" : "692b4b05-4416-4c53-b01d-9dcad956d25d",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "encounterTypeUUID" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "allow" : true,
+  "voided" : false
 } ]

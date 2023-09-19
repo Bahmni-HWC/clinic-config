@@ -184,4 +184,22 @@
   "formType" : "IndividualEncounterCancellation",
   "formName" : "Hospital Vitals Encounter Cancellation",
   "enableApproval" : false
+}, {
+  "uuid" : "59f9f125-eeba-4385-9938-afcbc857e487",
+  "id" : 22,
+  "formUUID" : "36c67b7e-2606-45ae-946f-6cd3fe4be5b5",
+  "encounterTypeUUID" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "Encounter",
+  "formName" : "Rapid Lab Test Encounter",
+  "enableApproval" : false
+}, {
+  "uuid" : "ca6f8a55-edd0-4241-86fc-9e39462bcf46",
+  "id" : 23,
+  "formUUID" : "681e8508-b711-482e-8fda-f3a4c447eaa8",
+  "encounterTypeUUID" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "subjectTypeUUID" : "0a725062-d17c-4b17-8bf3-6cdba1ea2f5b",
+  "formType" : "IndividualEncounterCancellation",
+  "formName" : "Rapid Lab Test Encounter Cancellation",
+  "enableApproval" : false
 } ]

@@ -1,0 +1,175 @@
+{
+  "name" : "Rapid Lab Test Encounter",
+  "uuid" : "36c67b7e-2606-45ae-946f-6cd3fe4be5b5",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "7e67f101-5438-4539-a34c-d79ee3dc014e",
+    "name" : "Rapid Lab Test",
+    "displayOrder" : 1.0,
+    "display" : "Rapid Lab Test",
+    "formElements" : [ {
+      "name" : "Hemoglobin (Hb)",
+      "uuid" : "825ff8b5-e3a4-464c-b6fe-e7bc5cf11eb8",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Hemoglobin(Hb)",
+        "uuid" : "14617880-cf35-40c9-a000-aa0447473a4e",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "lowAbsolute" : 0.0,
+        "lowNormal" : 10.4,
+        "highNormal" : 17.8,
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Urine Pregnancy Test (UPT)",
+      "uuid" : "13a4ff65-fe6d-4cde-a0b3-7218ab0b0cfb",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Urine Pregnancy Test (UPT)",
+        "uuid" : "ad7ff06d-9cf3-4f65-a3fc-23faf586ef30",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Positive",
+          "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Negative",
+          "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Indeterminate",
+          "uuid" : "635bbc81-4a84-430a-82f9-bb8a57fe940a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        }, {
+          "name" : "Poor sample quality",
+          "uuid" : "fd371060-bbff-42d9-8d8c-24ea445f1047",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 3.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "HIV",
+      "uuid" : "42971446-e97e-4e55-a0ca-8d91e2970b8d",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "HIV",
+        "uuid" : "5169ee7c-cda4-4731-b762-70da600456e9",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Positive",
+          "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Negative",
+          "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "HBsAg",
+      "uuid" : "01428f01-7211-4e42-91e6-41372bfc9cbb",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "HBsAg",
+        "uuid" : "8b64c5d1-5230-47c7-a131-6bcb3b95f55e",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Positive",
+          "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Negative",
+          "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Indeterminate",
+          "uuid" : "635bbc81-4a84-430a-82f9-bb8a57fe940a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "HCV",
+      "uuid" : "0ef7fe51-7aaf-4e3a-8112-2b7c6d098e8e",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "HCV",
+        "uuid" : "75f3da06-0a39-47ae-b9c9-d3570e5d4f17",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Positive",
+          "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Negative",
+          "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Indeterminate",
+          "uuid" : "635bbc81-4a84-430a-82f9-bb8a57fe940a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ],
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

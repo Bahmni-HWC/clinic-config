@@ -52,4 +52,10 @@
   "entityEligibilityCheckRule" : "",
   "active" : true,
   "immutable" : true
+}, {
+  "name" : "Rapid Lab Test",
+  "uuid" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "entityEligibilityCheckRule" : "",
+  "active" : true,
+  "immutable" : false
 } ]

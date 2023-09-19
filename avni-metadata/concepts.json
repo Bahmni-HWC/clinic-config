@@ -2748,6 +2748,42 @@
   "dataType" : "NA",
   "active" : true
 }, {
+  "name" : "HBsAg",
+  "uuid" : "8b64c5d1-5230-47c7-a131-6bcb3b95f55e",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Positive",
+    "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
+    "order" : 0.0
+  }, {
+    "name" : "Negative",
+    "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+    "order" : 1.0
+  }, {
+    "name" : "Indeterminate",
+    "uuid" : "635bbc81-4a84-430a-82f9-bb8a57fe940a",
+    "order" : 2.0
+  } ]
+}, {
+  "name" : "HCV",
+  "uuid" : "75f3da06-0a39-47ae-b9c9-d3570e5d4f17",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Positive",
+    "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
+    "order" : 0.0
+  }, {
+    "name" : "Negative",
+    "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+    "order" : 1.0
+  }, {
+    "name" : "Indeterminate",
+    "uuid" : "635bbc81-4a84-430a-82f9-bb8a57fe940a",
+    "order" : 2.0
+  } ]
+}, {
   "name" : "Headache",
   "uuid" : "310bd9af-71a1-4254-a930-c01e08d6c9ce",
   "dataType" : "NA",
@@ -2756,6 +2792,15 @@
   "name" : "Health Mela",
   "uuid" : "7d9956f1-9fff-44ae-9d98-db966acfcf91",
   "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Hemoglobin(Hb)",
+  "uuid" : "14617880-cf35-40c9-a000-aa0447473a4e",
+  "dataType" : "Numeric",
+  "lowAbsolute" : 0.0,
+  "lowNormal" : 10.4,
+  "highNormal" : 17.8,
+  "unit" : "g/dL",
   "active" : true
 }, {
   "name" : "Heparin Sodium Injection 1,000IU/ml 1x5ml Vial",
@@ -2778,13 +2823,22 @@
   "dataType" : "Text",
   "active" : true
 }, {
+  "name" : "HIV",
+  "uuid" : "5169ee7c-cda4-4731-b762-70da600456e9",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Positive",
+    "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
+    "order" : 0.0
+  }, {
+    "name" : "Negative",
+    "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+    "order" : 1.0
+  } ]
+}, {
   "name" : "Hosakote Namma Clinic",
   "uuid" : "2ab9170f-88e9-4300-b660-77d0bb5c9c69",
-  "dataType" : "NA",
-  "active" : true
-}, {
-  "name" : "Nandagudi PHC",
-  "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
   "dataType" : "NA",
   "active" : true
 }, {
@@ -2820,6 +2874,11 @@
 }, {
   "name" : "Ibuprofen Tablet 400mg 1x10x10",
   "uuid" : "abb44782-a072-49b9-a7ff-1af5037cb658",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Indeterminate",
+  "uuid" : "635bbc81-4a84-430a-82f9-bb8a57fe940a",
   "dataType" : "NA",
   "active" : true
 }, {
@@ -3088,6 +3147,16 @@
   "dataType" : "NA",
   "active" : true
 }, {
+  "name" : "Nandagudi PHC",
+  "uuid" : "2b138212-65e7-4069-904d-db47d66d3090",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Negative",
+  "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+  "dataType" : "NA",
+  "active" : true
+}, {
   "name" : "Neomycin+Bacitracin Ointment 5mg+250IU/g 1x30g",
   "uuid" : "8ffa35dd-68eb-4ea1-a7c0-99e651cd7d73",
   "dataType" : "NA",
@@ -3353,6 +3422,16 @@
 }, {
   "name" : "Plasma Expander Injection 6% 1x500ml",
   "uuid" : "600dd3ae-3b3a-4a04-852d-c3902991b3a6",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Poor sample quality",
+  "uuid" : "fd371060-bbff-42d9-8d8c-24ea445f1047",
+  "dataType" : "NA",
+  "active" : true
+}, {
+  "name" : "Positive",
+  "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
   "dataType" : "NA",
   "active" : true
 }, {
@@ -3767,6 +3846,28 @@
   "uuid" : "b9344ca9-7dd5-485d-93a5-e9e980b97891",
   "dataType" : "NA",
   "active" : true
+}, {
+  "name" : "Urine Pregnancy Test (UPT)",
+  "uuid" : "ad7ff06d-9cf3-4f65-a3fc-23faf586ef30",
+  "dataType" : "Coded",
+  "active" : true,
+  "answers" : [ {
+    "name" : "Positive",
+    "uuid" : "802d96d6-a4b3-4859-ad0d-3a0097e97ee0",
+    "order" : 0.0
+  }, {
+    "name" : "Negative",
+    "uuid" : "011a0c5e-95b4-4ab6-8260-9443fd4e0c69",
+    "order" : 1.0
+  }, {
+    "name" : "Indeterminate",
+    "uuid" : "635bbc81-4a84-430a-82f9-bb8a57fe940a",
+    "order" : 2.0
+  }, {
+    "name" : "Poor sample quality",
+    "uuid" : "fd371060-bbff-42d9-8d8c-24ea445f1047",
+    "order" : 3.0
+  } ]
 }, {
   "name" : "Valathamate Bromide Injection 8mg/ml 1x1Vial",
   "uuid" : "6da4f460-b348-48df-a221-d95ca29b231e",
