@@ -33,7 +33,7 @@
   "uuid" : "5f051e2a-14d0-4ca4-83bf-762796dcbd2c",
   "entityEligibilityCheckRule" : "",
   "active" : true,
-  "immutable" : true
+  "immutable" : false
 }, {
   "name" : "Dispense Medication",
   "uuid" : "fa7796d7-3d46-49a2-8495-55501eed7735",
@@ -45,11 +45,17 @@
   "uuid" : "84722bf4-f72d-44a8-b881-fac99ade2811",
   "entityEligibilityCheckRule" : "",
   "active" : true,
-  "immutable" : true
+  "immutable" : false
 }, {
   "name" : "Hospital Vitals",
   "uuid" : "803a0530-969b-45d5-b96d-263bcb402c83",
   "entityEligibilityCheckRule" : "",
   "active" : true,
-  "immutable" : true
+  "immutable" : false
+}, {
+  "name" : "Rapid Lab Test",
+  "uuid" : "deebdafd-f13f-423a-b097-703cd7fb9111",
+  "entityEligibilityCheckRule" : "",
+  "active" : true,
+  "immutable" : false
 } ]
