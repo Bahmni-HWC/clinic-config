@@ -553,4 +553,18 @@
         </sql>
     </changeSet>
 
+    <changeSet id="bahmni-gok-20092023" author="bahmni">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                select count(concept_id) from concept where uuid="887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+            </sqlCheck>
+        </preConditions>
+        <comment>Update Glu to GRBS</comment>
+        <sql>
+            update concept_name set name="GRBS" where concept_id in (
+            select concept_id from concept where uuid="887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+            AND concept_name_type="SHORT" AND voided=0;
+        </sql>
+    </changeSet>
+
 </databaseChangeLog>
