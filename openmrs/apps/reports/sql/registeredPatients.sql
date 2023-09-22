@@ -5,7 +5,7 @@ SELECT
   floor(DATEDIFF(NOW(), p.birthdate) / 365)                                                                                               AS "Age",
   p.gender                                                                                                                                AS "Gender",
   DATE_FORMAT(CONVERT_TZ(pt.date_created,'+00:00','+5:30'), "%d-%b-%Y")                                                                   AS "Registration Date",
-  loc.name AS "Location Name"
+  COALESCE(loc.name, 'Visit not started') AS "Location Name"
 
 FROM patient pt
 JOIN person p ON p.person_id = pt.patient_id AND p.voided is FALSE
