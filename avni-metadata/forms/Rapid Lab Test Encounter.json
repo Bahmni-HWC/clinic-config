@@ -164,6 +164,20 @@
       "displayOrder" : 5.0,
       "type" : "SingleSelect",
       "mandatory" : false
+    }, {
+      "name" : "General Random Blood Sugar",
+      "uuid" : "3f328d26-b176-4737-ba8b-67ef467a0584",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "General Random Blood Sugar",
+        "uuid" : "b105cfc3-96e8-410d-ba48-942b45a3c20c",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
     } ],
     "timed" : false
   } ],
