@@ -122,7 +122,7 @@
         } ]
       } ],
       "parentFormElementUuid" : "d86e87e1-802e-479a-ae5c-d249c739597e",
-      "mandatory" : false
+      "mandatory" : true
     }, {
       "name" : "Sign/symptom duration",
       "uuid" : "02faf2ab-3a8f-4313-bd6d-452837593b4e",
