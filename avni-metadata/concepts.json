@@ -3435,6 +3435,11 @@
   "dataType" : "NA",
   "active" : true
 }, {
+  "name" : "Postal Code",
+  "uuid" : "74ca916f-74c6-403f-aa72-dd6da04d4309",
+  "dataType" : "Text",
+  "active" : true
+}, {
   "name" : "Povidone Iodine Ointment 5% 1x125g",
   "uuid" : "571d2111-e089-46e9-a6bc-e3a91cdd4619",
   "dataType" : "NA",
