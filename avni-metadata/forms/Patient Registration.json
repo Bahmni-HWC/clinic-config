@@ -76,6 +76,24 @@
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
+      "name" : "Postal Code",
+      "uuid" : "68d196c6-f754-4823-8eaf-0971cbe45e26",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Postal Code",
+        "uuid" : "74ca916f-74c6-403f-aa72-dd6da04d4309",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "validFormat" : {
+        "regex" : "^[0-9]{6}$",
+        "descriptionKey" : "Postal Code should be 6 digits"
+      },
+      "mandatory" : false
+    }, {
       "name" : "RCH ID",
       "uuid" : "edde014f-568d-4971-b886-d07fef028a17",
       "keyValues" : [ ],
@@ -87,7 +105,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 5.0,
+      "displayOrder" : 6.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -102,7 +120,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 6.0,
+      "displayOrder" : 7.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -117,7 +135,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 7.0,
+      "displayOrder" : 8.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -132,14 +150,14 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 8.0,
+      "displayOrder" : 9.0,
       "type" : "SingleSelect",
       "validFormat" : {
         "regex" : "^([1-9]{1}[0-9]{9})$",
         "descriptionKey" : "Phone Number should be 10 digits"
       },
       "mandatory" : true
-    }],
+    } ],
     "timed" : false
   } ],
   "decisionRule" : "",
