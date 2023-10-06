@@ -53,6 +53,18 @@
         },
         "addressHierarchy": {
             "showAddressFieldsTopDown": true
-        }
+        },
+        "forwardUrlsForVisitTypes": [
+            {
+                "visitType": "OPD New",
+                "forwardUrl": "/bahmni/clinical/index.html#/default/patient/{{patientUuid}}/dashboard",
+                "translationKey": "Go to Dashboard"
+            },
+            {
+                "visitType": "OPD Review",
+                "forwardUrl": "/bahmni/clinical/index.html#/default/patient/{{patientUuid}}/dashboard",
+                "translationKey": "Go to Dashboard"
+            }
+        ]
     }
 }
