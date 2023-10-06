@@ -3,4 +3,4 @@ Uuid,Void/Retire,Entity name,Name,Description,Min occurs,Max occurs,Datatype cla
 ,,Provider,Login Locations,"Name of the facility which the user needs to be assigned ",0,,org.openmrs.customdatatype.datatype.LocationDatatype,,,,
 164940ee-00a4-11ee-be56-0242ac120002,,Visit,Offline UUID,Stores UUID from Offline,0,,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
 a6cfce26-00a4-11ee-be56-0242ac120002,,Visit,Offline Date,Stores date from Offline,0,,org.openmrs.customdatatype.datatype.DateDatatype,,,,
-,,Location,Institution Id,Institution Id of the location.,0,,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
+b21b4603-bd48-4574-b78c-46845a61b65d,,Location,Institute Id,Institute Id of the location for eaushadha.,0,,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
