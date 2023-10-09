@@ -87,13 +87,8 @@
         }
       }
 
-      function getBahmniUser() {
-        const matches = document.cookie.match(/bahmni\.user=([^;]*)/);
-        return matches?.[1] ? decodeURIComponent(matches[1]).replace(/"/g, '') : '';
-      }
-
       function logAuditForESanjeevaniVisit() {
-        var username = getBahmniUser();
+        let username = document.getElementById('username').value;
         const data = {
           patientUuid: getPatientUuid(),
           eventType: 'ACCESSED_E_SANJEEVANI',
