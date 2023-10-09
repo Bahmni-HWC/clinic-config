@@ -1,4 +1,9 @@
 [ {
+  "name" : "Aadhaar Number",
+  "uuid" : "66048af8-2162-4a15-a520-14644108a5e3",
+  "dataType" : "Numeric",
+  "active" : true
+}, {
   "name" : "Abdominal Pain",
   "uuid" : "954d9003-c1f5-4f46-8ab7-4cb0ebf4f525",
   "dataType" : "NA",
