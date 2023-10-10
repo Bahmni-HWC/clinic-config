@@ -62,6 +62,23 @@
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
+      "name" : "Aadhaar Number",
+      "uuid" : "8ba203ad-ac79-495e-957f-3ab20f902538",
+      "keyValues" : [ {
+        "key" : "editable",
+        "value" : false
+      } ],
+      "concept" : {
+        "name" : "Aadhaar Number",
+        "uuid" : "66048af8-2162-4a15-a520-14644108a5e3",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
       "name" : "Full Address",
       "uuid" : "677a2e49-902a-4549-a6ae-4008c16331f5",
       "keyValues" : [ ],
@@ -72,7 +89,7 @@
         "answers" : [ ],
         "active" : true
       },
-      "displayOrder" : 4.0,
+      "displayOrder" : 5.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -86,7 +103,7 @@
         "answers" : [ ],
         "active" : true
       },
-      "displayOrder" : 5.0,
+      "displayOrder" : 6.0,
       "type" : "SingleSelect",
       "validFormat" : {
         "regex" : "^[0-9]{6}$",
@@ -105,7 +122,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 6.0,
+      "displayOrder" : 7.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -120,7 +137,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 7.0,
+      "displayOrder" : 8.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -135,7 +152,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 8.0,
+      "displayOrder" : 9.0,
       "type" : "SingleSelect",
       "mandatory" : false
     }, {
@@ -150,7 +167,7 @@
         "active" : true,
         "keyValues" : [ ]
       },
-      "displayOrder" : 9.0,
+      "displayOrder" : 10.0,
       "type" : "SingleSelect",
       "validFormat" : {
         "regex" : "^([1-9]{1}[0-9]{9})$",
