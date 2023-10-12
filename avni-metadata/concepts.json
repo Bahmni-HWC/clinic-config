@@ -15,6 +15,11 @@
   "active" : true,
   "keyValues" : [ ]
 }, {
+  "name" : "ABHA Creation Error",
+  "uuid" : "c435e4a4-2c12-49ea-943f-e3e2b5e1073d",
+  "dataType" : "Text",
+  "active" : true
+}, {
   "name" : "ABHA Number",
   "uuid" : "e47be326-fad5-46ff-a0b8-e76c393b146f",
   "dataType" : "Text",
