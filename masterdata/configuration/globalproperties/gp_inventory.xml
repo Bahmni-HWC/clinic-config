@@ -29,6 +29,53 @@
                 where v.date_stopped is null AND v.voided = 0;</value>
         </globalProperty>
         <globalProperty>
+            <property>emrapi.sqlSearch.activePatientsWithLabOrders</property>
+            <value>SELECT DISTINCT
+                CONCAT(pn.given_name, ' ', IFNULL(pn.family_name, '')) AS name,
+                primaryIdentifier.identifier AS identifier,
+                IF(extraIdentifier.identifier IS NULL OR extraIdentifier.identifier = '', primaryIdentifier.identifier, extraIdentifier.identifier) AS "extraIdentifierVal",
+                CONCAT('', p.uuid) AS uuid,
+                CONCAT('', v.uuid) AS activeVisitUuid,
+                IF(va.value_reference = 'Admitted', 'true', 'false') AS hasBeenAdmitted
+                FROM visit v
+                JOIN person_name pn ON v.patient_id = pn.person_id AND pn.voided = 0
+                JOIN person p ON p.person_id = v.patient_id
+                JOIN (
+                SELECT pri.patient_id, pri.identifier
+                FROM patient_identifier pri
+                JOIN patient_identifier_type pit ON pri.identifier_type = pit.patient_identifier_type_id
+                JOIN global_property gp ON gp.property = 'bahmni.primaryIdentifierType' AND gp.property_value = pit.uuid
+                ) primaryIdentifier ON v.patient_id = primaryIdentifier.patient_id
+                LEFT OUTER JOIN (
+                SELECT ei.patient_id, ei.identifier
+                FROM patient_identifier ei
+                JOIN patient_identifier_type pit ON ei.identifier_type = pit.patient_identifier_type_id
+                JOIN global_property gp ON gp.property = 'bahmni.extraPatientIdentifierTypes' AND pit.uuid = LEFT(gp.property_value, 36)
+                ) extraIdentifier ON v.patient_id = extraIdentifier.patient_id
+                JOIN location l ON l.uuid = ${visit_location_uuid} AND v.location_id = l.location_id
+                LEFT OUTER JOIN visit_attribute va ON va.visit_id = v.visit_id
+                AND va.attribute_type_id = (
+                SELECT visit_attribute_type_id
+                FROM visit_attribute_type
+                WHERE name = 'Admission Status'
+                ) AND va.voided = 0
+                LEFT OUTER JOIN orders o ON o.patient_id = v.patient_id
+                JOIN order_type ot ON ot.order_type_id = o.order_type_id
+                WHERE v.date_stopped IS NULL
+                AND v.voided = 0
+                AND (
+                o.fulfiller_status IS NULL
+                OR NOT EXISTS (
+                SELECT 1
+                FROM orders o2
+                WHERE o2.patient_id = o.patient_id
+                AND o2.fulfiller_status = 'COMPLETED'
+                )
+                )
+                AND ot.name = 'Lab Order';
+            </value>
+        </globalProperty>
+        <globalProperty>
             <property>eaushadha.api.baseUrl</property>
             <value>https://dlc.kar.nic.in/e-services</value>
         </globalProperty>
