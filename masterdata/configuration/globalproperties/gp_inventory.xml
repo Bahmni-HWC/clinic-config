@@ -30,49 +30,37 @@
         </globalProperty>
         <globalProperty>
             <property>emrapi.sqlSearch.activePatientsWithLabOrders</property>
-            <value>SELECT DISTINCT
-                CONCAT(pn.given_name, ' ', IFNULL(pn.family_name, '')) AS name,
-                primaryIdentifier.identifier AS identifier,
-                IF(extraIdentifier.identifier IS NULL OR extraIdentifier.identifier = '', primaryIdentifier.identifier, extraIdentifier.identifier) AS "extraIdentifierVal",
-                CONCAT('', p.uuid) AS uuid,
-                CONCAT('', v.uuid) AS activeVisitUuid,
-                IF(va.value_reference = 'Admitted', 'true', 'false') AS hasBeenAdmitted
-                FROM visit v
-                JOIN person_name pn ON v.patient_id = pn.person_id AND pn.voided = 0
-                JOIN person p ON p.person_id = v.patient_id
-                JOIN (
-                SELECT pri.patient_id, pri.identifier
+            <value>select distinct concat(pn.given_name," ", ifnull(pn.family_name,"")) as name,
+                primaryIdentifier.identifier as identifier,
+                IF(extraIdentifier.identifier IS NULL OR extraIdentifier.identifier = '', primaryIdentifier.identifier, extraIdentifier.identifier) as "extraIdentifierVal",
+                concat("",p.uuid) as uuid,
+                concat("",v.uuid) as activeVisitUuid,
+                IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
+                from visit v
+                join person_name pn on v.patient_id = pn.person_id and pn.voided = 0
+                join person p on p.person_id = v.patient_id
+                JOIN (SELECT pri.patient_id, pri.identifier
                 FROM patient_identifier pri
-                JOIN patient_identifier_type pit ON pri.identifier_type = pit.patient_identifier_type_id
-                JOIN global_property gp ON gp.property = 'bahmni.primaryIdentifierType' AND gp.property_value = pit.uuid
-                ) primaryIdentifier ON v.patient_id = primaryIdentifier.patient_id
-                LEFT OUTER JOIN (
-                SELECT ei.patient_id, ei.identifier
+                join patient_identifier_type pit on pri.identifier_type = pit.patient_identifier_type_id
+                join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid) primaryIdentifier
+                ON v.patient_id = primaryIdentifier.patient_id
+                left outer JOIN (SELECT ei.patient_id, ei.identifier
                 FROM patient_identifier ei
-                JOIN patient_identifier_type pit ON ei.identifier_type = pit.patient_identifier_type_id
-                JOIN global_property gp ON gp.property = 'bahmni.extraPatientIdentifierTypes' AND pit.uuid = LEFT(gp.property_value, 36)
-                ) extraIdentifier ON v.patient_id = extraIdentifier.patient_id
-                JOIN location l ON l.uuid = ${visit_location_uuid} AND v.location_id = l.location_id
-                LEFT OUTER JOIN visit_attribute va ON va.visit_id = v.visit_id
-                AND va.attribute_type_id = (
-                SELECT visit_attribute_type_id
-                FROM visit_attribute_type
-                WHERE name = 'Admission Status'
-                ) AND va.voided = 0
-                LEFT OUTER JOIN orders o ON o.patient_id = v.patient_id
-                JOIN order_type ot ON ot.order_type_id = o.order_type_id
-                WHERE v.date_stopped IS NULL
-                AND v.voided = 0
-                AND (
-                o.fulfiller_status IS NULL
-                OR NOT EXISTS (
-                SELECT 1
-                FROM orders o2
-                WHERE o2.patient_id = o.patient_id
-                AND o2.fulfiller_status = 'COMPLETED'
-                )
-                )
-                AND ot.name = 'Lab Order';
+                join patient_identifier_type pit on ei.identifier_type = pit.patient_identifier_type_id
+                join global_property gp on gp.property="bahmni.extraPatientIdentifierTypes" and pit.uuid=left(gp.property_value, 36)) extraIdentifier
+                ON v.patient_id = extraIdentifier.patient_id
+                join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
+                left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
+                select visit_attribute_type_id from visit_attribute_type where name="Admission Status") and va.voided = 0
+                INNER JOIN orders o ON o.patient_id = v.patient_id JOIN order_type ot on ot.order_type_id = o.order_type_id and ot.name = "Lab Order"
+                INNER JOIN encounter e on e.encounter_id = o.encounter_id and v.visit_id = e.visit_id
+                LEFT JOIN orders b ON o.order_id = b.previous_order_id
+                where v.date_stopped is null AND v.voided = 0
+                AND (o.order_action IS NULL OR o.order_action != 'DISCONTINUE')
+                AND (o.fulfiller_status IS NULL OR o.fulfiller_status != 'COMPLETED')
+                AND (b.order_action IS NULL OR b.order_action != 'DISCONTINUE')
+                AND (b.fulfiller_status IS NULL OR b.fulfiller_status != 'COMPLETED')
+                ;
             </value>
         </globalProperty>
         <globalProperty>
