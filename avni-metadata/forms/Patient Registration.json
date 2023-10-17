@@ -174,6 +174,45 @@
         "descriptionKey" : "Phone Number should be 10 digits"
       },
       "mandatory" : true
+    }, {
+      "name" : "ABHA Creation Error",
+      "uuid" : "41305c8c-44c7-47ac-8ebe-2b985305fab2",
+      "keyValues" : [ {
+        "key" : "editable",
+        "value" : false
+      } ],
+      "concept" : {
+        "name" : "ABHA Creation Error",
+        "uuid" : "c435e4a4-2c12-49ea-943f-e3e2b5e1073d",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 11.0,
+      "type" : "SingleSelect",
+      "rule" : "'use strict';\n({params, imports}) => {\n  const individual = params.entity;\n  const moment = imports.moment;\n  const formElement = params.formElement;\n  const _ = imports.lodash;\n  let visibility = true;\n  let value = null;\n  let answersToSkip = [];\n  let validationErrors = [];\n  \n  const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration(\"c435e4a4-2c12-49ea-943f-e3e2b5e1073d\").defined.matches();\n  \n  visibility = condition11 ;\n  \n  return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);\n};",
+      "declarativeRule" : [ {
+        "actions" : [ {
+          "actionType" : "showFormElement"
+        }, { } ],
+        "conditions" : [ {
+          "compoundRule" : {
+            "rules" : [ {
+              "lhs" : {
+                "type" : "concept",
+                "scope" : "registration",
+                "conceptName" : "ABHA Creation Error",
+                "conceptUuid" : "c435e4a4-2c12-49ea-943f-e3e2b5e1073d",
+                "conceptDataType" : "Text"
+              },
+              "rhs" : { },
+              "operator" : "defined"
+            } ],
+            "conjunction" : "and"
+          }
+        } ]
+      } ],
+      "mandatory" : false
     } ],
     "timed" : false
   } ],
