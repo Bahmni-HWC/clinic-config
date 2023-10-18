@@ -1,0 +1,68 @@
+[ {
+  "uuid" : "2065f53d-2317-4678-8b48-cb8bf1ec5bf7",
+  "id" : 1,
+  "name" : "ABHA Dashboard",
+  "description" : "Dashboard for ABHA Errors",
+  "sections" : [ {
+    "uuid" : "4f7b7d39-9356-47ce-a92e-10295c50b1e5",
+    "id" : 1,
+    "name" : "",
+    "description" : "ABHA Statistics",
+    "viewType" : "List",
+    "displayOrder" : 1.0,
+    "dashboardUUID" : "2065f53d-2317-4678-8b48-cb8bf1ec5bf7",
+    "cards" : [ {
+      "uuid" : "036ce3fb-0259-44b5-836a-c395b0f07f1d",
+      "id" : 1,
+      "name" : "Patient with ABHA Creation Errors",
+      "query" : "// Documentation - https://docs.mongodb.com/realm-legacy/docs/javascript/latest/index.html#queries\n'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual').filter((individual) => individual.voided === false && !_.isNil(individual.findObservation('ABHA Creation Error')));\n};",
+      "description" : "Patient with ABHA Creation Errors",
+      "color" : "#ff0000",
+      "displayOrder" : 3.0,
+      "iconFileS3Key" : "",
+      "voided" : false
+    }, {
+      "uuid" : "ce3ecfd6-3c7c-423a-9807-76b7006f7090",
+      "id" : 3,
+      "name" : "Patients without ABHA",
+      "query" : "'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual').filter((individual) => individual.voided === false && _.isNil(individual.findObservation('ABHA Number')) && _.isNil(individual.findObservation('ABHA Creation Error')) );\n};",
+      "description" : "Patients without ABHA Linked",
+      "color" : "#d17f04",
+      "displayOrder" : 2.0,
+      "iconFileS3Key" : "",
+      "voided" : false
+    }, {
+      "uuid" : "44a00854-1f24-4479-8c40-72c706c027f0",
+      "id" : 2,
+      "name" : "Patients with ABHA",
+      "query" : "'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual').filter((individual) => individual.voided === false && !_.isNil(individual.findObservation('ABHA Number')) && _.isNil(individual.findObservation('ABHA Creation Error')));\n};",
+      "description" : "Patients with ABHA Linked",
+      "color" : "#04b518",
+      "displayOrder" : 1.0,
+      "iconFileS3Key" : "",
+      "voided" : false
+    } ],
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "85e338e4-93d0-4ebb-8f2a-d0c3d49a2e86",
+      "dashboardSectionUUID" : "4f7b7d39-9356-47ce-a92e-10295c50b1e5",
+      "reportCardUUID" : "036ce3fb-0259-44b5-836a-c395b0f07f1d",
+      "displayOrder" : 3.0,
+      "voided" : false
+    }, {
+      "uuid" : "34bf2784-0ca5-4c77-80de-f5b114498bf1",
+      "dashboardSectionUUID" : "4f7b7d39-9356-47ce-a92e-10295c50b1e5",
+      "reportCardUUID" : "ce3ecfd6-3c7c-423a-9807-76b7006f7090",
+      "displayOrder" : 2.0,
+      "voided" : false
+    }, {
+      "uuid" : "97f0fa43-bbe5-40d0-be4b-406c8c9ad7bf",
+      "dashboardSectionUUID" : "4f7b7d39-9356-47ce-a92e-10295c50b1e5",
+      "reportCardUUID" : "44a00854-1f24-4479-8c40-72c706c027f0",
+      "displayOrder" : 1.0,
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ ],
+  "voided" : false
+} ]
