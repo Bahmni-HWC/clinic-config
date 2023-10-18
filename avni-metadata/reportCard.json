@@ -1,17 +1,8 @@
 [ {
-  "uuid" : "036ce3fb-0259-44b5-836a-c395b0f07f1d",
-  "id" : 1,
-  "name" : "Patient with ABHA Creation Errors",
-  "query" : "// Documentation - https://docs.mongodb.com/realm-legacy/docs/javascript/latest/index.html#queries\n'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual').filter((individual) => individual.voided === false && !_.isNil(individual.findObservation('ABHA Creation Error')));\n};",
-  "description" : "Patient with ABHA Creation Errors",
-  "color" : "#ff0000",
-  "iconFileS3Key" : "",
-  "voided" : false
-}, {
   "uuid" : "44a00854-1f24-4479-8c40-72c706c027f0",
   "id" : 2,
   "name" : "Patients with ABHA",
-  "query" : "'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual').filter((individual) => individual.voided === false && !_.isNil(individual.findObservation('ABHA Number')) && _.isNil(individual.findObservation('ABHA Creation Error')));\n};",
+  "query" : "'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual')\n    .filtered(\"voided = false and subjectType.name = 'Patient'\")\n    .filter((individual) => individual.voided === false && !_.isNil(individual.findObservation('ABHA Number')) && _.isNil(individual.findObservation('ABHA Creation Error')));\n};",
   "description" : "Patients with ABHA Linked",
   "color" : "#04b518",
   "iconFileS3Key" : "",
@@ -20,9 +11,18 @@
   "uuid" : "ce3ecfd6-3c7c-423a-9807-76b7006f7090",
   "id" : 3,
   "name" : "Patients without ABHA",
-  "query" : "'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual').filter((individual) => individual.voided === false && _.isNil(individual.findObservation('ABHA Number')) && _.isNil(individual.findObservation('ABHA Creation Error')) );\n};",
+  "query" : "'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual')\n    .filtered(\"voided = false and subjectType.name = 'Patient'\")\n    .filter((individual) => individual.voided === false && _.isNil(individual.findObservation('ABHA Number')) && _.isNil(individual.findObservation('ABHA Creation Error')) );\n};",
   "description" : "Patients without ABHA Linked",
   "color" : "#d17f04",
+  "iconFileS3Key" : "",
+  "voided" : false
+}, {
+  "uuid" : "036ce3fb-0259-44b5-836a-c395b0f07f1d",
+  "id" : 1,
+  "name" : "Patient with ABHA Creation Errors",
+  "query" : "// Documentation - https://docs.mongodb.com/realm-legacy/docs/javascript/latest/index.html#queries\n'use strict';\n({params, imports}) => {\n    return params.db.objects('Individual')\n    .filtered(\"voided = false and subjectType.name = 'Patient'\")\n    .filter((individual) => individual.voided === false && !_.isNil(individual.findObservation('ABHA Creation Error')));\n};",
+  "description" : "Patient with ABHA Creation Errors",
+  "color" : "#ff0000",
   "iconFileS3Key" : "",
   "voided" : false
 } ]
